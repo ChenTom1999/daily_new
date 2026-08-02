@@ -136,7 +136,7 @@ def get_summary(news):
             api_key=token,
         )
         resp = client.chat.completions.create(
-            model="gemini-2.0-flash",
+            model="gemini-1.5-flash",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.4,
         )
