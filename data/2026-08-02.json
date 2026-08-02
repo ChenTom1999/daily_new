@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-02",
+ "updated": "2026-08-02 22:23",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,107.00",
+   "change": "▲ 6.90 (+0.17%)",
+   "cls": "up",
+   "value": 4107.0
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.80",
+   "change": "▼ 0.21 (-0.21%)",
+   "cls": "down",
+   "value": 99.8
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.745",
+   "change": "▲ 0.082 (+1.76%)",
+   "cls": "up",
+   "value": 4.745
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.99",
+   "change": "▼ 1.10 (-6.44%)",
+   "cls": "down",
+   "value": 15.99
+  }
+ ],
+ "calendar": [],
+ "summary": "• 特朗普暫緩對伊朗軍事打擊並要求儘速達成協議，中東緊張局勢若現緩和曙光，恐削弱黃金短期避險買盤。\n• 以軍持續襲擊加薩且未達成停火協議，顯示中東地緣政治動盪延續，持續為金價提供下方避險支撐。\n• 市場傳出美日可能聯手干預匯市支撐日圓，若引發美元指數承壓拉回，將利多以美元計價的黃金（XAU/USD）。",
+ "tech": "- **Diátaxis**：這是一個專為技術文件設計的架構體系，能協助軟體工程團隊將文檔精確分類為教學、指南、參考與概念四大類，大幅提升開發文檔的可讀性與維護效率。\n- **Seedance 2.5**：這是最新發布的 AI 影音生成模型更新，展現了多媒體生成技術的最新突破，值得關注生成式 AI 應用的開發者密切追蹤。\n- **Go 1.27 Interactive Tour**：這是 Go 語言最新版本的線上互動式學習導覽，讓開發者能直接在瀏覽器中實作並體驗新版語言特性，極大地降低了學習與評估新功能的門檻。\n- **Running Kimi K3 on MI355X at Better Performance per Dollar Than B300**：這是一項在 AMD MI355X 晶片上運行大語言模型 Kimi K3 的實測報告，顯示其推論的每美元效能表現超越 NVIDIA B300，為 AI 基礎設施提供了極具性價比的硬體選型參考。\n- **Show HN: Bor – Open-source policy management for Linux desktops**：這是一個開源的 Linux 桌面政策管理工具，讓工程師與系統管理員能以自動化且統一的方式簡化 Linux 終端設備的安全與合規設定。",
+ "hackernews": [
+  {
+   "title": "Diátaxis",
+   "url": "https://diataxis.fr/",
+   "points": 413,
+   "comments": 49
+  },
+  {
+   "title": "Seedance 2.5",
+   "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+   "points": 391,
+   "comments": 207
+  },
+  {
+   "title": "Go 1.27 Interactive Tour",
+   "url": "https://victoriametrics.com/blog/go-1-27/index.html",
+   "points": 276,
+   "comments": 119
+  },
+  {
+   "title": "Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built",
+   "url": "https://github.com/tom-ilan/cycloidal_gearbox",
+   "points": 218,
+   "comments": 73
+  },
+  {
+   "title": "Wikimedia Foundation refuses union recognition, hires union-busting law firm",
+   "url": "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-08-02/News_and_notes",
+   "points": 179,
+   "comments": 158
+  },
+  {
+   "title": "A big win for Android interoperability",
+   "url": "https://www.openhomefoundation.org/blog/a-big-win-for-android-interoperability/",
+   "points": 171,
+   "comments": 131
+  },
+  {
+   "title": "Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
+   "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
+   "points": 164,
+   "comments": 78
+  },
+  {
+   "title": "Unraveling the mysteries of habit formation",
+   "url": "https://www.kyoto-u.ac.jp/en/research-news/2026-07-28",
+   "points": 93,
+   "comments": 35
+  },
+  {
+   "title": "Show HN: Bor – Open-source policy management for Linux desktops",
+   "url": "https://getbor.dev/blog/2026-08-02-bor-v080-release/",
+   "points": 92,
+   "comments": 16
+  },
+  {
+   "title": "ASRock BC-250: Building the Budget Steam Machine",
+   "url": "https://plug-world.com/posts/2026/asrock-bc250-the-budget-steam-machine/",
+   "points": 91,
+   "comments": 36
+  },
+  {
+   "title": "Meshdiff – visually compare two STL versions in the browser, client-side",
+   "url": "https://meshdiff.com/",
+   "points": 83,
+   "comments": 11
+  },
+  {
+   "title": "Deep-sea vehicles spot 'alien' sharks deep beneath the waves in the Pacific",
+   "url": "https://www.science.org/content/article/deep-sea-vehicles-spot-alien-sharks-deep-beneath-waves-pacific#",
+   "points": 77,
+   "comments": 36
+  }
+ ]
+}
