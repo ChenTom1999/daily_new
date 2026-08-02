@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""每天抓 黃金交易相關數據 + 新聞，產生 index.html。"""
+"""每天抓 黃金交易相關數據 + 新聞 + AI 摘要，產生 index.html。"""
 import datetime
 import html
+import os
+import re
 
 TW = datetime.timezone(datetime.timedelta(hours=8))  # 台北時區
 
@@ -24,7 +26,11 @@ def get_markets():
     for label, sym, digits in MARKETS:
         try:
             hist = yf.Ticker(sym).history(period="7d")
+            if hist is None or hist.empty or "Close" not in hist:
+                raise ValueError("no data")
             closes = hist["Close"].dropna()
+            if len(closes) < 2:
+                raise ValueError("not enough data")
             last = float(closes.iloc[-1])
             prev = float(closes.iloc[-2])
             chg = last - prev
@@ -34,7 +40,8 @@ def get_markets():
             price = f"{last:,.{digits}f}"
             change = f"{arrow} {abs(chg):.{digits}f} ({pct:+.2f}%)"
             rows.append((label, price, change, cls))
-        except Exception:
+        except Exception as e:
+            print(f"[warn] {label} ({sym}) 抓取失敗: {e}")
             rows.append((label, "\u2014", "\u2014", "flat"))
     return rows
 
@@ -97,11 +104,68 @@ def get_news():
     return sections
 
 
+# ── 4. AI 重點摘要（GitHub Models，免費） ────────────
+def get_summary(news):
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        print("[warn] 沒有 GITHUB_TOKEN，略過 AI 摘要")
+        return None
+
+    titles = []
+    for name, entries in news:
+        for e in entries:
+            t = e.get("title")
+            if t:
+                titles.append(f"- {t}")
+    if not titles:
+        return None
+    joined = "\n".join(titles[:40])
+
+    prompt = (
+        "你是協助黃金(XAU/USD)短波段交易者的助理。以下是今天抓到的新聞標題，"
+        "請挑出與黃金、美元、利率、通膨、地緣政治、避險情緒相關的內容，"
+        "用繁體中文整理成 3 到 5 條精簡重點，每條一行，聚焦對黃金可能的影響方向。"
+        "與金融無關的標題請略過。只輸出條列本身，不要任何開場白或結語。\n\n"
+        f"新聞標題：\n{joined}"
+    )
+
+    try:
+        from openai import OpenAI
+        client = OpenAI(
+            base_url="https://models.github.ai/inference",
+            api_key=token,
+        )
+        resp = client.chat.completions.create(
+            model="openai/gpt-4o-mini",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.4,
+        )
+        return resp.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"[warn] AI 摘要失敗: {e}")
+        return None
+
+
+def summary_to_html(summary):
+    if not summary:
+        return '<p class="empty">今日暫無 AI 摘要（來源不足或額度用盡）。</p>'
+    items = ""
+    for line in summary.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        for pref in ("- ", "* ", "\u2022 ", "\u2013 "):
+            if line.startswith(pref):
+                line = line[len(pref):]
+        line = re.sub(r'^\d+[\.\u3001)]\s*', '', line)
+        items += f'<li>{html.escape(line)}</li>'
+    return f'<ul class="summary">{items}</ul>'
+
+
 # ── 組合成 HTML ────────────────────────────────────
-def render(markets, calendar, news):
+def render(markets, calendar, news, summary):
     updated = datetime.datetime.now(TW).strftime("%Y-%m-%d %H:%M")
 
-    # Hero = 第一個（黃金）；strip = 其餘
     if markets:
         hlabel, hprice, hchg, hcls = markets[0]
         hero = (f'<div class="hero-label">{html.escape(hlabel)}</div>'
@@ -118,7 +182,8 @@ def render(markets, calendar, news):
                 '<div class="hero-chg flat">\u5e02\u5834\u6578\u64da\u6291\u4e0d\u5230</div>')
         strip = ""
 
-    # 行事曆
+    summ = summary_to_html(summary)
+
     if calendar is None:
         cal = '<p class="empty">\u4e8b\u4ef6\u62d3\u4e0d\u5230\uff0c\u665a\u9ede\u518d\u770b\u3002</p>'
     elif len(calendar) == 0:
@@ -142,7 +207,6 @@ def render(markets, calendar, news):
             )
         cal = f'<ul class="events">{items}</ul>'
 
-    # 新聞
     nn = ""
     for name, entries in news:
         li = ""
@@ -158,6 +222,7 @@ def render(markets, calendar, news):
     out = out.replace("%%UPDATED%%", html.escape(updated))
     out = out.replace("%%HERO%%", hero)
     out = out.replace("%%STRIP%%", strip)
+    out = out.replace("%%SUMMARY%%", summ)
     out = out.replace("%%CALENDAR%%", cal)
     out = out.replace("%%NEWS%%", nn)
     return out
@@ -195,7 +260,6 @@ TEMPLATE = """<!DOCTYPE html>
            color:var(--gold); font-weight:600; }
   .stamp { font-family:var(--mono); font-size:.72rem; color:var(--faint); }
 
-  /* HERO — 黃金報價 */
   .hero { padding:34px 0 26px; text-align:left; }
   .hero-label { font-size:.8rem; letter-spacing:.1em; color:var(--muted);
                 text-transform:uppercase; margin-bottom:6px; }
@@ -209,7 +273,6 @@ TEMPLATE = """<!DOCTYPE html>
   .hero-rule { height:1px; margin:4px 0 0;
                background:linear-gradient(90deg,var(--gold),transparent); }
 
-  /* 市場小格 */
   .strip { display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
            background:var(--line); border:1px solid var(--line);
            border-radius:10px; overflow:hidden; }
@@ -222,7 +285,15 @@ TEMPLATE = """<!DOCTYPE html>
   h2 { font-size:.82rem; letter-spacing:.12em; text-transform:uppercase;
        color:var(--muted); font-weight:600; margin:42px 0 14px; }
 
-  /* 事件 */
+  /* AI 摘要 */
+  .summary { list-style:none; margin:0; padding:0;
+             background:var(--card); border:1px solid var(--line);
+             border-radius:10px; padding:6px 16px; }
+  .summary li { position:relative; padding:11px 0 11px 20px; font-size:.95rem;
+                border-bottom:1px solid rgba(255,255,255,.05); }
+  .summary li:last-child { border-bottom:none; }
+  .summary li::before { content:"\\2014"; position:absolute; left:0; color:var(--gold); }
+
   .events { list-style:none; margin:0; padding:0; }
   .ev { display:grid; grid-template-columns:52px 42px 1fr; gap:4px 12px;
         align-items:baseline; padding:13px 14px; border-radius:8px;
@@ -241,7 +312,6 @@ TEMPLATE = """<!DOCTYPE html>
   .ev.passed { opacity:.4; }
   .empty { color:var(--muted); font-size:.9rem; padding:6px 0; }
 
-  /* 新聞 */
   .src { margin-bottom:22px; }
   .src-name { font-family:var(--mono); font-size:.72rem; color:var(--gold);
               letter-spacing:.06em; margin-bottom:8px; }
@@ -279,6 +349,9 @@ TEMPLATE = """<!DOCTYPE html>
 
   <div class="strip" style="margin-top:26px;">%%STRIP%%</div>
 
+  <h2>AI \u91cd\u9ede\u6458\u8981</h2>
+  %%SUMMARY%%
+
   <h2>\u4eca\u65e5\u9ad8\u5f71\u97ff\u6578\u64da</h2>
   %%CALENDAR%%
 
@@ -287,15 +360,28 @@ TEMPLATE = """<!DOCTYPE html>
 
   <div class="foot">
     Fed \u5347\u964d\u606f\u6a5f\u7387\uff1a<a href="https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html" target="_blank" rel="noopener">CME FedWatch</a><br>
-    \u8cc7\u6599\u81ea\u52d5\u62d3\u53d6\uff0c\u50c5\u4f9b\u500b\u4eba\u53c3\u8003\uff0c\u4e0d\u69cb\u6210\u4ea4\u6613\u5efa\u8b70\u3002
+    \u8cc7\u6599\u81ea\u52d5\u62d3\u53d6\uff0cAI \u6458\u8981\u50c5\u4f9b\u53c3\u8003\uff0c\u4e0d\u69cb\u6210\u4ea4\u6613\u5efa\u8b70\u3002
   </div>
 </div>
 </body>
 </html>
 """
 
+
+def safe(fn, fallback, *args):
+    try:
+        return fn(*args)
+    except Exception as e:
+        print(f"[warn] {fn.__name__} \u5931\u6557: {e}")
+        return fallback
+
+
 if __name__ == "__main__":
-    out = render(get_markets(), get_calendar(), get_news())
+    markets = safe(get_markets, [])
+    calendar = safe(get_calendar, None)
+    news = safe(get_news, [])
+    summary = safe(get_summary, None, news)
+    out = render(markets, calendar, news, summary)
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(out)
     print("index.html \u5df2\u7522\u751f")
