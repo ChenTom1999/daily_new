@@ -2,7 +2,7 @@ name: Daily News
 
 on:
   schedule:
-    - cron: '0 22 * * *'
+    - cron: '30 2 * * *'
   workflow_dispatch:
 
 permissions:
