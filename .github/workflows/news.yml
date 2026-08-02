@@ -21,7 +21,7 @@ jobs:
       - name: Build page
         run: python fetch_news.py
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       - name: Commit result
         run: |
           git config user.name "github-actions"
