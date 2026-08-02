@@ -11,122 +11,100 @@
   :root {
     --ink:#141210; --card:#1C1915; --line:rgba(212,175,87,.16);
     --text:#EDE6D6; --muted:#9A9080; --faint:#6B6355;
-    --gold:#D4AF57; --gold-hi:#F0D888;
-    --up:#63BC93; --down:#DB7A7A;
+    --gold:#D4AF57; --gold-hi:#F0D888; --up:#63BC93; --down:#DB7A7A;
     --sans:'Space Grotesk',"PingFang TC","Noto Sans TC",system-ui,sans-serif;
     --mono:'JetBrains Mono',ui-monospace,monospace;
   }
   * { box-sizing:border-box; }
-  body {
-    margin:0; background:var(--ink); color:var(--text);
-    font-family:var(--sans); line-height:1.5;
-    -webkit-font-smoothing:antialiased;
-  }
+  body { margin:0; background:var(--ink); color:var(--text); font-family:var(--sans);
+         line-height:1.5; -webkit-font-smoothing:antialiased; }
   .wrap { max-width:680px; margin:0 auto; padding:22px 20px 64px; }
-
   .topbar { display:flex; justify-content:space-between; align-items:baseline;
             padding-bottom:20px; border-bottom:1px solid var(--line); }
-  .brand { font-size:.78rem; letter-spacing:.14em; text-transform:uppercase;
-           color:var(--gold); font-weight:600; }
+  .brand { font-size:.78rem; letter-spacing:.14em; text-transform:uppercase; color:var(--gold); font-weight:600; }
   .stamp { font-family:var(--mono); font-size:.72rem; color:var(--faint); }
-
-  .hero { padding:34px 0 26px; text-align:left; }
-  .hero-label { font-size:.8rem; letter-spacing:.1em; color:var(--muted);
-                text-transform:uppercase; margin-bottom:6px; }
-  .hero-price { font-family:var(--mono); font-weight:700; font-size:4rem;
-                line-height:1; letter-spacing:-.02em;
+  .hero { padding:34px 0 26px; }
+  .hero-label { font-size:.8rem; letter-spacing:.1em; color:var(--muted); text-transform:uppercase; margin-bottom:6px; }
+  .hero-price { font-family:var(--mono); font-weight:700; font-size:4rem; line-height:1; letter-spacing:-.02em;
                 background:linear-gradient(180deg,var(--gold-hi),var(--gold));
                 -webkit-background-clip:text; background-clip:text; color:transparent; }
   .hero-chg { font-family:var(--mono); font-size:1rem; margin-top:10px; }
-  .hero-chg.up { color:var(--up); } .hero-chg.down { color:var(--down); }
-  .hero-chg.flat { color:var(--muted); }
-  .hero-rule { height:1px; margin:4px 0 0;
-               background:linear-gradient(90deg,var(--gold),transparent); }
-
-  .strip { display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
-           background:var(--line); border:1px solid var(--line);
-           border-radius:10px; overflow:hidden; }
-  .cell { background:var(--card); padding:14px 14px; }
+  .hero-chg.up { color:var(--up); } .hero-chg.down { color:var(--down); } .hero-chg.flat { color:var(--muted); }
+  .hero-rule { height:1px; background:linear-gradient(90deg,var(--gold),transparent); }
+  .strip { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line);
+           border:1px solid var(--line); border-radius:10px; overflow:hidden; margin-top:26px; }
+  .cell { background:var(--card); padding:14px; }
   .c-label { font-size:.7rem; color:var(--muted); margin-bottom:6px; letter-spacing:.04em; }
   .c-val { font-family:var(--mono); font-size:1.25rem; font-weight:500; }
   .c-chg { font-family:var(--mono); font-size:.72rem; margin-top:3px; color:var(--muted); }
   .c-chg.up { color:var(--up); } .c-chg.down { color:var(--down); }
-
-  h2 { font-size:.82rem; letter-spacing:.12em; text-transform:uppercase;
-       color:var(--muted); font-weight:600; margin:42px 0 14px; }
-
-  /* AI 摘要 */
-  .summary { list-style:none; margin:0; padding:0;
-             background:var(--card); border:1px solid var(--line);
-             border-radius:10px; padding:6px 16px; }
-  .summary li { position:relative; padding:11px 0 11px 20px; font-size:.95rem;
-                border-bottom:1px solid rgba(255,255,255,.05); }
+  h2 { font-size:.82rem; letter-spacing:.12em; text-transform:uppercase; color:var(--muted);
+       font-weight:600; margin:42px 0 14px; }
+  .summary { list-style:none; margin:0; padding:6px 16px; background:var(--card);
+             border:1px solid var(--line); border-radius:10px; }
+  .summary li { position:relative; padding:11px 0 11px 20px; font-size:.95rem; border-bottom:1px solid rgba(255,255,255,.05); }
   .summary li:last-child { border-bottom:none; }
   .summary li::before { content:"\2014"; position:absolute; left:0; color:var(--gold); }
-
   .events { list-style:none; margin:0; padding:0; }
-  .ev { display:grid; grid-template-columns:52px 42px 1fr; gap:4px 12px;
-        align-items:baseline; padding:13px 14px; border-radius:8px;
-        border:1px solid transparent; }
+  .ev { display:grid; grid-template-columns:52px 42px 1fr; gap:4px 12px; align-items:baseline;
+        padding:13px 14px; border-radius:8px; border:1px solid transparent; }
   .ev + .ev { margin-top:2px; }
-  .ev-time { font-family:var(--mono); font-size:.9rem; color:var(--text); }
-  .ev-ctry { font-family:var(--mono); font-size:.66rem; color:var(--ink);
-             background:var(--muted); border-radius:4px; padding:2px 5px;
-             text-align:center; justify-self:start; }
+  .ev-time { font-family:var(--mono); font-size:.9rem; }
+  .ev-ctry { font-family:var(--mono); font-size:.66rem; color:var(--ink); background:var(--muted);
+             border-radius:4px; padding:2px 5px; text-align:center; justify-self:start; }
   .ev-title { font-size:.92rem; }
-  .ev-data { grid-column:3; font-family:var(--mono); font-size:.72rem;
-             color:var(--faint); margin-top:2px; }
+  .ev-data { grid-column:3; font-family:var(--mono); font-size:.72rem; color:var(--faint); margin-top:2px; }
   .ev.next { border-color:var(--line); background:var(--card); }
-  .ev.next .ev-time { color:var(--gold); }
-  .ev.next .ev-ctry { background:var(--gold); }
+  .ev.next .ev-time { color:var(--gold); } .ev.next .ev-ctry { background:var(--gold); }
   .ev.passed { opacity:.4; }
   .empty { color:var(--muted); font-size:.9rem; padding:6px 0; }
-
+  .radar-sub { font-family:var(--mono); font-size:.72rem; color:var(--gold); letter-spacing:.06em; margin:20px 0 8px; }
+  .radar { list-style:none; margin:0; padding:0; }
+  .radar li { padding:9px 0; border-bottom:1px solid rgba(255,255,255,.04); }
+  .radar a { color:var(--text); text-decoration:none; font-size:.94rem; border-bottom:1px solid transparent;
+             transition:border-color .15s,color .15s; }
+  .radar a:hover { color:var(--gold-hi); border-color:var(--gold); }
+  .radar-meta { display:block; font-family:var(--mono); font-size:.7rem; color:var(--faint); margin-top:3px; }
+  .radar-meta a { color:var(--faint); border:none; } .radar-meta a:hover { color:var(--gold); }
   .src { margin-bottom:22px; }
-  .src-name { font-family:var(--mono); font-size:.72rem; color:var(--gold);
-              letter-spacing:.06em; margin-bottom:8px; }
+  .src-name { font-family:var(--mono); font-size:.72rem; color:var(--gold); letter-spacing:.06em; margin-bottom:8px; }
   .src ul { list-style:none; margin:0; padding:0; }
   .src li { padding:7px 0; border-bottom:1px solid rgba(255,255,255,.04); }
-  .src a { color:var(--text); text-decoration:none; font-size:.94rem;
-           border-bottom:1px solid transparent; transition:border-color .15s,color .15s; }
+  .src a { color:var(--text); text-decoration:none; font-size:.94rem; border-bottom:1px solid transparent;
+           transition:border-color .15s,color .15s; }
   .src a:hover { color:var(--gold-hi); border-color:var(--gold); }
-  .src a:focus-visible { outline:2px solid var(--gold); outline-offset:3px; }
-
   .foot { margin-top:48px; padding-top:18px; border-top:1px solid var(--line);
           font-size:.74rem; color:var(--faint); line-height:1.7; }
   .foot a { color:var(--muted); }
-
   .wrap > * { animation:rise .5s ease both; }
-  .hero { animation-delay:.05s; } .strip { animation-delay:.1s; }
   @keyframes rise { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:none; } }
   @media (prefers-reduced-motion:reduce) { .wrap > * { animation:none; } }
-
-  @media (max-width:420px) {
-    .hero-price { font-size:3rem; }
-    .strip { grid-template-columns:1fr; }
-  }
+  @media (max-width:420px) { .hero-price { font-size:3rem; } .strip { grid-template-columns:1fr; } }
 </style>
 </head>
 <body>
 <div class="wrap">
   <div class="topbar">
     <span class="brand">XAU/USD · 每日儀表板</span>
-    <span class="stamp">2026-08-02 16:09 TPE</span>
+    <span class="stamp">2026-08-02 21:55 TPE</span>
   </div>
-
   <div class="hero"><div class="hero-label">黃金 · GOLD</div><div class="hero-price">4,107.00</div><div class="hero-chg up">▲ 6.90 (+0.17%)</div></div>
   <div class="hero-rule"></div>
+  <div class="strip"><div class="cell"><div class="c-label">美元指數 DXY</div><div class="c-val">99.80</div><div class="c-chg down">▼ 0.21 (-0.21%)</div></div><div class="cell"><div class="c-label">美債10年殖利率</div><div class="c-val">4.745</div><div class="c-chg up">▲ 0.082 (+1.76%)</div></div><div class="cell"><div class="c-label">VIX 恐慌指數</div><div class="c-val">15.99</div><div class="c-chg down">▼ 1.10 (-6.44%)</div></div></div>
 
-  <div class="strip" style="margin-top:26px;"><div class="cell"><div class="c-label">美元指數 DXY</div><div class="c-val">99.80</div><div class="c-chg down">▼ 0.21 (-0.21%)</div></div><div class="cell"><div class="c-label">美債10年殖利率</div><div class="c-val">4.745</div><div class="c-chg up">▲ 0.082 (+1.76%)</div></div><div class="cell"><div class="c-label">VIX 恐慌指數</div><div class="c-val">15.99</div><div class="c-chg down">▼ 1.10 (-6.44%)</div></div></div>
-
-  <h2>AI 重點摘要</h2>
-  <ul class="summary"><li>川普表示若快速達成協議將取消打擊伊朗，中東地緣局勢短期降溫，恐壓制黃金的避險買盤需求。</li><li>美日傳近30年首度聯手干預匯市以支撐日圓，或使美元指數面臨下行壓力，進而對黃金提供支撐。</li><li>OPEC+預計持續增產但談判仍具變數，原油價格波動將影響市場通膨預期，間接干擾美聯儲利率政策與金價走向。</li></ul>
+  <h2>AI 重點摘要（金融）</h2>
+  <ul class="summary"><li>川普表示若能快速達成協議將取消對伊朗打擊，中東局勢出現緩和曙光，可能短期削弱黃金的避險買盤。</li><li>以軍持續襲擊加薩且未達成停火協議，顯示地緣政治風險尚未徹底消除，仍為金價提供底部避險支撐。</li><li>美日傳將聯手干預匯市支撐日圓，若導致美元指數承壓拉回，將有利於以美元計價的黃金（XAU/USD）走升。</li></ul>
 
   <h2>今日高影響數據</h2>
   <p class="empty">今天沒有高影響數據 — 場子可能偏安靜。</p>
 
+  <h2>AI 技術雷達</h2>
+  <ul class="summary"><li>**Running Kimi K3 on MI355X at Better Performance per Dollar Than B300**：這是一份在大語言模型硬體部署上的效能實測報告，顯示在 AMD MI355X 上運行 Kimi K3 的每美元性價比高於 NVIDIA B300，值得關注 AI 算力選型與部署成本優化的工程師參考。</li><li>**Diátaxis**：這是一個專為技術文檔設計的結構化框架（Diátaxis），能協助軟體團隊以系統化方式規劃教學、指南、參考手冊與概念說明，值得任何需要編寫開發者文檔的工程師學習。</li><li>**Seedance 2.5**：這是一款最新的 AI 多模態/生成式模型更新，展現了前沿生成技術的最新突破，值得關注 AI 新產品與應用發展的開發者追蹤。</li><li>**Postmortem for Kernel Soundness Bug #14576**：這是一篇針對核心健全性（Soundness）嚴重 Bug 的詳細事後檢討報告，深入剖析了低階系統程式設計中的安全漏洞與邊界條件，對系統軟體與安全工程師極具借鏡價值。</li><li>**Show HN: Bor – Open-source policy management for Linux desktops**：這是一個專為 Linux 桌面環境設計的開源安全政策管理工具，能簡化系統權限控管與配置，值得 Linux 系統管理者與 DevOps 工程師留意。</li></ul>
+  <div class="radar-sub">熱門討論 · HACKER NEWS</div>
+  <ul class="radar"><li><a href="https://diataxis.fr/" target="_blank" rel="noopener">Diátaxis</a><span class="radar-meta">▲ 404 · <a href="https://news.ycombinator.com/item?id=49138188" target="_blank" rel="noopener">49 則討論</a></span></li><li><a href="https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5" target="_blank" rel="noopener">Seedance 2.5</a><span class="radar-meta">▲ 390 · <a href="https://news.ycombinator.com/item?id=49138302" target="_blank" rel="noopener">202 則討論</a></span></li><li><a href="https://victoriametrics.com/blog/go-1-27/index.html" target="_blank" rel="noopener">Go 1.27 Interactive Tour</a><span class="radar-meta">▲ 271 · <a href="https://news.ycombinator.com/item?id=49140218" target="_blank" rel="noopener">111 則討論</a></span></li><li><a href="https://github.com/tom-ilan/cycloidal_gearbox" target="_blank" rel="noopener">Show HN: I&#x27;m a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built</a><span class="radar-meta">▲ 202 · <a href="https://news.ycombinator.com/item?id=49140396" target="_blank" rel="noopener">71 則討論</a></span></li><li><a href="https://www.openhomefoundation.org/blog/a-big-win-for-android-interoperability/" target="_blank" rel="noopener">A big win for Android interoperability</a><span class="radar-meta">▲ 164 · <a href="https://news.ycombinator.com/item?id=49124051" target="_blank" rel="noopener">124 則討論</a></span></li><li><a href="https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-08-02/News_and_notes" target="_blank" rel="noopener">Wikimedia Foundation refuses union recognition, hires union-busting law firm</a><span class="radar-meta">▲ 163 · <a href="https://news.ycombinator.com/item?id=49143414" target="_blank" rel="noopener">140 則討論</a></span></li><li><a href="https://www.wafer.ai/blog/kimi-k3-mi355x" target="_blank" rel="noopener">Running Kimi K3 on MI355X at Better Performance per Dollar Than B300</a><span class="radar-meta">▲ 158 · <a href="https://news.ycombinator.com/item?id=49141073" target="_blank" rel="noopener">75 則討論</a></span></li><li><a href="https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/" target="_blank" rel="noopener">Postmortem for Kernel Soundness Bug #14576</a><span class="radar-meta">▲ 157 · <a href="https://news.ycombinator.com/item?id=49137060" target="_blank" rel="noopener">59 則討論</a></span></li><li><a href="https://chrismorgan.info/atom%3Erss" target="_blank" rel="noopener">Atom is better than RSS, in ways that matter</a><span class="radar-meta">▲ 107 · <a href="https://news.ycombinator.com/item?id=49138897" target="_blank" rel="noopener">60 則討論</a></span></li><li><a href="https://www.kyoto-u.ac.jp/en/research-news/2026-07-28" target="_blank" rel="noopener">Unraveling the mysteries of habit formation</a><span class="radar-meta">▲ 90 · <a href="https://news.ycombinator.com/item?id=49139383" target="_blank" rel="noopener">33 則討論</a></span></li><li><a href="https://plug-world.com/posts/2026/asrock-bc250-the-budget-steam-machine/" target="_blank" rel="noopener">ASRock BC-250: Building the Budget Steam Machine</a><span class="radar-meta">▲ 85 · <a href="https://news.ycombinator.com/item?id=49140213" target="_blank" rel="noopener">36 則討論</a></span></li><li><a href="https://getbor.dev/blog/2026-08-02-bor-v080-release/" target="_blank" rel="noopener">Show HN: Bor – Open-source policy management for Linux desktops</a><span class="radar-meta">▲ 81 · <a href="https://news.ycombinator.com/item?id=49142569" target="_blank" rel="noopener">14 則討論</a></span></li></ul>
+
   <h2>市場新聞</h2>
-  <div class="src"><div class="src-name">BBC World</div><ul><li><a href="https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Trump says he is cancelling strikes on Iran subject to deal being made &#x27;rapidly&#x27;</a></li><li><a href="https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">How Spain&#x27;s migrant crisis created a political storm - whipped up by social media</a></li><li><a href="https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">EU calls emergency meeting to discuss Ceuta migrant crossings</a></li><li><a href="https://www.bbc.co.uk/news/articles/czrjyevmv61o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Young guns for hire - the teenage hitmen recruited to kill across Europe</a></li><li><a href="https://www.bbc.co.uk/news/articles/cm2gz0epljgo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">The Sopranos star Vincent Pastore dies aged 80</a></li><li><a href="https://www.bbc.co.uk/sport/football/articles/c9w0djx2g92o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">A bruising 24 hours - what next for Fifa and under-pressure Infantino?</a></li></ul></div><div class="src"><div class="src-name">Hacker News</div><ul><li><a href="https://www.reuters.com/legal/litigation/australia-defends-teen-social-media-ban-after-study-shows-most-still-online-2026-08-01/" target="_blank" rel="noopener">Australia&#x27;s social media ban has failed</a></li><li><a href="https://www.wafer.ai/blog/kimi-k3-mi355x" target="_blank" rel="noopener">Running Kimi K3 on MI355X at Better Performance per Dollar Than B300</a></li><li><a href="http://oldvcr.blogspot.com/2026/08/mklinux-and-pimped-out-apple-workgroup.html" target="_blank" rel="noopener">MkLinux and the pimped-out Apple Workgroup Server 9150</a></li><li><a href="https://www.science.org/content/article/deep-sea-vehicles-spot-alien-sharks-deep-beneath-waves-pacific" target="_blank" rel="noopener">Deep-sea vehicles spot &#x27;alien&#x27; sharks deep beneath the waves in the Pacific</a></li><li><a href="https://rodneybrooks.com/four-time-scales-for-technology-development-and-deployment/" target="_blank" rel="noopener">Four Time Scales for Technology Development and Deployment</a></li><li><a href="https://insider.btcpp.dev/p/when-randombytes-runs-but-doesnt" target="_blank" rel="noopener">When random.bytes() runs but doesn&#x27;t work</a></li></ul></div><div class="src"><div class="src-name">中央社 國際</div><ul><li><a href="https://www.cna.com.tw/news/aopl/202608020096.aspx" target="_blank" rel="noopener">金融時報：美日聯手撐日圓　近30年來首見</a></li><li><a href="https://www.cna.com.tw/news/aopl/202608020095.aspx" target="_blank" rel="noopener">日媒：防衛機密將轉移到民間雲端　以利AI運用</a></li><li><a href="https://www.cna.com.tw/news/ahel/202608020090.aspx" target="_blank" rel="noopener">印尼台灣高教展登場　首站雅加達吸引萬人參觀</a></li><li><a href="https://www.cna.com.tw/news/aopl/202608020088.aspx" target="_blank" rel="noopener">多瑙河水位創新低　匈牙利核電廠44年來首度停機</a></li><li><a href="https://www.cna.com.tw/news/aopl/202608020078.aspx" target="_blank" rel="noopener">魯拉競選總統連任　主打巴西主權對抗川普壓力</a></li><li><a href="https://www.cna.com.tw/news/aopl/202608020077.aspx" target="_blank" rel="noopener">OPEC+料續增產　產能受限與新配額談判恐添變數</a></li></ul></div>
+  <div class="src"><div class="src-name">BBC World</div><ul><li><a href="https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Trump cancels Iran strikes subject to deal being made &#x27;rapidly&#x27;</a></li><li><a href="https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">How Spain&#x27;s migrant crisis created a political storm - whipped up by social media</a></li><li><a href="https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Five dead, 41 missing, after Indonesia ferry catches fire</a></li><li><a href="https://www.bbc.co.uk/news/articles/czrjyevmv61o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Young guns for hire - the teenage hitmen recruited to kill across Europe</a></li><li><a href="https://www.bbc.co.uk/sport/football/articles/c9w0djx2g92o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">A bruising 24 hours - what next for Fifa and under-pressure Infantino?</a></li><li><a href="https://www.bbc.co.uk/news/articles/c70g132erlko?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Tourist plane crashes in Peru, killing 13</a></li></ul></div><div class="src"><div class="src-name">中央社 國際</div><ul><li><a href="https://www.cna.com.tw/news/aopl/202608020179.aspx" target="_blank" rel="noopener">以軍續襲加薩釀9死　以官員稱未就停止攻擊達成協議</a></li><li><a href="https://www.cna.com.tw/news/aopl/202608020172.aspx" target="_blank" rel="noopener">傳美日聯手撐日圓　路透：日本財相3日將證實</a></li><li><a href="https://www.cna.com.tw/news/aopl/202608020170.aspx" target="_blank" rel="noopener">智利中南部遭猛烈暴風雨襲擊釀2死　2000多人受困洪水</a></li><li><a href="https://www.cna.com.tw/news/aopl/202608020168.aspx" target="_blank" rel="noopener">印尼渡輪起火造成5死41失聯　當局持續搜救</a></li><li><a href="https://www.cna.com.tw/news/aopl/202608020160.aspx" target="_blank" rel="noopener">福島請戶海水浴場確認安全　東日本大地震後首開放</a></li><li><a href="https://www.cna.com.tw/news/ahel/202608020157.aspx" target="_blank" rel="noopener">菲律賓模型大賽　台灣團隊勇奪3金2銀7銅</a></li></ul></div>
 
   <div class="foot">
     Fed 升降息機率：<a href="https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html" target="_blank" rel="noopener">CME FedWatch</a><br>
