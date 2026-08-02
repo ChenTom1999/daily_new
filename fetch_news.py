@@ -7,14 +7,9 @@ TW = datetime.timezone(datetime.timedelta(hours=8))  # 台北時區
 
 
 # ── 1. 市場數據（價格） ─────────────────────────────
-# 用 yfinance 抓。symbol 對照：
-#   GC=F        黃金期貨（近似 XAUUSD）
-#   DX-Y.NYB    美元指數 DXY
-#   ^TNX        美債 10 年殖利率
-#   ^VIX        VIX 恐慌指數
 MARKETS = [
-    ("黃金 (Gold)", "GC=F", 2),
-    ("美元指數 (DXY)", "DX-Y.NYB", 2),
+    ("黃金 · GOLD", "GC=F", 2),
+    ("美元指數 DXY", "DX-Y.NYB", 2),
     ("美債10年殖利率", "^TNX", 3),
     ("VIX 恐慌指數", "^VIX", 2),
 ]
@@ -34,28 +29,29 @@ def get_markets():
             prev = float(closes.iloc[-2])
             chg = last - prev
             pct = chg / prev * 100 if prev else 0
-            arrow = "▲" if chg >= 0 else "▼"
+            arrow = "\u25B2" if chg >= 0 else "\u25BC"
             cls = "up" if chg >= 0 else "down"
             price = f"{last:,.{digits}f}"
             change = f"{arrow} {abs(chg):.{digits}f} ({pct:+.2f}%)"
             rows.append((label, price, change, cls))
         except Exception:
-            rows.append((label, "—", "抓不到", "flat"))
+            rows.append((label, "\u2014", "\u2014", "flat"))
     return rows
 
 
 # ── 2. 今日經濟數據行事曆（高影響事件） ─────────────
 def get_calendar():
-    events = []
     try:
         import requests
         url = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
         r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
         data = r.json()
     except Exception:
-        return None  # None = 抓取失敗
+        return None
 
-    today = datetime.datetime.now(TW).date()
+    now = datetime.datetime.now(TW)
+    today = now.date()
+    events = []
     for ev in data:
         if ev.get("impact") != "High":
             continue
@@ -67,6 +63,7 @@ def get_calendar():
             continue
         events.append({
             "time": dt.strftime("%H:%M"),
+            "passed": dt < now,
             "country": ev.get("country", ""),
             "title": ev.get("title", ""),
             "forecast": ev.get("forecast", "") or "-",
@@ -79,7 +76,7 @@ def get_calendar():
 # ── 3. 新聞（RSS） ─────────────────────────────────
 FEEDS = [
     ("BBC World", "http://feeds.bbci.co.uk/news/world/rss.xml"),
-    ("Reuters 商品", "https://www.investing.com/rss/news_285.rss"),
+    ("Hacker News", "https://hnrss.org/frontpage"),
     ("中央社 國際", "https://feeds.feedburner.com/rsscna/intworld"),
 ]
 PER_FEED = 6
@@ -104,44 +101,66 @@ def get_news():
 def render(markets, calendar, news):
     updated = datetime.datetime.now(TW).strftime("%Y-%m-%d %H:%M")
 
-    # 市場數據
-    m = ""
-    for label, price, change, cls in markets:
-        m += (f'<div class="mkt"><span class="mlabel">{html.escape(label)}</span>'
-              f'<span class="mprice">{html.escape(price)}</span>'
-              f'<span class="mchg {cls}">{html.escape(change)}</span></div>\n')
-    if not markets:
-        m = '<div class="mkt">（市場數據抓不到）</div>'
+    # Hero = 第一個（黃金）；strip = 其餘
+    if markets:
+        hlabel, hprice, hchg, hcls = markets[0]
+        hero = (f'<div class="hero-label">{html.escape(hlabel)}</div>'
+                f'<div class="hero-price">{html.escape(hprice)}</div>'
+                f'<div class="hero-chg {hcls}">{html.escape(hchg)}</div>')
+        strip = ""
+        for label, price, change, cls in markets[1:]:
+            strip += (f'<div class="cell"><div class="c-label">{html.escape(label)}</div>'
+                      f'<div class="c-val">{html.escape(price)}</div>'
+                      f'<div class="c-chg {cls}">{html.escape(change)}</div></div>')
+    else:
+        hero = ('<div class="hero-label">\u9ec3\u91d1 \u00b7 GOLD</div>'
+                '<div class="hero-price">\u2014</div>'
+                '<div class="hero-chg flat">\u5e02\u5834\u6578\u64da\u6291\u4e0d\u5230</div>')
+        strip = ""
 
     # 行事曆
     if calendar is None:
-        c = "<p>（行事曆抓不到，稍後重整或改天再看）</p>"
+        cal = '<p class="empty">\u4e8b\u4ef6\u62d3\u4e0d\u5230\uff0c\u665a\u9ede\u518d\u770b\u3002</p>'
     elif len(calendar) == 0:
-        c = "<p>今天沒有高影響事件 🎉（波動可能較平靜）</p>"
+        cal = '<p class="empty">\u4eca\u5929\u6c92\u6709\u9ad8\u5f71\u97ff\u6578\u64da \u2014 \u5834\u5b50\u53ef\u80fd\u504f\u5b89\u975c\u3002</p>'
     else:
-        rows = ""
+        assigned_next = False
+        items = ""
         for e in calendar:
-            rows += (f'<tr><td>{html.escape(e["time"])}</td>'
-                     f'<td>{html.escape(e["country"])}</td>'
-                     f'<td>{html.escape(e["title"])}</td>'
-                     f'<td>{html.escape(str(e["forecast"]))}</td>'
-                     f'<td>{html.escape(str(e["previous"]))}</td></tr>\n')
-        c = ('<table><tr><th>時間</th><th>國</th><th>事件</th>'
-             '<th>預測</th><th>前值</th></tr>' + rows + '</table>')
+            klass = "passed" if e["passed"] else ""
+            if not e["passed"] and not assigned_next:
+                klass = "next"
+                assigned_next = True
+            items += (
+                f'<li class="ev {klass}">'
+                f'<span class="ev-time">{html.escape(e["time"])}</span>'
+                f'<span class="ev-ctry">{html.escape(e["country"])}</span>'
+                f'<span class="ev-title">{html.escape(e["title"])}</span>'
+                f'<span class="ev-data">\u9810\u6e2c {html.escape(str(e["forecast"]))} '
+                f'\u00b7 \u524d\u503c {html.escape(str(e["previous"]))}</span>'
+                f'</li>'
+            )
+        cal = f'<ul class="events">{items}</ul>'
 
     # 新聞
-    n = ""
+    nn = ""
     for name, entries in news:
-        items = ""
+        li = ""
         for e in entries:
-            title = html.escape(e.get("title", "(無標題)"))
+            title = html.escape(e.get("title", "(\u7121\u6a19\u984c)"))
             link = html.escape(e.get("link", "#"))
-            items += f'<li><a href="{link}" target="_blank" rel="noopener">{title}</a></li>\n'
-        if not items:
-            items = "<li>（這個來源目前抓不到）</li>"
-        n += f'<section><h3>{html.escape(name)}</h3><ul>{items}</ul></section>\n'
+            li += f'<li><a href="{link}" target="_blank" rel="noopener">{title}</a></li>'
+        if not li:
+            li = '<li class="empty">\uff08\u9019\u500b\u4f86\u6e90\u76ee\u524d\u62d3\u4e0d\u5230\uff09</li>'
+        nn += f'<div class="src"><div class="src-name">{html.escape(name)}</div><ul>{li}</ul></div>'
 
-    return TEMPLATE.format(updated=updated, markets=m, calendar=c, news=n)
+    out = TEMPLATE
+    out = out.replace("%%UPDATED%%", html.escape(updated))
+    out = out.replace("%%HERO%%", hero)
+    out = out.replace("%%STRIP%%", strip)
+    out = out.replace("%%CALENDAR%%", cal)
+    out = out.replace("%%NEWS%%", nn)
+    return out
 
 
 TEMPLATE = """<!DOCTYPE html>
@@ -149,50 +168,128 @@ TEMPLATE = """<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>黃金交易儀表板</title>
+<title>XAU/USD 每日儀表板</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-  :root {{ color-scheme: light dark; }}
-  body {{ font-family: system-ui, -apple-system, "Noto Sans TC", sans-serif;
-         max-width: 760px; margin: 0 auto; padding: 16px 18px 60px; line-height: 1.55; }}
-  h1 {{ font-size: 1.35rem; margin: 6px 0 2px; }}
-  h2 {{ font-size: 1.1rem; margin-top: 30px; border-bottom: 2px solid currentColor; padding-bottom: 4px; }}
-  h3 {{ font-size: 1rem; margin: 18px 0 6px; color: #888; }}
-  .updated {{ color: #888; font-size: .8rem; margin-bottom: 18px; }}
-  .mkt {{ display: flex; justify-content: space-between; align-items: baseline;
-         padding: 10px 4px; border-bottom: 1px solid rgba(128,128,128,.25); gap: 10px; }}
-  .mlabel {{ font-weight: 600; flex: 1; }}
-  .mprice {{ font-size: 1.15rem; font-variant-numeric: tabular-nums; }}
-  .mchg {{ font-size: .85rem; min-width: 130px; text-align: right; font-variant-numeric: tabular-nums; }}
-  .up {{ color: #16a34a; }}
-  .down {{ color: #dc2626; }}
-  .flat {{ color: #888; }}
-  table {{ width: 100%; border-collapse: collapse; font-size: .85rem; }}
-  th, td {{ text-align: left; padding: 6px 6px; border-bottom: 1px solid rgba(128,128,128,.2); }}
-  th {{ color: #888; font-weight: 600; }}
-  ul {{ list-style: none; padding: 0; margin: 0; }}
-  li {{ margin: 8px 0; }}
-  a {{ text-decoration: none; }}
-  .foot {{ margin-top: 40px; font-size: .75rem; color: #999; }}
-  .foot a {{ color: #999; text-decoration: underline; }}
+  :root {
+    --ink:#141210; --card:#1C1915; --line:rgba(212,175,87,.16);
+    --text:#EDE6D6; --muted:#9A9080; --faint:#6B6355;
+    --gold:#D4AF57; --gold-hi:#F0D888;
+    --up:#63BC93; --down:#DB7A7A;
+    --sans:'Space Grotesk',"PingFang TC","Noto Sans TC",system-ui,sans-serif;
+    --mono:'JetBrains Mono',ui-monospace,monospace;
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--ink); color:var(--text);
+    font-family:var(--sans); line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap { max-width:680px; margin:0 auto; padding:22px 20px 64px; }
+
+  .topbar { display:flex; justify-content:space-between; align-items:baseline;
+            padding-bottom:20px; border-bottom:1px solid var(--line); }
+  .brand { font-size:.78rem; letter-spacing:.14em; text-transform:uppercase;
+           color:var(--gold); font-weight:600; }
+  .stamp { font-family:var(--mono); font-size:.72rem; color:var(--faint); }
+
+  /* HERO — 黃金報價 */
+  .hero { padding:34px 0 26px; text-align:left; }
+  .hero-label { font-size:.8rem; letter-spacing:.1em; color:var(--muted);
+                text-transform:uppercase; margin-bottom:6px; }
+  .hero-price { font-family:var(--mono); font-weight:700; font-size:4rem;
+                line-height:1; letter-spacing:-.02em;
+                background:linear-gradient(180deg,var(--gold-hi),var(--gold));
+                -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .hero-chg { font-family:var(--mono); font-size:1rem; margin-top:10px; }
+  .hero-chg.up { color:var(--up); } .hero-chg.down { color:var(--down); }
+  .hero-chg.flat { color:var(--muted); }
+  .hero-rule { height:1px; margin:4px 0 0;
+               background:linear-gradient(90deg,var(--gold),transparent); }
+
+  /* 市場小格 */
+  .strip { display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
+           background:var(--line); border:1px solid var(--line);
+           border-radius:10px; overflow:hidden; }
+  .cell { background:var(--card); padding:14px 14px; }
+  .c-label { font-size:.7rem; color:var(--muted); margin-bottom:6px; letter-spacing:.04em; }
+  .c-val { font-family:var(--mono); font-size:1.25rem; font-weight:500; }
+  .c-chg { font-family:var(--mono); font-size:.72rem; margin-top:3px; color:var(--muted); }
+  .c-chg.up { color:var(--up); } .c-chg.down { color:var(--down); }
+
+  h2 { font-size:.82rem; letter-spacing:.12em; text-transform:uppercase;
+       color:var(--muted); font-weight:600; margin:42px 0 14px; }
+
+  /* 事件 */
+  .events { list-style:none; margin:0; padding:0; }
+  .ev { display:grid; grid-template-columns:52px 42px 1fr; gap:4px 12px;
+        align-items:baseline; padding:13px 14px; border-radius:8px;
+        border:1px solid transparent; }
+  .ev + .ev { margin-top:2px; }
+  .ev-time { font-family:var(--mono); font-size:.9rem; color:var(--text); }
+  .ev-ctry { font-family:var(--mono); font-size:.66rem; color:var(--ink);
+             background:var(--muted); border-radius:4px; padding:2px 5px;
+             text-align:center; justify-self:start; }
+  .ev-title { font-size:.92rem; }
+  .ev-data { grid-column:3; font-family:var(--mono); font-size:.72rem;
+             color:var(--faint); margin-top:2px; }
+  .ev.next { border-color:var(--line); background:var(--card); }
+  .ev.next .ev-time { color:var(--gold); }
+  .ev.next .ev-ctry { background:var(--gold); }
+  .ev.passed { opacity:.4; }
+  .empty { color:var(--muted); font-size:.9rem; padding:6px 0; }
+
+  /* 新聞 */
+  .src { margin-bottom:22px; }
+  .src-name { font-family:var(--mono); font-size:.72rem; color:var(--gold);
+              letter-spacing:.06em; margin-bottom:8px; }
+  .src ul { list-style:none; margin:0; padding:0; }
+  .src li { padding:7px 0; border-bottom:1px solid rgba(255,255,255,.04); }
+  .src a { color:var(--text); text-decoration:none; font-size:.94rem;
+           border-bottom:1px solid transparent; transition:border-color .15s,color .15s; }
+  .src a:hover { color:var(--gold-hi); border-color:var(--gold); }
+  .src a:focus-visible { outline:2px solid var(--gold); outline-offset:3px; }
+
+  .foot { margin-top:48px; padding-top:18px; border-top:1px solid var(--line);
+          font-size:.74rem; color:var(--faint); line-height:1.7; }
+  .foot a { color:var(--muted); }
+
+  .wrap > * { animation:rise .5s ease both; }
+  .hero { animation-delay:.05s; } .strip { animation-delay:.1s; }
+  @keyframes rise { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:none; } }
+  @media (prefers-reduced-motion:reduce) { .wrap > * { animation:none; } }
+
+  @media (max-width:420px) {
+    .hero-price { font-size:3rem; }
+    .strip { grid-template-columns:1fr; }
+  }
 </style>
 </head>
 <body>
-  <h1>黃金交易儀表板</h1>
-  <div class="updated">更新：{updated}（台北）</div>
+<div class="wrap">
+  <div class="topbar">
+    <span class="brand">XAU/USD \u00b7 \u6bcf\u65e5\u5100\u8868\u677f</span>
+    <span class="stamp">%%UPDATED%% TPE</span>
+  </div>
 
-  <h2>市場數據</h2>
-  {markets}
+  <div class="hero">%%HERO%%</div>
+  <div class="hero-rule"></div>
 
-  <h2>今日經濟數據（高影響）</h2>
-  {calendar}
+  <div class="strip" style="margin-top:26px;">%%STRIP%%</div>
 
-  <h2>新聞</h2>
-  {news}
+  <h2>\u4eca\u65e5\u9ad8\u5f71\u97ff\u6578\u64da</h2>
+  %%CALENDAR%%
+
+  <h2>\u5e02\u5834\u65b0\u805e</h2>
+  %%NEWS%%
 
   <div class="foot">
-    Fed 升降息機率請看 <a href="https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html" target="_blank" rel="noopener">CME FedWatch</a>。
-    本頁資料自動抓取，僅供個人參考，不構成任何交易建議。
+    Fed \u5347\u964d\u606f\u6a5f\u7387\uff1a<a href="https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html" target="_blank" rel="noopener">CME FedWatch</a><br>
+    \u8cc7\u6599\u81ea\u52d5\u62d3\u53d6\uff0c\u50c5\u4f9b\u500b\u4eba\u53c3\u8003\uff0c\u4e0d\u69cb\u6210\u4ea4\u6613\u5efa\u8b70\u3002
   </div>
+</div>
 </body>
 </html>
 """
@@ -201,4 +298,4 @@ if __name__ == "__main__":
     out = render(get_markets(), get_calendar(), get_news())
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(out)
-    print("index.html 已產生")
+    print("index.html \u5df2\u7522\u751f")
