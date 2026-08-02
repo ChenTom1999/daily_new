@@ -2,6 +2,7 @@
 """每天抓 黃金交易數據 + 新聞 + AI 摘要 + AI 技術雷達，產生 index.html。"""
 import datetime
 import html
+import json
 import os
 import re
 
@@ -387,12 +388,152 @@ TEMPLATE = """<!DOCTYPE html>
   %%NEWS%%
 
   <div class="foot">
+    <a href="history.html">\u2192 \u6b77\u53f2\u7d00\u9304</a><br>
     Fed \u5347\u964d\u606f\u6a5f\u7387\uff1a<a href="https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html" target="_blank" rel="noopener">CME FedWatch</a><br>
     \u8cc7\u6599\u81ea\u52d5\u62d3\u53d6\uff0cAI \u6458\u8981\u50c5\u4f9b\u53c3\u8003\uff0c\u4e0d\u69cb\u6210\u4ea4\u6613\u5efa\u8b70\u3002
   </div>
 </div>
 </body>
 </html>
+"""
+
+
+# ── 歷史快照 + 歷史頁 ─────────────
+def save_snapshot(markets, calendar, news, summary, hn, tech):
+    os.makedirs("data", exist_ok=True)
+    date = datetime.datetime.now(TW).strftime("%Y-%m-%d")
+
+    def parse_val(p):
+        try:
+            return float(str(p).replace(",", ""))
+        except Exception:
+            return None
+
+    snap = {
+        "date": date,
+        "updated": datetime.datetime.now(TW).strftime("%Y-%m-%d %H:%M"),
+        "markets": [{"label": l, "price": pr, "change": ch, "cls": cl, "value": parse_val(pr)}
+                    for (l, pr, ch, cl) in markets],
+        "calendar": calendar,
+        "summary": summary,
+        "tech": tech,
+        "hackernews": [{"title": s.get("title"), "url": s.get("url"),
+                        "points": s.get("points"), "comments": s.get("comments")} for s in hn],
+    }
+    with open(f"data/{date}.json", "w", encoding="utf-8") as f:
+        json.dump(snap, f, ensure_ascii=False, indent=1)
+    print(f"快照已存: data/{date}.json")
+
+
+def _bullets(text):
+    if not text:
+        return '<p class="empty">\u7121</p>'
+    items = ""
+    for line in text.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        for p in ("- ", "* ", "\u2022 ", "\u2013 "):
+            if line.startswith(p):
+                line = line[len(p):]
+        line = re.sub(r'^\d+[\.\u3001)]\s*', '', line)
+        items += f'<li class="bullet">{html.escape(line)}</li>'
+    return f'<ul>{items}</ul>'
+
+
+def _render_day(d):
+    date = d.get("date", "")
+    markets = d.get("markets", [])
+    gold = markets[0] if markets else {}
+    gprice = gold.get("price", "\u2014")
+    gcls = gold.get("cls", "flat")
+    gchg = gold.get("change", "")
+
+    mrows = ""
+    for m in markets:
+        mrows += (f'<div class="mrow"><span>{html.escape(m.get("label",""))}</span>'
+                  f'<span class="{m.get("cls","")}">{html.escape(m.get("price","\u2014"))}\u3000'
+                  f'{html.escape(m.get("change",""))}</span></div>')
+
+    fin = _bullets(d.get("summary"))
+    tech = _bullets(d.get("tech"))
+
+    hn = d.get("hackernews", [])
+    hnli = "".join(
+        f'<li><a href="{html.escape(s.get("url") or "#")}" target="_blank" rel="noopener">'
+        f'{html.escape(s.get("title") or "")}</a></li>' for s in hn)
+    hnli = hnli or '<li class="empty">\u7121</li>'
+
+    ev = d.get("calendar")
+    if ev:
+        evli = "".join(
+            f'<li>{html.escape(e.get("time",""))} {html.escape(e.get("country",""))} \u00b7 '
+            f'{html.escape(e.get("title",""))}</li>' for e in ev)
+    else:
+        evli = '<li class="empty">\u7576\u5929\u7121\u9ad8\u5f71\u97ff\u4e8b\u4ef6</li>'
+
+    return (
+        f'<details><summary><span class="d-date">{html.escape(date)}</span>'
+        f'<span class="d-gold {gcls}">{html.escape(gprice)} {html.escape(gchg)}</span></summary>'
+        f'<div class="day">'
+        f'<h3>\u5e02\u5834\u6578\u64da</h3>{mrows}'
+        f'<h3>AI \u91d1\u878d\u6458\u8981</h3>{fin}'
+        f'<h3>AI \u6280\u8853\u96f7\u9054</h3>{tech}<ul>{hnli}</ul>'
+        f'<h3>\u7d93\u6fdf\u4e8b\u4ef6</h3><ul>{evli}</ul>'
+        f'</div></details>'
+    )
+
+
+def build_history():
+    import glob
+    files = sorted(glob.glob("data/*.json"), reverse=True)
+    blocks = ""
+    for fp in files:
+        try:
+            with open(fp, encoding="utf-8") as f:
+                blocks += _render_day(json.load(f))
+        except Exception as e:
+            print(f"[warn] 讀取 {fp} 失敗: {e}")
+    if not blocks:
+        blocks = '<p class="empty">\u9084\u6c92\u6709\u4efb\u4f55\u6b77\u53f2\u7d00\u9304\u3002</p>'
+    out = HISTORY_TEMPLATE.replace("%%DAYS%%", blocks)
+    with open("history.html", "w", encoding="utf-8") as f:
+        f.write(out)
+    print(f"history.html 已產生（{len(files)} 天）")
+
+
+HISTORY_TEMPLATE = """<!DOCTYPE html>
+<html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>\u6b77\u53f2\u7d00\u9304 \u00b7 XAU/USD</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#141210;--card:#1C1915;--line:rgba(212,175,87,.16);--text:#EDE6D6;--muted:#9A9080;--faint:#6B6355;--gold:#D4AF57;--gold-hi:#F0D888;--up:#63BC93;--down:#DB7A7A;--sans:'Space Grotesk',"PingFang TC","Noto Sans TC",system-ui,sans-serif;--mono:'JetBrains Mono',ui-monospace,monospace;}
+  *{box-sizing:border-box;} body{margin:0;background:var(--ink);color:var(--text);font-family:var(--sans);line-height:1.5;}
+  .wrap{max-width:680px;margin:0 auto;padding:22px 20px 64px;}
+  .topbar{display:flex;justify-content:space-between;align-items:baseline;padding-bottom:20px;border-bottom:1px solid var(--line);}
+  .brand{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:600;}
+  .back{font-family:var(--mono);font-size:.72rem;color:var(--muted);text-decoration:none;} .back:hover{color:var(--gold);}
+  h1{font-size:1.1rem;margin:26px 0 6px;} .hint{color:var(--faint);font-size:.78rem;margin-bottom:20px;}
+  details{background:var(--card);border:1px solid var(--line);border-radius:10px;margin-bottom:10px;overflow:hidden;}
+  summary{cursor:pointer;padding:14px 16px;font-family:var(--mono);font-size:.9rem;list-style:none;display:flex;justify-content:space-between;align-items:baseline;gap:12px;}
+  summary::-webkit-details-marker{display:none;}
+  .d-date{color:var(--text);} .d-gold{color:var(--gold);} .up{color:var(--up);} .down{color:var(--down);} .flat{color:var(--muted);}
+  .day{padding:4px 16px 18px;border-top:1px solid var(--line);}
+  .day h3{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:16px 0 8px;}
+  .mrow{display:flex;justify-content:space-between;font-family:var(--mono);font-size:.82rem;padding:5px 0;border-bottom:1px solid rgba(255,255,255,.04);}
+  .day ul{list-style:none;margin:0;padding:0;} .day li{padding:5px 0;font-size:.88rem;}
+  .day a{color:var(--text);text-decoration:none;border-bottom:1px solid transparent;} .day a:hover{color:var(--gold-hi);border-color:var(--gold);}
+  .bullet{position:relative;padding-left:16px;} .bullet::before{content:"\\2014";position:absolute;left:0;color:var(--gold);}
+  .empty{color:var(--muted);font-size:.85rem;}
+</style></head>
+<body><div class="wrap">
+  <div class="topbar"><span class="brand">XAU/USD \u00b7 \u6b77\u53f2\u7d00\u9304</span><a class="back" href="index.html">\u2190 \u56de\u4eca\u65e5</a></div>
+  <h1>\u6bcf\u65e5\u5feb\u7167</h1>
+  <div class="hint">\u9ede\u65e5\u671f\u5c55\u958b\u7576\u5929\u7684\u5b8c\u6574\u7d00\u9304\u3002\u8cc7\u6599\u5f9e\u5efa\u7acb\u6b64\u529f\u80fd\u7576\u5929\u8d77\u7d2f\u7a4d\u3002</div>
+  %%DAYS%%
+</div></body></html>
 """
 
 
@@ -419,3 +560,5 @@ if __name__ == "__main__":
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(out)
     print("index.html \u5df2\u7522\u751f")
+    safe(save_snapshot, None, markets, calendar, news, summary, hn, tech)
+    safe(build_history, None)
