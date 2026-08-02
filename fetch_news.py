@@ -129,6 +129,11 @@ def get_summary(news):
         f"新聞標題：\n{joined}"
     )
 
+    model = pick_gemini_model(token)
+    if not model:
+        print("[warn] 找不到可用的 Gemini 型號")
+        return None
+
     try:
         from openai import OpenAI
         client = OpenAI(
@@ -136,14 +141,46 @@ def get_summary(news):
             api_key=token,
         )
         resp = client.chat.completions.create(
-            model="gemini-2.5-flash",
+            model=model,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.4,
         )
+        print(f"[info] 使用型號: {model}")
         return resp.choices[0].message.content.strip()
     except Exception as e:
-        print(f"[warn] AI 摘要失敗: {e}")
+        print(f"[warn] AI 摘要失敗 (型號 {model}): {e}")
         return None
+
+
+def pick_gemini_model(token):
+    """問 Google 有哪些型號，挑一個支援 generateContent 的 flash 型號。"""
+    try:
+        import requests
+        url = f"https://generativelanguage.googleapis.com/v1beta/models?key={token}"
+        r = requests.get(url, timeout=20)
+        models = r.json().get("models", [])
+    except Exception as e:
+        print(f"[warn] 無法取得型號清單: {e}")
+        return "gemini-flash-latest"  # 退路
+
+    usable = []
+    for m in models:
+        name = m.get("name", "").replace("models/", "")
+        methods = m.get("supportedGenerationMethods", [])
+        if "generateContent" in methods and "gemini" in name:
+            usable.append(name)
+
+    # 優先順序：latest > flash > 其他，避開已知會擋新用戶的 2.5-flash/2.0-flash
+    def score(n):
+        s = 0
+        if "latest" in n: s += 100
+        if "flash" in n: s += 50
+        if n in ("gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"): s -= 200
+        return s
+
+    usable.sort(key=score, reverse=True)
+    print(f"[info] 可用型號候選: {usable[:5]}")
+    return usable[0] if usable else None
 
 
 def summary_to_html(summary):
