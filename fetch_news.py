@@ -106,9 +106,9 @@ def get_news():
 
 # ── 4. AI 重點摘要（GitHub Models，免費） ────────────
 def get_summary(news):
-    token = os.environ.get("GITHUB_TOKEN")
+    token = os.environ.get("GEMINI_API_KEY")
     if not token:
-        print("[warn] 沒有 GITHUB_TOKEN，略過 AI 摘要")
+        print("[warn] 沒有 GEMINI_API_KEY，略過 AI 摘要")
         return None
 
     titles = []
@@ -132,11 +132,11 @@ def get_summary(news):
     try:
         from openai import OpenAI
         client = OpenAI(
-            base_url="https://models.github.ai/inference",
+            base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
             api_key=token,
         )
         resp = client.chat.completions.create(
-            model="openai/gpt-4o-mini",
+            model="gemini-2.0-flash",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.4,
         )
