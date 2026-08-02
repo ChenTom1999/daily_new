@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  models: read
 
 jobs:
   build:
@@ -16,8 +17,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install feedparser yfinance requests
-      - run: python fetch_news.py
+      - run: pip install feedparser yfinance requests openai
+      - name: Build page
+        run: python fetch_news.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit result
         run: |
           git config user.name "github-actions"
