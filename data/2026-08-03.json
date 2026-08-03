@@ -1,0 +1,120 @@
+{
+ "date": "2026-08-03",
+ "updated": "2026-08-03 11:45",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,118.40",
+   "change": "▲ 69.30 (+1.71%)",
+   "cls": "up",
+   "value": 4118.4
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.75",
+   "change": "▼ 0.05 (-0.05%)",
+   "cls": "down",
+   "value": 99.75
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.745",
+   "change": "▲ 0.082 (+1.76%)",
+   "cls": "up",
+   "value": 4.745
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.99",
+   "change": "▼ 1.10 (-6.44%)",
+   "cls": "down",
+   "value": 15.99
+  }
+ ],
+ "calendar": [
+  {
+   "time": "22:00",
+   "passed": false,
+   "country": "USD",
+   "title": "ISM Manufacturing PMI",
+   "forecast": "54.0",
+   "previous": "53.3"
+  }
+ ],
+ "summary": "- 美國暫緩打擊伊朗並擬於8月初展開談判，若美伊局勢實質緩和將削弱黃金的短期避險溢價（利空金價）。\n- 阿曼外海油輪突發爆炸，顯示中東威脅並未消除，突發地緣風險隨時可能激發黃金避險買盤（利多金價）。\n- 烏克蘭擊中俄羅斯大型煉油廠與機場，俄烏衝突升級提振市場避險情緒，並可能透過能源價格加劇通膨疑慮（利多金價）。\n- 以色列於哈瑪斯同意繳械後仍對加薩發動空襲，中東地緣局勢難以迅速降溫，持續為金價提供底層支撐（利多金價）。",
+ "tech": "* **Karpathy’s Pelican**：這是知名 AI 專家 Andrej Karpathy 推出的最新專案 Pelican，展現了他對當前 AI 與開發工具結合的最新實驗，對關注 LLM 應用與開發者工具趨勢的工程師極具參考價值。\n* **Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM**：Kakehashi 是一個讓 Linux ARM 系統能夠直接執行 macOS 二進位檔案的實驗性工具，突破了跨平台執行的作業系統限制，對系統工程與架構師來說是極具潛力的技術嘗試。\n* **My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”**：這是一種透過要求模型「生成特定特徵 SVG 圖像」來測試 LLM 空間推理與程式碼生成能力的個人化 AI 基準測試，提供了一種不易受訓練數據污染且直觀的模型評估思路。\n* **F*: A general-purpose proof-oriented programming language**：F* 是一個著重於程式碼證明與形式化驗證的通用程式語言，機能在編譯階段確保程式碼的數學正確性，對於開發高安全性與高可靠度系統的工程師非常值得關注。\n* **SwiftUI After 7 Years**：這是一篇回顧 Apple SwiftUI 推出 7 年來的演進與現狀的反思文章，深度剖析了該 UI 框架在生產環境中的優缺點與架構坑點，能為前端與行動端工程師提供寶貴的實戰參考。",
+ "hackernews": [
+  {
+   "title": "Karpathy’s Pelican",
+   "url": "https://twitter.com/karpathy/status/2083749667410727319",
+   "points": 477,
+   "comments": 354
+  },
+  {
+   "title": "How the words we teach English language learners changed",
+   "url": "https://pudding.cool/2026/07/essential-words/",
+   "points": 194,
+   "comments": 139
+  },
+  {
+   "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
+   "url": "https://github.com/wie-project/kakehashi",
+   "points": 190,
+   "comments": 40
+  },
+  {
+   "title": "Developers are attached to tools because tools encode trust",
+   "url": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/",
+   "points": 171,
+   "comments": 90
+  },
+  {
+   "title": "F*: A general-purpose proof-oriented programming language",
+   "url": "https://fstar-lang.org/",
+   "points": 166,
+   "comments": 74
+  },
+  {
+   "title": "Folding Paper Globes",
+   "url": "https://foldingglobes.com/globes",
+   "points": 155,
+   "comments": 31
+  },
+  {
+   "title": "Twenty Years of RISC OS Open",
+   "url": "https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open",
+   "points": 154,
+   "comments": 30
+  },
+  {
+   "title": "Note-Taking and Personal Knowledge Management",
+   "url": "https://unattributed.cc/note-taking-and-personal-knowledge-management",
+   "points": 148,
+   "comments": 44
+  },
+  {
+   "title": "SwiftUI After 7 Years",
+   "url": "https://ykvm.com/2026/07/swiftui-a-story-of-mediocrity/",
+   "points": 129,
+   "comments": 107
+  },
+  {
+   "title": "My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
+   "url": "https://frogs.vaguespac.es/",
+   "points": 118,
+   "comments": 52
+  },
+  {
+   "title": "When transit passes were designed by hand (2022)",
+   "url": "https://letterformarchive.org/news/milwaukee-transit-passes/",
+   "points": 116,
+   "comments": 29
+  },
+  {
+   "title": "Californians' data deletion requests, DROP, become enforceable Aug. 1",
+   "url": "https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/",
+   "points": 111,
+   "comments": 48
+  }
+ ]
+}
