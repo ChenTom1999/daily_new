@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-04",
+ "updated": "2026-08-04 11:38",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,113.90",
+   "change": "▲ 64.80 (+1.60%)",
+   "cls": "up",
+   "value": 4113.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.98",
+   "change": "▲ 0.18 (+0.18%)",
+   "cls": "up",
+   "value": 99.98
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.686",
+   "change": "▼ 0.059 (-1.24%)",
+   "cls": "down",
+   "value": 4.686
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.86",
+   "change": "▼ 0.13 (-0.81%)",
+   "cls": "down",
+   "value": 15.86
+  }
+ ],
+ "calendar": [],
+ "summary": "- 中東局勢顯著升溫：川普對伊朗發出嚴厲警告，且油輪與基礎設施面臨嚴重威脅，強烈激發市場避險情緒，顯著利多金價。\n- 俄烏戰事持續動盪：烏克蘭無人機襲擊事件加劇地緣政治緊張，為黃金短期提供穩定的避險買盤支撐。\n- 美國關稅政策引爆法律爭端：民主黨主政州指控川普關稅違法，政經不確定性升溫恐加劇美元波動，間接推升金價。",
+ "tech": "- **AirLLM 70B inference with single 4GB GPU**：這項技術透過分層加載優化，讓工程師能在僅有 4GB 顯存的消費級 GPU 上運行 70B 參數的大語言模型，極大地降低了本地部署與測試大型模型的硬體門檻。\n- **LLMs reward expertise**：這篇文章探討了 AI 工具的使用效益，指出使用者的領域專業度越高越能精準引導並發揮 LLM 的價值，證明了在 AI 時代保持深度專業知識的重要性。\n- **Prevent cognitive debt by manually retyping LLM-generated code**：這是一篇關於 AI 輔助開發的工程實踐建議，主張透過手動重打 LLM 生成的程式碼來避免「認知債」，協助工程師在提升開發效率的同時維持對系統架構的深刻理解。\n- **MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video**：開源 AI 工作流工具 ComfyUI 即時支援 MiniMax H3 開源權重模型，讓開發者能直接建構包含原生音訊與 2K 高畫質影片生成的應用，進一步推動了多模態 AI 的開源生態發展。\n- **Andy Pavlo joins ClickHouse to establish ClickHouse Labs**：知名 CMU 資料庫學者 Andy Pavlo 加入 ClickHouse 並成立研究院，預示著這款主流開源分析型資料庫（OLAP）將迎來重大的底層技術創新與效能突破。\n- **Bonsai: Janestreet's UI Library**：知名金融科技公司 Jane Street 開源了其基於 OCaml 語言的 UI 框架 Bonsai，為追求極致型別安全與函數式架構的軟體工程師提供了嶄新的前端開發選擇。",
+ "hackernews": [
+  {
+   "title": "LLMs reward expertise",
+   "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+   "points": 549,
+   "comments": 242
+  },
+  {
+   "title": "Devtools must be open source",
+   "url": "https://blog.exe.dev/devtools-must-be-open-source",
+   "points": 525,
+   "comments": 190
+  },
+  {
+   "title": "Ten advances in mathematics and theoretical computer science",
+   "url": "https://openai.com/index/ten-advances-in-mathematics/",
+   "points": 468,
+   "comments": 738
+  },
+  {
+   "title": "More German than many Germans",
+   "url": "https://mertbulan.com/more-german-than-many-germans/",
+   "points": 421,
+   "comments": 312
+  },
+  {
+   "title": "Prevent cognitive debt by manually retyping LLM-generated code",
+   "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+   "points": 407,
+   "comments": 344
+  },
+  {
+   "title": "Bonsai: Janestreet's UI Library",
+   "url": "https://github.com/janestreet/bonsai",
+   "points": 313,
+   "comments": 133
+  },
+  {
+   "title": "Andy Pavlo joins ClickHouse to establish ClickHouse Labs",
+   "url": "https://clickhouse.com/blog/andy-pavlo-joins-clickhouse",
+   "points": 282,
+   "comments": 60
+  },
+  {
+   "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+   "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+   "points": 266,
+   "comments": 81
+  },
+  {
+   "title": "200 Milliseconds",
+   "url": "https://200ms.thenodebook.com",
+   "points": 210,
+   "comments": 64
+  },
+  {
+   "title": "Decades-old fish sauce at abandoned factory in Canada finally being removed",
+   "url": "https://defector.com/abandoned-fish-sauce-canada-interview",
+   "points": 207,
+   "comments": 227
+  },
+  {
+   "title": "AirLLM 70B inference with single 4GB GPU",
+   "url": "https://github.com/lyogavin/airllm",
+   "points": 196,
+   "comments": 75
+  },
+  {
+   "title": "How Hollywood stopped making movies in Hollywood",
+   "url": "https://www.statsignificant.com/p/how-hollywood-stopped-making-movies",
+   "points": 176,
+   "comments": 212
+  }
+ ]
+}
