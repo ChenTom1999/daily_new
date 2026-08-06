@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-06",
+ "updated": "2026-08-06 11:39",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,321.50",
+   "change": "▲ 287.80 (+7.13%)",
+   "cls": "up",
+   "value": 4321.5
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.71",
+   "change": "▼ 0.25 (-0.25%)",
+   "cls": "down",
+   "value": 99.71
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.617",
+   "change": "▼ 0.010 (-0.22%)",
+   "cls": "down",
+   "value": 4.617
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.81",
+   "change": "▼ 0.69 (-4.18%)",
+   "cls": "down",
+   "value": 15.81
+  }
+ ],
+ "calendar": [],
+ "summary": "- **伊朗與阿曼就霍爾木茲海峽協議進入最後階段**：中東局勢若出現實質緩和，可能暫時冷卻地緣政治風險溢價，對金價帶來短期壓回壓力。\n- **烏克蘭警告防空飛彈短缺且基輔再遭致命打擊**：俄烏衝突局勢嚴峻且風險持續升溫，為黃金提供避險買盤的下方支撐。\n- **川普擬對多晶矽產品課徵 15% 關稅並設進口底價**：貿易保護主義主張加劇通膨回升疑慮與貿易摩擦，對美元波動及黃金抗通膨需求形成潛在支撐。\n- **德國機場發現載有炸藥之無人機**：歐洲本土突發安全事件疑慮再起，短線微幅推升市場風險趨避情緒，對金價屬偏多影響。",
+ "tech": "- **Cloudflare OS**：這是 Cloudflare 為 AI Agent 與應用程式設計的開放平台，值得注意是因為它標誌著雲端基礎設施正加速轉向支援邊緣運算與分散式的 AI Agent 運作環境。\n- **Beating GPT-5.6 Sol on retrieval with 100x cheaper open models**：這是一項展示如何以成本便宜 100 倍的開源模型在檢索（Retrieval）任務上記錄超越頂尖閉源模型的研究，值得工程師注意是因為這能顯著降低企業建構 RAG 與搜尋系統的營運成本。\n- **Position: LLMs Can't Jump**：這是一篇剖析大型語言模型在複雜邏輯推理與多步驟規劃上存在本質局限性的論文，值得工程師注意是因為它有助於客觀評估 LLM 的能力邊界並避免在關鍵決策系統中盲目依賴 AI。\n- **Atlassian Rovo Exfiltrates Data, Bypassing Controls**：這是一份揭露 Atlassian 企業 AI 助手 Rovo 存在安全漏洞並可能繞過權限控制外洩資料的安全報告，值得注意是因為它凸顯了企業整合 AI 工具時面臨的新型資安與權限控管風險。\n- **Changes at Google DeepMind**：這是 Google DeepMind 宣布 Demis Hassabis 轉任主席與 Jeff Dean 離職的高層異動訊息，值得注意是因為 AI 權威人物的變更將直接影響 Google 未來 AI 模型研發與市場競爭的戰略走向。",
+ "hackernews": [
+  {
+   "title": "Discovery Loop",
+   "url": "https://www.discoveryloop.com/",
+   "points": 632,
+   "comments": 394
+  },
+  {
+   "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+   "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+   "points": 523,
+   "comments": 618
+  },
+  {
+   "title": "Cloudflare OS: an open platform for agents, apps, and work",
+   "url": "https://blog.cloudflare.com/cloudflare-os/",
+   "points": 488,
+   "comments": 252
+  },
+  {
+   "title": "Zed DeltaDB",
+   "url": "https://zed.dev/deltadb",
+   "points": 328,
+   "comments": 173
+  },
+  {
+   "title": "Position: LLMs Can't Jump",
+   "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
+   "points": 249,
+   "comments": 171
+  },
+  {
+   "title": "I'm switching my phone from Android to Linux",
+   "url": "https://runarcn.no/android-to-linux/",
+   "points": 241,
+   "comments": 194
+  },
+  {
+   "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+   "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+   "points": 241,
+   "comments": 59
+  },
+  {
+   "title": "Muse Code and Muse Spark 1.2",
+   "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+   "points": 201,
+   "comments": 119
+  },
+  {
+   "title": "Atlassian Rovo Exfiltrates Data, Bypassing Controls",
+   "url": "https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data",
+   "points": 185,
+   "comments": 72
+  },
+  {
+   "title": "The title cards in Blade Runner are amazing",
+   "url": "https://randsinrepose.com/archives/blade-runner-title-cards/",
+   "points": 179,
+   "comments": 79
+  },
+  {
+   "title": "The Valley of Webhooks",
+   "url": "https://weli.dev/blog/the-valley-of-webhooks/",
+   "points": 163,
+   "comments": 77
+  },
+  {
+   "title": "Born Against, or why hobby programming communities are against LLM usage",
+   "url": "https://blog.fogus.me/llm/born-against.html",
+   "points": 160,
+   "comments": 161
+  }
+ ]
+}
