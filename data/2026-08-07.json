@@ -1,0 +1,152 @@
+{
+ "date": "2026-08-07",
+ "updated": "2026-08-07 11:31",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,311.20",
+   "change": "▲ 65.40 (+1.54%)",
+   "cls": "up",
+   "value": 4311.2
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.97",
+   "change": "▲ 0.28 (+0.28%)",
+   "cls": "up",
+   "value": 99.97
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.670",
+   "change": "▲ 0.053 (+1.15%)",
+   "cls": "up",
+   "value": 4.67
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.15",
+   "change": "▼ 0.66 (-4.17%)",
+   "cls": "down",
+   "value": 15.15
+  }
+ ],
+ "calendar": [
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "Employment Change",
+   "forecast": "17.8K",
+   "previous": "18.2K"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "Unemployment Rate",
+   "forecast": "6.5%",
+   "previous": "6.5%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Average Hourly Earnings m/m",
+   "forecast": "0.3%",
+   "previous": "0.3%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Non-Farm Employment Change",
+   "forecast": "85K",
+   "previous": "57K"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Unemployment Rate",
+   "forecast": "4.2%",
+   "previous": "4.2%"
+  }
+ ],
+ "summary": "- 川普稱美伊可能達成協議重開荷莫茲海峽並預期衝突告終，地緣政治風險降溫，短期恐壓抑黃金避險需求。\n- 川普坦承美軍部分彈藥供應吃緊，顯示地緣局勢消耗巨大，若後續談判生變仍可能觸發避險買盤回流。\n- 美國宣布對多晶矽加徵 15% 關稅，關稅政策持續推進推升通膨疑慮，可能干擾美元走勢並造成金價劇烈波動。\n- 美國禁止關鍵礦物廢料外流以力拚供應鏈自主，反映全球戰略資源爭奪加劇，長期對金屬與大宗商品價格具底部的支撐作用。",
+ "tech": "- **Qwen3.8 Max 在 Agentic Index 評比中登頂最佳模型**：這代表通義千問系列在處理複雜 AI Agent 任務上的能力已取得突破性進展，是工程師評估 Agent 模型選型時的重要參考。\n- **AMD 收購初創公司 Taalas 以將 AI 模型直接蝕刻至矽晶圓中**：這是一項透過將模型硬體化來極致提升推理效能的重大創新，顯示出 AI 晶片正從通用 GPU 走向模型專用硬體的新趨勢。\n- **研究顯示人類在審查 AI Agent 指令時會漏掉三分之一的安全威脅**：這項基於 4 萬次測試的研究揭示了「人工監督（Human-in-the-loop）」機制的嚴重漏洞，提醒開發者在建構 AI 自動化系統時不能過度依賴人工審核來把關安全。\n- **OpenAI 升級 GPT-5.6 Sol 並擴大 GPT-5.6 Luna 的免費存取權**：這標誌著 OpenAI 最新主力模型與輕量化模型的持續迭代，同時降低了開發者與使用者體驗最新 LLM 能力的門檻。\n- **GitHub Actions 與 Pages 出現服務效能下降**：這直接影響了全球大量軟體團隊的 CI/CD 自動化建置與網站託管，提醒工程團隊應為關鍵的開發工具鏈建立備援機制。",
+ "hackernews": [
+  {
+   "title": "Mario Meets Pareto",
+   "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
+   "points": 915,
+   "comments": 151
+  },
+  {
+   "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+   "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
+   "points": 455,
+   "comments": 289
+  },
+  {
+   "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+   "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+   "points": 437,
+   "comments": 336
+  },
+  {
+   "title": "GitHub Actions and Pages are experiencing degraded availability",
+   "url": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
+   "points": 349,
+   "comments": 281
+  },
+  {
+   "title": "Almost no skill required to cook a steak",
+   "url": "https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak/",
+   "points": 293,
+   "comments": 337
+  },
+  {
+   "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+   "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+   "points": 261,
+   "comments": 196
+  },
+  {
+   "title": "Taste Is All That's Left",
+   "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
+   "points": 235,
+   "comments": 194
+  },
+  {
+   "title": "Quake – 30th Anniversary Update",
+   "url": "https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update",
+   "points": 232,
+   "comments": 113
+  },
+  {
+   "title": "Pareto Front",
+   "url": "https://en.wikipedia.org/wiki/Pareto_front",
+   "points": 227,
+   "comments": 95
+  },
+  {
+   "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
+   "url": "https://provenmetal.com",
+   "points": 187,
+   "comments": 133
+  },
+  {
+   "title": "Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
+   "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+   "points": 169,
+   "comments": 123
+  },
+  {
+   "title": "Herdr is joining Y Combinator. The runtime stays open",
+   "url": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
+   "points": 161,
+   "comments": 110
+  }
+ ]
+}
