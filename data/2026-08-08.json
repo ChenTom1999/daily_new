@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-08",
+ "updated": "2026-08-08 11:03",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,401.30",
+   "change": "▲ 159.30 (+3.76%)",
+   "cls": "up",
+   "value": 4401.3
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.60",
+   "change": "▼ 0.37 (-0.37%)",
+   "cls": "down",
+   "value": 99.6
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.660",
+   "change": "▼ 0.010 (-0.21%)",
+   "cls": "down",
+   "value": 4.66
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.90",
+   "change": "▼ 0.25 (-1.65%)",
+   "cls": "down",
+   "value": 14.9
+  }
+ ],
+ "calendar": [],
+ "summary": "- 美國參院通過對俄新制裁案並授權課徵高額關稅，地緣政治與貿易局勢緊張升溫，短線利多黃金避險需求。\n- 美官員指出伊朗與阿曼將就荷莫茲海峽達成協議，地緣封鎖風險若降溫，可能微幅削弱黃金的避險溢價。\n- 中東局勢推高物價顯現通膨壓力，通膨疑慮提供黃金底部支撐，但需留意高通膨對美聯儲降息預期的壓制。\n- 沙烏地、土耳其與巴基斯坦簽署國防協定，中東區域陣營重組加劇長期地緣不確定性，為黃金帶來潛在避險買盤。",
+ "tech": "- **AMD 收購 Taalas 推進模型硬體化**：AMD 收購晶片新創公司 Taalas 以透過將 AI 模型直接刻入矽晶圓來大幅提升推理效能，這代表了專用 AI 硬體加速從軟體層面優化走向硬體固化的重大趨勢。\n- **DeepSeek V4 Flash 0731 模型發布**：DeepSeek 發布最新的 V4 Flash LLM，展現了開源模型在極高推理速度與低成本下仍能維持強大性能的最新進展。\n- **Oracle 禁止在 OpenJDK 中使用 AI 生成的程式碼**：Oracle 宣佈禁止在 OpenJDK 專案中提交由 AI 工具產生的程式碼，這標誌著大型基礎設施開源專案對 AI 輔助開發帶來的潛在版權與品質風險採取了嚴格的防範立場。\n- **Postgres 利用 SIMD 與運算子融合實現 300 倍分析效能提升**：這是一篇探討如何透過批次處理、運算子融合（Operator Fusion）與 SIMD 指令優化 Postgres 的技術文章，展示了傳統資料庫結合現代底層硬體優化的極致實踐。\n- **大規模管理 AI 程式碼輔助工具的成本**：本文分享了企業在大規模導入 AI 開發工具時控管 Token 與訂閱成本的實務做法，對於正在推動團隊 AI 化且需評估投資報酬率（ROI）的工程主管非常有參考價值。",
+ "hackernews": [
+  {
+   "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+   "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+   "points": 891,
+   "comments": 669
+  },
+  {
+   "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
+   "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
+   "points": 734,
+   "comments": 396
+  },
+  {
+   "title": "DeepSeek V4 Flash 0731",
+   "url": "https://arcprize.org/results/deepseek-v4-flash-0731",
+   "points": 489,
+   "comments": 296
+  },
+  {
+   "title": "What happens if an entire class of workers loses faith in their careers",
+   "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+   "points": 457,
+   "comments": 563
+  },
+  {
+   "title": "Oracle bans AI-generated code from OpenJDK",
+   "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+   "points": 401,
+   "comments": 271
+  },
+  {
+   "title": "A year of fighting scrapers on my 1.5 million-page website",
+   "url": "https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/",
+   "points": 385,
+   "comments": 363
+  },
+  {
+   "title": "Assembly Hall of Shame",
+   "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
+   "points": 269,
+   "comments": 65
+  },
+  {
+   "title": "2027 memory capacity is reportedly sold out",
+   "url": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
+   "points": 267,
+   "comments": 248
+  },
+  {
+   "title": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
+   "url": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/",
+   "points": 257,
+   "comments": 120
+  },
+  {
+   "title": "Managing AI Coding Costs at Scale",
+   "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+   "points": 177,
+   "comments": 175
+  },
+  {
+   "title": "Show HN: Wyzer Programming Language",
+   "url": "https://github.com/Wyzer-Lang/wyzer",
+   "points": 177,
+   "comments": 100
+  },
+  {
+   "title": "Kitesurf: Agent-first browser that runs in V8 isolates",
+   "url": "https://blog.cloudflare.com/kitesurf/",
+   "points": 172,
+   "comments": 44
+  }
+ ]
+}
