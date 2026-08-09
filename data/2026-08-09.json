@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-09",
+ "updated": "2026-08-09 11:08",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,340.70",
+   "change": "▲ 98.70 (+2.33%)",
+   "cls": "up",
+   "value": 4340.7
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.60",
+   "change": "▼ 0.37 (-0.37%)",
+   "cls": "down",
+   "value": 99.6
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.660",
+   "change": "▼ 0.010 (-0.21%)",
+   "cls": "down",
+   "value": 4.66
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.90",
+   "change": "▼ 0.25 (-1.65%)",
+   "cls": "down",
+   "value": 14.9
+  }
+ ],
+ "calendar": [],
+ "summary": "- 霍爾木茲海峽談判進展與伊朗警告：地緣政治風險及通膨隱憂未除，持續對金價形成下方支撐。\n- 美國擬擴大戰術核武動用彈性：全球軍事核威懾風險升溫，短線激發市場避險情緒，對黃金構成利多。\n- 美參議院推進加密貨幣法案：數位資產監管框架成形或吸引風險資金，可能對黃金產生資金分流壓力。",
+ "tech": "- **“Code was never the hard part” is an insult to all programmers**：這是一篇探討軟體工程核心價值的文章，針對「寫程式從非難事」的流行觀點提出反駁，值得開發者重新審視 AI 工具普及時代下程式碼撰寫能力與工程思維的真正價值。\n- **Timeline of the OpenAI accidental attack against Hugging Face**：這是一份記錄 OpenAI 因系統異常而意外對 Hugging Face 發起高流量衝擊事件的時間線分析，揭示了大型 AI 平台在系統整合與流量控制上的資安與維運風險。\n- **Triton: DirectX 11 Driver for QEMU**：這是一個專為 QEMU 虛擬化平台打造的 DirectX 11 驅動程式專案，機能大幅提升虛擬機的 3D 圖形渲染效能，對虛擬化技術與系統開發工程師十分實用。\n- **Can Intel finally beat ARM on performance per Watt?**：這是一篇分析 Intel 新架構能否在每瓦效能上超越 ARM 的技術討論，對關注伺服器硬體選型、雲端架構部署與能效比優化的工程師具參考價值。\n- **Lost my phone at the office. Claude suggested tracking Bluetooth signal strength**：這是一篇分享透過 LLM（Claude）建議的藍牙訊號強度追蹤法找回手機的案例，展現了大型語言模型在現實生活與非典型問題排解上靈活的推理與邏輯應用能力。",
+ "hackernews": [
+  {
+   "title": "“Code was never the hard part” is an insult to all programmers",
+   "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+   "points": 603,
+   "comments": 372
+  },
+  {
+   "title": "Danish high schoolers will have to verbally defend written assignments",
+   "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/",
+   "points": 523,
+   "comments": 248
+  },
+  {
+   "title": "_for-sale DNS records",
+   "url": "https://specification.website/spec/foundations/for-sale-dns/",
+   "points": 359,
+   "comments": 134
+  },
+  {
+   "title": "Timeline of the OpenAI accidental attack against Hugging Face",
+   "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+   "points": 353,
+   "comments": 357
+  },
+  {
+   "title": "Fastmail offers EU data region",
+   "url": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/",
+   "points": 331,
+   "comments": 158
+  },
+  {
+   "title": "US Military's cyber command unit grapples with cluster of deaths by suicide",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-command-unit-grapples-with-cluster-of-deaths-by-suicide",
+   "points": 257,
+   "comments": 406
+  },
+  {
+   "title": "Lost my phone at the office. Claude suggested tracking Bluetooth signal strength",
+   "url": "https://twitter.com/un1c0rnioz/status/2084686552299634805",
+   "points": 228,
+   "comments": 164
+  },
+  {
+   "title": "Can Intel finally beat ARM on performance per Watt?",
+   "url": "https://hackaday.com/2026/08/08/want-energy-efficiency-dude-youre-getting-a-dell/",
+   "points": 173,
+   "comments": 120
+  },
+  {
+   "title": "Triton: DirectX 11 Driver for QEMU",
+   "url": "https://blog.getutm.app/2026/introducing-triton-directx-11-driver-for-qemu/",
+   "points": 143,
+   "comments": 27
+  },
+  {
+   "title": "My server is a phone now",
+   "url": "https://seg6.space/posts/phone-server/",
+   "points": 128,
+   "comments": 55
+  },
+  {
+   "title": "Gateway 2000's hilariously bad ads in the 90s (Part II)",
+   "url": "https://buttondown.com/suchbadtechads/archive/gateway-2000-part-2/",
+   "points": 105,
+   "comments": 84
+  },
+  {
+   "title": "Maryland Closes More of Cunningham Falls State Park After Second Beaver Attack",
+   "url": "https://news.maryland.gov/dnr/2026/08/05/dnr-closes-additional-areas-of-cunningham-falls-state-park-following-second-beaver-attack/",
+   "points": 98,
+   "comments": 60
+  }
+ ]
+}
