@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-10",
+ "updated": "2026-08-10 11:15",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,378.90",
+   "change": "▲ 38.20 (+0.88%)",
+   "cls": "up",
+   "value": 4378.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.71",
+   "change": "▲ 0.11 (+0.11%)",
+   "cls": "up",
+   "value": 99.71
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.660",
+   "change": "▼ 0.010 (-0.21%)",
+   "cls": "down",
+   "value": 4.66
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.90",
+   "change": "▼ 0.25 (-1.65%)",
+   "cls": "down",
+   "value": 14.9
+  }
+ ],
+ "calendar": [],
+ "summary": "- 以色列拒絕加薩和平方案使中東局勢持續升溫，避險情緒回升有利金價獲得支撐。\n- 荷莫茲海峽航運受阻恐引發能源供應鏈與通膨疑慮，短期將提振黃金抗通膨與避險需求。\n- 烏克蘭物資倉庫遭炸顯示俄烏戰事未見緩和，地緣政治不確定性持續為金價提供底部買盤。\n- 美國愛國者飛彈儲量大降65％凸顯國防軍備緊張與全球安全局勢疑慮，間接強化黃金避險買盤。",
+ "tech": "* **How I use LLMs to learn complex topics**：這是一篇分享如何運用大型語言模型進行高效學習的文章，值得工程師參考如何將 LLM 化為個人化導師，以加速掌握複雜的技術概念與知識架構。\n* **OpenChamber: An Agentic Development Environment**：這是一款專為 AI Agent 設計的新型態整合開發環境（ADE），值得關注 AI 驅動軟體工程與自動化程式開發工具發展的開發者密切留意。\n* **Show HN: A Project Oberon System version running on RISC-V**：這是將電腦科學先驅 Niklaus Wirth 設計的經典 Oberon 作業系統與編譯器移植到現代 RISC-V 架構的開源專案，值得系統程式設計與硬體架構工程師參考經典 OS 在新硬體上的實現。\n* **Windows 11's built-in Weather app wastes more than 1 GB of RAM**：這是一篇剖析微軟內建應用程式嚴重消耗系統資源的技術討論，值得軟體工程師反思現代桌面應用程式採用 Web 封裝技術時所帶來的記憶體管理與效能代價。",
+ "hackernews": [
+  {
+   "title": "How I use LLMs to learn complex topics",
+   "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+   "points": 471,
+   "comments": 267
+  },
+  {
+   "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
+   "url": "https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html",
+   "points": 395,
+   "comments": 333
+  },
+  {
+   "title": "Everything you do is being recorded",
+   "url": "https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/",
+   "points": 226,
+   "comments": 178
+  },
+  {
+   "title": "Taxi drivers rarely die of Alzheimer's",
+   "url": "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650",
+   "points": 201,
+   "comments": 152
+  },
+  {
+   "title": "Cool URIs Don't Change (1998)",
+   "url": "https://www.w3.org/Provider/Style/URI",
+   "points": 196,
+   "comments": 48
+  },
+  {
+   "title": "Ask HN: What are you working on? (August 2026)",
+   "url": "https://news.ycombinator.com/item?id=49233423",
+   "points": 186,
+   "comments": 688
+  },
+  {
+   "title": "Reviving a four year old reMarkable 2",
+   "url": "https://oskrim.github.io/hardware/2026/08/09/remarkable-over-ssh.html",
+   "points": 130,
+   "comments": 88
+  },
+  {
+   "title": "John C. Lilly on solid state intelligence and the elimination of man (1978)",
+   "url": "https://kibotronics.net/unlisted/lilly-machines/",
+   "points": 130,
+   "comments": 87
+  },
+  {
+   "title": "OpenChamber: An Agentic Development Environment",
+   "url": "https://openchamber.dev/",
+   "points": 116,
+   "comments": 62
+  },
+  {
+   "title": "Show HN: A Project Oberon System version running on RISC-V instead of RISC-5",
+   "url": "https://github.com/rochus-keller/OberonSystem/tree/op2-rv32",
+   "points": 108,
+   "comments": 16
+  },
+  {
+   "title": "The Hacker's Renaissance (2025)",
+   "url": "https://phrack.org/issues/72/19#article",
+   "points": 104,
+   "comments": 71
+  },
+  {
+   "title": "The Alpha 21264 CPU: NT's Greatest RISC (1998)",
+   "url": "https://halfhill.com/byte/1998-12_alpha.html",
+   "points": 87,
+   "comments": 72
+  }
+ ]
+}
