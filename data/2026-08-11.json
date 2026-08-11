@@ -1,0 +1,144 @@
+{
+ "date": "2026-08-11",
+ "updated": "2026-08-11 11:10",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,472.70",
+   "change": "▲ 110.90 (+2.54%)",
+   "cls": "up",
+   "value": 4472.7
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.82",
+   "change": "▲ 0.01 (+0.01%)",
+   "cls": "up",
+   "value": 99.82
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.699",
+   "change": "▲ 0.039 (+0.84%)",
+   "cls": "up",
+   "value": 4.699
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.46",
+   "change": "▲ 0.56 (+3.76%)",
+   "cls": "up",
+   "value": 15.46
+  }
+ ],
+ "calendar": [
+  {
+   "time": "12:30",
+   "passed": false,
+   "country": "AUD",
+   "title": "Cash Rate",
+   "forecast": "4.35%",
+   "previous": "4.35%"
+  },
+  {
+   "time": "12:30",
+   "passed": false,
+   "country": "AUD",
+   "title": "RBA Monetary Policy Statement",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "12:30",
+   "passed": false,
+   "country": "AUD",
+   "title": "RBA Rate Statement",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "13:30",
+   "passed": false,
+   "country": "AUD",
+   "title": "RBA Press Conference",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": "- 俄烏衝突多點升級（烏軍深入襲擊俄境、俄軍夜襲基輔），地緣政治風險加劇顯著提振黃金避險需求。\n- 納坦雅胡暫拒加薩方案使中東局勢持續膠著，地緣溢價未消，為金價提供下方支撐。\n- 美國戰略石油儲備降至43年新低，若油價受供需衝擊將增添通膨隱憂，長期有利黃金抗通膨屬性。\n- 日圓回吐漲幅且市場緊盯日本央行升息動向，匯市波動影響美元走勢，間接牽動金價短期震盪。",
+ "tech": "- **Muse Glimmer**：這是一款針對常駐型本地 Agent 優化的 30B 參數大語言模型，值得關注是因為它讓工程師能以低延遲且完全保障隱私的方式，在本地端執行複雜的自動化 Agent 工作流程。\n- **Needle2**：這是一款模型容量僅 14MB、專為手機、穿戴裝置及機器人設計的超微型 Agent 語言模型，值得關注是因為它突破了邊緣運算（Edge Computing）的資源限制，讓極小型設備也能具備自主任務處理能力。\n- **Meta 重申開源 AI 策略**：Meta 執行長扎克伯格公開批評封閉式 AI 競爭對手並強調將持續投入開源模型，這攸關全球開發者社群能否繼續獲得免授權費且可自由客製化的頂級基礎模型。\n- **Humanising LLM Outputs Is Dumb**：這是一篇深度探討 AI 產品 UX 與 Prompt 設計的熱門文章，主張盲目將 LLM 輸出「擬人化」是錯誤的方向，值得軟體工程師反思並轉而設計更高資訊密度與結構化的 AI 互動介面。\n- **Sonic Pi v5**：知名程式碼即時創作音樂（Live Coding）工具 Sonic Pi 發布了 v5 大版本更新，值得關注創意程式設計（Creative Coding）與即時音訊處理領域的開發者進行研究與應用。",
+ "hackernews": [
+  {
+   "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+   "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+   "points": 1055,
+   "comments": 584
+  },
+  {
+   "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+   "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+   "points": 401,
+   "comments": 394
+  },
+  {
+   "title": "Sonic Pi v5",
+   "url": "https://www.patreon.com/samaaron/posts/sonic-pi-v5-166001392",
+   "points": 321,
+   "comments": 80
+  },
+  {
+   "title": "The UK's War on Anonymity Has Come to America",
+   "url": "https://www.effort.news/uk-lobby",
+   "points": 296,
+   "comments": 195
+  },
+  {
+   "title": "Squeak 6.1",
+   "url": "https://squeak.org/release_notes/6.1/",
+   "points": 234,
+   "comments": 117
+  },
+  {
+   "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+   "url": "https://cactuscompute.com/needle",
+   "points": 207,
+   "comments": 89
+  },
+  {
+   "title": "Stop Killing Games: It's time to sue Sony, join us",
+   "url": "https://www.massaschadeconsument.nl/collectieve-acties/playstation/",
+   "points": 198,
+   "comments": 85
+  },
+  {
+   "title": "Parametron: 50s Japanese computer that uses neither transistors nor vacuum tubes",
+   "url": "https://ethw.org/Milestones:Parametron,_1954",
+   "points": 198,
+   "comments": 49
+  },
+  {
+   "title": "Humanising LLM Outputs Is Dumb",
+   "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
+   "points": 168,
+   "comments": 101
+  },
+  {
+   "title": "50k Boat Names",
+   "url": "https://www.beautifulpublicdata.com/boat-names/",
+   "points": 165,
+   "comments": 105
+  },
+  {
+   "title": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+   "url": "https://news.ycombinator.com/item?id=49213660",
+   "points": 152,
+   "comments": 53
+  },
+  {
+   "title": "Stowaway – Take the window seat on any plane or satellite overhead",
+   "url": "https://stowaway.live/",
+   "points": 148,
+   "comments": 15
+  }
+ ]
+}
