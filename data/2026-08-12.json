@@ -1,0 +1,144 @@
+{
+ "date": "2026-08-12",
+ "updated": "2026-08-12 11:18",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,473.80",
+   "change": "▲ 112.00 (+2.57%)",
+   "cls": "up",
+   "value": 4473.8
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.86",
+   "change": "▲ 0.05 (+0.05%)",
+   "cls": "up",
+   "value": 99.86
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.684",
+   "change": "▼ 0.015 (-0.32%)",
+   "cls": "down",
+   "value": 4.684
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.28",
+   "change": "▼ 0.18 (-1.16%)",
+   "cls": "down",
+   "value": 15.28
+  }
+ ],
+ "calendar": [
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core CPI m/m",
+   "forecast": "0.2%",
+   "previous": "0.0%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core CPI y/y",
+   "forecast": "2.5%",
+   "previous": "2.6%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "CPI m/m",
+   "forecast": "0.1%",
+   "previous": "-0.4%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "CPI y/y",
+   "forecast": "3.4%",
+   "previous": "3.5%"
+  }
+ ],
+ "summary": "- 美伊局勢升溫：美軍對違反伊朗封鎖船隻開火，且傳出針對川普的威脅，中東地緣風險加劇，利多黃金避險需求。\n- 美中台海角力持續：美方高層重申對台海的防衛嚇阻策略，全球地緣緊張情緒難以消退，為金價提供底部支撐。\n- 中東與北非政局動盪：利比亞情報首長遇刺影響美方協調進程，地緣政治不確定性增加，維持市場避險情緒。",
+ "tech": "- **Stealing Reasoning Traces from Proprietary LLM APIs**：這是一篇揭露如何透過閉源 LLM API 竊取模型內部推理鏈的研究，值得注意是因為這揭示了商業 AI 模型在 API 設計上的重大安全漏洞與智慧財產權風險。\n- **Mojo 1.0**：專為 AI 與高效能計算打造的程式語言 Mojo 正式推出 1.0 版本，值得工程師注意是因為它兼具 Python 的易用性與 C 語言等級的執行效能，並正式提供了完整的本地開發工具鏈。\n- **Go is an ideal language for AI-assisted software engineering**：這是一篇剖析 Go 語言為何極度適合 AI 輔助開發的文章，值得注意是因為 Go 簡潔的語法與強型別特性，能顯著提升 AI 生成程式碼的正確率並降低 LLM Agent 的維護成本。\n- **Nvidia Nemotron 3.5 Lightning and NeMo Switchyard**：Nvidia 發布的最新 Nemotron 3.5 Lightning AI 模型與 NeMo Switchyard 基礎架構，值得注意是因為它們大幅優化了大型語言模型的推論速度與多模型調度部署的效率。\n- **Jolt: Clojure compiler implemented with Chez Scheme**：這是一個基於 Chez Scheme 實現的新型 Clojure 編譯器，值得程式語言與軟體工程師注意是因為它為 Clojure 生態系提供了一個擺脫 JVM 依賴且具備高執行效能的原生編譯選擇。",
+ "hackernews": [
+  {
+   "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+   "url": "https://stolen-thoughts.com/",
+   "points": 526,
+   "comments": 218
+  },
+  {
+   "title": "England set to be one of the first countries to eliminate hepatitis C",
+   "url": "https://www.bbc.com/news/articles/c75gk620r22o",
+   "points": 497,
+   "comments": 360
+  },
+  {
+   "title": "OpenAI’s head of ethics leaves less than a year after joining",
+   "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+   "points": 314,
+   "comments": 355
+  },
+  {
+   "title": "Mojo 1.0",
+   "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+   "points": 314,
+   "comments": 142
+  },
+  {
+   "title": "Nvidia's Risky Business",
+   "url": "https://stratechery.com/2026/nvidias-risky-business/",
+   "points": 304,
+   "comments": 144
+  },
+  {
+   "title": "Go is an ideal language for AI-assisted software engineering",
+   "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+   "points": 298,
+   "comments": 338
+  },
+  {
+   "title": "Compression is prediction",
+   "url": "https://ngrok.com/blog/compression-is-prediction",
+   "points": 297,
+   "comments": 130
+  },
+  {
+   "title": "London Underground begins scanning passengers' faces",
+   "url": "https://www.btp.police.uk/news/btp/news/england/btp-expands-live-facial-recognition-lfr-trial-into-london-underground-stations/",
+   "points": 243,
+   "comments": 260
+  },
+  {
+   "title": "Show HN: iPhone app takes simultaneous images from 2 lenses, fuses into 1 photo",
+   "url": "https://photosynthesis.camera",
+   "points": 223,
+   "comments": 225
+  },
+  {
+   "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
+   "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+   "points": 191,
+   "comments": 98
+  },
+  {
+   "title": "Grok Bot",
+   "url": "https://x.ai/bot",
+   "points": 175,
+   "comments": 149
+  },
+  {
+   "title": "Jolt: Clojure compiler implemented with Chez Scheme",
+   "url": "https://jolt-lang.github.io",
+   "points": 158,
+   "comments": 58
+  }
+ ]
+}
