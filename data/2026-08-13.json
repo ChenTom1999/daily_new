@@ -1,0 +1,136 @@
+{
+ "date": "2026-08-13",
+ "updated": "2026-08-13 11:19",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,467.80",
+   "change": "▲ 84.80 (+1.93%)",
+   "cls": "up",
+   "value": 4467.8
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.99",
+   "change": "▲ 0.17 (+0.17%)",
+   "cls": "up",
+   "value": 99.99
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.682",
+   "change": "▼ 0.002 (-0.04%)",
+   "cls": "down",
+   "value": 4.682
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.55",
+   "change": "▼ 0.73 (-4.78%)",
+   "cls": "down",
+   "value": 14.55
+  }
+ ],
+ "calendar": [
+  {
+   "time": "14:00",
+   "passed": false,
+   "country": "GBP",
+   "title": "GDP m/m",
+   "forecast": "0.0%",
+   "previous": "0.1%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core PPI m/m",
+   "forecast": "0.3%",
+   "previous": "0.2%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "PPI m/m",
+   "forecast": "0.2%",
+   "previous": "-0.3%"
+  }
+ ],
+ "summary": "- 烏克蘭襲擊黑海俄糧食碼頭：地緣局勢升級加劇糧食供應與通膨隱憂，短期增強黃金避險買盤。\n- 美國預算赤字創同期新高：財政狀況惡化中長期施壓美元信用，利多黃金抗貨幣貶值與避險屬性。\n- 俄中軍事合作深化與以巴衝突延燒：全球地緣政治風險維持高位，為金價提供下檔堅實支撐。\n- 美中關係釋出緩和訊號：兩國外交緊張局勢稍有降溫，可能短期壓制黃金的追高動能。",
+ "tech": "- **Tailscale 追查出資料庫損壞問題源自 SQLite 一個隱藏 16 年的 WAL 重設 Bug**：這提醒工程師即便是極度成熟且廣為使用的基礎工具，在極端邊角案例下仍可能存在致命缺陷。\n- **關於「AI 是否正在消弭中階軟體工程師職位」的熱烈討論**：這值得開發者重新思考生成式 AI 工具對軟體產業人才結構、職場階梯以及個人核心競爭力的長期影響。\n- **DeepSeek V4 Pro 0813 模型發布**：這是 DeepSeek 最新推出的大語言模型，其技術突破與實測表現是關注 AI 開發與應用整合的工程師需持續追蹤的焦點。\n- **網路攻擊者冒用 ClaudeBot 等 AI 爬蟲身分進行大規模漏洞掃描**：這項安全警訊極度值得 DevOps 與資安工程師注意，應儘速檢視防護機制並調整針對 AI 爬蟲流量的過濾與日誌分析策略。\n- **xAI 發布最新的 Grok 4.6 模型**：這代表了當前頂尖 LLM 在邏輯推理與應用能力上的最新迭代進展，是關注 AI 模型演進的工程師不容錯過的動態。",
+ "hackernews": [
+  {
+   "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+   "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+   "points": 846,
+   "comments": 161
+  },
+  {
+   "title": "DeepSeek V4 Pro 0813",
+   "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+   "points": 783,
+   "comments": 299
+  },
+  {
+   "title": "AI is removing the middle class of software engineering?",
+   "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+   "points": 753,
+   "comments": 690
+  },
+  {
+   "title": "Qwen3.8-2.4T",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+   "points": 521,
+   "comments": 115
+  },
+  {
+   "title": "2026 Eclipse Webcams",
+   "url": "https://jonty.github.io/2026_eclipse_webcams/",
+   "points": 459,
+   "comments": 124
+  },
+  {
+   "title": "Delta",
+   "url": "https://zed.dev/blog/introducing-delta",
+   "points": 434,
+   "comments": 146
+  },
+  {
+   "title": "Grok 4.6",
+   "url": "https://x.ai/news/grok-4-6",
+   "points": 432,
+   "comments": 420
+  },
+  {
+   "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
+   "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
+   "points": 323,
+   "comments": 452
+  },
+  {
+   "title": "Why tiny JPEGs look different in Chrome",
+   "url": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/",
+   "points": 267,
+   "comments": 59
+  },
+  {
+   "title": "Tim King, AmigaDOS developer, has died",
+   "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
+   "points": 242,
+   "comments": 29
+  },
+  {
+   "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+   "url": "https://knownagents.com/insights",
+   "points": 240,
+   "comments": 181
+  },
+  {
+   "title": "Shade Map",
+   "url": "https://shademap.app",
+   "points": 159,
+   "comments": 41
+  }
+ ]
+}
