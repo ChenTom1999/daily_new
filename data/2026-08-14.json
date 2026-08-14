@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-14",
+ "updated": "2026-08-14 11:31",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,375.80",
+   "change": "▼ 33.10 (-0.75%)",
+   "cls": "down",
+   "value": 4375.8
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.90",
+   "change": "▼ 0.11 (-0.11%)",
+   "cls": "down",
+   "value": 99.9
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.641",
+   "change": "▼ 0.041 (-0.88%)",
+   "cls": "down",
+   "value": 4.641
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.63",
+   "change": "▲ 0.08 (+0.55%)",
+   "cls": "up",
+   "value": 14.63
+  }
+ ],
+ "calendar": [],
+ "summary": "- 中東地緣局勢升溫（美軍在伊朗戰事損耗增加、以巴衝突持續），避險情緒升溫，短線為金價（XAU/USD）提供抗跌與上行動能。\n- 美國將壓低油價列為美伊局勢焦點，地緣政治牽動能源與通膨預期，若衝突引發油價反彈將強化黃金抗通膨買盤。\n- 川普政府擴大對盟友徵收無人機等關稅，引發貿易保護主義與地緣經貿不確定性，提振避險買氣，但亦需留意美元可能同步走強而壓制金價漲幅。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Gemini 3.7 Flash",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+   "points": 652,
+   "comments": 373
+  },
+  {
+   "title": "DeepSeek Harness developer preview",
+   "url": "https://deepseek.com/harness/en/",
+   "points": 572,
+   "comments": 247
+  },
+  {
+   "title": "Spaghettifying DRAM",
+   "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+   "points": 513,
+   "comments": 143
+  },
+  {
+   "title": "Accelerating GPT-5.6 Sol Ultrafast",
+   "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+   "points": 456,
+   "comments": 191
+  },
+  {
+   "title": "Choose Boring Technology (2015)",
+   "url": "https://mcfunley.com/choose-boring-technology",
+   "points": 275,
+   "comments": 140
+  },
+  {
+   "title": "Mistral OCR 4.1",
+   "url": "https://docs.mistral.ai/models/ocr-4-1",
+   "points": 262,
+   "comments": 104
+  },
+  {
+   "title": "Nine PBS sues Iron Mountain over blocked access to archival data",
+   "url": "https://current.org/2026/08/nine-pbs-sues-iron-mountain-over-blocked-access-to-archival-data/",
+   "points": 260,
+   "comments": 149
+  },
+  {
+   "title": "Ordinary abundance",
+   "url": "https://ordinaryabundance.com/",
+   "points": 231,
+   "comments": 129
+  },
+  {
+   "title": "Understanding is the new bottleneck",
+   "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+   "points": 226,
+   "comments": 123
+  },
+  {
+   "title": "Donkey.bas is 45 Years Old – 131 line of Glory",
+   "url": "https://donkeybas.com/",
+   "points": 199,
+   "comments": 88
+  },
+  {
+   "title": "NP-overrated",
+   "url": "https://gruhn.me/blog/2026-08-13/",
+   "points": 164,
+   "comments": 103
+  },
+  {
+   "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
+   "url": "https://oxide.computer/blog/kubernetes-on-oxide",
+   "points": 163,
+   "comments": 71
+  }
+ ]
+}
