@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-15",
+ "updated": "2026-08-15 10:47",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,432.00",
+   "change": "▲ 68.40 (+1.57%)",
+   "cls": "up",
+   "value": 4432.0
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.64",
+   "change": "▼ 0.32 (-0.32%)",
+   "cls": "down",
+   "value": 99.64
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.696",
+   "change": "▲ 0.055 (+1.19%)",
+   "cls": "up",
+   "value": 4.696
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.25",
+   "change": "▼ 0.38 (-2.60%)",
+   "cls": "down",
+   "value": 14.25
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": "* **GLM-5.3 代碼與資安新模型發布**：這是智譜 AI 推出的最新前沿大模型，具備大幅強化的代碼生成與新興網路安全分析能力，展示了 LLM 在自動化軟體工程與資安防護任務上的重大突破。\n* **Qwen 3.8 27B 開源模型登場**：這是阿里雲發布的中等尺寸（27B）開源語言模型，在推論性能與硬體資源消耗之間取得極佳平衡，為本地部署與企業微調提供了高性價比的新選擇。\n* **開發者熱議 Opus 5 實際體驗退化**：這是社群針對最新旗艦模型 Opus 5 在實務開發中表現不如預期的深入討論，反映出大模型基準測試高分與真實工程落地體驗之間可能存在的落差。\n* **Google 推動同態加密在隱私 AI 的實用化**：這是 Google 運用同態加密（Homomorphic Encryption）技術實現密文下 AI 推論的新突破，讓敏感資料在完全不解密的情況下也能使用雲端 AI 運算，大幅推進了隱私運算的實用門檻。\n* **RustDesk 實現 Wayland 環境無人值守遠端存取**：這是熱門開源遠端桌面工具 RustDesk 突破 Linux Wayland 架構限制的重大更新，為 Linux 開發與維運人員提供了更完善、開源且自主可控的遠端連線方案。",
+ "hackernews": [
+  {
+   "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
+   "url": "https://z.ai/blog/glm-5.3",
+   "points": 1037,
+   "comments": 515
+  },
+  {
+   "title": "Qwen 3.8 27B",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+   "points": 935,
+   "comments": 609
+  },
+  {
+   "title": "Why does Opus 5 feel worse to work with?",
+   "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+   "points": 801,
+   "comments": 734
+  },
+  {
+   "title": "Firefox is now the last major browser that still supports uBlock Origin",
+   "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+   "points": 468,
+   "comments": 175
+  },
+  {
+   "title": "Seven books I keep close because I love them",
+   "url": "https://blog.plover.com/2026/08/02/",
+   "points": 306,
+   "comments": 134
+  },
+  {
+   "title": "Google is making private AI practical with homomorphic encryption",
+   "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+   "points": 296,
+   "comments": 176
+  },
+  {
+   "title": "RustDesk now supports true unattended remote access on Wayland",
+   "url": "https://rustdesk.com/blog/unattended-remote-access-wayland/",
+   "points": 232,
+   "comments": 97
+  },
+  {
+   "title": "Going Dark, and the era of law enforcement hacking",
+   "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
+   "points": 226,
+   "comments": 126
+  },
+  {
+   "title": "Don't classify, hallucinate",
+   "url": "https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications",
+   "points": 221,
+   "comments": 91
+  },
+  {
+   "title": "AI by Hand",
+   "url": "https://www.byhand.ai/",
+   "points": 215,
+   "comments": 18
+  },
+  {
+   "title": "Introducing Toast 1",
+   "url": "https://www.mixedbread.com/blog/toast-1",
+   "points": 183,
+   "comments": 59
+  },
+  {
+   "title": "I turned my RSS feeds into an e-ink newspaper to stop reading on my phone",
+   "url": "https://heyjonny.dev/posts/rss-to-eink-newspaper/",
+   "points": 151,
+   "comments": 61
+  }
+ ]
+}
