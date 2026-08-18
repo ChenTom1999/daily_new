@@ -1,0 +1,120 @@
+{
+ "date": "2026-08-18",
+ "updated": "2026-08-18 10:48",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,455.70",
+   "change": "▲ 75.30 (+1.72%)",
+   "cls": "up",
+   "value": 4455.7
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.59",
+   "change": "▼ 0.08 (-0.08%)",
+   "cls": "down",
+   "value": 99.59
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.724",
+   "change": "▲ 0.028 (+0.60%)",
+   "cls": "up",
+   "value": 4.724
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.19",
+   "change": "▲ 0.94 (+6.60%)",
+   "cls": "up",
+   "value": 15.19
+  }
+ ],
+ "calendar": [
+  {
+   "time": "14:00",
+   "passed": false,
+   "country": "GBP",
+   "title": "Claimant Count Change",
+   "forecast": "16.5K",
+   "previous": "6.7K"
+  }
+ ],
+ "summary": "- 川普威脅若阻礙伊朗協議將打擊阿曼，疊加市場對伊朗戰事久拖的擔憂，中東地緣局勢高度緊繃，推升黃金避險買盤（偏多）。\n- 俄羅斯就提供無人機一事嚴詞警告英國，俄烏與西方對立態勢升溫，支撐黃金避險底氣（偏多）。\n- 川普特使透露加薩和平計畫最快30天內展開，若中東局勢出現實質停火曙光，短線恐壓抑避險溢價（偏空）。\n- 川普對北韓釋放對話訊號且南韓表態無意升級局勢，朝鮮半島緊張情緒稍有降溫，局部削弱避險支撐（中性偏空）。",
+ "tech": "* **A Preview of DuckDB v2.0**：這是熱門嵌入式分析型資料庫 DuckDB 即將發布的 2.0 重大版本預覽，揭示了最新的架構升級與效能優化，對於依賴本地與嵌入式資料處理的工程師極具參考價值。\n* **AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira**：這是一起因採納 GitHub Copilot「自動修復」所產生的程式碼漏洞而導致 Snowflake Jira 系統遭入侵的安全事件，警示了工程團隊在導入 AI 輔助修復與程式碼生成時必須具備更嚴格的安全審查機制。\n* **GPT 5.6 Sol 視覺模型評測與降價 50%**：這是 OpenAI 最新視覺模型 GPT 5.6 Sol 的效能評測與大幅降價消息，展現了目前最強的視覺理解能力與更低的使用成本，為開發多模態應用與影像推論的工程師提供了高性價比的新選擇。\n* **GPU Offload in Rust: Portable, Safe, and Fast**：這是一篇探討如何在 Rust 中實現兼具跨平台可移植性、記憶體安全與高效能的 GPU 運算卸載技術文章，為系統程式設計與機器學習底層優化工程師提供了實用的架構參考。\n* **Ask HN: Alternatives to GitHub**：這是 Hacker News 社群針對 GitHub 替代方案（如 Forgejo、GitLab、SourceHut 等）的熱烈討論，反映了開發者對平台壟斷、資料隱私以及自託管（Self-hosted）程式碼基礎設施的重新評估與需求。",
+ "hackernews": [
+  {
+   "title": "AI;DR (AI; Didn't Read)",
+   "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+   "points": 632,
+   "comments": 390
+  },
+  {
+   "title": "A Preview of DuckDB v2.0",
+   "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
+   "points": 556,
+   "comments": 98
+  },
+  {
+   "title": "Ask HN: Alternatives to GitHub",
+   "url": "https://news.ycombinator.com/item?id=49331033",
+   "points": 505,
+   "comments": 324
+  },
+  {
+   "title": "Olo (Color)",
+   "url": "https://en.wikipedia.org/wiki/Olo_(color)",
+   "points": 333,
+   "comments": 66
+  },
+  {
+   "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+   "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+   "points": 321,
+   "comments": 126
+  },
+  {
+   "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+   "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+   "points": 306,
+   "comments": 154
+  },
+  {
+   "title": "How to disable or avoid intrusive AI",
+   "url": "https://www.librarian.net/notoai/",
+   "points": 262,
+   "comments": 160
+  },
+  {
+   "title": "How Bluesky draws its logo on screenshots",
+   "url": "https://timmarinin.net/2026/bluesky-screenshots/",
+   "points": 256,
+   "comments": 191
+  },
+  {
+   "title": "Sun Clock",
+   "url": "https://sunclock.net/",
+   "points": 180,
+   "comments": 56
+  },
+  {
+   "title": "Quake Shareware, a CD-ROM just a little too full",
+   "url": "https://fabiensanglard.net/quake_shareware_cd/index.html",
+   "points": 175,
+   "comments": 77
+  },
+  {
+   "title": "GPU Offload in Rust: Portable, Safe, and Fast",
+   "url": "https://arxiv.org/abs/2608.13759",
+   "points": 166,
+   "comments": 36
+  },
+  {
+   "title": "GPT-5.6 Sol Pricing Cut by 50%",
+   "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+   "points": 165,
+   "comments": 93
+  }
+ ]
+}
