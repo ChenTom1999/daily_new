@@ -1,0 +1,120 @@
+{
+ "date": "2026-08-19",
+ "updated": "2026-08-19 10:49",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,408.90",
+   "change": "▼ 8.90 (-0.20%)",
+   "cls": "down",
+   "value": 4408.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.57",
+   "change": "▼ 0.07 (-0.08%)",
+   "cls": "down",
+   "value": 99.57
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.706",
+   "change": "▼ 0.018 (-0.38%)",
+   "cls": "down",
+   "value": 4.706
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.84",
+   "change": "▲ 0.65 (+4.28%)",
+   "cls": "up",
+   "value": 15.84
+  }
+ ],
+ "calendar": [
+  {
+   "time": "14:00",
+   "passed": false,
+   "country": "GBP",
+   "title": "CPI y/y",
+   "forecast": "2.9%",
+   "previous": "2.6%"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "The Amazon tax",
+   "url": "https://seths.blog/2026/08/the-amazon-tax/",
+   "points": 965,
+   "comments": 557
+  },
+  {
+   "title": "Universal health coverage could save $1T and 114k lives a year: study",
+   "url": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
+   "points": 739,
+   "comments": 810
+  },
+  {
+   "title": "Memory prices climb 500% in 12 months",
+   "url": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
+   "points": 503,
+   "comments": 407
+  },
+  {
+   "title": "Cursor launches Origin, GitHub alternative",
+   "url": "https://cursor.com/changelog/origin-code-hosting",
+   "points": 487,
+   "comments": 379
+  },
+  {
+   "title": "Beware Management Consultants",
+   "url": "https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants/",
+   "points": 455,
+   "comments": 123
+  },
+  {
+   "title": "Using the railway network as a flatbed scanner",
+   "url": "https://philo.gay/linecam/",
+   "points": 410,
+   "comments": 66
+  },
+  {
+   "title": "Fixing a bricked Framework laptop",
+   "url": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/",
+   "points": 368,
+   "comments": 256
+  },
+  {
+   "title": "Being ambitious and being a dad",
+   "url": "https://nicholascharriere.com/blog/being-ambitious-and-being-a-dad/",
+   "points": 320,
+   "comments": 190
+  },
+  {
+   "title": "How does IKEA come up with names for its products?",
+   "url": "https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html",
+   "points": 245,
+   "comments": 146
+  },
+  {
+   "title": "Turbovec – Google's TurboQuant for vector search in Rust",
+   "url": "https://github.com/RyanCodrai/turbovec",
+   "points": 212,
+   "comments": 29
+  },
+  {
+   "title": "And then the men with guns tell you to do it anyway",
+   "url": "https://shkspr.mobi/blog/2026/08/and-then-the-men-with-guns-tell-you-to-do-it-anyway/",
+   "points": 181,
+   "comments": 104
+  },
+  {
+   "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
+   "url": "https://github.com/DenisSergeevitch/desktop-fly",
+   "points": 175,
+   "comments": 47
+  }
+ ]
+}
