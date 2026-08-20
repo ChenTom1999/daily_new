@@ -1,0 +1,136 @@
+{
+ "date": "2026-08-20",
+ "updated": "2026-08-20 10:49",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,550.70",
+   "change": "▲ 184.70 (+4.23%)",
+   "cls": "up",
+   "value": 4550.7
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "98.84",
+   "change": "▼ 0.81 (-0.81%)",
+   "cls": "down",
+   "value": 98.84
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.653",
+   "change": "▼ 0.053 (-1.13%)",
+   "cls": "down",
+   "value": 4.653
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.89",
+   "change": "▼ 0.95 (-6.00%)",
+   "cls": "down",
+   "value": 14.89
+  }
+ ],
+ "calendar": [
+  {
+   "time": "02:00",
+   "passed": true,
+   "country": "USD",
+   "title": "FOMC Meeting Minutes",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "09:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "Employment Change",
+   "forecast": "11.7K",
+   "previous": "76.3K"
+  },
+  {
+   "time": "09:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "Unemployment Rate",
+   "forecast": "4.4%",
+   "previous": "4.4%"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "A joke domain purchase turned in geopolitical warfare",
+   "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+   "points": 779,
+   "comments": 120
+  },
+  {
+   "title": "OpenRouter is joining Stripe",
+   "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+   "points": 666,
+   "comments": 353
+  },
+  {
+   "title": "Remote workers report the highest well-being in study of 7,700 employees",
+   "url": "https://www.colorado.edu/today/2026/08/12/remote-workers-report-highest-well-being-study-7700-employees",
+   "points": 513,
+   "comments": 251
+  },
+  {
+   "title": "Go 1.27",
+   "url": "https://go.dev/blog/go1.27",
+   "points": 472,
+   "comments": 125
+  },
+  {
+   "title": "Geolocating a random island using geometry and CUDA programming",
+   "url": "https://yassa9.github.io/osint/gralhix-004/",
+   "points": 417,
+   "comments": 76
+  },
+  {
+   "title": "Google replaced Git tags for certain source code with obtaining via Google Drive",
+   "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
+   "points": 317,
+   "comments": 133
+  },
+  {
+   "title": "PostgreSQL for Everything",
+   "url": "https://www.raphaelbauer.com:443/posts/postgresql-everything/",
+   "points": 313,
+   "comments": 195
+  },
+  {
+   "title": "Casio F-B100W-1A",
+   "url": "https://www.casio.com/uk/watches/casio/product.F-B100W-1A/",
+   "points": 284,
+   "comments": 234
+  },
+  {
+   "title": "Air Theremin – A browser theremin you play by waving at your webcam",
+   "url": "https://theremin.bizibah.com/",
+   "points": 251,
+   "comments": 86
+  },
+  {
+   "title": "Unsloth Dynamic 3.0 GGUFs",
+   "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+   "points": 193,
+   "comments": 76
+  },
+  {
+   "title": "fx :Tiny, open, native coding agent.",
+   "url": "https://fx.sh",
+   "points": 187,
+   "comments": 89
+  },
+  {
+   "title": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
+   "url": "https://ornith.ai/ornith_1_5.html",
+   "points": 171,
+   "comments": 58
+  }
+ ]
+}
