@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-21",
+ "updated": "2026-08-21 10:51",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,588.70",
+   "change": "▲ 99.30 (+2.21%)",
+   "cls": "up",
+   "value": 4588.7
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "98.73",
+   "change": "▼ 0.10 (-0.11%)",
+   "cls": "down",
+   "value": 98.73
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.696",
+   "change": "▲ 0.043 (+0.92%)",
+   "cls": "up",
+   "value": 4.696
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "16.01",
+   "change": "▲ 1.12 (+7.52%)",
+   "cls": "up",
+   "value": 16.01
+  }
+ ],
+ "calendar": [],
+ "summary": "- **俄烏戰事升級**：俄軍蓄意攻擊烏克蘭關鍵基礎設施，戰事緊張加劇提振市場避險情緒，對金價構成短線偏多支撐。\n- **中東與伊朗局勢緊繃**：美國制裁真主黨、川普擬對伊朗施加經濟重壓及西方譴責以色列定居點，地緣政治風險未解持續提供黃金避險買盤。\n- **美加貿易協議近拍板**：美加貿易協商進展順利，若關稅不確定性消退可能改善市場風險偏好並左右美元，短線或略微壓抑金價上行力道。\n- **東北亞地緣潛在變數**：川普涉朝言論引發韓美同盟與區域安全疑慮，潛在的地緣政治不確定性有助於為金價提供下檔防禦支持。",
+ "tech": "* **Mojo is now open source**：專為 AI 與高效能運算設計的程式語言 Mojo 正式宣布開源，這意味著結合 Python 易用性與 C/C++ 等級效能的 AI 開發工具生態系邁入了社群共同協作的新階段。\n* **Malicious Rust crate Arrayref runs a build-time payload**：這起 Rust 套件在編譯時期執行惡意負載的資安事件，再次提醒開發者需高度警惕開源生態系中的軟體供應鏈安全與依賴項審查。\n* **Show HN: I trained a 125M model to autocomplete piano on-device**：這項展示在使用者端裝置（On-device）流暢運行 125M 參數的鋼琴音樂自動補全模型，驗證了小型特化模型在邊緣運算與即時互動創作上的高可行性。\n* **AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint**：這是一項揭露電商網站利用 WebAudio API 進行靜默指紋追蹤卻意外導致藍牙連線中斷的研究，展示了前端 API 的濫用可能對底層硬體運作與使用者體驗造成難以預期的負面影響。\n* **Git at any scale**：這是一篇探討如何在超大規模程式碼庫與龐大團隊中優化 Git 運作的技術分享，為正在處理 Monorepo 或遭遇版本控制效能瓶頸的工程團隊提供了寶貴的架構實務參考。",
+ "hackernews": [
+  {
+   "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
+   "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
+   "points": 1089,
+   "comments": 242
+  },
+  {
+   "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+   "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+   "points": 909,
+   "comments": 295
+  },
+  {
+   "title": "HTML Can Do That",
+   "url": "https://chrisburnell.com/html-can-do-that/",
+   "points": 596,
+   "comments": 166
+  },
+  {
+   "title": "I like 'em thick: an apology to my English teachers",
+   "url": "https://www.experimental-history.com/p/i-like-em-thick",
+   "points": 587,
+   "comments": 262
+  },
+  {
+   "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+   "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+   "points": 525,
+   "comments": 108
+  },
+  {
+   "title": "Malicious Rust crate Arrayref runs a build-time payload",
+   "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+   "points": 407,
+   "comments": 366
+  },
+  {
+   "title": "Mojo is now open source",
+   "url": "https://www.modular.com/blog/mojo-open-source",
+   "points": 350,
+   "comments": 80
+  },
+  {
+   "title": "CIA funding helped keep NeXT afloat in the 80s",
+   "url": "https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9?st=NWWds1&reflink=desktopwebshare_permalink",
+   "points": 348,
+   "comments": 213
+  },
+  {
+   "title": "The August 17 outage, and the work ahead",
+   "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+   "points": 347,
+   "comments": 393
+  },
+  {
+   "title": "Git at any scale",
+   "url": "https://cursor.com/blog/git-at-any-scale",
+   "points": 285,
+   "comments": 93
+  },
+  {
+   "title": "Consumer Rights Wiki",
+   "url": "https://consumerrights.wiki/w/Main_Page",
+   "points": 242,
+   "comments": 34
+  },
+  {
+   "title": "Show HN: Huzzah – a novel approach to coding with AI",
+   "url": "https://www.danielvaughn.dev/posts/huzzah/",
+   "points": 227,
+   "comments": 134
+  }
+ ]
+}
