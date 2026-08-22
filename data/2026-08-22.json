@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-22",
+ "updated": "2026-08-22 10:50",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,661.60",
+   "change": "▲ 145.30 (+3.22%)",
+   "cls": "up",
+   "value": 4661.6
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "98.84",
+   "change": "▼ 0.06 (-0.06%)",
+   "cls": "down",
+   "value": 98.84
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.738",
+   "change": "▲ 0.042 (+0.89%)",
+   "cls": "up",
+   "value": 4.738
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.13",
+   "change": "▼ 0.88 (-5.50%)",
+   "cls": "down",
+   "value": 15.13
+  }
+ ],
+ "calendar": [],
+ "summary": "- **俄烏戰局再度升溫**：俄軍無人機襲擊烏克蘭商場造成死傷，地緣衝突加劇推升市場避險情緒，為黃金（XAU/USD）提供短線下檔支撐。\n- **中東政治摩擦延續**：以色列重啟爭議定居點遭多國譴責，區域地緣政治風險溢價未退，持續為金價築底提供防禦性買盤。\n- **美加貿易談判釋正面訊號**：川普稱協議可望達成，關稅戰全面升級的恐慌降溫，或削弱部分避險需求並支撐美元，對金價短線反彈構成壓制。\n- **美中台海角力增添不確定性**：美軍P-8A巡邏機飛越台海引發區域關注，中美摩擦隱憂微幅增加市場對黃金的避險配置需求。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Kagi added a setting for removing paywalled links from search results",
+   "url": "https://kagi.com/changelog#11296",
+   "points": 1026,
+   "comments": 346
+  },
+  {
+   "title": "Felony charges for citizen deleting phone data at US Border",
+   "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
+   "points": 599,
+   "comments": 769
+  },
+  {
+   "title": "Felony Bench",
+   "url": "https://www.felonybench.com/",
+   "points": 554,
+   "comments": 230
+  },
+  {
+   "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
+   "url": "https://lina.sh/blog/hijacking-e164-arpa",
+   "points": 460,
+   "comments": 52
+  },
+  {
+   "title": "Kobo can run apps now",
+   "url": "https://bandarlabs.github.io/Cobalt/",
+   "points": 446,
+   "comments": 150
+  },
+  {
+   "title": "I'm becoming AI-blind",
+   "url": "https://cymerys.com/w/im-becoming-ai-blind",
+   "points": 281,
+   "comments": 295
+  },
+  {
+   "title": "AI boosted homework scores, then exam scores dropped: study",
+   "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+   "points": 244,
+   "comments": 293
+  },
+  {
+   "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+   "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+   "points": 209,
+   "comments": 150
+  },
+  {
+   "title": "New Worlds: We are living in the future of J.G. Ballard or William Gibson",
+   "url": "https://precastreinforced.co.uk/2026/08/16/new-worlds/",
+   "points": 208,
+   "comments": 154
+  },
+  {
+   "title": "The coolest anti-surveillance tools at Defcon [video]",
+   "url": "https://www.youtube.com/watch?v=-2uAsJ5EPAw",
+   "points": 164,
+   "comments": 12
+  },
+  {
+   "title": "Scientists release biggest 2D map of the universe",
+   "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/",
+   "points": 156,
+   "comments": 50
+  },
+  {
+   "title": "I ran Photoshop on a £0.60 computer chip",
+   "url": "https://pointinthecloud.com/2026-08-19-144600.html",
+   "points": 120,
+   "comments": 33
+  }
+ ]
+}
