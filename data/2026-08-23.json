@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-23",
+ "updated": "2026-08-23 10:52",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,624.10",
+   "change": "▲ 107.80 (+2.39%)",
+   "cls": "up",
+   "value": 4624.1
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "98.80",
+   "change": "▼ 0.10 (-0.10%)",
+   "cls": "down",
+   "value": 98.8
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.738",
+   "change": "▲ 0.042 (+0.89%)",
+   "cls": "up",
+   "value": 4.738
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.13",
+   "change": "▼ 0.88 (-5.50%)",
+   "cls": "down",
+   "value": 15.13
+  }
+ ],
+ "calendar": [],
+ "summary": "* **美加貿易戰升溫**：美國對加拿大50%關稅生效且談判破局，市場避險情緒與二次通膨預期升溫，偏向利多黃金。\n* **俄烏戰事再度加劇**：俄軍襲擊烏克蘭商場引發強烈譴責，東歐地緣政治風險溢價攀升，為金價提供逢低買盤支撐。\n* **中東衝突持續擴大**：以色列空襲敘利亞引發主權爭議，中東地緣局勢維持緊繃，避險買盤有助於限縮金價短線回檔空間。",
+ "tech": "- **Rust Glancer: Rust LSP using 100x less RAM**：這是一個極致輕量化的 Rust 語言伺服器協議（LSP）實作，其記憶體佔用比主流工具（如 rust-analyzer）降低了 100 倍，能大幅改善大型專案與資源受限設備上的開發編輯體驗。\n- **Why your local LLM feels dumber than it is**：這是一篇探討本機大型語言模型推論表現為何常低於預期的技術分析，詳細指出了量化損失、取樣參數與 Prompt 模板匹配對模型智慧程度的關鍵影響及調校建議。\n- **Munder Difflin – Agent harness to run an office of your clones**：這是一個用於管理與協調多個 AI 代理（Agent）協同運作的框架，值得注意是因為它展示了如何透過模擬虛擬團隊分工來自動化執行複雜的多步驟工作流。\n- **Hister – A private, full content search index that you control**：這是一個強調個人隱私與完全自控的本地全文搜尋索引系統，能讓開發者在不依賴第三方雲端的情況下高效檢索與管理個人資料與歷史記錄。\n- **A week of using Codex more than Claude**：這是一篇深入比較 OpenAI 與 Anthropic 工具在實際軟體工程場景應用的評測文章，提供了不同 AI 編程助手在程式碼生成精準度、上下文處理能力上的第一手實踐對比。",
+ "hackernews": [
+  {
+   "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
+   "url": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
+   "points": 504,
+   "comments": 1261
+  },
+  {
+   "title": "Rust Glancer: Rust LSP using 100x less RAM",
+   "url": "https://rust-glancer.github.io/blog/hello-world/",
+   "points": 399,
+   "comments": 97
+  },
+  {
+   "title": "Scrap (2006)",
+   "url": "https://twitter.com/moxie/status/2091218652133732491",
+   "points": 324,
+   "comments": 177
+  },
+  {
+   "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
+   "url": "https://quantumi.sh/public/labs.html",
+   "points": 323,
+   "comments": 102
+  },
+  {
+   "title": "Munder Difflin – Agent harness to run an office of your clones",
+   "url": "https://munderdiffl.in/",
+   "points": 258,
+   "comments": 115
+  },
+  {
+   "title": "Hister – A private, full content search index that you control",
+   "url": "https://hister.org/",
+   "points": 245,
+   "comments": 67
+  },
+  {
+   "title": "A Friendly Introduction to Racket",
+   "url": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/",
+   "points": 200,
+   "comments": 102
+  },
+  {
+   "title": "Why your local LLM feels dumber than it is",
+   "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+   "points": 200,
+   "comments": 68
+  },
+  {
+   "title": "typ.ing",
+   "url": "https://typ.ing/",
+   "points": 194,
+   "comments": 58
+  },
+  {
+   "title": "hdiutil is deprecated in macOS 27 Golden Gate",
+   "url": "https://lapcatsoftware.com/articles/2026/8/7.html",
+   "points": 165,
+   "comments": 70
+  },
+  {
+   "title": "RF Cafe",
+   "url": "https://www.rfcafe.com/",
+   "points": 156,
+   "comments": 28
+  },
+  {
+   "title": "A week of using Codex more than Claude",
+   "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
+   "points": 140,
+   "comments": 149
+  }
+ ]
+}
