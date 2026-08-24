@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-24",
+ "updated": "2026-08-24 10:52",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,697.90",
+   "change": "▲ 73.80 (+1.60%)",
+   "cls": "up",
+   "value": 4697.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "98.83",
+   "change": "▲ 0.03 (+0.03%)",
+   "cls": "up",
+   "value": 98.83
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.738",
+   "change": "▲ 0.042 (+0.89%)",
+   "cls": "up",
+   "value": 4.738
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.13",
+   "change": "▼ 0.88 (-5.50%)",
+   "cls": "down",
+   "value": 15.13
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": "* **Why your local LLM feels dumber than it is**：這篇文章深入探討了本地端 LLM 表現不如預期的技術原因（如量化損失、取樣參數配置與 Prompt 格式錯誤），對於想在本機或邊緣端高效部署開源模型的工程師是極具價值的調優指南。\n* **New MCP Roadmap**：這是 Anthropic 主導的 Model Context Protocol（MCP）最新發展藍圖，該協定正迅速成為大型語言模型與外部資料源、工具互動的開放標準，對構建 AI Agent 的開發者至關重要。\n* **I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes**：開發者分享利用開源 Qwen 模型在半小時內自動完成程式逆向工程的實測案例，展示了開源大型程式碼模型在複雜軟體分析與自動化除錯上的強大實用潛力。\n* **Hister – A private, full content search index that you control**：這是一個主打隱私與自我託管的全文本內容搜尋引擎工具，讓開發者能以極低資源消耗快速建立並檢索私有的大規模文字與資料庫。\n* **ATProto spaces: A new extension to ATProto that enables non-public data**：這是去中心化社交協定 AT Protocol 的全新擴展架構，突破了過往協定僅能處理公開資料的限制並引入非公開數據儲存，對分散式系統與隱私協定架構設計者相當值得關注。",
+ "hackernews": [
+  {
+   "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
+   "url": "https://quantumi.sh/public/labs.html",
+   "points": 438,
+   "comments": 132
+  },
+  {
+   "title": "Hister – A private, full content search index that you control",
+   "url": "https://hister.org/",
+   "points": 423,
+   "comments": 94
+  },
+  {
+   "title": "Why your local LLM feels dumber than it is",
+   "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+   "points": 417,
+   "comments": 171
+  },
+  {
+   "title": "Scrap (2006)",
+   "url": "https://twitter.com/moxie/status/2091218652133732491",
+   "points": 386,
+   "comments": 212
+  },
+  {
+   "title": "typ.ing",
+   "url": "https://typ.ing/",
+   "points": 321,
+   "comments": 102
+  },
+  {
+   "title": "To become a better writer, read as much as you can",
+   "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
+   "points": 316,
+   "comments": 208
+  },
+  {
+   "title": "Thinking in Python",
+   "url": "https://thinkinginpython.com/",
+   "points": 251,
+   "comments": 50
+  },
+  {
+   "title": "New MCP Roadmap",
+   "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+   "points": 241,
+   "comments": 142
+  },
+  {
+   "title": "RF Cafe",
+   "url": "https://www.rfcafe.com/",
+   "points": 227,
+   "comments": 44
+  },
+  {
+   "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+   "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+   "points": 188,
+   "comments": 98
+  },
+  {
+   "title": "ATProto spaces: A new extension to ATProto that enables non-public data",
+   "url": "https://atproto.com/blog/atproto-spaces-alpha",
+   "points": 160,
+   "comments": 25
+  },
+  {
+   "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
+   "url": "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
+   "points": 159,
+   "comments": 80
+  }
+ ]
+}
