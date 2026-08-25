@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-25",
+ "updated": "2026-08-25 10:49",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,696.60",
+   "change": "▲ 72.50 (+1.57%)",
+   "cls": "up",
+   "value": 4696.6
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.02",
+   "change": "▲ 0.22 (+0.23%)",
+   "cls": "up",
+   "value": 99.02
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.704",
+   "change": "▼ 0.034 (-0.72%)",
+   "cls": "down",
+   "value": 4.704
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.85",
+   "change": "▲ 0.72 (+4.76%)",
+   "cls": "up",
+   "value": 15.85
+  }
+ ],
+ "calendar": [],
+ "summary": "- 加拿大擬對美祭出報復性關稅，美加貿易摩擦升溫恐加劇市場對通膨與經濟前景的擔憂，提振黃金避險需求（偏多黃金）。\n- 美國財長稱將對伊朗展開「史上最大金融攻勢」，中東制裁與地緣衝突風險加劇，為金價提供避險買盤支撐（偏多黃金）。\n- 英國重申堅定支持烏克蘭以抗衡俄羅斯威脅，俄烏緊張局勢延續，維繫黃金的地緣政治風險溢價（偏多黃金）。\n- 美國將敘利亞自支持恐怖主義名單除名，顯示中東局部關係出現邊際緩和跡象，需留意是否微幅削弱部分避險情緒（短線中性偏利空）。",
+ "tech": "* **小米發表全新 CPU 架構突破**：其宣稱單核心效能追平 Apple 核心且多核心大幅領先，展現非歐美晶片在運算效能上的重大進展，值得關注硬體架構與跨平台編譯生態的演變。\n* **微軟小畫家與相片應用程式被發現會對本地生成圖片植入隱形 GUID 浮水印**：此發現揭露微軟甚至在非雲端的本機操作中也嵌入了數位追蹤機制，對關注資料隱私、取證分析與 AI 生成內容溯源的工程師極具警示意義。\n* **過度依賴 AI 恐導致軟體工程專業能力崩解的探討**：深入分析 AI 輔助開發普及可能削弱工程師在底層邏輯理解、架構設計與除錯的深層能力，引發業界對未來技術人才培育與代碼品質控制的反思。\n* **去中心化儲存協議 IPFS 核心維護團隊宣布縮減維運**：標誌著知名 Web3 與分散式檔案系統基礎架構面臨維運資源轉折，將直接影響依賴去中心化架構的系統開發者與相關應用生態。\n* **從零開始構建大語言模型（LLM）的學習路徑熱議**：探討新一代開發者跳脫單純「API 調用者」角色、深入底層實現 Transformer 與模型訓練機制的重要性，為深耕 AI/機器學習領域的工程師提供明確的學習方向。",
+ "hackernews": [
+  {
+   "title": "How Europe is killing makers and micro-entrepreneurs",
+   "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
+   "points": 1085,
+   "comments": 669
+  },
+  {
+   "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
+   "url": "https://twitter.com/lemire/status/2091894299289874926",
+   "points": 745,
+   "comments": 504
+  },
+  {
+   "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
+   "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
+   "points": 576,
+   "comments": 231
+  },
+  {
+   "title": "I were 17, I'd learn how to build LLMs from scratch",
+   "url": "https://twitter.com/paulg/status/2091544343589060625",
+   "points": 517,
+   "comments": 608
+  },
+  {
+   "title": "Coding expertise is going to collapse from AI reliance",
+   "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+   "points": 480,
+   "comments": 473
+  },
+  {
+   "title": "Oceans hit highest temperature on record",
+   "url": "https://www.bbc.com/news/articles/c62m4gpnp78o",
+   "points": 423,
+   "comments": 341
+  },
+  {
+   "title": "The entire city of San Francisco as a video game",
+   "url": "https://sf.thijs.gg/",
+   "points": 363,
+   "comments": 122
+  },
+  {
+   "title": "IPFS Maintainers Winding Down",
+   "url": "https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/",
+   "points": 333,
+   "comments": 165
+  },
+  {
+   "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
+   "url": "https://developers.openai.com/api/docs/pricing",
+   "points": 303,
+   "comments": 271
+  },
+  {
+   "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
+   "url": "https://developer.apple.com/news/?id=1ptvdtcm",
+   "points": 256,
+   "comments": 59
+  },
+  {
+   "title": "Show HN: A techno machine in one HTML file, with verifiable renders",
+   "url": "https://ssx360.github.io/rack-02/?src=hn",
+   "points": 177,
+   "comments": 32
+  },
+  {
+   "title": "Jabber/XMPP: 25 Years of Digital Independence",
+   "url": "https://gultsch.de/posts/25-years-of-digital-independence/",
+   "points": 176,
+   "comments": 68
+  }
+ ]
+}
