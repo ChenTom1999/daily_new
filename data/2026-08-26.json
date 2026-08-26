@@ -1,0 +1,152 @@
+{
+ "date": "2026-08-26",
+ "updated": "2026-08-26 10:58",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,725.20",
+   "change": "▲ 84.40 (+1.82%)",
+   "cls": "up",
+   "value": 4725.2
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "98.93",
+   "change": "▼ 0.07 (-0.07%)",
+   "cls": "down",
+   "value": 98.93
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.639",
+   "change": "▼ 0.065 (-1.38%)",
+   "cls": "down",
+   "value": 4.639
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.45",
+   "change": "▼ 0.40 (-2.52%)",
+   "cls": "down",
+   "value": 15.45
+  }
+ ],
+ "calendar": [
+  {
+   "time": "09:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "CPI m/m",
+   "forecast": "0.9%",
+   "previous": "-0.1%"
+  },
+  {
+   "time": "09:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "CPI y/y",
+   "forecast": "3.3%",
+   "previous": "3.8%"
+  },
+  {
+   "time": "09:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "Trimmed Mean CPI m/m",
+   "forecast": "0.4%",
+   "previous": "0.3%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core PCE Price Index m/m",
+   "forecast": "0.2%",
+   "previous": "0.1%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Prelim GDP q/q",
+   "forecast": "1.5%",
+   "previous": "1.5%"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Dolly Parton has died",
+   "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
+   "points": 1266,
+   "comments": 194
+  },
+  {
+   "title": "Apple introduces M6 and M5 Ultra",
+   "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+   "points": 984,
+   "comments": 918
+  },
+  {
+   "title": "New Mac Studio with M5 Max and M5 Ultra",
+   "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
+   "points": 711,
+   "comments": 470
+  },
+  {
+   "title": "Nitter and XCancel receive cease and desist notices",
+   "url": "https://github.com/zedeus/nitter/issues/1442",
+   "points": 678,
+   "comments": 584
+  },
+  {
+   "title": "My Friend Aaron",
+   "url": "https://rorz.io/writing/my-friend-aaron",
+   "points": 462,
+   "comments": 126
+  },
+  {
+   "title": "New Mac mini, featuring M6 and M5 Pro",
+   "url": "https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
+   "points": 440,
+   "comments": 271
+  },
+  {
+   "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
+   "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+   "points": 352,
+   "comments": 247
+  },
+  {
+   "title": "Don't Wordle",
+   "url": "https://dontwordle.com/",
+   "points": 317,
+   "comments": 117
+  },
+  {
+   "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
+   "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
+   "points": 298,
+   "comments": 150
+  },
+  {
+   "title": "Firefox 157 will include JPEG XL by default on all platforms",
+   "url": "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1",
+   "points": 296,
+   "comments": 78
+  },
+  {
+   "title": "Bomb fishing is wreaking havoc on Indonesia's coral reefs",
+   "url": "https://e360.yale.edu/digest/bomb-fishing-coral-reefs",
+   "points": 278,
+   "comments": 145
+  },
+  {
+   "title": "Building a backyard office, the build and cost breakdown",
+   "url": "https://www.imkylelambert.com/articles/building-a-backyard-office-the-build-and-cost-breakdown",
+   "points": 274,
+   "comments": 195
+  }
+ ]
+}
