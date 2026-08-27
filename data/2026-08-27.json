@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-27",
+ "updated": "2026-08-27 12:16",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,681.50",
+   "change": "▲ 83.30 (+1.81%)",
+   "cls": "up",
+   "value": 4681.5
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.14",
+   "change": "▼ 0.03 (-0.03%)",
+   "cls": "down",
+   "value": 99.14
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.664",
+   "change": "▲ 0.025 (+0.54%)",
+   "cls": "up",
+   "value": 4.664
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.21",
+   "change": "▼ 0.24 (-1.55%)",
+   "cls": "down",
+   "value": 15.21
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "AWS Acquires DuckLabs",
+   "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+   "points": 1005,
+   "comments": 296
+  },
+  {
+   "title": "GLM-5.3-Flash",
+   "url": "https://z.ai/blog/glm-5.3-flash",
+   "points": 929,
+   "comments": 464
+  },
+  {
+   "title": "Qwen3.8-Flash-Next",
+   "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+   "points": 647,
+   "comments": 209
+  },
+  {
+   "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
+   "url": "https://github.com/tailscale/tailcat",
+   "points": 505,
+   "comments": 94
+  },
+  {
+   "title": "Nvidia agrees to acquire Hugging Face for $13B",
+   "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+   "points": 487,
+   "comments": 221
+  },
+  {
+   "title": "Nebula Sans",
+   "url": "https://www.nebulasans.com",
+   "points": 366,
+   "comments": 135
+  },
+  {
+   "title": "U.S. State Department pauses immigrant visa applications",
+   "url": "https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23",
+   "points": 356,
+   "comments": 512
+  },
+  {
+   "title": "Twitter Viewer – View Twitter Without Account",
+   "url": "https://twitterwebviewer.com/",
+   "points": 349,
+   "comments": 168
+  },
+  {
+   "title": "An ongoing 3D-printer AGPL violation",
+   "url": "https://lwn.net/SubscriberLink/1089390/46116614cc74b814/",
+   "points": 343,
+   "comments": 153
+  },
+  {
+   "title": "Taylor Farms: How One Company's Reach Became a National Risk",
+   "url": "https://farmaction.us/taylorfarmsreport/",
+   "points": 256,
+   "comments": 169
+  },
+  {
+   "title": "CoMaps: The Offline App That Guided Rescuers Without a Signal in Venezuela",
+   "url": "https://hotosm.org/en/news/comaps-the-offline-app-that-guided-rescuers-without-a-signal-in-the-venezuela-response/",
+   "points": 212,
+   "comments": 47
+  },
+  {
+   "title": "The Hugging Face incident and the road ahead",
+   "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+   "points": 206,
+   "comments": 251
+  }
+ ]
+}
