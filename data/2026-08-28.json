@@ -1,0 +1,136 @@
+{
+ "date": "2026-08-28",
+ "updated": "2026-08-28 13:32",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,635.20",
+   "change": "▲ 25.50 (+0.55%)",
+   "cls": "up",
+   "value": 4635.2
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.19",
+   "change": "▲ 0.03 (+0.03%)",
+   "cls": "up",
+   "value": 99.19
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.672",
+   "change": "▲ 0.008 (+0.17%)",
+   "cls": "up",
+   "value": 4.672
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.51",
+   "change": "▼ 0.70 (-4.60%)",
+   "cls": "down",
+   "value": 14.51
+  }
+ ],
+ "calendar": [
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "GDP m/m",
+   "forecast": "0.2%",
+   "previous": "0.3%"
+  },
+  {
+   "time": "22:00",
+   "passed": false,
+   "country": "USD",
+   "title": "Fed Chairman Warsh Speaks",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "22:00",
+   "passed": false,
+   "country": "USD",
+   "title": "Prelim Benchmark Payrolls Revision",
+   "forecast": "-",
+   "previous": "-911K"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Nvidia agrees to acquire Hugging Face for $13B",
+   "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+   "points": 1859,
+   "comments": 866
+  },
+  {
+   "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+   "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+   "points": 621,
+   "comments": 188
+  },
+  {
+   "title": "Microduck",
+   "url": "https://pollen-robotics.com/microduck/",
+   "points": 572,
+   "comments": 194
+  },
+  {
+   "title": "Small Models Have Arrived",
+   "url": "https://calv.info/small-models-have-arrived",
+   "points": 554,
+   "comments": 250
+  },
+  {
+   "title": "507 Mechanical Movements",
+   "url": "https://507movements.com/",
+   "points": 530,
+   "comments": 70
+  },
+  {
+   "title": "Show HN: The load-bearing vocabulary of Claude",
+   "url": "https://louisabraham.github.io/load-bearing/",
+   "points": 411,
+   "comments": 191
+  },
+  {
+   "title": "The turbulent AI era is here",
+   "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
+   "points": 252,
+   "comments": 505
+  },
+  {
+   "title": "Suica, Japan's First IC Transit Card",
+   "url": "https://www.tokyodev.com/articles/the-story-of-suica",
+   "points": 217,
+   "comments": 187
+  },
+  {
+   "title": "Gemini Omni 1.1 Flash",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+   "points": 215,
+   "comments": 151
+  },
+  {
+   "title": "Gemini-3.5-Transcribe",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+   "points": 207,
+   "comments": 58
+  },
+  {
+   "title": "Decompiling a Nintendo 64 game in 84 days",
+   "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/",
+   "points": 206,
+   "comments": 127
+  },
+  {
+   "title": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
+   "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
+   "points": 200,
+   "comments": 156
+  }
+ ]
+}
