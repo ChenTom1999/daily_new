@@ -1,0 +1,120 @@
+{
+ "date": "2026-08-29",
+ "updated": "2026-08-29 10:38",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,504.10",
+   "change": "▼ 105.60 (-2.29%)",
+   "cls": "down",
+   "value": 4504.1
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.68",
+   "change": "▲ 0.52 (+0.52%)",
+   "cls": "up",
+   "value": 99.68
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.720",
+   "change": "▲ 0.048 (+1.03%)",
+   "cls": "up",
+   "value": 4.72
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.43",
+   "change": "▼ 0.08 (-0.55%)",
+   "cls": "down",
+   "value": 14.43
+  }
+ ],
+ "calendar": [
+  {
+   "time": "00:15",
+   "passed": true,
+   "country": "All",
+   "title": "Jackson Hole Symposium",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": "- **川普宣稱取得委內瑞拉油儲控制權以壓低能源價格**：能源通膨預期降溫可能削弱黃金的抗通膨買盤，但涉及地緣政治利益重組，需關注油價變動對美元與降息路徑的間接影響。\n- **市場示警美國新一輪關稅將衝擊北美與全球貿易**：關稅戰風險升溫引發市場避險情緒，短線對黃金構成支撐，但亦需留意關稅推升通膨黏性可能使美元走強，進而限制金價漲幅。\n- **美中駭客攻擊與國安角力持續延燒**：美中科技與國安摩擦未見降溫，地緣政治與資安風險維持市場潛在不確定性，為金價提供底層避險買盤防線。",
+ "tech": "- **GLM-5.3 is now open-weight**：智譜 AI 正式將 GLM-5.3 模型權重開源，為開發者提供了最新的高效能開源 LLM 選擇，有助於降低自建 AI 應用與微調的門檻。\n- **Htmx 4.0**：熱門的輕量級 Web 框架 Htmx 迎來重大更新，展示了反思現代複雜 SPA 框架、重回 HTML 驅動的全新演進方向，值得前端與全端工程師關注。\n- **The Twelve-Factor App (2025)**：經典的雲原生應用架構準則針對 2025 年的現代基礎設施與雲端環境進行了全面更新，為後端與 DevOps 工程師設計現代化分散式系統提供重要參考。\n- **Just the rumour of a bug is enough to find an exploit these days**：探討現代資安威脅已演變成光憑漏洞傳聞就能搭配自動化工具與 AI 快速逆向推導出攻擊手法，提醒工程師必須建立更敏捷的漏洞應變與修補機制。\n- **Migrating to HTTPX2**：詳細記錄了 Python 生態系中從 HTTPX 遷移至下一代 HTTP 客戶端 HTTPX2 的架構與升級實踐，為依賴高效能非同步 HTTP 請求的後端開發者提供實用的踩坑指南。",
+ "hackernews": [
+  {
+   "title": "GUIs should be fully keyboard-driven",
+   "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
+   "points": 635,
+   "comments": 311
+  },
+  {
+   "title": "GLM-5.3 is now open-weight",
+   "url": "https://huggingface.co/zai-org/GLM-5.3",
+   "points": 608,
+   "comments": 210
+  },
+  {
+   "title": "Htmx 4.0",
+   "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+   "points": 547,
+   "comments": 132
+  },
+  {
+   "title": "Judge rules Trump administration’s blacklisting of Anthropic was illegal",
+   "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+   "points": 539,
+   "comments": 401
+  },
+  {
+   "title": "U.S. sanctions against the A/I Collective",
+   "url": "https://www.inventati.org/",
+   "points": 495,
+   "comments": 477
+  },
+  {
+   "title": "Luanti removed from Google Play due to baseless AI copyright notice",
+   "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
+   "points": 458,
+   "comments": 140
+  },
+  {
+   "title": "Inception-style curved map for turn-by-turn directions",
+   "url": "https://www.orbify.eu/demo/",
+   "points": 438,
+   "comments": 145
+  },
+  {
+   "title": "Just the rumour of a bug is enough to find an exploit these days",
+   "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
+   "points": 267,
+   "comments": 92
+  },
+  {
+   "title": "The Twelve-Factor App (2025)",
+   "url": "https://12factor.net/",
+   "points": 230,
+   "comments": 121
+  },
+  {
+   "title": "Migrating to HTTPX2",
+   "url": "https://github.com/openai/openai-python/blob/main/httpx2.md",
+   "points": 186,
+   "comments": 80
+  },
+  {
+   "title": "Verschlimmbesserung: The Word Your Software Updates Need",
+   "url": "https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/",
+   "points": 110,
+   "comments": 71
+  },
+  {
+   "title": "EasyEffects can improve laptop speaker sound quality",
+   "url": "https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/",
+   "points": 103,
+   "comments": 48
+  }
+ ]
+}
