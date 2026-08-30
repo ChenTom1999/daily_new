@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-30",
+ "updated": "2026-08-30 10:40",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,478.10",
+   "change": "▼ 131.60 (-2.85%)",
+   "cls": "down",
+   "value": 4478.1
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.70",
+   "change": "▲ 0.54 (+0.54%)",
+   "cls": "up",
+   "value": 99.7
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.720",
+   "change": "▲ 0.048 (+1.03%)",
+   "cls": "up",
+   "value": 4.72
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.43",
+   "change": "▼ 0.08 (-0.55%)",
+   "cls": "down",
+   "value": 14.43
+  }
+ ],
+ "calendar": [],
+ "summary": "- 基輔武器庫遭襲致數十人死傷，俄烏戰事升級引發市場避險情緒，短線對黃金（XAU/USD）形成上行支撐（偏多）。\n- 美國與委內瑞拉達成石油協議恐壓低國際油價，進而削弱通膨預期並影響降息節奏，對黃金抗通膨買盤構成微幅壓制（中性偏空）。\n- 尼日平息叛變並傳俄軍介入空軍基地，非洲地緣政治與大國角力風險未歇，提供黃金底部避險買盤（偏多）。\n- 北韓國防部長撤職引發軍方高層洗牌，朝鮮半島局勢不確定性增加，維持市場潛在避險溢價（偏多）。",
+ "tech": "* **利用 Apple 的 Virtualization.framework 啟動虛擬 iPhone**：這是一項透過 macOS 原生虛擬化框架啟動 iOS 虛擬系統的技術實作，為 iOS 應用開發、自動化測試以及安全研究領域開闢了極具價值的新途徑。\n* **三星 Processing-in-Memory (PIM) 記憶體內運算架構**：這項技術將運算邏輯直接整合進記憶體晶片中以大幅減少資料搬移，是打破當前大型語言模型（LLM）與 AI 推論中「記憶體牆（Memory Wall）」瓶頸的重大硬體進展。\n* **EVE Online 全面遷移至 Python 3**：營運超過 20 年的知名大型線上遊戲完成由 Python 2 升級至 Python 3 的歷史性遷移，為軟體工程領域處理龐大遺留系統（Legacy Codebase）與跨版本重構提供了極高參考價值的實戰範例。\n* **Tether：在 Linux 上接收與傳送 iMessage 的開源工具**：這款工具讓 Linux 用戶能原生整合並使用 Apple 的 iMessage 與 SMS 服務，展現了打破封閉生態系限制的逆向工程與跨平台通訊整合技術。\n* **Hy4 語言預覽版發布**：這款將 Lisp 語法深度嵌入 Python 的程式語言迎來重大更新，讓開發者能夠在龐大的 Python 生態系中靈活運用 Lisp 強大的元程式設計（Metaprogramming）與巨集能力。",
+ "hackernews": [
+  {
+   "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+   "url": "https://github.com/Lakr233/vphone-cli",
+   "points": 384,
+   "comments": 103
+  },
+  {
+   "title": "Tether: iMessage, SMS, etc. on Linux",
+   "url": "https://zackbartel.com/blog/2026/08/tether/",
+   "points": 372,
+   "comments": 155
+  },
+  {
+   "title": "DHS is using obscure law to snoop on journalists, non-profits, unions",
+   "url": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
+   "points": 321,
+   "comments": 52
+  },
+  {
+   "title": "EVE Online moves to Python 3",
+   "url": "https://www.eveonline.com/news/view/the-move-to-python-3-begins",
+   "points": 313,
+   "comments": 162
+  },
+  {
+   "title": "Glacier Mice",
+   "url": "https://en.wikipedia.org/wiki/Glacier_mice",
+   "points": 267,
+   "comments": 51
+  },
+  {
+   "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
+   "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+   "points": 264,
+   "comments": 62
+  },
+  {
+   "title": "Samsung's Processing-in-Memory (PIM)",
+   "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+   "points": 246,
+   "comments": 92
+  },
+  {
+   "title": "Hy4 preview",
+   "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+   "points": 206,
+   "comments": 131
+  },
+  {
+   "title": "SQLite as a Document Database (2020)",
+   "url": "https://dgl.cx/2020/06/sqlite-json-support",
+   "points": 177,
+   "comments": 46
+  },
+  {
+   "title": "Nancy Grace Roman Space Telescope",
+   "url": "https://science.nasa.gov/mission/roman-space-telescope/",
+   "points": 135,
+   "comments": 66
+  },
+  {
+   "title": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
+   "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/",
+   "points": 127,
+   "comments": 43
+  },
+  {
+   "title": "Calibrate Before You Accelerate: Bias Toward Action in a New Role",
+   "url": "https://tucker.wales/writing/bias-towards-action/",
+   "points": 118,
+   "comments": 49
+  }
+ ]
+}
