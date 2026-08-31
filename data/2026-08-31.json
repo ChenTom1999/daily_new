@@ -1,0 +1,111 @@
+{
+ "date": "2026-08-31",
+ "updated": "2026-08-31 10:44",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,472.20",
+   "change": "▼ 5.90 (-0.13%)",
+   "cls": "down",
+   "value": 4472.2
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.58",
+   "change": "▼ 0.12 (-0.12%)",
+   "cls": "down",
+   "value": 99.58
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.720",
+   "change": "▲ 0.048 (+1.03%)",
+   "cls": "up",
+   "value": 4.72
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.43",
+   "change": "▼ 0.08 (-0.55%)",
+   "cls": "down",
+   "value": 14.43
+  }
+ ],
+ "calendar": [],
+ "summary": "- **美伊軍事衝突急遽升級**：美軍空襲荷莫茲海峽拉拉克島、伊朗隨後攻擊駐約旦美軍，地緣政治風險顯著爆發，激發強烈避險買盤，對黃金短期構成強勁利多。\n- **對伊制裁與經濟施壓常態化**：美國計畫每週對伊朗實施新制裁，加劇中東局勢長期不確定性並牽動能源通膨預期，為金價提供中短期底部支撐。\n- **非洲區域局勢動盪蔓延**：衛星影像示警蘇丹戰事升溫且邊境現大規模軍力部署，全球地緣衝突點增加，進一步強化市場避險情緒，微幅利多黃金。",
+ "tech": "* **Omarchy 提權漏洞（Omarchy: Any User Process Can Escalate to Root）**：這是一個展示特定環境下普通使用者程序皆可提權至 root 的系統安全漏洞，值得系統管理員與後端工程師警惕並檢視權限隔離機制。\n* **QubesOS 任意程式碼執行漏洞（Arbitrary code execution in QubesOS）**：這是以高安全性著稱的 QubesOS 在虛擬機複製檔案錯誤回報通道中被發現的隔離逃逸漏洞，對專注於虛擬化技術與沙盒安全機制的開發者具有高度警示與借鑑價值。\n* **Haiku R1/beta6 正式發布**：這是承襲經典 BeOS 精神的開源單一體系作業系統最新測試版，帶來了多項硬體相容性改進與系統穩定度提升，是關注非 Unix/Linux 現代桌面作業系統架構的開發者值得關注的重大里程碑。\n* **歐盟重啟加密後門法案推動（European Commission Revives Push for Encryption Backdoors）**：這是歐盟在 ProtectEU 策略中再度推動要求通訊軟體建立解密後門的政策動向，對密碼學應用、隱私保護協定與全球軟體架構規範將產生深遠衝擊。\n* **NFC 能量採集 MCU 電路板名片（NFC Energy-Harvesting PCB Business Card）**：這是一個完全透過 NFC 射頻採集能量來驅動微控制器運作的硬體展示專案，為從事超低功耗嵌入式系統與無電池物聯網（IoT）裝置開發的工程師提供了極具啟發性的實作範例。",
+ "hackernews": [
+  {
+   "title": "Creepy Crawlies",
+   "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
+   "points": 946,
+   "comments": 454
+  },
+  {
+   "title": "Omarchy: Any User Process Can Escalate to Root",
+   "url": "https://0xcc.io/posts/omarchy-root-creds/",
+   "points": 439,
+   "comments": 419
+  },
+  {
+   "title": "European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy",
+   "url": "https://reclaimthenet.org/eu-protecteu-strategy-encryption-backdoor-law-enforcement",
+   "points": 367,
+   "comments": 156
+  },
+  {
+   "title": "“I just chose words carefully”",
+   "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
+   "points": 329,
+   "comments": 84
+  },
+  {
+   "title": "Hacking IKEA Furniture",
+   "url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
+   "points": 272,
+   "comments": 186
+  },
+  {
+   "title": "Haiku R1/beta6 has been released",
+   "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
+   "points": 261,
+   "comments": 78
+  },
+  {
+   "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
+   "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+   "points": 210,
+   "comments": 84
+  },
+  {
+   "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
+   "url": "https://arxiv.org/abs/1804.07389",
+   "points": 194,
+   "comments": 56
+  },
+  {
+   "title": "Coordination Headwind: How Organizations Are Like Slime Molds",
+   "url": "https://komoroske.com/slime-mold/",
+   "points": 133,
+   "comments": 45
+  },
+  {
+   "title": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
+   "url": "https://wilsonharper.net/projects/businesscard/",
+   "points": 112,
+   "comments": 12
+  },
+  {
+   "title": "Dad’s Custom Atari Peripherals",
+   "url": "https://www.goto10retro.com/p/dads-custom-atari-peripherals",
+   "points": 103,
+   "comments": 14
+  },
+  {
+   "title": "Electric rain can eat through metal",
+   "url": "https://www.scientificamerican.com/article/electric-rain-can-eat-through-metal/",
+   "points": 99,
+   "comments": 20
+  }
+ ]
+}
