@@ -1,0 +1,120 @@
+{
+ "date": "2026-09-01",
+ "updated": "2026-09-01 10:48",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,488.20",
+   "change": "▲ 10.10 (+0.23%)",
+   "cls": "up",
+   "value": 4488.2
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.47",
+   "change": "▲ 0.31 (+0.32%)",
+   "cls": "up",
+   "value": 99.47
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.758",
+   "change": "▲ 0.086 (+1.84%)",
+   "cls": "up",
+   "value": 4.758
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.92",
+   "change": "▲ 0.41 (+2.83%)",
+   "cls": "up",
+   "value": 14.92
+  }
+ ],
+ "calendar": [
+  {
+   "time": "22:00",
+   "passed": false,
+   "country": "USD",
+   "title": "ISM Manufacturing PMI",
+   "forecast": "55.2",
+   "previous": "55.6"
+  }
+ ],
+ "summary": "- **美伊爆發數週來首次互襲行動**：中東地緣政治衝突再度升級，顯著推升市場避險需求，短線實質利多黃金（XAU/USD）。\n- **川普主持G20財長會邀俄代表引發歐洲強烈反彈**：美歐在對俄立場與外交政策上的分歧加劇，提升國際政經不確定性，對金價形成避險支撐。\n- **美國陸軍部長因內部關係緊張請辭**：反映美國國防領導層人事動盪與政策潛在分歧，微幅增加政局不穩定性，情緒面有利避險資產。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
+   "url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
+   "points": 574,
+   "comments": 436
+  },
+  {
+   "title": "Playa Phone",
+   "url": "https://playaphone.com/",
+   "points": 510,
+   "comments": 187
+  },
+  {
+   "title": "I turned my security cameras into an automatic bird identification system",
+   "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+   "points": 371,
+   "comments": 97
+  },
+  {
+   "title": "Dwarf Fortress is getting the mother of all magic updates",
+   "url": "https://www.rockpapershotgun.com/dwarf-fortress-is-getting-the-mother-of-all-magic-updates-extending-to-the-fundamental-cosmological-makeup-of-the-universe",
+   "points": 310,
+   "comments": 112
+  },
+  {
+   "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
+   "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+   "points": 307,
+   "comments": 354
+  },
+  {
+   "title": "I think the military commissary's freezers were hacked",
+   "url": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary",
+   "points": 257,
+   "comments": 153
+  },
+  {
+   "title": "Terence Tao explains 6 essential mathematical concepts [video]",
+   "url": "https://www.youtube.com/watch?v=OOMx2BHHWtE",
+   "points": 228,
+   "comments": 27
+  },
+  {
+   "title": "A walkable ASCII cyberpunk city in one HTML file [video]",
+   "url": "https://www.youtube.com/watch?v=3YtygAx_C6A",
+   "points": 218,
+   "comments": 30
+  },
+  {
+   "title": "Internet centralization and the original sin of NAT",
+   "url": "https://dreamstation.systems/personal/ntppost.html",
+   "points": 188,
+   "comments": 148
+  },
+  {
+   "title": "ChatGPT Work Tool and Skill Reference",
+   "url": "https://codex-tool-reference.simonw.chatgpt.site/",
+   "points": 184,
+   "comments": 51
+  },
+  {
+   "title": "RavynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source",
+   "url": "https://ravynos.com/",
+   "points": 174,
+   "comments": 106
+  },
+  {
+   "title": "No country for mediocre mathematicians",
+   "url": "https://garvvee.substack.com/p/no-country-for-mediocre-mathematicians",
+   "points": 161,
+   "comments": 95
+  }
+ ]
+}
