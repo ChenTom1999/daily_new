@@ -1,0 +1,176 @@
+{
+ "date": "2026-09-02",
+ "updated": "2026-09-02 15:23",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,368.40",
+   "change": "▲ 20.40 (+0.47%)",
+   "cls": "up",
+   "value": 4368.4
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.80",
+   "change": "▲ 0.13 (+0.13%)",
+   "cls": "up",
+   "value": 99.8
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.796",
+   "change": "▲ 0.038 (+0.80%)",
+   "cls": "up",
+   "value": 4.796
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "16.34",
+   "change": "▲ 1.42 (+9.52%)",
+   "cls": "up",
+   "value": 16.34
+  }
+ ],
+ "calendar": [
+  {
+   "time": "09:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "GDP q/q",
+   "forecast": "0.3%",
+   "previous": "0.3%"
+  },
+  {
+   "time": "10:00",
+   "passed": true,
+   "country": "NZD",
+   "title": "Official Cash Rate",
+   "forecast": "2.75%",
+   "previous": "2.50%"
+  },
+  {
+   "time": "10:00",
+   "passed": true,
+   "country": "NZD",
+   "title": "RBNZ Monetary Policy Statement",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "10:00",
+   "passed": true,
+   "country": "NZD",
+   "title": "RBNZ Rate Statement",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "11:00",
+   "passed": true,
+   "country": "NZD",
+   "title": "RBNZ Press Conference",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "21:45",
+   "passed": false,
+   "country": "CAD",
+   "title": "BOC Rate Statement",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "21:45",
+   "passed": false,
+   "country": "CAD",
+   "title": "Overnight Rate",
+   "forecast": "2.25%",
+   "previous": "2.25%"
+  },
+  {
+   "time": "22:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "BOC Press Conference",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+   "points": 1144,
+   "comments": 1059
+  },
+  {
+   "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+   "url": "https://danluu.com/zitron/",
+   "points": 625,
+   "comments": 687
+  },
+  {
+   "title": "Introducing Ad Blocker for Firefox on iOS",
+   "url": "https://blog.mozilla.org/en/firefox/ad-blocker-on-ios/",
+   "points": 406,
+   "comments": 137
+  },
+  {
+   "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+   "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+   "points": 365,
+   "comments": 161
+  },
+  {
+   "title": "Ambient CSS v3 – Blender meets CSS",
+   "url": "https://ambientcss.vercel.app/",
+   "points": 236,
+   "comments": 74
+  },
+  {
+   "title": "The creator of Jujutsu has joined ERSC",
+   "url": "https://ersc.io/blog/martin-joins-ersc",
+   "points": 221,
+   "comments": 167
+  },
+  {
+   "title": "Movie Scene Map – 13,312 films, series, games, anime and manga",
+   "url": "https://moviescenemap.com/",
+   "points": 214,
+   "comments": 31
+  },
+  {
+   "title": "Ask HN: Who is hiring? (September 2026)",
+   "url": "https://news.ycombinator.com/item?id=49522897",
+   "points": 208,
+   "comments": 227
+  },
+  {
+   "title": "Atlas: A World Model for Spatial Intelligence",
+   "url": "https://www.worldlabs.ai/blog/atlas",
+   "points": 204,
+   "comments": 49
+  },
+  {
+   "title": "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+   "url": "https://github.com/carloslfu/slotstream",
+   "points": 196,
+   "comments": 94
+  },
+  {
+   "title": "True Rate of Unemployment",
+   "url": "https://www.lisep.org/tru",
+   "points": 169,
+   "comments": 110
+  },
+  {
+   "title": "My local model setup on an M4 Pro Mac Mini",
+   "url": "https://lws.io/blog/my-local-model-setup/",
+   "points": 155,
+   "comments": 73
+  }
+ ]
+}
