@@ -1,0 +1,111 @@
+{
+ "date": "2026-09-03",
+ "updated": "2026-09-03 15:19",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,469.90",
+   "change": "▲ 103.60 (+2.37%)",
+   "cls": "up",
+   "value": 4469.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.20",
+   "change": "▼ 0.36 (-0.36%)",
+   "cls": "down",
+   "value": 99.2
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.796",
+   "change": "▲ 0.000 (+0.00%)",
+   "cls": "up",
+   "value": 4.796
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.20",
+   "change": "▼ 1.14 (-6.98%)",
+   "cls": "down",
+   "value": 15.2
+  }
+ ],
+ "calendar": [],
+ "summary": "- **伊朗襲擊沙國油輪釀死傷**：波斯灣原油供應與航運風險驟升，短線激化中東避險情緒，為金價提供上行動能。\n- **美伊重啟交火且戰況恐升級**：地緣局勢再度惡化引發市場恐慌，避險資金快速流入黃金（XAU/USD），短波段偏多看待。\n- **美軍部署拉長、美伊衝突恐拖至2027年**：中東對峙恐轉為長期消耗戰，地緣政治風險溢價難以消退，奠定金價中長線底部支撐。\n- **美國對無人機課徵高達100%關稅**：中美貿易摩擦加劇並可能引發供應鏈通膨疑慮，對具有抗通膨屬性的黃金帶來邊際利多。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+   "points": 970,
+   "comments": 548
+  },
+  {
+   "title": "Muse Spark 1.3",
+   "url": "https://developer.meta.com/ai/models/muse-spark/",
+   "points": 526,
+   "comments": 359
+  },
+  {
+   "title": "Can I opt out of my input or output data being used for training?",
+   "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+   "points": 423,
+   "comments": 181
+  },
+  {
+   "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+   "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+   "points": 377,
+   "comments": 179
+  },
+  {
+   "title": "Google avoids a breakup of its ad tech business",
+   "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
+   "points": 353,
+   "comments": 254
+  },
+  {
+   "title": "Biggest dark matter detector spots a single weird particle",
+   "url": "https://www.science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle",
+   "points": 278,
+   "comments": 92
+  },
+  {
+   "title": "Aging brains blend memories together instead of just forgetting them",
+   "url": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/",
+   "points": 257,
+   "comments": 114
+  },
+  {
+   "title": "Whistleblower warns Postal Service mail ballot system has catastrophic problems",
+   "url": "https://www.cbsnews.com/news/whistleblower-postal-service-new-mail-ballot-system/",
+   "points": 246,
+   "comments": 181
+  },
+  {
+   "title": "Exit the Cave",
+   "url": "https://turtlespace.blog/p/exit-the-cave",
+   "points": 246,
+   "comments": 89
+  },
+  {
+   "title": "Fable 5.1 World Modeling",
+   "url": "https://github.com/PhiloLabs/fable51-worlds",
+   "points": 210,
+   "comments": 62
+  },
+  {
+   "title": "Wendell Berry has died",
+   "url": "https://www.nytimes.com/2026/08/31/us/wendell-berry-dead.html",
+   "points": 173,
+   "comments": 92
+  },
+  {
+   "title": "Reverse Engineering Unknown File Formats with ImHex",
+   "url": "https://werwolv.net/posts/file_format_reverse_engineering/",
+   "points": 168,
+   "comments": 34
+  }
+ ]
+}
