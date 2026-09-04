@@ -1,0 +1,160 @@
+{
+ "date": "2026-09-04",
+ "updated": "2026-09-04 15:29",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,517.20",
+   "change": "▲ 25.50 (+0.57%)",
+   "cls": "up",
+   "value": 4517.2
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.02",
+   "change": "▲ 0.02 (+0.02%)",
+   "cls": "up",
+   "value": 99.02
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.762",
+   "change": "▼ 0.034 (-0.71%)",
+   "cls": "down",
+   "value": 4.762
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.32",
+   "change": "▼ 0.88 (-5.79%)",
+   "cls": "down",
+   "value": 14.32
+  }
+ ],
+ "calendar": [
+  {
+   "time": "16:50",
+   "passed": false,
+   "country": "GBP",
+   "title": "BOE Gov Bailey Speaks",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "Employment Change",
+   "forecast": "15.1K",
+   "previous": "75.1K"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "Unemployment Rate",
+   "forecast": "6.4%",
+   "previous": "6.4%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Average Hourly Earnings m/m",
+   "forecast": "0.3%",
+   "previous": "0.1%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Non-Farm Employment Change",
+   "forecast": "55K",
+   "previous": "-23K"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Unemployment Rate",
+   "forecast": "4.1%",
+   "previous": "4.1%"
+  }
+ ],
+ "summary": "- 美國調查涉伊朗飛彈事件：美伊關係與中東緊張局勢若進一步升溫，將推升市場避險情緒，對黃金（XAU/USD）形成短線利多支撐。\n- 阿根廷重申福克蘭主權並揚言制裁油企：領土爭議與針對能源業的制裁威脅恐引發地緣政治摩擦並牽動通膨預期，微幅增強黃金避險買盤。\n- 中國館退出韓國光州雙年展：反映中韓外交冷淡及區域地緣政治小摩擦，雖影響有限，但邊際上略微支持具避險屬性的資產。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": ".name Termination",
+   "url": "https://neil.fraser.name/news/2026/09/03/",
+   "points": 1673,
+   "comments": 417
+  },
+  {
+   "title": "GPT-6 Astra",
+   "url": "https://openai.com/index/gpt-6-astra/",
+   "points": 1666,
+   "comments": 1444
+  },
+  {
+   "title": "Any Human Ever – One life, drawn at random from all who have ever lived",
+   "url": "https://anyhumanever.com/",
+   "points": 553,
+   "comments": 262
+  },
+  {
+   "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+   "url": "https://inference-docs.cerebras.ai/models/overview",
+   "points": 523,
+   "comments": 167
+  },
+  {
+   "title": "K2 Horizon: A connected fleet of six open models",
+   "url": "https://ifm.ai/blog/k2/",
+   "points": 290,
+   "comments": 94
+  },
+  {
+   "title": "The largest electric aircraft just flew [video]",
+   "url": "https://www.youtube.com/watch?v=nM86DBOqgPM",
+   "points": 281,
+   "comments": 198
+  },
+  {
+   "title": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+   "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+   "points": 272,
+   "comments": 78
+  },
+  {
+   "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+   "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
+   "points": 260,
+   "comments": 76
+  },
+  {
+   "title": "Artificial beaver dams saw juvenile coho salmon survival rates go from 8% to 60%",
+   "url": "https://www.discoverwildlife.com/animal-facts/artificial-beaver-dams-california",
+   "points": 228,
+   "comments": 66
+  },
+  {
+   "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+   "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+   "points": 182,
+   "comments": 72
+  },
+  {
+   "title": "GPS glitched across the US by as much as 33 feet",
+   "url": "https://www.sciencealert.com/gps-glitched-across-the-us-by-as-much-as-33-feet-scientists-have-never-seen-this-before",
+   "points": 169,
+   "comments": 97
+  },
+  {
+   "title": "Unusual Suspects",
+   "url": "https://neal.fun/unusual-suspects/",
+   "points": 150,
+   "comments": 27
+  }
+ ]
+}
