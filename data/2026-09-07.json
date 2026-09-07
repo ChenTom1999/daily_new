@@ -1,0 +1,111 @@
+{
+ "date": "2026-09-07",
+ "updated": "2026-09-07 15:28",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,476.60",
+   "change": "▲ 46.80 (+1.06%)",
+   "cls": "up",
+   "value": 4476.6
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.12",
+   "change": "▼ 0.04 (-0.04%)",
+   "cls": "down",
+   "value": 99.12
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.784",
+   "change": "▲ 0.022 (+0.46%)",
+   "cls": "up",
+   "value": 4.784
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.53",
+   "change": "▲ 0.21 (+1.47%)",
+   "cls": "up",
+   "value": 14.53
+  }
+ ],
+ "calendar": [],
+ "summary": "- 以色列襲擊黎巴嫩南部加劇中東緊張局勢，市場避險情緒升溫，短線利多黃金。\n- 澤倫斯基示警戰事恐延續至冬季，俄烏衝突長期化維持地緣政治風險溢價，為金價提供底部支撐。\n- 戰事衝擊煉油與航運恐引發燃料供應短缺，能源成本推升通膨復燃預期，增強黃金抗通膨資產吸引力。\n- 德國極右翼勢力抬頭引發歐洲政局不確定性，歐元潛在走弱或推升美元指數，需提防美元反彈對金價帶來的壓制。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Nitter and XCancel resume service after legal advice",
+   "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
+   "points": 668,
+   "comments": 308
+  },
+  {
+   "title": "Asahi Linux on M3",
+   "url": "https://asahilinux.org/2026/09/m2-episode-1/",
+   "points": 428,
+   "comments": 260
+  },
+  {
+   "title": "An Alien Mind",
+   "url": "https://openai.com/index/an-alien-mind/",
+   "points": 395,
+   "comments": 341
+  },
+  {
+   "title": "Keep Our Servers Running",
+   "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
+   "points": 302,
+   "comments": 65
+  },
+  {
+   "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
+   "url": "https://grapheneos.social/@GrapheneOS/117225539756835649",
+   "points": 270,
+   "comments": 193
+  },
+  {
+   "title": "It took a year to ship WebAssembly in Anubis",
+   "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
+   "points": 240,
+   "comments": 120
+  },
+  {
+   "title": "Making a Python interpreter in 1024 bytes",
+   "url": "https://austinhenley.com/blog/python1024.html",
+   "points": 195,
+   "comments": 72
+  },
+  {
+   "title": "Research acceleration: The view inside OpenAI",
+   "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+   "points": 160,
+   "comments": 107
+  },
+  {
+   "title": "Babylonian Lamb Stew with Beets (1750–1730 BCE)",
+   "url": "https://babylonian-collection.yale.edu/about/babylonian-cooking",
+   "points": 133,
+   "comments": 86
+  },
+  {
+   "title": "NetBSD 9.5 released and EOL for NetBSD-9",
+   "url": "https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and",
+   "points": 127,
+   "comments": 12
+  },
+  {
+   "title": "Ask HN: Fable hacked my piano, can I release the results?",
+   "url": "https://news.ycombinator.com/item?id=49577129",
+   "points": 110,
+   "comments": 58
+  },
+  {
+   "title": "Ask HN: How do you manage skills files?",
+   "url": "https://news.ycombinator.com/item?id=49589914",
+   "points": 86,
+   "comments": 67
+  }
+ ]
+}
