@@ -1,0 +1,111 @@
+{
+ "date": "2026-09-08",
+ "updated": "2026-09-08 15:22",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,451.40",
+   "change": "▲ 21.60 (+0.49%)",
+   "cls": "up",
+   "value": 4451.4
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "98.89",
+   "change": "▼ 0.27 (-0.27%)",
+   "cls": "down",
+   "value": 98.89
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.784",
+   "change": "▲ 0.022 (+0.46%)",
+   "cls": "up",
+   "value": 4.784
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.30",
+   "change": "▲ 0.77 (+5.30%)",
+   "cls": "up",
+   "value": 15.3
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "216M Spy TVs – The LG Smart TV Problem [video]",
+   "url": "https://www.youtube.com/watch?v=6IFVTcM28KA",
+   "points": 706,
+   "comments": 884
+  },
+  {
+   "title": "WeatherNext 3",
+   "url": "https://deepmind.google/science/weathernext/",
+   "points": 306,
+   "comments": 74
+  },
+  {
+   "title": "Jellyfin 12.0",
+   "url": "https://jellyfin.org/posts/jellyfin-release-12.0/",
+   "points": 299,
+   "comments": 115
+  },
+  {
+   "title": "Watch Los Angeles get built, one building at a time (1880–2026)",
+   "url": "https://lax-skyline.parcelscope.net/",
+   "points": 278,
+   "comments": 138
+  },
+  {
+   "title": "I've factored the RSA keys of a Certificate Authority from the 90s",
+   "url": "https://mcpherrin.ca/2026/09/07/rsa.html",
+   "points": 260,
+   "comments": 47
+  },
+  {
+   "title": "This Month in Ladybird – August 2026",
+   "url": "https://ladybird.org/newsletter/2026-08-31/",
+   "points": 228,
+   "comments": 56
+  },
+  {
+   "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+   "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+   "points": 221,
+   "comments": 120
+  },
+  {
+   "title": "Scientists observe Einstein's gravity in the quantum world",
+   "url": "https://www.ox.ac.uk/news/2026-08-28-scientists-observe-einsteins-gravity-in-the-quantum-world",
+   "points": 204,
+   "comments": 48
+  },
+  {
+   "title": "Trusting-Trust Attack against an Entire Linux Distribution",
+   "url": "https://arxiv.org/abs/2607.24888",
+   "points": 192,
+   "comments": 40
+  },
+  {
+   "title": "TALA Is Open-Source",
+   "url": "https://d2lang.com/blog/tala-is-open-source/",
+   "points": 188,
+   "comments": 12
+  },
+  {
+   "title": "Leaving VMware just got harder after Broadcom pulled VDDK downloads",
+   "url": "https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/",
+   "points": 174,
+   "comments": 74
+  },
+  {
+   "title": "Icy Moons Are Ocean Worlds",
+   "url": "https://mceglowski.substack.com/p/icy-moons-are-ocean-worlds",
+   "points": 166,
+   "comments": 17
+  }
+ ]
+}
