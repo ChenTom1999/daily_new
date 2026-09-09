@@ -1,0 +1,111 @@
+{
+ "date": "2026-09-09",
+ "updated": "2026-09-09 15:30",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,447.30",
+   "change": "▲ 53.40 (+1.22%)",
+   "cls": "up",
+   "value": 4447.3
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "98.66",
+   "change": "▼ 0.18 (-0.19%)",
+   "cls": "down",
+   "value": 98.66
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.806",
+   "change": "▲ 0.022 (+0.46%)",
+   "cls": "up",
+   "value": 4.806
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.72",
+   "change": "▲ 0.42 (+2.75%)",
+   "cls": "up",
+   "value": 15.72
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
+   "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+   "points": 1566,
+   "comments": 668
+  },
+  {
+   "title": "On the Navier–Stokes Millennium Prize Problem",
+   "url": "https://openai.com/index/navier-stokes-solution/",
+   "points": 1239,
+   "comments": 987
+  },
+  {
+   "title": "AlphaGenome Atlas: a high-resolution map of human DNA",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+   "points": 543,
+   "comments": 118
+  },
+  {
+   "title": "We built our house for LAN parties (2024)",
+   "url": "https://lanparty.house/",
+   "points": 491,
+   "comments": 322
+  },
+  {
+   "title": "Muse – Meta’s personal AI agent",
+   "url": "https://ai.meta.com/muse/",
+   "points": 471,
+   "comments": 500
+  },
+  {
+   "title": "I resigned from Anthropic today",
+   "url": "https://twitter.com/hilbertspaess/status/2097476196791709843#m",
+   "points": 449,
+   "comments": 586
+  },
+  {
+   "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+   "url": "https://github.com/ayghri/i-have-adhd",
+   "points": 410,
+   "comments": 295
+  },
+  {
+   "title": "DaVinci Resolve 21.1",
+   "url": "https://www.blackmagicdesign.com/media/release/20260908-03",
+   "points": 392,
+   "comments": 175
+  },
+  {
+   "title": "ChatGPT Images 2.5",
+   "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+   "points": 326,
+   "comments": 397
+  },
+  {
+   "title": "Tao: Open math problems being non-renewably mined by AI",
+   "url": "https://mathstodon.xyz/@tao/117237320796901560",
+   "points": 325,
+   "comments": 306
+  },
+  {
+   "title": "How to build a printer",
+   "url": "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/",
+   "points": 284,
+   "comments": 54
+  },
+  {
+   "title": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
+   "url": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
+   "points": 242,
+   "comments": 114
+  }
+ ]
+}
