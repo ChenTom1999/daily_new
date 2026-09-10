@@ -1,0 +1,152 @@
+{
+ "date": "2026-09-10",
+ "updated": "2026-09-10 15:32",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,458.30",
+   "change": "▲ 42.30 (+0.96%)",
+   "cls": "up",
+   "value": 4458.3
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "98.75",
+   "change": "▼ 0.02 (-0.02%)",
+   "cls": "down",
+   "value": 98.75
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.837",
+   "change": "▲ 0.031 (+0.65%)",
+   "cls": "up",
+   "value": 4.837
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "16.46",
+   "change": "▲ 0.74 (+4.71%)",
+   "cls": "up",
+   "value": 16.46
+  }
+ ],
+ "calendar": [
+  {
+   "time": "20:15",
+   "passed": false,
+   "country": "EUR",
+   "title": "Main Refinancing Rate",
+   "forecast": "2.65%",
+   "previous": "2.40%"
+  },
+  {
+   "time": "20:15",
+   "passed": false,
+   "country": "EUR",
+   "title": "Monetary Policy Statement",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core PPI m/m",
+   "forecast": "0.3%",
+   "previous": "0.2%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "PPI m/m",
+   "forecast": "0.4%",
+   "previous": "0.0%"
+  },
+  {
+   "time": "20:45",
+   "passed": false,
+   "country": "EUR",
+   "title": "ECB Press Conference",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": "- 美伊衝突恐長期化拖至大選後甚至卸任：川普與白宮內部警訊顯示中東地緣局勢深陷泥淖，市場避險情緒難以消退，實質利多黃金（XAU/USD）維持多頭動能。\n- 美軍與胡塞武裝衝突推升原油重返100美元：紅海危機升溫叠加能源價格飆漲，市場面臨地緣風險與二次通膨雙重壓力，強化黃金作為抗通膨與避險資產的買盤支撐。\n- 川普揚言選後普發每人5,000美元：大規模擴張性財政政見加劇市場對美國財政赤字惡化與通膨反彈的擔憂，中長期利多黃金，但短期需提防美債殖利率反彈帶來的震盪。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "iPhone Duo",
+   "url": "https://www.apple.com/iphone-duo/",
+   "points": 1145,
+   "comments": 1990
+  },
+  {
+   "title": "Shopify acquires Tailwind",
+   "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+   "points": 1001,
+   "comments": 385
+  },
+  {
+   "title": "What do Visa and Mastercard do? An intro to card networks",
+   "url": "https://tautology.town/2026/06/01/card-networks.html",
+   "points": 491,
+   "comments": 266
+  },
+  {
+   "title": "AirPods 5",
+   "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
+   "points": 442,
+   "comments": 342
+  },
+  {
+   "title": "Desert Ant Labs: local, fast models that run on device",
+   "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
+   "points": 432,
+   "comments": 93
+  },
+  {
+   "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
+   "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+   "points": 397,
+   "comments": 133
+  },
+  {
+   "title": "How I advertise malicious software on Google Ads",
+   "url": "https://xlii.space/eng/malicious-software-on-google-ads/",
+   "points": 393,
+   "comments": 237
+  },
+  {
+   "title": "No Man's Sky Cosmos",
+   "url": "https://www.nomanssky.com/cosmos-update/",
+   "points": 359,
+   "comments": 368
+  },
+  {
+   "title": "iPhone 18 Pro and iPhone 18 Pro Max",
+   "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+   "points": 348,
+   "comments": 369
+  },
+  {
+   "title": "Growing proof that autonomous cars save lives",
+   "url": "https://spectrum.ieee.org/are-self-driving-cars-safe",
+   "points": 320,
+   "comments": 532
+  },
+  {
+   "title": "Apple Watch Series 12",
+   "url": "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/",
+   "points": 248,
+   "comments": 302
+  },
+  {
+   "title": "Show HN: What if the speed of light was 5 km/h?",
+   "url": "https://rivendell.dmitrybrant.com/relativity/",
+   "points": 236,
+   "comments": 97
+  }
+ ]
+}
