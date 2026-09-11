@@ -1,0 +1,152 @@
+{
+ "date": "2026-09-11",
+ "updated": "2026-09-11 15:25",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,393.60",
+   "change": "▲ 29.10 (+0.67%)",
+   "cls": "up",
+   "value": 4393.6
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.06",
+   "change": "▼ 0.03 (-0.03%)",
+   "cls": "down",
+   "value": 99.06
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.944",
+   "change": "▲ 0.107 (+2.21%)",
+   "cls": "up",
+   "value": 4.944
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "17.84",
+   "change": "▲ 1.38 (+8.38%)",
+   "cls": "up",
+   "value": 17.84
+  }
+ ],
+ "calendar": [
+  {
+   "time": "14:00",
+   "passed": true,
+   "country": "GBP",
+   "title": "GDP m/m",
+   "forecast": "0.0%",
+   "previous": "0.3%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core CPI m/m",
+   "forecast": "0.2%",
+   "previous": "0.2%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core CPI y/y",
+   "forecast": "2.4%",
+   "previous": "2.5%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "CPI m/m",
+   "forecast": "0.4%",
+   "previous": "0.1%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "CPI y/y",
+   "forecast": "3.4%",
+   "previous": "3.4%"
+  }
+ ],
+ "summary": "- **葉門青年運動據報奪取紅海戰略港口莫哈**：紅海航道危機升溫加劇地緣風險，刺激市場避險買盤，短線利多黃金。\n- **美國擴大對沙烏地軍事支援以抗衡青年運動**：美方介入加深恐擴大中東代理人衝突，推升避險情緒，對金價形成偏多支撐。\n- **伊朗地下設施重啟彈道飛彈生產**：中東局勢再添升級隱憂，地緣不確定性增加，有助吸引避險資金流入黃金。\n- **俄軍襲擊烏克蘭商場造成重大死傷**：烏俄戰事持續膠著且傷亡擴大，地緣政治風險未退，為黃金下檔提供基本避險防禦。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "iPhone Duo",
+   "url": "https://www.apple.com/iphone-duo/",
+   "points": 1440,
+   "comments": 2477
+  },
+  {
+   "title": "Shopify is moving from React Native back to Swift and Kotlin",
+   "url": "https://shopify.engineering/back-to-native",
+   "points": 990,
+   "comments": 671
+  },
+  {
+   "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+   "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+   "points": 779,
+   "comments": 719
+  },
+  {
+   "title": "Rust is tier-1 language at Microsoft",
+   "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+   "points": 653,
+   "comments": 388
+  },
+  {
+   "title": "Don't let anyone take away your big box of cables",
+   "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
+   "points": 461,
+   "comments": 315
+  },
+  {
+   "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+   "url": "https://cognition.com/blog/swe-2",
+   "points": 404,
+   "comments": 170
+  },
+  {
+   "title": "Technique for Manipulating Satellite Photos Now Reveals Ancient Images (2025)",
+   "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images",
+   "points": 320,
+   "comments": 51
+  },
+  {
+   "title": "Hitachi launches CO2 heat pump water heaters with solar-friendly tariff controls",
+   "url": "https://www.pv-magazine.com/2026/09/07/hitachi-launches-co2-heat-pump-water-heaters-with-solar-friendly-tariff-controls/",
+   "points": 302,
+   "comments": 253
+  },
+  {
+   "title": "Neki – Sharded Postgres",
+   "url": "https://planetscale.com/blog/introducing-neki",
+   "points": 235,
+   "comments": 129
+  },
+  {
+   "title": "OpenAI Agents API",
+   "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+   "points": 230,
+   "comments": 131
+  },
+  {
+   "title": "Music Theory for the 21st-Century Classroom",
+   "url": "https://musictheory.pugetsound.edu/mt21c/MusicTheory.html",
+   "points": 211,
+   "comments": 87
+  },
+  {
+   "title": "Forgejo <=16.0.3 Critical RCE",
+   "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+   "points": 169,
+   "comments": 62
+  }
+ ]
+}
