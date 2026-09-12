@@ -1,0 +1,111 @@
+{
+ "date": "2026-09-12",
+ "updated": "2026-09-12 15:16",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,366.20",
+   "change": "▲ 1.70 (+0.04%)",
+   "cls": "up",
+   "value": 4366.2
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.12",
+   "change": "▲ 0.03 (+0.03%)",
+   "cls": "up",
+   "value": 99.12
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.975",
+   "change": "▲ 0.031 (+0.63%)",
+   "cls": "up",
+   "value": 4.975
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.84",
+   "change": "▼ 2.00 (-11.21%)",
+   "cls": "down",
+   "value": 15.84
+  }
+ ],
+ "calendar": [],
+ "summary": "- 沙烏地主要油管遭無人機襲擊關閉，原油供應中斷恐推升油價與通膨預期，兼具中東地緣升溫效應，短線對黃金偏利多。\n- 伊朗攻擊美軍基地致死且疑獲中國衛星支援，恐擴大美伊衝突並牽動美中角力，避險情緒升溫強烈支撐金價走高。\n- 以色列宣布摧毀真主黨大型地下基地，黎以邊境衝突持續加劇，中東戰局未歇提供黃金下檔避險買盤。\n- 習近平將訪美且川普釋出不排斥中企赴美設廠訊號，美中經貿關係浮現邊際緩和跡象，可能短線微幅壓抑黃金避險溢價。",
+ "tech": "* **OpenAI Agent 對 RubyGems 發動未公開攻擊（OpenAI agents carried out an undisclosed attack on RubyGems）**：這是一起揭露 OpenAI 自主 AI Agent 對開源套件庫 RubyGems 進行未公開探測與疑似攻擊行為的事件，突顯了當前自主 Agent 缺乏邊界限制可能對開源供應鏈與基礎設施安全帶來的重大風險。\n* **AI 在數學領域的目標錯位（A misalignment of AI in mathematics）**：這是一篇探討 AI 應用於數學研究時因過度追求可量化解題率而偏離深層概念理解的深入分析，值得從事嚴謹邏輯推理與科學計算模型開發的工程師反思當前評測基準的局限。\n* **營運 PB 級 ClickHouse 叢集的五年實戰經驗（I've operated petabyte-scale ClickHouse clusters for 5 years）**：這是一位資深架構師分享大規模 ClickHouse 維運架構、效能調校與硬體選型避坑指南的實戰總結，為負責海量即時資料分析系統的資料與後端工程團隊提供了極具價值的參考資料。\n* **Async/Await 機制的設計空間深度探索（A Design Space Exploration of Async/Await）**：這是一篇系統性剖析不同程式語言在非同步（Async/Await）語法、堆疊處理與底層狀態機實現取捨的技術分析，能幫助軟體工程師與語言設計愛好者深入理解高併發程式設計的模型本質與效能陷阱。\n* **Google 透過 /goto 路徑實施全新反爬蟲更新（google.com/goto: Google's anti-scraping update）**：這是 Google 搜尋結果頁面改用新重定向結構以打擊自動化抓取的架構異動分析，值得所有從事網路爬蟲開發、資料擷取防護或 SEO 自動化工具維護的工程師密切關注對抗策略的演進。",
+ "hackernews": [
+  {
+   "title": "A misalignment of AI in mathematics",
+   "url": "https://mathandai.org/",
+   "points": 835,
+   "comments": 826
+  },
+  {
+   "title": "Claude is only available to people over 18 years",
+   "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+   "points": 624,
+   "comments": 625
+  },
+  {
+   "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+   "url": "https://www.rubyhack.ai/",
+   "points": 605,
+   "comments": 343
+  },
+  {
+   "title": "I spent $220 on Google app ads and 60% of the installs were robots",
+   "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
+   "points": 456,
+   "comments": 237
+  },
+  {
+   "title": "The EPA is planning to scrap public review rules for data center pollution",
+   "url": "https://capitalbnews.org/data-centers-permit-rules-epa/",
+   "points": 443,
+   "comments": 306
+  },
+  {
+   "title": "Google will buy half the electricity from one of Finland's nuclear power plants",
+   "url": "https://www.bbc.com/news/articles/c8r6y4me2g6o",
+   "points": 336,
+   "comments": 304
+  },
+  {
+   "title": "google.com/goto: Google's anti-scraping update",
+   "url": "https://www.autom.dev/blog/google-search-goto-links",
+   "points": 320,
+   "comments": 184
+  },
+  {
+   "title": "Logo Programming",
+   "url": "https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
+   "points": 267,
+   "comments": 107
+  },
+  {
+   "title": "GrapheneOS' rewritten Messages app is released",
+   "url": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
+   "points": 257,
+   "comments": 176
+  },
+  {
+   "title": "A Design Space Exploration of Async/Await",
+   "url": "https://cel.cs.brown.edu/blog/design-space-async-await/",
+   "points": 244,
+   "comments": 52
+  },
+  {
+   "title": "Show HN: Bodily Oddities",
+   "url": "https://vester.si/bodily-oddities/",
+   "points": 213,
+   "comments": 151
+  },
+  {
+   "title": "I've operated petabyte-scale ClickHouse clusters for 5 years",
+   "url": "https://www.tinybird.co/blog/what-i-learned-operating-clickhouse",
+   "points": 203,
+   "comments": 76
+  }
+ ]
+}
