@@ -1,0 +1,111 @@
+{
+ "date": "2026-09-13",
+ "updated": "2026-09-13 15:35",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,408.90",
+   "change": "▲ 44.40 (+1.02%)",
+   "cls": "up",
+   "value": 4408.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.12",
+   "change": "▲ 0.03 (+0.03%)",
+   "cls": "up",
+   "value": 99.12
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.975",
+   "change": "▲ 0.031 (+0.63%)",
+   "cls": "up",
+   "value": 4.975
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.84",
+   "change": "▼ 2.00 (-11.21%)",
+   "cls": "down",
+   "value": 15.84
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": "* **Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases**：這是一個在真實私有企業程式碼庫上評估 AI 模型的全新基準測試，克服了過去公開資料集容易導致訓練資料污染的問題，能更客觀衡量 LLM 在實際軟體工程中的編程能力。\n* **Stabilizing Rust's Never Type**：這篇文章探討 Rust 核心團隊推動長期處於實驗階段的 `!`（Never Type）邁向穩定化的進展，有助於完善語言的型別推導系統並使控制流程的型別表達更具一致性。\n* **Getting 50 GB/S Back from the Apple Neural Engine**：這是一項針對 Apple 神經網路引擎（ANE）記憶體頻寬瓶頸的深度底層研究，成功將資料傳輸速度提升至 50 GB/s，為在 Apple Silicon 上進行本機邊緣端機器學習推論的極致最佳化提供了全新路徑。\n* **Linux Zoom client proactively reading everything written to X11 clipboard**：這項安全揭露指出 Linux 版 Zoom 客戶端會主動監聽並讀取 X11 剪貼簿中的所有內容，對常在剪貼簿傳遞 API 金鑰與敏感程式碼的工程師構成嚴重的資安隱患。\n* **I made a build visualizer to understand Bun's compile times**：這是一個專門視覺化並分析 JavaScript 運行時 Bun 編譯耗時的開發工具，能協助開發者深入定位大型 C++/Zig 專案在建置階段的時間瓶頸，以進行編譯效能調優。",
+ "hackernews": [
+  {
+   "title": "We must pace the frontier",
+   "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+   "points": 619,
+   "comments": 874
+  },
+  {
+   "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
+   "url": "https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio",
+   "points": 504,
+   "comments": 395
+  },
+  {
+   "title": "Nvidia is the central bank of AI",
+   "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+   "points": 456,
+   "comments": 325
+  },
+  {
+   "title": "Make your first edit to OpenStreetMap",
+   "url": "https://high5apps.github.io/josm-plugin-website-wizard/",
+   "points": 427,
+   "comments": 100
+  },
+  {
+   "title": "Everyone should slow down AI development except for me",
+   "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+   "points": 384,
+   "comments": 229
+  },
+  {
+   "title": "Linux Zoom client proactively reading everything written to X11 clipboard",
+   "url": "https://hachyderm.io/@simontatham/117201594980991062",
+   "points": 270,
+   "comments": 86
+  },
+  {
+   "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+   "url": "https://withspecific.com/benchmarks/real-swe",
+   "points": 224,
+   "comments": 129
+  },
+  {
+   "title": "Apple iPod Engraver (2019)",
+   "url": "https://dunstanorchard.com/apple-ipod-engraver/",
+   "points": 192,
+   "comments": 47
+  },
+  {
+   "title": "Stabilizing Rust's Never Type",
+   "url": "https://lwn.net/SubscriberLink/1091015/d9e48318ed242b41/",
+   "points": 174,
+   "comments": 49
+  },
+  {
+   "title": "Getting 50 GB/S Back from the Apple Neural Engine",
+   "url": "https://eiln.github.io/posts/ane-dma.html",
+   "points": 129,
+   "comments": 25
+  },
+  {
+   "title": "I fixed a tractor using John Deere's self-repair service. Farmers aren't sold",
+   "url": "https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/",
+   "points": 125,
+   "comments": 132
+  },
+  {
+   "title": "I made a build visualizer to understand Bun's compile times",
+   "url": "https://lalitm.com/post/buildprof/",
+   "points": 119,
+   "comments": 22
+  }
+ ]
+}
