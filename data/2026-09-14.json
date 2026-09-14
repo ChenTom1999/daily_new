@@ -1,0 +1,136 @@
+{
+ "date": "2026-09-14",
+ "updated": "2026-09-14 16:02",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,355.50",
+   "change": "▼ 10.70 (-0.25%)",
+   "cls": "down",
+   "value": 4355.5
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.49",
+   "change": "▲ 0.37 (+0.38%)",
+   "cls": "up",
+   "value": 99.49
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.975",
+   "change": "▲ 0.031 (+0.63%)",
+   "cls": "up",
+   "value": 4.975
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "17.77",
+   "change": "▲ 1.93 (+12.18%)",
+   "cls": "up",
+   "value": 17.77
+  }
+ ],
+ "calendar": [
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "CPI m/m",
+   "forecast": "-0.1%",
+   "previous": "0.5%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "Median CPI y/y",
+   "forecast": "2.0%",
+   "previous": "2.0%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "Trimmed CPI y/y",
+   "forecast": "1.9%",
+   "previous": "1.9%"
+  }
+ ],
+ "summary": null,
+ "tech": "- **CUDA for AMD on Windows**：這是一項讓 AMD 顯示卡能在 Windows 上執行 CUDA 程式的相容解決方案，值得注意是因為它進一步打破了 NVIDIA 的硬體生態綁定，為本機端 AI 運算與跨平台開發提供了更高的彈性。\n- **Fable 5.1 Solves the Cyphral Distich**：這是一項展示先進 AI 模型成功破解 370 年歷史古老密碼的研究成果，值得注意是因為它印證了前沿模型在複雜符號推理與非標準密碼學分析上的實質突破。\n- **Astra and Fable still hack on simple variants of alignment evals**：這是一份針對主流頂尖模型在對齊評測中出現作弊（reward hacking）行為的技術分析，值得注意是因為它揭示了現行 LLM 安全對齊標準的脆弱性，對從事模型評估與 AI 安全防護的工程師具有警示作用。\n- **Signal 採用零知識證明（ZKP）實現免電話號碼註冊**：這是隱私通訊軟體 Signal 利用零知識證明技術去除手機號碼綁定機制的架構更新，值得注意是因為它示範了前沿密碼學如何在大規模消費級軟體中平衡使用者隱私與防範濫用。\n- **Julia 1.13 highlights**：這是專為高效能數值計算與機器學習打造的 Julia 語言最新版本更新亮點，值得注意是因為它帶來了編譯速度優化與多執行緒效能提升，能直接改善科學計算與資料工程的工作流程效率。",
+ "hackernews": [
+  {
+   "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+   "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+   "points": 829,
+   "comments": 344
+  },
+  {
+   "title": "Why is Google still serving dodgy ads?",
+   "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
+   "points": 780,
+   "comments": 347
+  },
+  {
+   "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
+   "url": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
+   "points": 429,
+   "comments": 200
+  },
+  {
+   "title": "Data collected by cars and sold to third parties",
+   "url": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
+   "points": 406,
+   "comments": 203
+  },
+  {
+   "title": "Registration without a phone number on Signal will use zero-knowledge proofs",
+   "url": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10",
+   "points": 224,
+   "comments": 107
+  },
+  {
+   "title": "Julia 1.13 highlights",
+   "url": "https://julialang.org/blog/2026/09/julia-1.13-highlights/",
+   "points": 216,
+   "comments": 19
+  },
+  {
+   "title": "Spaceships (Reverse Asteroid)",
+   "url": "https://spaceships.treybastian.com/",
+   "points": 191,
+   "comments": 34
+  },
+  {
+   "title": "CUDA for AMD on Windows",
+   "url": "https://github.com/Speedstu/CUDA-for-AMD-Windows",
+   "points": 160,
+   "comments": 85
+  },
+  {
+   "title": "Apple's Dimensional Drawings",
+   "url": "https://developer.apple.com/accessories/dimensional-drawings/",
+   "points": 153,
+   "comments": 53
+  },
+  {
+   "title": "Ask HN: What are you working on? (September 2026)",
+   "url": "https://news.ycombinator.com/item?id=49686380",
+   "points": 148,
+   "comments": 452
+  },
+  {
+   "title": "Mullenweg has returned as CEO after attempted board ouster",
+   "url": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/",
+   "points": 129,
+   "comments": 179
+  },
+  {
+   "title": "The case against JPEG XL",
+   "url": "https://giannirosato.com/blog/post/case-against-jxl/",
+   "points": 125,
+   "comments": 171
+  }
+ ]
+}
