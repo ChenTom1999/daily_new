@@ -1,0 +1,120 @@
+{
+ "date": "2026-09-15",
+ "updated": "2026-09-15 16:03",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,327.10",
+   "change": "▼ 24.80 (-0.57%)",
+   "cls": "down",
+   "value": 4327.1
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.59",
+   "change": "▲ 0.13 (+0.13%)",
+   "cls": "up",
+   "value": 99.59
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.961",
+   "change": "▼ 0.014 (-0.28%)",
+   "cls": "down",
+   "value": 4.961
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "17.61",
+   "change": "▲ 0.51 (+2.98%)",
+   "cls": "up",
+   "value": 17.61
+  }
+ ],
+ "calendar": [
+  {
+   "time": "14:00",
+   "passed": true,
+   "country": "GBP",
+   "title": "Claimant Count Change",
+   "forecast": "8.3K",
+   "previous": "-11.0K"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Steam Frame starts at $1059",
+   "url": "https://store.steampowered.com/hardware/steamframe",
+   "points": 639,
+   "comments": 480
+  },
+  {
+   "title": "XCancel service is suspended until further notice",
+   "url": "https://xcancel.com/#",
+   "points": 591,
+   "comments": 884
+  },
+  {
+   "title": "iOS 27, iPadOS 27, and macOS 27",
+   "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
+   "points": 561,
+   "comments": 626
+  },
+  {
+   "title": "Dario, Please",
+   "url": "https://pop.rdi.sh/dario-please/",
+   "points": 477,
+   "comments": 231
+  },
+  {
+   "title": "OpenAI bots knew about the RubyGems caching vulnerability",
+   "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+   "points": 436,
+   "comments": 346
+  },
+  {
+   "title": "Pion, an agent designed to run any company autonomously",
+   "url": "https://andonlabs.com/blog/why-we-built-pion",
+   "points": 383,
+   "comments": 446
+  },
+  {
+   "title": "Ask HN: What are you working on? (September 2026)",
+   "url": "https://news.ycombinator.com/item?id=49686380",
+   "points": 326,
+   "comments": 998
+  },
+  {
+   "title": "Distributed Systems Classics (2017)",
+   "url": "https://nvartolomei.com/dist-sys-classics/",
+   "points": 286,
+   "comments": 60
+  },
+  {
+   "title": "A beginning for mathematics",
+   "url": "https://www.daniellitt.com/blog/2026/9/13/a-beginning-for-mathematics/",
+   "points": 208,
+   "comments": 114
+  },
+  {
+   "title": "Charts built for Chat",
+   "url": "https://dbtcharts.com/blog/charts-built-for-chat/",
+   "points": 206,
+   "comments": 64
+  },
+  {
+   "title": "Principles for Fast Tokio Applications",
+   "url": "https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/",
+   "points": 198,
+   "comments": 50
+  },
+  {
+   "title": "How my e-reader lost its stripes",
+   "url": "https://www.serpentine.com/posts/2026/x3-stripes/",
+   "points": 193,
+   "comments": 35
+  }
+ ]
+}
