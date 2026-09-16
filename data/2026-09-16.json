@@ -1,0 +1,120 @@
+{
+ "date": "2026-09-16",
+ "updated": "2026-09-16 15:54",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,377.50",
+   "change": "▲ 44.70 (+1.03%)",
+   "cls": "up",
+   "value": 4377.5
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "99.57",
+   "change": "▼ 0.08 (-0.08%)",
+   "cls": "down",
+   "value": 99.57
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.996",
+   "change": "▲ 0.035 (+0.71%)",
+   "cls": "up",
+   "value": 4.996
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "16.92",
+   "change": "▼ 0.28 (-1.63%)",
+   "cls": "down",
+   "value": 16.92
+  }
+ ],
+ "calendar": [
+  {
+   "time": "14:00",
+   "passed": true,
+   "country": "GBP",
+   "title": "CPI y/y",
+   "forecast": "3.1%",
+   "previous": "2.9%"
+  }
+ ],
+ "summary": "- 美軍在荷莫茲海峽向伊朗小船開火並將其摧毀，美伊爆發直接軍事摩擦，短線避險情緒急升（對黃金偏多）。\n- 荷莫茲海峽再傳油輪遇襲致船員失蹤，關鍵航道安全風險升溫並加劇通膨與能源供應擔憂，提振防禦性買盤（對黃金偏多）。\n- FBI指控俄情報網密謀在美歐境內監視並暗殺烏克蘭盟友，地緣政治風險外溢至西方本土，支撐避險資產吸引力（對黃金偏多）。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+   "url": "https://github.com/arnegiacomo/fugleramme",
+   "points": 1575,
+   "comments": 197
+  },
+  {
+   "title": "Introducing System One Models and Jev",
+   "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+   "points": 1248,
+   "comments": 368
+  },
+  {
+   "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
+   "url": "https://www.effort.news/irregular",
+   "points": 596,
+   "comments": 203
+  },
+  {
+   "title": "An update on Wayback Machine access",
+   "url": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
+   "points": 505,
+   "comments": 262
+  },
+  {
+   "title": "Suspected sabotage causes major Netherlands rail disruption",
+   "url": "https://www.bbc.com/news/articles/c8ly49w9g1edo",
+   "points": 472,
+   "comments": 424
+  },
+  {
+   "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+   "points": 385,
+   "comments": 251
+  },
+  {
+   "title": "Let's make quality the norm again",
+   "url": "https://www.forbrukerradet.no/short-life/",
+   "points": 373,
+   "comments": 382
+  },
+  {
+   "title": "Most people prefer traditional architecture",
+   "url": "https://www.worksinprogress.news/p/do-people-prefer-traditional-architecture",
+   "points": 324,
+   "comments": 273
+  },
+  {
+   "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+   "url": "https://withcapsule.app/",
+   "points": 321,
+   "comments": 129
+  },
+  {
+   "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
+   "url": "https://codyho.dev/blog/gpu-driver/",
+   "points": 277,
+   "comments": 166
+  },
+  {
+   "title": "We got admin access to Baseten's production GitHub",
+   "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+   "points": 270,
+   "comments": 148
+  },
+  {
+   "title": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
+   "url": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
+   "points": 200,
+   "comments": 67
+  }
+ ]
+}
