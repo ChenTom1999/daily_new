@@ -1,0 +1,136 @@
+{
+ "date": "2026-09-18",
+ "updated": "2026-09-18 15:33",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,431.90",
+   "change": "▲ 32.20 (+0.73%)",
+   "cls": "up",
+   "value": 4431.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "100.31",
+   "change": "▲ 0.09 (+0.09%)",
+   "cls": "up",
+   "value": 100.31
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.947",
+   "change": "▼ 0.059 (-1.18%)",
+   "cls": "down",
+   "value": 4.947
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.07",
+   "change": "▼ 0.37 (-2.40%)",
+   "cls": "down",
+   "value": 15.07
+  }
+ ],
+ "calendar": [
+  {
+   "time": "10:54",
+   "passed": true,
+   "country": "JPY",
+   "title": "BOJ Policy Rate",
+   "forecast": "<1.25%",
+   "previous": "<1.00%"
+  },
+  {
+   "time": "10:54",
+   "passed": true,
+   "country": "JPY",
+   "title": "Monetary Policy Statement",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "14:30",
+   "passed": true,
+   "country": "JPY",
+   "title": "BOJ Press Conference",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
+   "url": "https://global.fujitsu/en-global/pr/news/2026/09/14-02",
+   "points": 574,
+   "comments": 219
+  },
+  {
+   "title": "Hister: A private search engine for the pages you visit and the files you keep",
+   "url": "https://github.com/asciimoo/hister",
+   "points": 570,
+   "comments": 152
+  },
+  {
+   "title": "Astra for Law",
+   "url": "https://openai.com/index/astra-for-law/",
+   "points": 449,
+   "comments": 468
+  },
+  {
+   "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+   "url": "https://bend-lang.com/",
+   "points": 421,
+   "comments": 204
+  },
+  {
+   "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+   "url": "https://prismml.com/news/bonsai-2-27b",
+   "points": 386,
+   "comments": 116
+  },
+  {
+   "title": "Wax motor",
+   "url": "https://en.wikipedia.org/wiki/Wax_motor",
+   "points": 353,
+   "comments": 62
+  },
+  {
+   "title": "Hacking OpenAI",
+   "url": "https://www.hacktron.ai/blog/hacking-openai",
+   "points": 287,
+   "comments": 104
+  },
+  {
+   "title": "Why I didn’t sign the Fields medallists’ letter",
+   "url": "https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/",
+   "points": 241,
+   "comments": 344
+  },
+  {
+   "title": "The American Religion of Self-Storage Facilities",
+   "url": "https://www.newyorker.com/magazine/2026/09/21/the-american-religion-of-self-storage-facilities",
+   "points": 224,
+   "comments": 381
+  },
+  {
+   "title": "Qwen 3.8 Omni Flash",
+   "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+   "points": 162,
+   "comments": 51
+  },
+  {
+   "title": "CrowdSec Source Code Leak",
+   "url": "https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure",
+   "points": 147,
+   "comments": 44
+  },
+  {
+   "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+   "url": "https://arxiv.org/abs/2609.18842",
+   "points": 136,
+   "comments": 38
+  }
+ ]
+}
