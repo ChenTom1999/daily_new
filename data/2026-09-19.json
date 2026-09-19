@@ -1,0 +1,111 @@
+{
+ "date": "2026-09-19",
+ "updated": "2026-09-19 15:28",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,424.90",
+   "change": "▲ 25.20 (+0.57%)",
+   "cls": "up",
+   "value": 4424.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "100.22",
+   "change": "▲ 0.00 (+0.00%)",
+   "cls": "up",
+   "value": 100.22
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.998",
+   "change": "▲ 0.051 (+1.03%)",
+   "cls": "up",
+   "value": 4.998
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.81",
+   "change": "▼ 0.63 (-4.08%)",
+   "cls": "down",
+   "value": 14.81
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
+   "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+   "points": 769,
+   "comments": 369
+  },
+  {
+   "title": "Cloudflare Quick Tunnels",
+   "url": "https://try.cloudflare.com/",
+   "points": 683,
+   "comments": 275
+  },
+  {
+   "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
+   "url": "https://code.claude.com/docs/en/changelog",
+   "points": 633,
+   "comments": 224
+  },
+  {
+   "title": "OpenJev",
+   "url": "https://openjev.com/",
+   "points": 610,
+   "comments": 257
+  },
+  {
+   "title": "How to Write with an LLM",
+   "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+   "points": 471,
+   "comments": 315
+  },
+  {
+   "title": "Saving another 100TB of RAM",
+   "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+   "points": 332,
+   "comments": 64
+  },
+  {
+   "title": "Inside ZCode: Silently uploading your Git history to the cloud",
+   "url": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/",
+   "points": 291,
+   "comments": 97
+  },
+  {
+   "title": "Minimal Phone 2",
+   "url": "https://minimalcompany.com/",
+   "points": 254,
+   "comments": 211
+  },
+  {
+   "title": "The first new cat species discovered in 100 years",
+   "url": "https://www.nationalgeographic.com/animals/article/meet-the-first-new-cat-species-discovered-in-100-years",
+   "points": 254,
+   "comments": 90
+  },
+  {
+   "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
+   "url": "https://cactuscompute.com/needle",
+   "points": 195,
+   "comments": 87
+  },
+  {
+   "title": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug",
+   "url": "https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/",
+   "points": 185,
+   "comments": 66
+  },
+  {
+   "title": "San Francisco Onion Futures Company",
+   "url": "https://onionfutures.com/",
+   "points": 149,
+   "comments": 52
+  }
+ ]
+}
