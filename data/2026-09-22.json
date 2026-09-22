@@ -1,0 +1,120 @@
+{
+ "date": "2026-09-22",
+ "updated": "2026-09-22 15:52",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,349.10",
+   "change": "▼ 34.80 (-0.79%)",
+   "cls": "down",
+   "value": 4349.1
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "100.48",
+   "change": "▲ 0.05 (+0.05%)",
+   "cls": "up",
+   "value": 100.48
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.963",
+   "change": "▼ 0.035 (-0.70%)",
+   "cls": "down",
+   "value": 4.963
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.68",
+   "change": "▼ 0.19 (-1.28%)",
+   "cls": "down",
+   "value": 14.68
+  }
+ ],
+ "calendar": [
+  {
+   "time": "11:10",
+   "passed": true,
+   "country": "AUD",
+   "title": "RBA Gov Bullock Speaks",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": "- **紅海與中東局勢再度升級**：胡塞武裝與沙烏地陣營戰事擴大且G7施壓伊朗，航運與區域衝突風險攀升，提振市場避險買氣，有利黃金延續多頭支撐（偏多）。\n- **俄歐邊界軍事對峙疑慮加劇**：立陶宛制定撤離計畫應對俄羅斯威脅，加上俄方限制通行引發潛在動員猜測，推升北約前線地緣風險溢價，對金價形成實質支撐（偏多）。\n- **美法外交斡旋局部停火**：川普與馬克宏會晤聚焦烏克蘭能源設施停火及紅海局勢，若談判釋出降溫訊號，短線避險溢價恐遭部分消化，限制金價上方空間（偏震盪/短線承壓）。",
+ "tech": "* **AI coding has made CI a bottleneck, so we reworked ours to keep up**：這是一篇探討工程團隊因導入 AI 輔助寫程式導致產量暴增、使 CI 成為新瓶頸進而重構管線的實務經驗，值得注意是因為它揭示了 AI 開發普及後軟體交付鏈路所面臨的全新架構挑戰。\n* **Python Workers are now generally available**：這是 Cloudflare 宣布其邊緣無伺服器平台正式全面支援 Python（Python Workers GA），值得注意是因為它讓龐大的 Python 生態系與後端開發者能以極低延遲在邊緣網路運行程式碼。\n* **Frontier AI on Your Own Hardware**：這是一篇探討如何在消費級或本地自建硬體上運行前沿開源大語言模型的實踐指南，值得注意是因為它展示了開源模型與硬體優化技術的進展，讓工程師能在兼顧隱私與成本下擺脫對雲端 API 的依賴。\n* **Transformers Explained Visually**：這是一個透過高度視覺化與互動圖解剖析 Transformer 模型架構的開源教學資源，值得注意是因為它大幅降低了理解注意力機制與現代 LLM 底層運作原理的門檻。\n* **Turn off and restrict access to Apple Intelligence features on Mac**：這是針對 macOS 系統如何透過終端機指令或 MDM 徹底關閉 Apple Intelligence 功能的指南，值得注意是因為企業資安與 DevOps 人員在合規要求下，需防範系統內建 AI 造成的機密代碼或敏感資料外洩風險。",
+ "hackernews": [
+  {
+   "title": "MiMo v2.6",
+   "url": "https://mimo.xiaomi.com/mimo-v2-6",
+   "points": 824,
+   "comments": 371
+  },
+  {
+   "title": "Attention is all you have",
+   "url": "https://alicegg.tech/2026/09/21/attention",
+   "points": 750,
+   "comments": 219
+  },
+  {
+   "title": "I don't want to read what you didn't write",
+   "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
+   "points": 597,
+   "comments": 216
+  },
+  {
+   "title": "What Sun got wrong",
+   "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+   "points": 571,
+   "comments": 327
+  },
+  {
+   "title": "Grok 4.7",
+   "url": "https://x.ai/news/grok-4-7",
+   "points": 554,
+   "comments": 474
+  },
+  {
+   "title": "NASA’s Mars Sample Return mission is dead",
+   "url": "https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead",
+   "points": 376,
+   "comments": 309
+  },
+  {
+   "title": "Spymarks, Not Watermarks",
+   "url": "https://brand.io/article/spymarks/",
+   "points": 374,
+   "comments": 88
+  },
+  {
+   "title": "Transformers Explained Visually",
+   "url": "https://poloclub.github.io/transformer-explainer/",
+   "points": 359,
+   "comments": 57
+  },
+  {
+   "title": "Turn off and restrict access to Apple Intelligence features on Mac",
+   "url": "https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac",
+   "points": 290,
+   "comments": 193
+  },
+  {
+   "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+   "url": "https://linear.app/now/ci-bottleneck-reworked",
+   "points": 218,
+   "comments": 225
+  },
+  {
+   "title": "Python Workers are now generally available",
+   "url": "https://blog.cloudflare.com/python-workers-ga/",
+   "points": 217,
+   "comments": 36
+  },
+  {
+   "title": "Frontier AI on Your Own Hardware",
+   "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+   "points": 144,
+   "comments": 75
+  }
+ ]
+}
