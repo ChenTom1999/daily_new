@@ -1,0 +1,111 @@
+{
+ "date": "2026-09-23",
+ "updated": "2026-09-23 15:54",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,359.80",
+   "change": "▼ 16.60 (-0.38%)",
+   "cls": "down",
+   "value": 4359.8
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "100.78",
+   "change": "▲ 0.35 (+0.35%)",
+   "cls": "up",
+   "value": 100.78
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.963",
+   "change": "▼ 0.035 (-0.70%)",
+   "cls": "down",
+   "value": 4.963
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.18",
+   "change": "▼ 0.69 (-4.64%)",
+   "cls": "down",
+   "value": 14.18
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Claude Opus 5.5",
+   "url": "https://www.anthropic.com/claude-opus-5-5",
+   "points": 1483,
+   "comments": 922
+  },
+  {
+   "title": "GPT-6 Sol and Luna",
+   "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+   "points": 1469,
+   "comments": 703
+  },
+  {
+   "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
+   "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
+   "points": 705,
+   "comments": 509
+  },
+  {
+   "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+   "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+   "points": 647,
+   "comments": 383
+  },
+  {
+   "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+   "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+   "points": 610,
+   "comments": 299
+  },
+  {
+   "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
+   "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+   "points": 576,
+   "comments": 398
+  },
+  {
+   "title": "How did AMD Ryzen get 50% faster in two years?",
+   "url": "https://lemire.me/blog/2026/09/18/how-did-amd-ryzen-get-50-faster-in-two-years/",
+   "points": 308,
+   "comments": 117
+  },
+  {
+   "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+   "url": "https://foxscript.org/",
+   "points": 296,
+   "comments": 172
+  },
+  {
+   "title": "OpenAI is well positioned to fast-follow Jev",
+   "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+   "points": 287,
+   "comments": 207
+  },
+  {
+   "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+   "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+   "points": 277,
+   "comments": 84
+  },
+  {
+   "title": "SAML: A fractal of bad design",
+   "url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+   "points": 227,
+   "comments": 130
+  },
+  {
+   "title": "What California is learning from solar panels built over irrigation canals",
+   "url": "https://www.kqed.org/science/2002033/heres-what-california-is-learning-from-solar-panels-built-over-irrigation-canals",
+   "points": 199,
+   "comments": 328
+  }
+ ]
+}
