@@ -1,0 +1,152 @@
+{
+ "date": "2026-09-24",
+ "updated": "2026-09-24 15:43",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,321.60",
+   "change": "▲ 3.20 (+0.07%)",
+   "cls": "up",
+   "value": 4321.6
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.07",
+   "change": "▼ 0.03 (-0.03%)",
+   "cls": "down",
+   "value": 101.07
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.114",
+   "change": "▲ 0.151 (+3.04%)",
+   "cls": "up",
+   "value": 5.114
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.84",
+   "change": "▲ 0.66 (+4.35%)",
+   "cls": "up",
+   "value": 15.84
+  }
+ ],
+ "calendar": [
+  {
+   "time": "09:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "Employment Change",
+   "forecast": "21.5K",
+   "previous": "-15.8K"
+  },
+  {
+   "time": "09:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "Unemployment Rate",
+   "forecast": "4.5%",
+   "previous": "4.5%"
+  },
+  {
+   "time": "15:30",
+   "passed": true,
+   "country": "CHF",
+   "title": "SNB Monetary Policy Assessment",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "15:30",
+   "passed": true,
+   "country": "CHF",
+   "title": "SNB Policy Rate",
+   "forecast": "0.00%",
+   "previous": "0.00%"
+  },
+  {
+   "time": "16:00",
+   "passed": false,
+   "country": "CHF",
+   "title": "SNB Press Conference",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Italian parliament votes for return to nuclear energy",
+   "url": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
+   "points": 739,
+   "comments": 500
+  },
+  {
+   "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+   "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+   "points": 619,
+   "comments": 634
+  },
+  {
+   "title": "Fixing the Portobello Police Station Clock",
+   "url": "https://pointinthecloud.com/2026-04-11-211700.html",
+   "points": 426,
+   "comments": 98
+  },
+  {
+   "title": "Meta VR Glasses",
+   "url": "https://www.meta.com/vr-glasses/",
+   "points": 371,
+   "comments": 319
+  },
+  {
+   "title": "Linux support is coming to Snapdragon X2 Series",
+   "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+   "points": 352,
+   "comments": 148
+  },
+  {
+   "title": "Gemini 3.8 text-to-speech",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+   "points": 300,
+   "comments": 133
+  },
+  {
+   "title": "Tokens too cheap to meter",
+   "url": "https://jyn.dev/tokens-too-cheap-to-meter/",
+   "points": 290,
+   "comments": 194
+  },
+  {
+   "title": "Feds Target AI Critics as \"Foreign Agents\"",
+   "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+   "points": 267,
+   "comments": 261
+  },
+  {
+   "title": "VSCode's SSH Agent Is Bananas (2025)",
+   "url": "https://fly.io/blog/vscode-ssh-wtf/",
+   "points": 205,
+   "comments": 128
+  },
+  {
+   "title": "OpenAI breaches Medicare, Albanese reveals",
+   "url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
+   "points": 186,
+   "comments": 126
+  },
+  {
+   "title": "Making Tailscale Faster",
+   "url": "https://tailscale.com/blog/making-tailscale-faster",
+   "points": 155,
+   "comments": 56
+  },
+  {
+   "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
+   "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
+   "points": 153,
+   "comments": 19
+  }
+ ]
+}
