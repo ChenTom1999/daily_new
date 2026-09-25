@@ -1,0 +1,120 @@
+{
+ "date": "2026-09-25",
+ "updated": "2026-09-25 16:04",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,315.00",
+   "change": "▲ 17.00 (+0.40%)",
+   "cls": "up",
+   "value": 4315.0
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.14",
+   "change": "▼ 0.15 (-0.15%)",
+   "cls": "down",
+   "value": 101.14
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.162",
+   "change": "▲ 0.048 (+0.94%)",
+   "cls": "up",
+   "value": 5.162
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.57",
+   "change": "▼ 0.10 (-0.64%)",
+   "cls": "down",
+   "value": 15.57
+  }
+ ],
+ "calendar": [
+  {
+   "time": "17:15",
+   "passed": false,
+   "country": "GBP",
+   "title": "BOE Gov Bailey Speaks",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": "- 青年運動攻擊升溫引發沙、土、巴三國緊急會商，紅海及中東局勢再趨緊繃，避險情緒升溫為黃金提供短線偏多支撐。\n- 納坦雅胡於聯合國大會為軍事行動強硬辯護引發代表離席，顯示中東戰火短期難以降溫，持續鞏固金價逢低買盤。\n- 川習會與國宴互動釋出美中關係階段性穩定訊號，地緣緊張短線降溫，可能微幅削弱避險溢價並限制金價反彈動能。\n- 前白宮官員指美對台軍售持續且美中航權仍有歧見，結構性對立未解將限制避險情緒退潮，金價回檔空間預期有限。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "F-Droid 2.0",
+   "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+   "points": 1184,
+   "comments": 321
+  },
+  {
+   "title": "Show HN: Make cursed fonts like Times New Bastard",
+   "url": "https://bastardica.mitpit.com",
+   "points": 656,
+   "comments": 90
+  },
+  {
+   "title": "Two-tier encryption in the UK",
+   "url": "https://macanorak.com/two-tier-encryption-in-the-uk/",
+   "points": 437,
+   "comments": 394
+  },
+  {
+   "title": "Why is the liver so weirdly regenerative?",
+   "url": "https://dynomight.substack.com/p/liver",
+   "points": 379,
+   "comments": 200
+  },
+  {
+   "title": "Rails World 2026 Opening Keynote [video]",
+   "url": "https://www.youtube.com/watch?v=vDjW_dRyKXY",
+   "points": 317,
+   "comments": 350
+  },
+  {
+   "title": "Toyota is taking the Corolla electric",
+   "url": "https://electrek.co/2026/09/23/toyota-best-selling-corolla-electric/",
+   "points": 312,
+   "comments": 536
+  },
+  {
+   "title": "My weird new hobby: Wandering around Tokyo on Google Maps",
+   "url": "https://ahmedhossamdev.com/writing/my-weird-new-hobby-wandering-around-tokyo/",
+   "points": 308,
+   "comments": 141
+  },
+  {
+   "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+   "url": "https://github.com/devdotfast/whiteboard",
+   "points": 287,
+   "comments": 114
+  },
+  {
+   "title": "Fearless SIMD v1.0",
+   "url": "https://linebender.org/blog/fearless-simd-1-0/",
+   "points": 248,
+   "comments": 34
+  },
+  {
+   "title": "Opus 5.5 is good at explainer videos",
+   "url": "https://launchvideo.io",
+   "points": 229,
+   "comments": 122
+  },
+  {
+   "title": "Nokia Design Archive (2025)",
+   "url": "https://repo.aalto.fi/index.php?name=SO_b66a9391-dcf8-4399-8e87-611f84c3fc4c",
+   "points": 228,
+   "comments": 123
+  },
+  {
+   "title": "California is chasing wealth that has feet",
+   "url": "https://blog.landeconomics.org/p/california-is-chasing-wealth-that",
+   "points": 227,
+   "comments": 600
+  }
+ ]
+}
