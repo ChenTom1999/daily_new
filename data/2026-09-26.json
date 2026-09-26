@@ -1,0 +1,111 @@
+{
+ "date": "2026-09-26",
+ "updated": "2026-09-26 15:54",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,321.20",
+   "change": "▲ 23.20 (+0.54%)",
+   "cls": "up",
+   "value": 4321.2
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "100.97",
+   "change": "▼ 0.32 (-0.32%)",
+   "cls": "down",
+   "value": 100.97
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.184",
+   "change": "▲ 0.022 (+0.43%)",
+   "cls": "up",
+   "value": 5.184
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.87",
+   "change": "▼ 0.80 (-5.11%)",
+   "cls": "down",
+   "value": 14.87
+  }
+ ],
+ "calendar": [],
+ "summary": "- 伊朗提議與美達成協議以重啟荷姆茲海峽，中東地緣局勢與供應鏈中斷風險顯著降溫，避險情緒消退恐對金價帶來短線回檔壓力。\n- 澤倫斯基指控俄軍襲擊烏克蘭數據中心，俄烏戰事升級並波及關鍵民用基礎設施，為黃金提供持續的地緣避險買盤支撐。\n- 英國政府針對俄羅斯威脅緊急簡報國防與基礎設施業者，顯示歐洲地緣對抗情勢依然緊繃，限制黃金下修空間。",
+ "tech": "- **Revealing the details of how OpenAI agents hacked Hugging Face**：這是一篇剖析 OpenAI 自主代理（AI Agents）成功滲透 Hugging Face 平台漏洞的技術分析，展示了自主 AI 在自動化滲透測試中的強大實戰能力，提醒工程師必須重新評估新一代 AI 威脅下的系統安全架構。\n- **Ollaya – Ollama for open-source, Jev-style decision models**：這是一個借鑑 Ollama 架構的開源開發工具，旨在簡化本地端決策模型的部署與調度流程，讓工程師能跳脫純文字 LLM，更輕易地在本地環境整合具備強化學習與決策能力的 AI 模型。\n- **Plan mode is dead**：這是一篇探討 AI 輔助編程工具架構演進的軟體工程討論，指出靜態的「預先規劃再執行（Plan Mode）」已被即時反饋與動態推理機制取代，為正在構建 Coding Agent 或自動化工作流程的開發者提供了重要的設計範式轉變。\n- **Excel now supports multiple values in a single cell**：這是微軟試算表核心資料模型的一項重大功能更新，正式允許單一儲存格存放陣列或多筆結構化數值，打破了長年「一格一值」的限制，將深遠影響資料工程師整合與處理試算表資料的邏輯。",
+ "hackernews": [
+  {
+   "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+   "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+   "points": 438,
+   "comments": 756
+  },
+  {
+   "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+   "url": "https://swarmtraces.org/",
+   "points": 438,
+   "comments": 269
+  },
+  {
+   "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+   "url": "https://ollaya.dev/",
+   "points": 423,
+   "comments": 114
+  },
+  {
+   "title": "Plan mode is dead",
+   "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
+   "points": 278,
+   "comments": 250
+  },
+  {
+   "title": "First Principles Thinking",
+   "url": "https://sunilsadasivan.com/writing/first-principles-thinking/",
+   "points": 255,
+   "comments": 107
+  },
+  {
+   "title": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
+   "url": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
+   "points": 199,
+   "comments": 43
+  },
+  {
+   "title": "How we learned to stop worrying and love campus surveillance",
+   "url": "https://fnl.mit.edu/how-we-learned-to-stop-worrying-and-love-campus-surveillance/",
+   "points": 197,
+   "comments": 110
+  },
+  {
+   "title": "Show HN: Jev Plays Pokémon Red",
+   "url": "https://jev-pokemon.vercel.app/",
+   "points": 189,
+   "comments": 80
+  },
+  {
+   "title": "Gravity seems holographic. What does that mean for reality?",
+   "url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
+   "points": 179,
+   "comments": 160
+  },
+  {
+   "title": "What even is an OS now?",
+   "url": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
+   "points": 173,
+   "comments": 265
+  },
+  {
+   "title": "Excel now supports multiple values in a single cell",
+   "url": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
+   "points": 170,
+   "comments": 118
+  },
+  {
+   "title": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
+   "url": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
+   "points": 158,
+   "comments": 60
+  }
+ ]
+}
