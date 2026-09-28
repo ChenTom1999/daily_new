@@ -1,0 +1,111 @@
+{
+ "date": "2026-09-28",
+ "updated": "2026-09-28 16:51",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,180.10",
+   "change": "▼ 141.10 (-3.27%)",
+   "cls": "down",
+   "value": 4180.1
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.07",
+   "change": "▲ 0.10 (+0.10%)",
+   "cls": "up",
+   "value": 101.07
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.184",
+   "change": "▲ 0.022 (+0.43%)",
+   "cls": "up",
+   "value": 5.184
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "16.19",
+   "change": "▲ 1.32 (+8.88%)",
+   "cls": "up",
+   "value": 16.19
+  }
+ ],
+ "calendar": [],
+ "summary": "- 俄羅斯持續空襲烏克蘭基輔等地造成傷亡，俄烏戰事升溫強化避險情緒，為黃金提供逢低買盤支撐。\n- 葉門胡塞武裝衝突加劇且英美基地傳出爆裂物疑涉伊朗，中東地緣政治風險外溢，有利黃金短線多頭防禦。\n- 川普與習近平峰會隱含未解的深層分歧，美中貿易與戰略不確定性加劇市場觀望，提振黃金避險配置需求。\n- 原油走高引發新興市場震盪，疊加歐亞天然氣搶購戰隱現，能源價格推升通膨復燃預期，強化黃金抗通膨買盤。",
+ "tech": "* **Don't couple your Go code to GitHub**：這是一篇探討 Go 模組直接綁定 GitHub 路徑潛在風險的架構文章，提醒工程師應評估使用自訂網域名稱（vanity imports）以降低未來程式碼平台遷移與相依性管理的耦合成本。\n* **The state of SIMD in Rust in 2026**：這是一篇剖析 Rust 語言對 SIMD（單指令多資料流）支援現況與標準化藍圖的分析，對需要藉由底層硬體向量化加速數值運算、多媒體處理或 ML 推論的系統工程師而言極具參考價值。\n* **There is more to code review than (automatable) detection**：這是一篇探討軟體工程協作本質的觀點文章，強調在 AI 與靜態檢測工具普及的時代，程式碼審查的核心價值更在於系統架構評估、知識共享與長期維護性，而非僅限於可被自動化的錯誤抓取。\n* **Writing Efficient C++ Code (2013)**：這是一份深入剖析 C++ 底層記憶體存取、CPU 快取友善度與演算法效能的經典技術指南，其闡述的高效能程式設計原則至今仍是構建低延遲系統與高效計算不可或缺的基礎功。\n* **Self-Hosting on the Dark Web**：這是一份介紹如何利用 Tor 洋蔥服務（Onion Services）進行自託管伺服器部署的實踐指南，展示了在不依賴公網 IP、連接埠轉發或傳統動態 DNS 的情況下，實現高隱私與端到端加密網路服務的替代架構。",
+ "hackernews": [
+  {
+   "title": "When did Google get so weird?",
+   "url": "https://sancho.bearblog.dev/google-weird/",
+   "points": 1225,
+   "comments": 688
+  },
+  {
+   "title": "Owed a billion dollars in Nvidia stock",
+   "url": "https://colo.to/nvidia-stock-narrative.html",
+   "points": 641,
+   "comments": 268
+  },
+  {
+   "title": "Ember-1",
+   "url": "https://fireworks.ai/blog/ember-1",
+   "points": 449,
+   "comments": 208
+  },
+  {
+   "title": "In an $80 motel room, a discovery to shed light on the origins of life",
+   "url": "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
+   "points": 240,
+   "comments": 92
+  },
+  {
+   "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+   "url": "https://loficities.com/",
+   "points": 234,
+   "comments": 110
+  },
+  {
+   "title": "Don't couple your Go code to GitHub",
+   "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+   "points": 233,
+   "comments": 107
+  },
+  {
+   "title": "Self-Hosting on the Dark Web",
+   "url": "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/",
+   "points": 172,
+   "comments": 58
+  },
+  {
+   "title": "Replacing the old battery on rechargeable bike lights",
+   "url": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/",
+   "points": 169,
+   "comments": 91
+  },
+  {
+   "title": "Writing Efficient C++ Code (2013)",
+   "url": "https://asawicki.info/articles/writing_efficient_cpp_code.php",
+   "points": 154,
+   "comments": 118
+  },
+  {
+   "title": "The state of SIMD in Rust in 2026",
+   "url": "https://shnatsel.github.io/state-of-simd-rust-2026/",
+   "points": 142,
+   "comments": 31
+  },
+  {
+   "title": "There is more to code review than (automatable) detection",
+   "url": "https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/",
+   "points": 132,
+   "comments": 77
+  },
+  {
+   "title": "Alan Kay's answer to “Did the ENIAC have a BIOS”?",
+   "url": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
+   "points": 124,
+   "comments": 39
+  }
+ ]
+}
