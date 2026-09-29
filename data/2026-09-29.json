@@ -1,0 +1,128 @@
+{
+ "date": "2026-09-29",
+ "updated": "2026-09-29 16:50",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,172.60",
+   "change": "▼ 148.60 (-3.44%)",
+   "cls": "down",
+   "value": 4172.6
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.38",
+   "change": "▲ 0.18 (+0.18%)",
+   "cls": "up",
+   "value": 101.38
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.240",
+   "change": "▲ 0.056 (+1.08%)",
+   "cls": "up",
+   "value": 5.24
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "16.08",
+   "change": "▲ 0.01 (+0.06%)",
+   "cls": "up",
+   "value": 16.08
+  }
+ ],
+ "calendar": [
+  {
+   "time": "12:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "Cash Rate",
+   "forecast": "4.60%",
+   "previous": "4.35%"
+  },
+  {
+   "time": "12:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "RBA Rate Statement",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Sonnet 5.5",
+   "url": "https://www.anthropic.com/claude-sonnet-5-5",
+   "points": 768,
+   "comments": 509
+  },
+  {
+   "title": "Pirating the Pirates",
+   "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
+   "points": 565,
+   "comments": 273
+  },
+  {
+   "title": "Updated Google Maps shows destruction of the city of Rafah",
+   "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
+   "points": 511,
+   "comments": 323
+  },
+  {
+   "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+   "url": "https://github.com/firelex/jeff",
+   "points": 487,
+   "comments": 182
+  },
+  {
+   "title": "It's Time to Investigate the AI Labs",
+   "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+   "points": 466,
+   "comments": 189
+  },
+  {
+   "title": "Kids turned low-traffic NPR Spotify comments into a secret group chat",
+   "url": "https://www.thisamericanlife.org/897/transcript",
+   "points": 394,
+   "comments": 215
+  },
+  {
+   "title": "World Labs is Joining AMD",
+   "url": "https://www.worldlabs.ai/blog/amd-announcement",
+   "points": 271,
+   "comments": 110
+  },
+  {
+   "title": "Hijacking the PS5's RTMP stream",
+   "url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
+   "points": 250,
+   "comments": 80
+  },
+  {
+   "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+   "url": "https://stateofutopia.com/experiments/microllmlab/",
+   "points": 230,
+   "comments": 82
+  },
+  {
+   "title": "Does Reddit have an astroturfing problem? What the data suggests",
+   "url": "https://www.petervijeh.com/projects/reddit-astroturf",
+   "points": 207,
+   "comments": 264
+  },
+  {
+   "title": "California farmers are struggling to sell grapes as demand for wine drops",
+   "url": "https://www.kqed.org/news/12101534/california-farmers-are-struggling-to-sell-grapes-as-demand-for-wine-drops",
+   "points": 199,
+   "comments": 443
+  },
+  {
+   "title": "Show HN: HN.watch – Videos of all Hacker News posts",
+   "url": "https://hn.watch/",
+   "points": 170,
+   "comments": 91
+  }
+ ]
+}
