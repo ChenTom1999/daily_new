@@ -1,0 +1,152 @@
+{
+ "date": "2026-09-30",
+ "updated": "2026-09-30 16:50",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,233.70",
+   "change": "▲ 54.00 (+1.29%)",
+   "cls": "up",
+   "value": 4233.7
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.25",
+   "change": "▼ 0.12 (-0.12%)",
+   "cls": "down",
+   "value": 101.25
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.255",
+   "change": "▲ 0.015 (+0.29%)",
+   "cls": "up",
+   "value": 5.255
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.90",
+   "change": "▼ 0.14 (-0.87%)",
+   "cls": "down",
+   "value": 15.9
+  }
+ ],
+ "calendar": [
+  {
+   "time": "09:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "CPI m/m",
+   "forecast": "0.5%",
+   "previous": "1.0%"
+  },
+  {
+   "time": "09:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "CPI y/y",
+   "forecast": "4.1%",
+   "previous": "3.5%"
+  },
+  {
+   "time": "09:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "Trimmed Mean CPI m/m",
+   "forecast": "0.3%",
+   "previous": "0.5%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core PCE Price Index m/m",
+   "forecast": "0.3%",
+   "previous": "0.2%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Final GDP q/q",
+   "forecast": "1.5%",
+   "previous": "1.5%"
+  }
+ ],
+ "summary": "- 澤倫斯基公開北韓戰俘移送：凸顯俄烏戰事擴大與外部勢力介入風險，地緣緊張升溫有利於推升黃金避險買盤。\n- 加薩地區持續遭受軍事空襲：中東衝突局勢未見緩和，為市場提供基本避險支撐，有助限制金價回檔幅度。\n- 南韓向北韓抗議地雷爆炸事件：兩韓軍事邊界摩擦增添東北亞地緣不確定性，輕微偏向支撐金價。\n- 中國退役軍人涉嫌竊取美韓軍事機密遭起訴：美中與區域地緣博弈暗潮洶湧，若摩擦擴大將對黃金構成潛在避險利多。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+   "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+   "points": 921,
+   "comments": 819
+  },
+  {
+   "title": "Dots: Always-on agents",
+   "url": "https://openai.com/index/introducing-dots/",
+   "points": 595,
+   "comments": 457
+  },
+  {
+   "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+   "url": "https://github.com/ninjahawk/livenerf",
+   "points": 573,
+   "comments": 242
+  },
+  {
+   "title": "America.gov",
+   "url": "https://america.gov/",
+   "points": 542,
+   "comments": 452
+  },
+  {
+   "title": "How Delhi cut electricity loss from 50 to 5 percent",
+   "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+   "points": 514,
+   "comments": 292
+  },
+  {
+   "title": "PS5 Relapse Exploit",
+   "url": "https://github.com/ntfargo/Relapse-Exploit",
+   "points": 304,
+   "comments": 181
+  },
+  {
+   "title": "Phyllotaxis: An audio-reactive LED display",
+   "url": "https://jagi.studio/posts/phyllotaxis/",
+   "points": 287,
+   "comments": 47
+  },
+  {
+   "title": "Ask HN: What are you reading?",
+   "url": "https://news.ycombinator.com/item?id=49893157",
+   "points": 264,
+   "comments": 541
+  },
+  {
+   "title": "A Staff Engineer's Guide to Inventing Work",
+   "url": "https://sujithjay.com/inventing-work",
+   "points": 262,
+   "comments": 53
+  },
+  {
+   "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
+   "url": "https://space.bl2.net/",
+   "points": 239,
+   "comments": 51
+  },
+  {
+   "title": "U.S. postal inspectors shut down website selling counterfeit postage labels",
+   "url": "https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/",
+   "points": 223,
+   "comments": 132
+  },
+  {
+   "title": "Vermont replacing power plants with home batteries",
+   "url": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms",
+   "points": 185,
+   "comments": 147
+  }
+ ]
+}
