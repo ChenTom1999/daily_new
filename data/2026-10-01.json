@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-01",
+ "updated": "2026-10-01 17:14",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,184.10",
+   "change": "▼ 2.60 (-0.06%)",
+   "cls": "down",
+   "value": 4184.1
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.82",
+   "change": "▲ 0.37 (+0.37%)",
+   "cls": "up",
+   "value": 101.82
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.293",
+   "change": "▲ 0.038 (+0.72%)",
+   "cls": "up",
+   "value": 5.293
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "16.90",
+   "change": "▲ 0.56 (+3.43%)",
+   "cls": "up",
+   "value": 16.9
+  }
+ ],
+ "calendar": [],
+ "summary": "- 杜拜飛以色列航班遇襲且以色列正調查伊朗涉入程度，中東地緣緊張局勢若進一步升級，將激發避險買盤，**短線利多黃金**。\n- 分析指普丁無停戰意圖並加倍投入烏克蘭戰事，俄烏衝突陷入長期消耗戰，持續提供地緣避險底部支撐，**偏多黃金**。\n- 菲律賓於巴丹海域驅離中國科研船，中菲南海摩擦持續升溫，區域地緣不確定性微幅推升亞盤時段避險情緒，**微幅偏多黃金**。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Gemini 4 Argon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "points": 1368,
+   "comments": 878
+  },
+  {
+   "title": "You said no MCP",
+   "url": "https://earendil.com/posts/you-said-no-mcp/",
+   "points": 641,
+   "comments": 351
+  },
+  {
+   "title": "Singapore govt dating app uses Gale-Shapley stable marriage algorithm",
+   "url": "https://twitter.com/tuakdotsol/status/2105105417760391258",
+   "points": 375,
+   "comments": 317
+  },
+  {
+   "title": "A brief history of the Bloomberg terminal",
+   "url": "https://spectrum.ieee.org/bloomberg-terminal",
+   "points": 278,
+   "comments": 121
+  },
+  {
+   "title": "The last time my family was replaced by technology",
+   "url": "https://manuel.darcemont.fr/posts/the-last-time-my-family-was-replaced-by-technology/",
+   "points": 233,
+   "comments": 498
+  },
+  {
+   "title": "Why the Bronze Age Collapsed",
+   "url": "https://www.worksinprogress.news/p/why-really-caused-the-bronze-age",
+   "points": 222,
+   "comments": 120
+  },
+  {
+   "title": "The top secret URSALA, RAQUEL, and FARRAH satellites (2025)",
+   "url": "https://www.thespacereview.com/article/4951/1",
+   "points": 214,
+   "comments": 97
+  },
+  {
+   "title": "EDG C++ front-end goes public",
+   "url": "https://edgcpp.org/#transition",
+   "points": 212,
+   "comments": 98
+  },
+  {
+   "title": "LinkedIn Larpmaxxing",
+   "url": "https://hereticpleb.vercel.app/blog/linkedin-larpmaxxing/",
+   "points": 189,
+   "comments": 166
+  },
+  {
+   "title": "What TLA+ can and can't check",
+   "url": "https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/",
+   "points": 184,
+   "comments": 41
+  },
+  {
+   "title": "Surprisingly complex waves reveal the brain's inner workings",
+   "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
+   "points": 180,
+   "comments": 61
+  },
+  {
+   "title": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
+   "url": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/",
+   "points": 170,
+   "comments": 72
+  }
+ ]
+}
