@@ -1,0 +1,136 @@
+{
+ "date": "2026-10-02",
+ "updated": "2026-10-02 16:48",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,214.40",
+   "change": "▲ 12.10 (+0.29%)",
+   "cls": "up",
+   "value": 4214.4
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.89",
+   "change": "▼ 0.21 (-0.20%)",
+   "cls": "down",
+   "value": 101.89
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.237",
+   "change": "▼ 0.056 (-1.06%)",
+   "cls": "down",
+   "value": 5.237
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.99",
+   "change": "▼ 0.40 (-2.44%)",
+   "cls": "down",
+   "value": 15.99
+  }
+ ],
+ "calendar": [
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Average Hourly Earnings m/m",
+   "forecast": "0.3%",
+   "previous": "0.3%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Non-Farm Employment Change",
+   "forecast": "89K",
+   "previous": "162K"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Unemployment Rate",
+   "forecast": "4.1%",
+   "previous": "4.1%"
+  }
+ ],
+ "summary": "- 美國施壓歐洲釋放柴油儲備且川普威脅出口禁令：恐推升能源價格與通膨預期，疊加貿易政策不確定性，短線偏多支撐黃金（XAU/USD）。\n- Nike預告裁員且大中華區營收銳減22%：反映全球消費力道放緩與經濟衰退隱憂，市場避險需求及降息預期升溫，利好金價。\n- 南韓因戰俘爭議警告將對烏克蘭採取進一步行動：俄烏戰局衍生出的外交摩擦加劇地緣政治複雜度，持續為黃金提供避險買盤支撐。\n- 法國學生抗議演變成暴力導致學校停課：歐洲內部政經局勢動盪恐壓抑歐元表現並間接提振美元，使黃金面臨「美元走強壓制」與「避險支撐」的多空拉扯。",
+ "tech": "* **Git 3.0 預計將 SHA-256 設為預設值的爭議討論**：這是一篇探討 Git 核心雜湊機制轉換的文章，值得注意在於作者警告這項重大架構升級可能打破龐大現有生態系的相容性，並給開發者社群帶來高昂且未被充分評估的遷移成本。\n* **Clef 開放權重決策模型與 RL 微調平台**：這是一個專注於強化學習（RL）的開源決策模型與微調平台，值得注意在於它降低了訓練與部署自主決策 AI Agent 的門檻，推進了 LLM 在複雜規劃與行動執行的落地。\n* **「向量資料庫已死」（RIP, vector database）**：這是一篇探討專用向量資料庫未來的架構分析，值得注意在於它深入探討了隨著 PostgreSQL（pgvector）等傳統關聯式資料庫全面普及向量搜尋後，專用向量資料庫獨立存在的價值與市場存亡挑戰。\n* **SvelteKit 3 正式發布**：這是熱門前端框架 Svelte 官方全端應用框架的重大版本升級，值得注意在於它正式深度整合了 Svelte 5 的全新「Runes」響應式架構，顯著提升了前端工程的開發體驗與效能。\n* **Cloudflare K2 無伺服器事件串流（Serverless Event Streams）**：這是 Cloudflare 針對邊緣端推出的全新分散式事件串流架構產品，值得注意在於它試圖以全託管、免維運的 Serverless 模式挑戰 Apache Kafka 等傳統訊息佇列系統的高成本維護痛點。",
+ "hackernews": [
+  {
+   "title": "Pi 1.0",
+   "url": "https://earendil.com/posts/pi-1-0/",
+   "points": 1228,
+   "comments": 378
+  },
+  {
+   "title": "StreetComplete on iOS is now in public beta",
+   "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+   "points": 556,
+   "comments": 148
+  },
+  {
+   "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+   "url": "https://blog.cloudflare.com/clef-decision-models/",
+   "points": 498,
+   "comments": 174
+  },
+  {
+   "title": "Pi Durable",
+   "url": "https://earendil.com/posts/pi-durable/",
+   "points": 358,
+   "comments": 45
+  },
+  {
+   "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
+   "url": "https://blog.gitbutler.com/git-3-sha-256",
+   "points": 353,
+   "comments": 334
+  },
+  {
+   "title": "RIP, vector database",
+   "url": "https://turbopuffer.com/blog/rip-vector-database",
+   "points": 318,
+   "comments": 88
+  },
+  {
+   "title": "Several vulnerabilities have been discovered in the Linux kernel",
+   "url": "https://lwn.net/Articles/1097401/",
+   "points": 268,
+   "comments": 194
+  },
+  {
+   "title": "SvelteKit 3",
+   "url": "https://svelte.dev/blog/sveltekit-3-is-here",
+   "points": 257,
+   "comments": 88
+  },
+  {
+   "title": "How to speed up the Rust compiler in September 2026",
+   "url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
+   "points": 251,
+   "comments": 140
+  },
+  {
+   "title": "Cloudflare K2: serverless event streams",
+   "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+   "points": 235,
+   "comments": 90
+  },
+  {
+   "title": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
+   "url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/",
+   "points": 218,
+   "comments": 38
+  },
+  {
+   "title": "DeepSeek Harness Desktop for macOS and Windows",
+   "url": "https://www.deepseek.com/en/harness/",
+   "points": 212,
+   "comments": 105
+  }
+ ]
+}
