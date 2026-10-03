@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-03",
+ "updated": "2026-10-03 16:25",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,162.30",
+   "change": "▼ 40.00 (-0.95%)",
+   "cls": "down",
+   "value": 4162.3
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.93",
+   "change": "▼ 0.17 (-0.17%)",
+   "cls": "down",
+   "value": 101.93
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.277",
+   "change": "▲ 0.040 (+0.76%)",
+   "cls": "up",
+   "value": 5.277
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.31",
+   "change": "▼ 1.08 (-6.59%)",
+   "cls": "down",
+   "value": 15.31
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": "* **From the creator of Redis; run LLM locally with ds4**：這是 Redis 創辦人 Salvatore Sanfilippo 開發的輕量級本機 LLM 推論工具，值得注意其展示了如何以極簡且高效的底層系統架構實現本機模型部署。\n* **Greg Kroah-Hartman – Security in the LLM Age**：這是 Linux 核心資深維護者探討 AI 工具對系統安全影響的演講，值得工程師深思 AI 生成程式碼對開源生態、漏洞審查與軟體供應鏈安全帶來的真實衝擊。\n* **Sites in ChatGPT**：這是 ChatGPT 推出的網站生成與互動功能，值得關注 LLM 正進一步將生成能力與 Web 應用部署深度整合，改變前端與網站開發的原型製作流程。\n* **FLUX 3 Image**：這是主流開源影像生成架構 FLUX 系列的最新進展，對於追蹤前沿多模態技術、擴散模型演進與視覺 AI 應用的開發者極具參考價值。\n* **Apple Pass Designer**：這是 Apple 官方推出的 Apple Wallet 票卡視覺化設計工具，大幅簡化了工程師與設計師在製作、即時預覽及除錯錢包票卡時的開發流程。",
+ "hackernews": [
+  {
+   "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+   "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+   "points": 610,
+   "comments": 267
+  },
+  {
+   "title": "Mike Tomlin spent 12 years building a Minecraft city",
+   "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
+   "points": 432,
+   "comments": 105
+  },
+  {
+   "title": "Apple Pass Designer",
+   "url": "https://developer.apple.com/pass-designer/",
+   "points": 404,
+   "comments": 247
+  },
+  {
+   "title": "FLUX 3 Image",
+   "url": "https://bfl.ai/models/flux-3-image",
+   "points": 331,
+   "comments": 71
+  },
+  {
+   "title": "The Legend of von Neumann (1973) [pdf]",
+   "url": "https://gwern.net/doc/math/1973-halmos.pdf",
+   "points": 274,
+   "comments": 148
+  },
+  {
+   "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+   "url": "https://stillwet.art/",
+   "points": 270,
+   "comments": 88
+  },
+  {
+   "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
+   "url": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
+   "points": 266,
+   "comments": 53
+  },
+  {
+   "title": "Sites in ChatGPT",
+   "url": "https://chatgpt.com/features/sites/",
+   "points": 260,
+   "comments": 250
+  },
+  {
+   "title": "Loss of cell identity drives human aging: Two new papers",
+   "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
+   "points": 244,
+   "comments": 74
+  },
+  {
+   "title": "Extra Big Ass Intelligence",
+   "url": "https://www.extrabigassintelligence.com/",
+   "points": 237,
+   "comments": 50
+  },
+  {
+   "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+   "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+   "points": 231,
+   "comments": 67
+  },
+  {
+   "title": "From the creator of Redis; run LLM locally with ds4",
+   "url": "https://dwarfstar.sh/",
+   "points": 225,
+   "comments": 57
+  }
+ ]
+}
