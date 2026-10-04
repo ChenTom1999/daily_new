@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-04",
+ "updated": "2026-10-04 16:38",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,162.30",
+   "change": "▼ 40.00 (-0.95%)",
+   "cls": "down",
+   "value": 4162.3
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.93",
+   "change": "▼ 0.17 (-0.17%)",
+   "cls": "down",
+   "value": 101.93
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.277",
+   "change": "▲ 0.040 (+0.76%)",
+   "cls": "up",
+   "value": 5.277
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.31",
+   "change": "▼ 1.08 (-6.59%)",
+   "cls": "down",
+   "value": 15.31
+  }
+ ],
+ "calendar": [],
+ "summary": "- 俄羅斯空襲基輔第二座主要橋樑：俄烏戰火升級加劇地緣政治風險，短線提振市場避險需求，對黃金偏多。\n- 德國總理突訪烏克蘭並宣布10億歐元軍援：西方持續加碼軍事介入，預示衝突長期化，為黃金下檔提供避險支撐。\n- 洛克希德馬丁爭奪印度巨額軍售大單：反映印太與全球軍備防禦支出常態化上升，長期地緣不確定性間接利好貴金屬。",
+ "tech": "- **FTL: A new operating system for clouds**：這是一個專為現代雲端環境重構的新型作業系統專案，值得注意是因為它嘗試透過重新設計抽象層來大幅降低傳統虛擬化在雲端運算中的效能開銷。\n- **Agents don't need memory, they need documentation**：這是一篇探討 AI Agent 系統架構的觀點文章，指出與其耗費心力構建複雜的長期記憶機制，不如透過清晰、結構化的文件來引導 LLM，為 Agent 工程實踐提供了務實的新思維。\n- **I quit OpenAI because its culture is broken**：這是一篇 OpenAI 前員工揭露內部文化失衡的離職反思，讓工程師能深入了解這家 AI 龍頭在加速商業化過程中面臨的組織治理危機與研究倫理轉變。\n- **The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux**：這是一篇記錄 Valve 工程師針對 Linux 底層開源圖形驅動（Mesa/ACO）進行深度優化的報導，展現了軟體工程如何透過編譯器層級的調優，為老舊硬體釋放顯著的圖形與運算效能。\n- **We're going to need default hard budget caps on pretty much everything**：這是一篇討論現代雲端架構與計費隱憂的工程省思，強調在微服務與 AI API 呼叫普及的時代，系統設計必須預設納入硬性預算上限機制，以避免自動化擴展引發的災難性帳單。",
+ "hackernews": [
+  {
+   "title": "We're going to need default hard budget caps on pretty much everything",
+   "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+   "points": 405,
+   "comments": 205
+  },
+  {
+   "title": "Tell HN: Bob Cringely has died",
+   "url": "https://news.ycombinator.com/item?id=49949438",
+   "points": 392,
+   "comments": 79
+  },
+  {
+   "title": "Hole Punch: Sling your spaceship around gravitational fields",
+   "url": "https://notoriousbfg.com/hole-punch/",
+   "points": 282,
+   "comments": 66
+  },
+  {
+   "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+   "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+   "points": 259,
+   "comments": 37
+  },
+  {
+   "title": "I quit OpenAI because its culture is broken",
+   "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+   "points": 204,
+   "comments": 467
+  },
+  {
+   "title": "Celebrating the 100th birthday of the kidney donated to him as a teenager",
+   "url": "https://www.whec.com/top-news/webster-man-celebrating-the-100th-birthday-of-the-kidney-his-mom-donated-to-him-as-a-teenager/",
+   "points": 192,
+   "comments": 46
+  },
+  {
+   "title": "So you think you could be an electrician?",
+   "url": "https://asteriskmag.com/issues/15/so-you-think-you-could-be-an-electrician",
+   "points": 191,
+   "comments": 125
+  },
+  {
+   "title": "Treachery in the Rodin Museum 3D scan verdict",
+   "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+   "points": 179,
+   "comments": 83
+  },
+  {
+   "title": "FTL: A new operating system for clouds",
+   "url": "https://ftl-os.org/",
+   "points": 172,
+   "comments": 67
+  },
+  {
+   "title": "Agents don't need memory, they need documentation",
+   "url": "https://liao.gg/blog/agents-dont-need-memory",
+   "points": 153,
+   "comments": 90
+  },
+  {
+   "title": "Reasons I didn't become an EMT, ranked",
+   "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
+   "points": 145,
+   "comments": 71
+  },
+  {
+   "title": "Woking Electrical Control Room (2016)",
+   "url": "http://www.darbiansphotography.com/woking-electrical-control-room-urbex",
+   "points": 141,
+   "comments": 27
+  }
+ ]
+}
