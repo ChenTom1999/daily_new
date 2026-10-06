@@ -1,0 +1,120 @@
+{
+ "date": "2026-10-06",
+ "updated": "2026-10-06 17:32",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,182.30",
+   "change": "▲ 25.50 (+0.61%)",
+   "cls": "up",
+   "value": 4182.3
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.01",
+   "change": "▼ 0.16 (-0.16%)",
+   "cls": "down",
+   "value": 102.01
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.311",
+   "change": "▲ 0.034 (+0.64%)",
+   "cls": "up",
+   "value": 5.311
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.45",
+   "change": "▼ 0.07 (-0.45%)",
+   "cls": "down",
+   "value": 15.45
+  }
+ ],
+ "calendar": [
+  {
+   "time": "14:35",
+   "passed": true,
+   "country": "JPY",
+   "title": "BOJ Gov Ueda Speaks",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Anthropic reported diary entry to police, woman faces felony charge",
+   "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+   "points": 722,
+   "comments": 560
+  },
+  {
+   "title": "Web Search API",
+   "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+   "points": 543,
+   "comments": 248
+  },
+  {
+   "title": "Beam: Reflection's 501B open-weight model",
+   "url": "https://reflection.ai/blog/introducing-beam",
+   "points": 443,
+   "comments": 142
+  },
+  {
+   "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+   "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+   "points": 424,
+   "comments": 308
+  },
+  {
+   "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+   "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+   "points": 347,
+   "comments": 231
+  },
+  {
+   "title": "Apple and a hacker's future",
+   "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+   "points": 256,
+   "comments": 215
+  },
+  {
+   "title": "Example.com just launched the biggest redesign in decades",
+   "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
+   "points": 215,
+   "comments": 137
+  },
+  {
+   "title": "The lamps in my house",
+   "url": "https://arslan.io/2026/10/05/the-lamps-in-my-house/",
+   "points": 198,
+   "comments": 89
+  },
+  {
+   "title": "Competitive Programmer's Handbook (2018) [pdf]",
+   "url": "https://cses.fi/book/book.pdf",
+   "points": 197,
+   "comments": 46
+  },
+  {
+   "title": "Find the flattest route between any two points in SF",
+   "url": "https://flattensf.com/",
+   "points": 196,
+   "comments": 69
+  },
+  {
+   "title": "Qualcomm licenses patents on Huawei’s LogicFolding chip tech",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-05/qualcomm-licenses-patents-on-huawei-s-logicfolding-chip-tech",
+   "points": 190,
+   "comments": 125
+  },
+  {
+   "title": "Dust: Pretraining Transformers Without Backpropagation",
+   "url": "https://qlabs.sh/research/dust",
+   "points": 181,
+   "comments": 43
+  }
+ ]
+}
