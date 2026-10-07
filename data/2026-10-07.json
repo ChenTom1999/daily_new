@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-07",
+ "updated": "2026-10-07 17:12",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,151.60",
+   "change": "▼ 35.50 (-0.85%)",
+   "cls": "down",
+   "value": 4151.6
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.24",
+   "change": "▲ 0.41 (+0.40%)",
+   "cls": "up",
+   "value": 102.24
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.269",
+   "change": "▼ 0.042 (-0.79%)",
+   "cls": "down",
+   "value": 5.269
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.24",
+   "change": "▲ 0.23 (+1.53%)",
+   "cls": "up",
+   "value": 15.24
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Mistral Large 4",
+   "url": "https://mistral.ai/news/mistral-large-4/\\",
+   "points": 1789,
+   "comments": 1060
+  },
+  {
+   "title": "Sharing AI progress in mathematics",
+   "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+   "points": 880,
+   "comments": 790
+  },
+  {
+   "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+   "points": 313,
+   "comments": 34
+  },
+  {
+   "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+   "url": "https://github.com/FeSens/openTPU",
+   "points": 288,
+   "comments": 337
+  },
+  {
+   "title": "Decisions API is in public beta",
+   "url": "https://developers.openai.com/api/docs/guides/decisions",
+   "points": 278,
+   "comments": 131
+  },
+  {
+   "title": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
+   "url": "https://github.com/boykopovar/AnyPS5",
+   "points": 247,
+   "comments": 202
+  },
+  {
+   "title": "What's Earth's dominant species by mass?",
+   "url": "https://signoregalilei.com/2026/09/27/whats-earths-dominant-species-by-mass/",
+   "points": 230,
+   "comments": 163
+  },
+  {
+   "title": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+   "url": "https://news.ycombinator.com/item?id=49982498",
+   "points": 211,
+   "comments": 114
+  },
+  {
+   "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+   "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+   "points": 194,
+   "comments": 108
+  },
+  {
+   "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+   "url": "https://penguin-mail.com/",
+   "points": 171,
+   "comments": 99
+  },
+  {
+   "title": "Strands Decider 2B: a small, open-source, decision model",
+   "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+   "points": 166,
+   "comments": 41
+  },
+  {
+   "title": "State of Devs 2026",
+   "url": "https://2026.stateofdevs.com/en-US/",
+   "points": 154,
+   "comments": 78
+  }
+ ]
+}
