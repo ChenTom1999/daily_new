@@ -1,0 +1,128 @@
+{
+ "date": "2026-10-08",
+ "updated": "2026-10-08 17:18",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,152.30",
+   "change": "▲ 11.60 (+0.28%)",
+   "cls": "up",
+   "value": 4152.3
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.37",
+   "change": "▲ 0.13 (+0.13%)",
+   "cls": "up",
+   "value": 102.37
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.277",
+   "change": "▲ 0.008 (+0.15%)",
+   "cls": "up",
+   "value": 5.277
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.67",
+   "change": "▲ 0.59 (+3.91%)",
+   "cls": "up",
+   "value": 15.67
+  }
+ ],
+ "calendar": [
+  {
+   "time": "02:00",
+   "passed": true,
+   "country": "USD",
+   "title": "FOMC Meeting Minutes",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "20:15",
+   "passed": false,
+   "country": "GBP",
+   "title": "BOE Gov Bailey Speaks",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": "- 傳美俄洽談引進美資參與北溪管線：若能源外交促使俄烏局勢釋放緩和訊號，避險溢價恐遭削減，對黃金短線走勢偏空壓制。\n- 英國多數外交官撤離東耶路撒冷領事館：凸顯中東以巴衝突升級與區域動盪風險，避險情緒升高，短線對黃金形成支撐（偏多）。\n- 美國與黎巴嫩遭指暗中庇護敘利亞將領：反映中東多方勢力地緣角力依舊複雜脆弱，提供潛在地緣風險溢價，對金價維持中性偏多支撐。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Margaret Hamilton has died",
+   "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+   "points": 1465,
+   "comments": 161
+  },
+  {
+   "title": "Sharing AI progress in mathematics",
+   "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+   "points": 1279,
+   "comments": 1450
+  },
+  {
+   "title": "Claude Haiku 5.5",
+   "url": "https://www.anthropic.com/claude-haiku-5-5",
+   "points": 869,
+   "comments": 417
+  },
+  {
+   "title": "GPT‑6 and Intelligent UI for everyone",
+   "url": "https://openai.com/index/gpt-6-for-everyone/",
+   "points": 621,
+   "comments": 344
+  },
+  {
+   "title": "Shipping JPEG XL in Chrome",
+   "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+   "points": 546,
+   "comments": 362
+  },
+  {
+   "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+   "url": "https://bigwords.page/",
+   "points": 496,
+   "comments": 138
+  },
+  {
+   "title": "Animated ASCII Art for Web Pages",
+   "url": "https://ascii.rest/",
+   "points": 352,
+   "comments": 61
+  },
+  {
+   "title": "Navier–Stokes Lost in Translation",
+   "url": "https://arxiv.org/abs/2610.08144",
+   "points": 303,
+   "comments": 184
+  },
+  {
+   "title": "Anti-patterns in software blogging",
+   "url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/",
+   "points": 272,
+   "comments": 139
+  },
+  {
+   "title": "“Math 2.0” will need to value mathematical progress more holistically",
+   "url": "https://mathstodon.xyz/@tao/117395269325940185",
+   "points": 263,
+   "comments": 227
+  },
+  {
+   "title": "Docker Agent",
+   "url": "https://github.com/docker/docker-agent",
+   "points": 233,
+   "comments": 109
+  },
+  {
+   "title": "The Mathocalypse",
+   "url": "https://scottaaronson.blog/?p=10169",
+   "points": 224,
+   "comments": 254
+  }
+ ]
+}
