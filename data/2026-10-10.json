@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-10",
+ "updated": "2026-10-10 16:50",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,216.30",
+   "change": "▲ 59.30 (+1.43%)",
+   "cls": "up",
+   "value": 4216.3
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.21",
+   "change": "▲ 0.07 (+0.07%)",
+   "cls": "up",
+   "value": 102.21
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.244",
+   "change": "▲ 0.013 (+0.25%)",
+   "cls": "up",
+   "value": 5.244
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.84",
+   "change": "▼ 0.57 (-3.70%)",
+   "cls": "down",
+   "value": 14.84
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": "* **Cloudflare acquires Deno**：網路基礎設施巨頭 Cloudflare 宣布收購現代 JavaScript/TypeScript 執行環境 Deno，此舉將深度整合兩者的技術，預期將重塑邊緣運算（Edge Computing）與 Serverless 的開發生態系。\n* **Typesafe AI raises $870M at $7.5B**：專注於高可靠性與型別安全架構的 AI 新創 Typesafe AI 以 75 億美元估值獲得巨額融資，反映出市場對嚴謹、可驗證且能避免幻覺的企業級 AI 開發基礎設施有極高需求。\n* **Telegram Desktop vulnerability allowed any user's file to be stolen**：Telegram 桌面版被揭露可被竊取任意使用者檔案的嚴重安全漏洞，警示開發跨平台桌面應用的軟體工程師必須更嚴格審視本機檔案處理與外部輸入驗證機制。\n* **Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded**：這是一個開源的電信設定解析工具，成功逆向解碼了主流智慧型手機中封閉的電信業者設定檔，為行動通訊與網路底層工程師提供了寶貴的除錯與研究資源。\n* **REA Reverse – Engineer Anything**：一款旨在現代化並簡化二進位分析流程的逆向工程工具，能大幅降低軟體行為分析與安全性檢視的門檻，值得系統級與資安工程師關注。",
+ "hackernews": [
+  {
+   "title": "Cloudflare acquires Deno",
+   "url": "https://deno.com/blog/cloudflare",
+   "points": 1203,
+   "comments": 610
+  },
+  {
+   "title": "Triple-A Minesweeper",
+   "url": "https://minesweeper.mikelacher.com/",
+   "points": 933,
+   "comments": 178
+  },
+  {
+   "title": "Sorry, I'm in a meeting",
+   "url": "https://iminafleeting.com/",
+   "points": 885,
+   "comments": 250
+  },
+  {
+   "title": "Our $445M Series D",
+   "url": "https://oxide.computer/blog/our-445m-series-d",
+   "points": 651,
+   "comments": 295
+  },
+  {
+   "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
+   "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
+   "points": 561,
+   "comments": 304
+  },
+  {
+   "title": "REA Reverse – Engineer Anything",
+   "url": "https://rea.tools/",
+   "points": 373,
+   "comments": 134
+  },
+  {
+   "title": "Typesafe AI raises $870M at $7.5B",
+   "url": "https://typesafe.ai/blog/series-ai",
+   "points": 361,
+   "comments": 267
+  },
+  {
+   "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+   "url": "https://carrierexplode.com/",
+   "points": 313,
+   "comments": 40
+  },
+  {
+   "title": "'Wallace and Gromit,' 90% Alone",
+   "url": "https://animationobsessive.substack.com/p/wallace-and-gromit-90-alone",
+   "points": 203,
+   "comments": 25
+  },
+  {
+   "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+   "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+   "points": 142,
+   "comments": 75
+  },
+  {
+   "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+   "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+   "points": 131,
+   "comments": 59
+  },
+  {
+   "title": "Eye of Sauron: Long-Range Hidden Spy Camera Detection",
+   "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-qibo",
+   "points": 130,
+   "comments": 32
+  }
+ ]
+}
