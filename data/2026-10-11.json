@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-11",
+ "updated": "2026-10-11 17:11",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,216.30",
+   "change": "▲ 59.30 (+1.43%)",
+   "cls": "up",
+   "value": 4216.3
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.21",
+   "change": "▲ 0.07 (+0.07%)",
+   "cls": "up",
+   "value": 102.21
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.244",
+   "change": "▲ 0.013 (+0.25%)",
+   "cls": "up",
+   "value": 5.244
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "14.84",
+   "change": "▼ 0.57 (-3.70%)",
+   "cls": "down",
+   "value": 14.84
+  }
+ ],
+ "calendar": [],
+ "summary": "- IMF與世銀年會聚焦中東局勢升級風險：地緣政治緊張刺激避險需求，對黃金（XAU/USD）形成短線偏多支撐。\n- IMF警示全球高主權債務隱憂：主權信用與財政風險加劇市場不安，中長期強化黃金作為抗通膨與避險資產的吸引力。\n- 川普抨擊澤倫斯基並稱烏克蘭應換總統：暗示美國對烏援助與俄烏政策恐現變數，地緣局勢不確定性上升，牽動避險情緒反覆震盪。",
+ "tech": "* **Talorys**：這是一款可完全自託管於 Cloudflare 免費層上的個人 AI Agent 專案，讓開發者無需負擔高昂雲端基礎設施成本，就能打造並運行端到端的私人自動化代理服務。\n* **Mxc (Microsoft Execution Containers 1.0.0)**：這是微軟最新釋出 1.0 正式版的容器執行環境技術，為 Windows 與雲端原生工作負載提供了全新、輕量且高效能的隔離執行解決方案。\n* **Nix wrote half of my debugger**：這是一篇探討如何善用宣告式套件管理工具 Nix 簡化除錯器建構的技術實務分享，展示了現代建置系統如何大幅降低底層系統工具的開發難度與維護成本。\n* **Unikernels were hard. key word: were**：這篇文章回顧並介紹了 Unikernel（單內核）技術的最新工具鏈進展，指出過去極度繁瑣的單一用途極簡虛擬化架構如今已變得實用，有望為極致追求冷啟動速度與安全性的雲端服務帶來突破。\n* **Build your own decision model**：這是一份引導工程師跳脫黑箱 AI、從頭建構確定性決策模型的實用指南，對於需要在複雜業務邏輯中落實可解釋性與嚴謹決策架構的系統設計者極具參考價值。",
+ "hackernews": [
+  {
+   "title": "2D Vehicles",
+   "url": "https://patkerr.co.uk/2d-vehicles/",
+   "points": 452,
+   "comments": 99
+  },
+  {
+   "title": "Grieving the loss of details",
+   "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/",
+   "points": 436,
+   "comments": 347
+  },
+  {
+   "title": "The Lightbulb Computer",
+   "url": "https://lightbulbcomputer.com/",
+   "points": 389,
+   "comments": 62
+  },
+  {
+   "title": "A city-building game in which the city would prefer you didn't",
+   "url": "https://housing.over.pizza/",
+   "points": 334,
+   "comments": 108
+  },
+  {
+   "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+   "url": "https://github.com/rociiu/talorys",
+   "points": 289,
+   "comments": 133
+  },
+  {
+   "title": "Build your own decision model",
+   "url": "https://nishtahir.com/build-your-own-decision-model/",
+   "points": 283,
+   "comments": 66
+  },
+  {
+   "title": "Nix wrote half of my debugger",
+   "url": "https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger",
+   "points": 196,
+   "comments": 45
+  },
+  {
+   "title": "Knuth reward check",
+   "url": "https://www.thomas-huehn.com/knuth-reward-check/",
+   "points": 192,
+   "comments": 69
+  },
+  {
+   "title": "Mxc: Microsoft Execution Containers version 1.0.0",
+   "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+   "points": 187,
+   "comments": 48
+  },
+  {
+   "title": "Chernobyl particles reveal unexpectedly stable nuclear fuel after 40 years",
+   "url": "https://phys.org/news/2026-10-chernobyl-particles-reveal-unexpectedly-stable.html",
+   "points": 155,
+   "comments": 67
+  },
+  {
+   "title": "Unikernels were hard. key word: were",
+   "url": "https://ghuntley.com/unikernels/",
+   "points": 154,
+   "comments": 68
+  },
+  {
+   "title": "3rd Yandex Cloud Data Center Was Hit",
+   "url": "https://status.yandex.cloud/en/incidents/2136",
+   "points": 150,
+   "comments": 175
+  }
+ ]
+}
