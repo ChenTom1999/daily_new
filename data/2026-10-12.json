@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-12",
+ "updated": "2026-10-12 17:47",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,201.70",
+   "change": "▼ 14.60 (-0.35%)",
+   "cls": "down",
+   "value": 4201.7
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.32",
+   "change": "▲ 0.11 (+0.11%)",
+   "cls": "up",
+   "value": 102.32
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.244",
+   "change": "▲ 0.013 (+0.25%)",
+   "cls": "up",
+   "value": 5.244
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.43",
+   "change": "▲ 0.59 (+3.98%)",
+   "cls": "up",
+   "value": 15.43
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Passkeys are a trap",
+   "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+   "points": 611,
+   "comments": 364
+  },
+  {
+   "title": "Total Annihilation, rebuilt for modern computers",
+   "url": "https://nanolathe.gg",
+   "points": 505,
+   "comments": 200
+  },
+  {
+   "title": "NYC's \"Click to Cancel\" rule is now in effect",
+   "url": "https://www.nyc.gov/main/click-to-cancel",
+   "points": 472,
+   "comments": 220
+  },
+  {
+   "title": "The gap in shared understanding of LLM capability is widening",
+   "url": "https://twitter.com/karpathy/status/2109361546505966046",
+   "points": 457,
+   "comments": 652
+  },
+  {
+   "title": "Terence Tao: Math 2.0 [pdf]",
+   "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+   "points": 398,
+   "comments": 423
+  },
+  {
+   "title": "Fingerprints are the new cookies",
+   "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+   "points": 364,
+   "comments": 172
+  },
+  {
+   "title": "So, you’d like to sell your print issues of The Onion?",
+   "url": "https://theonion.com/archivehunt/",
+   "points": 323,
+   "comments": 48
+  },
+  {
+   "title": "Cartographers of North Korea (2019)",
+   "url": "https://cartographers-nk.wonyoung.so/",
+   "points": 261,
+   "comments": 46
+  },
+  {
+   "title": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
+   "url": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/",
+   "points": 146,
+   "comments": 152
+  },
+  {
+   "title": "Whatever became of holography? (2011)",
+   "url": "https://www.americanscientist.org/article/whatever-became-of-holography",
+   "points": 130,
+   "comments": 63
+  },
+  {
+   "title": "Calculus with Julia",
+   "url": "https://jverzani.github.io/CalculusWithJuliaNotes.jl/",
+   "points": 125,
+   "comments": 11
+  },
+  {
+   "title": "Zod 4.6.6 compromised by malware?",
+   "url": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
+   "points": 116,
+   "comments": 31
+  }
+ ]
+}
