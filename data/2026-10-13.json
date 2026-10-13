@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-13",
+ "updated": "2026-10-13 17:41",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,207.60",
+   "change": "▲ 17.00 (+0.41%)",
+   "cls": "up",
+   "value": 4207.6
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.35",
+   "change": "▼ 0.23 (-0.23%)",
+   "cls": "down",
+   "value": 102.35
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.240",
+   "change": "▼ 0.004 (-0.08%)",
+   "cls": "down",
+   "value": 5.24
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.38",
+   "change": "▲ 0.17 (+1.12%)",
+   "cls": "up",
+   "value": 15.38
+  }
+ ],
+ "calendar": [],
+ "summary": "- 保加利亞外海商船遭無人機攻擊沉沒引發外交緊張，黑海局勢升級推升市場避險情緒，短線有利黃金(XAU/USD)走強。\n- 澤倫斯基指控停火消息後俄軍仍打擊烏克蘭多處能源設施，停火進展受挫加劇戰事不確定性，為金價帶來逢低避險買盤支撐。\n- 烏克蘭前將領稱俄軍進攻動能受挫，反映俄烏戰局陷入長期膠著拉鋸，地緣政治溢價持續存在，有助限制金價回調空間。\n- 美方示警中國駭客鎖定太平洋區域電信網路，美中地緣暗潮洶湧增添零星避險需求，短波段對黃金偏向溫和利多。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+   "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+   "points": 689,
+   "comments": 812
+  },
+  {
+   "title": "Muse Wonder",
+   "url": "https://research.meta.ai/blog/muse-wonder",
+   "points": 628,
+   "comments": 336
+  },
+  {
+   "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+   "url": "https://github.com/openai/codex/issues/48195",
+   "points": 560,
+   "comments": 273
+  },
+  {
+   "title": "GLM-Legal",
+   "url": "https://z.ai/blog/glm-legal",
+   "points": 557,
+   "comments": 316
+  },
+  {
+   "title": "A Modern Web App in C",
+   "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+   "points": 557,
+   "comments": 235
+  },
+  {
+   "title": "AI is a tool and using it well takes skill",
+   "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+   "points": 409,
+   "comments": 330
+  },
+  {
+   "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
+   "url": "https://github.com/h0m3us3r/w1700k-sdr",
+   "points": 345,
+   "comments": 90
+  },
+  {
+   "title": "Citroen revives the 2CV for an electric age",
+   "url": "https://www.bbc.com/news/articles/c620r33plgppo",
+   "points": 336,
+   "comments": 372
+  },
+  {
+   "title": "The baffling intelligence of a single cell (2024)",
+   "url": "https://jsomers.net/e-coli-chemotaxis/",
+   "points": 274,
+   "comments": 56
+  },
+  {
+   "title": "The Making Of Super Mario 64 – full Giles Goddard interview (2001)",
+   "url": "https://pixelatron.com/blog/the-making-of-super-mario-64-full-giles-goddard-interview-ngc/",
+   "points": 250,
+   "comments": 97
+  },
+  {
+   "title": "AI models can provably hide arbitrary capabilities",
+   "url": "https://arxiv.org/abs/2610.13928",
+   "points": 207,
+   "comments": 105
+  },
+  {
+   "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+   "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+   "points": 202,
+   "comments": 105
+  }
+ ]
+}
