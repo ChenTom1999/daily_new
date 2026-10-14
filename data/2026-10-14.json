@@ -1,0 +1,144 @@
+{
+ "date": "2026-10-14",
+ "updated": "2026-10-14 15:55",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,169.50",
+   "change": "▼ 7.80 (-0.19%)",
+   "cls": "down",
+   "value": 4169.5
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.14",
+   "change": "▼ 0.04 (-0.03%)",
+   "cls": "down",
+   "value": 102.14
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.217",
+   "change": "▼ 0.023 (-0.44%)",
+   "cls": "down",
+   "value": 5.217
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "15.22",
+   "change": "▼ 0.05 (-0.33%)",
+   "cls": "down",
+   "value": 15.22
+  }
+ ],
+ "calendar": [
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core CPI m/m",
+   "forecast": "0.2%",
+   "previous": "0.3%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core CPI y/y",
+   "forecast": "2.5%",
+   "previous": "2.4%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "CPI m/m",
+   "forecast": "0.6%",
+   "previous": "0.4%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "CPI y/y",
+   "forecast": "3.6%",
+   "previous": "3.4%"
+  }
+ ],
+ "summary": "- **葉門青年運動襲擊沙烏地阿美石油設施**：中東衝突升級推升原油供應中斷與通膨反彈隱憂，雙重激發避險情緒，對黃金短線**強烈偏多**。\n- **俄羅斯空襲基輔關鍵發電廠**：烏克蘭能源基礎設施受創顯示俄烏戰事升級，地緣政治風險擴大，有利黃金吸引避險買盤**偏多**看待。\n- **英國軍情五處警示俄羅斯與伊朗安全威脅**：歐洲與中東潛在地緣對抗風險未退，支撐市場避險買盤底氣，短線有助**限制金價回調空間**。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Gemini 4 Argon",
+   "url": "https://deepmind.google/models/gemini/",
+   "points": 1234,
+   "comments": 865
+  },
+  {
+   "title": "Redesigning source control at Anthropic",
+   "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+   "points": 729,
+   "comments": 720
+  },
+  {
+   "title": "Apple HomeView",
+   "url": "https://www.apple.com/apple-homeview/",
+   "points": 719,
+   "comments": 844
+  },
+  {
+   "title": "11 year old unsoundness bugs found in Rust borrow checker",
+   "url": "https://github.com/rust-lang/rust/issues/164250",
+   "points": 714,
+   "comments": 399
+  },
+  {
+   "title": "AI is a tool and using it well takes skill",
+   "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+   "points": 667,
+   "comments": 532
+  },
+  {
+   "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+   "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+   "points": 638,
+   "comments": 422
+  },
+  {
+   "title": "OpenAI engineer arrested in bugging of executive conference room",
+   "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+   "points": 546,
+   "comments": 460
+  },
+  {
+   "title": "Thunderbird for iOS",
+   "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+   "points": 423,
+   "comments": 184
+  },
+  {
+   "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+   "url": "https://guitoro.com/",
+   "points": 405,
+   "comments": 106
+  },
+  {
+   "title": "Hittite royal archive found in Turkey",
+   "url": "https://www.thehistoryblog.com/archives/77107",
+   "points": 365,
+   "comments": 87
+  },
+  {
+   "title": "The United Kingdom generates less electricity per person than in the 1970s",
+   "url": "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
+   "points": 283,
+   "comments": 406
+  },
+  {
+   "title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
+   "url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/",
+   "points": 259,
+   "comments": 426
+  }
+ ]
+}
