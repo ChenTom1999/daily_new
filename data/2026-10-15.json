@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-15",
+ "updated": "2026-10-15 15:40",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,164.70",
+   "change": "▲ 56.80 (+1.38%)",
+   "cls": "up",
+   "value": 4164.7
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.08",
+   "change": "▼ 0.47 (-0.46%)",
+   "cls": "down",
+   "value": 102.08
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.190",
+   "change": "▼ 0.027 (-0.52%)",
+   "cls": "down",
+   "value": 5.19
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "17.57",
+   "change": "▲ 0.70 (+4.15%)",
+   "cls": "up",
+   "value": 17.57
+  }
+ ],
+ "calendar": [
+  {
+   "time": "08:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "Employment Change",
+   "forecast": "19.6K",
+   "previous": "39.5K"
+  },
+  {
+   "time": "08:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "Unemployment Rate",
+   "forecast": "4.6%",
+   "previous": "4.6%"
+  },
+  {
+   "time": "14:00",
+   "passed": true,
+   "country": "GBP",
+   "title": "GDP m/m",
+   "forecast": "-0.1%",
+   "previous": "0.4%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core PPI m/m",
+   "forecast": "0.3%",
+   "previous": "0.2%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core Retail Sales m/m",
+   "forecast": "0.6%",
+   "previous": "1.4%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "PPI m/m",
+   "forecast": "0.6%",
+   "previous": "0.4%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Retail Sales m/m",
+   "forecast": "0.3%",
+   "previous": "1.2%"
+  }
+ ],
+ "summary": null,
+ "tech": "* **Containment and monitoring failures are to blame for AI hacking reports: experts**：這是一篇探討近期 AI 自主發動網路攻擊爭議的資安分析，指出問題核心在於沙盒隔離與監控機制的疏漏，值得工程師在建構與部署自主 AI Agent 時作為權限控管與執行環境防禦的借鏡。\n* **Passkeys are not a trap**：這是一篇針對 WebAuthn/Passkey 技術生態的技術剖析，反駁了外界對其可能造成生態系綁定（Vendor Lock-in）的疑慮，值得正考慮實作現代無密碼身分驗證架構的軟體工程師參考。\n* **OpenCode 2.0**：這是一個專為編程打造的開源代碼模型與輔助工具發布的最新重大版本，值得開發者關注以作為替代商用閉源 Copilot 方案的自託管或客製化選擇。",
+ "hackernews": [
+  {
+   "title": "Things to know when you get cancer",
+   "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+   "points": 1219,
+   "comments": 304
+  },
+  {
+   "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+   "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+   "points": 881,
+   "comments": 516
+  },
+  {
+   "title": "How Amazon pushes up prices all across the Internet",
+   "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+   "points": 803,
+   "comments": 629
+  },
+  {
+   "title": "Do dentists know what they're doing?",
+   "url": "https://mapwriting.substack.com/p/dentists",
+   "points": 631,
+   "comments": 443
+  },
+  {
+   "title": "Passkeys are not a trap",
+   "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
+   "points": 579,
+   "comments": 727
+  },
+  {
+   "title": "OpenCode 2.0",
+   "url": "https://anoma.ly/notes/opencode-2-0/",
+   "points": 537,
+   "comments": 211
+  },
+  {
+   "title": "Americans' social activity has steeply declined in the past 30 years",
+   "url": "https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years",
+   "points": 362,
+   "comments": 346
+  },
+  {
+   "title": "Anthropic's Scion is heavily inspired by Mononoke",
+   "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+   "points": 357,
+   "comments": 132
+  },
+  {
+   "title": "Fire at Starlink site in Bulgaria after suspected sabotage in Poland",
+   "url": "https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/",
+   "points": 355,
+   "comments": 244
+  },
+  {
+   "title": "Tiny Little Office",
+   "url": "https://tinylittleoffice.com/",
+   "points": 351,
+   "comments": 52
+  },
+  {
+   "title": "Why is every rationalist blog post way too long?",
+   "url": "https://alexwennerberg.com/blog/2026-10-13-long.html",
+   "points": 321,
+   "comments": 254
+  },
+  {
+   "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
+   "url": "https://typesafe.ai/blog/jev-1-14",
+   "points": 268,
+   "comments": 87
+  }
+ ]
+}
