@@ -1,0 +1,128 @@
+{
+ "date": "2026-10-16",
+ "updated": "2026-10-16 15:25",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,206.60",
+   "change": "▲ 36.50 (+0.88%)",
+   "cls": "up",
+   "value": 4206.6
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.83",
+   "change": "▼ 0.17 (-0.16%)",
+   "cls": "down",
+   "value": 101.83
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.089",
+   "change": "▼ 0.101 (-1.95%)",
+   "cls": "down",
+   "value": 5.089
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "16.46",
+   "change": "▼ 0.41 (-2.43%)",
+   "cls": "down",
+   "value": 16.46
+  }
+ ],
+ "calendar": [
+  {
+   "time": "10:00",
+   "passed": true,
+   "country": "GBP",
+   "title": "BOE Gov Bailey Speaks",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "11:30",
+   "passed": true,
+   "country": "USD",
+   "title": "Fed Chairman Warsh Speaks",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Muse Spark Open",
+   "url": "https://research.meta.ai/blog/muse-spark-open",
+   "points": 767,
+   "comments": 390
+  },
+  {
+   "title": "Neural networks are clean",
+   "url": "https://already-clean.goodfire.com/",
+   "points": 636,
+   "comments": 234
+  },
+  {
+   "title": "Wayland desktop for Linux with skeuomorphic design",
+   "url": "https://github.com/fyzugx/DEsk",
+   "points": 582,
+   "comments": 229
+  },
+  {
+   "title": "What I self-host",
+   "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+   "points": 426,
+   "comments": 266
+  },
+  {
+   "title": "Jev meets the Trolley Problem",
+   "url": "https://zachlandes.com/trolley-problem/",
+   "points": 423,
+   "comments": 176
+  },
+  {
+   "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+   "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+   "points": 313,
+   "comments": 142
+  },
+  {
+   "title": "Krea 3 – An image model built for editing at scale",
+   "url": "https://www.krea.ai/krea-3",
+   "points": 291,
+   "comments": 93
+  },
+  {
+   "title": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
+   "url": "https://libreboot.org/news/libreboot2610.html",
+   "points": 277,
+   "comments": 169
+  },
+  {
+   "title": "Celebrating 70 Years of Fortran",
+   "url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday/",
+   "points": 258,
+   "comments": 108
+  },
+  {
+   "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+   "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+   "points": 251,
+   "comments": 166
+  },
+  {
+   "title": "Delta’s Biscoff cookies were supposed to be temporary",
+   "url": "https://www.seriouseats.com/biscoff-history-12168161",
+   "points": 212,
+   "comments": 165
+  },
+  {
+   "title": "Meta’s new commercial terms will allow the scraping of news sites: experts",
+   "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
+   "points": 202,
+   "comments": 78
+  }
+ ]
+}
