@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-17",
+ "updated": "2026-10-17 15:06",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,181.10",
+   "change": "▲ 11.00 (+0.26%)",
+   "cls": "up",
+   "value": 4181.1
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.84",
+   "change": "▼ 0.16 (-0.16%)",
+   "cls": "down",
+   "value": 101.84
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.098",
+   "change": "▲ 0.009 (+0.18%)",
+   "cls": "up",
+   "value": 5.098
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "19.99",
+   "change": "▲ 3.53 (+21.45%)",
+   "cls": "up",
+   "value": 19.99
+  }
+ ],
+ "calendar": [],
+ "summary": "- 川普放寬部分對俄制裁且與澤倫斯基衝突升溫：若引發俄烏停火或政策轉向預期，恐削弱地緣政治溢價，對黃金短線偏空或加劇高檔震盪。\n- 烏軍前線反攻但軍用星鏈傳出受限：俄烏戰局陷入拉鋸且美烏援助變數增加，戰事不確定性仍為金價提供下檔避險支撐。\n- 約旦河西岸巴勒斯坦人與美籍記者遭襲受傷：中東以巴衝突持續擴散，區域緊張局勢未退，維持黃金短波段避險買盤偏多動能。",
+ "tech": "* **90% of US working hours are spent on tasks not covered well by AI benchmarks**：這是一份指出美國勞工 90% 工時所處理的任務皆未被現有 AI 評測涵蓋的研究，值得注意是因為它揭露了當前熱門的 LLM 跑分與真實職場落地價值之間的巨大落差，提醒工程師評估 AI 應用時切勿過度迷信基準測試。\n* **How the Claude Code team does code review**：這是 Anthropic 旗下 Claude Code 開發團隊分享其內部程式碼審查實踐的文章，值得注意是因為它展示了頂尖 AI 工具團隊如何結合自動化與人工協作，為現代工程團隊提供了兼顧交付速度與程式碼品質的具體參考範本。\n* **Apple ML Research: Muse Spark Open with MLX on Mac Studio**：這是蘋果機器學習研究團隊開源、並透過 MLX 框架在 Mac Studio 上運行的最新研究專案，值得注意是因為它再次驗證了 Apple Silicon 在本地運行高效能深度學習模型的潛力，加速推動 Mac 生態系的本地 AI 開發。\n* **Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console**：這是一項在已越獄 PS5 上成功原生編譯並執行 llama.cpp 以載入各類 GGUF 模型的技術展示，值得注意是因為它證明了消費級遊戲主機可作為高性價比的邊緣 LLM 推論硬體，為自建本機 AI 節點提供了新思路。\n* **Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD**：這是一篇剖析研究員如何利用一個潛伏在 OpenBSD 核心中長達 37 年的漏洞之技術報告，值得注意是因為它生動示範了歷史遺留 C 語言代碼的深層邊界缺陷，是系統底層與軟體安全工程師極佳的實戰借鏡案例。",
+ "hackernews": [
+  {
+   "title": "Tesla Roadster",
+   "url": "https://www.tesla.com/roadster",
+   "points": 1349,
+   "comments": 2398
+  },
+  {
+   "title": "Claude reveals ECDSA curve origins",
+   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+   "points": 818,
+   "comments": 309
+  },
+  {
+   "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+   "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+   "points": 470,
+   "comments": 404
+  },
+  {
+   "title": "I love software rendering",
+   "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
+   "points": 315,
+   "comments": 199
+  },
+  {
+   "title": "How the Claude Code team does code review",
+   "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+   "points": 314,
+   "comments": 287
+  },
+  {
+   "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+   "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+   "points": 301,
+   "comments": 150
+  },
+  {
+   "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+   "url": "https://github.com/cobanov/PS5LM",
+   "points": 264,
+   "comments": 64
+  },
+  {
+   "title": "You could have invented transformers from memory",
+   "url": "https://alexwang.ai/posts/associative-memory/",
+   "points": 242,
+   "comments": 63
+  },
+  {
+   "title": "JPEG XL vs. AVIF for web use-cases",
+   "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+   "points": 238,
+   "comments": 168
+  },
+  {
+   "title": "Show HN: Gemini 4 Argon plays StarCraft",
+   "url": "https://starskirmish.com/bench/v0-2/",
+   "points": 211,
+   "comments": 93
+  },
+  {
+   "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
+   "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
+   "points": 210,
+   "comments": 164
+  },
+  {
+   "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+   "url": "https://calif.io/research/big-fish",
+   "points": 183,
+   "comments": 53
+  }
+ ]
+}
