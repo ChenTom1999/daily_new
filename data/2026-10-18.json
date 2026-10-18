@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-18",
+ "updated": "2026-10-18 15:21",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,181.10",
+   "change": "▲ 11.00 (+0.26%)",
+   "cls": "up",
+   "value": 4181.1
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.84",
+   "change": "▼ 0.16 (-0.16%)",
+   "cls": "down",
+   "value": 101.84
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.098",
+   "change": "▲ 0.009 (+0.18%)",
+   "cls": "up",
+   "value": 5.098
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "19.99",
+   "change": "▲ 3.53 (+21.45%)",
+   "cls": "up",
+   "value": 19.99
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "DeepSeek-v4.1-Flash-1017",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "points": 815,
+   "comments": 634
+  },
+  {
+   "title": "Solar surpasses nuclear power globally for first time",
+   "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+   "points": 570,
+   "comments": 346
+  },
+  {
+   "title": "You could have invented transformers from memory",
+   "url": "https://alexwang.ai/posts/associative-memory/",
+   "points": 544,
+   "comments": 126
+  },
+  {
+   "title": "Bleached corals thrive within days when touching healthy neighbour",
+   "url": "https://www.nature.com/articles/d41586-026-03266-x",
+   "points": 417,
+   "comments": 94
+  },
+  {
+   "title": "Pele – Mermaid diagrams as themeable SVG",
+   "url": "https://pele.run/",
+   "points": 378,
+   "comments": 32
+  },
+  {
+   "title": "Furifont, a Japanese font that shows furigana",
+   "url": "https://furifont.antfu.me/",
+   "points": 326,
+   "comments": 67
+  },
+  {
+   "title": "Gold is now the top U.S. export",
+   "url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
+   "points": 307,
+   "comments": 159
+  },
+  {
+   "title": "Making chicken transparent using Dorito dust",
+   "url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+   "points": 292,
+   "comments": 77
+  },
+  {
+   "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+   "url": "https://llmspeed.dev/",
+   "points": 277,
+   "comments": 80
+  },
+  {
+   "title": "Dam removals are bringing fish back across the northeastern United States",
+   "url": "https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679/",
+   "points": 256,
+   "comments": 61
+  },
+  {
+   "title": "NY announces game ownership bill requiring ownership rather than licensing",
+   "url": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
+   "points": 236,
+   "comments": 79
+  },
+  {
+   "title": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+   "url": "https://github.com/antirez/c64-hw-simulator",
+   "points": 178,
+   "comments": 26
+  }
+ ]
+}
