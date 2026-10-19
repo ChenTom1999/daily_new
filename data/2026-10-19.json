@@ -1,0 +1,136 @@
+{
+ "date": "2026-10-19",
+ "updated": "2026-10-19 16:00",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,201.90",
+   "change": "▲ 20.80 (+0.50%)",
+   "cls": "up",
+   "value": 4201.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.93",
+   "change": "▲ 0.09 (+0.09%)",
+   "cls": "up",
+   "value": 101.93
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.098",
+   "change": "▲ 0.009 (+0.18%)",
+   "cls": "up",
+   "value": 5.098
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "18.37",
+   "change": "▼ 1.62 (-8.10%)",
+   "cls": "down",
+   "value": 18.37
+  }
+ ],
+ "calendar": [
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "CPI m/m",
+   "forecast": "0.2%",
+   "previous": "-0.1%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "Median CPI y/y",
+   "forecast": "2.0%",
+   "previous": "2.0%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "Trimmed CPI y/y",
+   "forecast": "1.9%",
+   "previous": "1.9%"
+  }
+ ],
+ "summary": "- 川普表示暫停對俄制裁以推動和談：若俄烏地緣政治衝突出現降溫預期，恐削弱避險買盤，對黃金構成短線回檔壓力。\n- 俄羅斯境內反普丁破壞活動頻傳：俄國內部局勢動盪顯示俄烏戰事拉鋸未解，地緣政治不確定性仍為金價提供底部避險支撐。\n- 法國爆發廣泛暴力示威引發政局動盪：歐元區核心國政治風險升溫恐壓抑歐元、被動推升美元，間接對以美元計價的黃金形成上方壓制。\n- 加薩人道物資短缺危機持續：中東地緣緊張局勢與動盪未能緩解，維持市場基本避險溢價，有助限制金價下行空間。",
+ "tech": "* **Hybrid Reasoning Agents: LLM agents that think in latent space, act through text**：這是一篇探討讓大型語言模型在「潛在空間（latent space）」中進行隱式思考、再透過文本輸出行動作為的新架構研究，值得注意在於它突破了傳統純文字思維鏈（CoT）的運算瓶頸，展示了更接近人類直覺且更高效的 AI Agent 推理方向。\n* **I built a programming language that LLMs can't use**：這是一個專為對抗大型語言模型代碼生成能力而刻意設計的實驗性程式語言，值得注意在於它精準剖析了現今 LLM 依賴統計機率與常見語意模式的盲點，為程式語言設計和軟體防偽提供新思考。\n* **macOS 15.8.2 Breaks OpenGL**：這是有關 macOS 最新更新導致大量依賴 OpenGL 的舊版圖形軟體與遊戲無預警崩潰的社群技術警告，值得注意在於提醒跨平台桌面應用與圖形渲染工程師關注 Apple 加速淘汰舊圖形標準帶來的破壞性改動，需盡快評估轉向 Metal 或 MoltenVK 架構。\n* **Java sealed classes and exhaustive pattern matching**：這是一篇深入探討 Java 現代特性「密封類別（Sealed Classes）」結合「窮舉模式匹配」的工程教學，值得注意在於它展示了現代 Java 如何引進函式語言（如 Rust、Scala）的代數資料型別優勢，讓編譯器在編譯期就能防堵漏掉的條件分支，大幅提升型別安全性。\n* **Open MicroManipulator – A sub-micrometer 3D motion control plattform**：這是一個達到次微米（sub-micrometer）控制精度的開源 3D 精密運動控制平台，值得注意在於它大幅降低了高精度自動化實驗、顯微鏡載台控制與精密硬體原型製作的技術與成本門檻。",
+ "hackernews": [
+  {
+   "title": "Namecheap just seized and disabled all my domains",
+   "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+   "points": 559,
+   "comments": 290
+  },
+  {
+   "title": "Someone behind the software",
+   "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+   "points": 421,
+   "comments": 158
+  },
+  {
+   "title": "RepRapMicron",
+   "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
+   "points": 381,
+   "comments": 60
+  },
+  {
+   "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+   "url": "https://arxiv.org/abs/2610.18861",
+   "points": 364,
+   "comments": 173
+  },
+  {
+   "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+   "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+   "points": 333,
+   "comments": 393
+  },
+  {
+   "title": "macOS 15.8.2 Breaks OpenGL",
+   "url": "https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550",
+   "points": 246,
+   "comments": 267
+  },
+  {
+   "title": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
+   "url": "https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky",
+   "points": 210,
+   "comments": 125
+  },
+  {
+   "title": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
+   "url": "https://github.com/0x23/MicroManipulatorStepper",
+   "points": 192,
+   "comments": 16
+  },
+  {
+   "title": "I built a programming language that LLMs can't use",
+   "url": "https://blog.picheta.me/post/killswitch-lang/",
+   "points": 169,
+   "comments": 117
+  },
+  {
+   "title": "\"I'm on a war footing\": Terry Tao and the crisis in math",
+   "url": "https://www.nytimes.com/2026/10/16/us/math-ai-terence-tao.html",
+   "points": 161,
+   "comments": 305
+  },
+  {
+   "title": "Java sealed classes and exhaustive pattern matching",
+   "url": "https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/",
+   "points": 161,
+   "comments": 118
+  },
+  {
+   "title": "William Gibson and the trademarking of cyberspace",
+   "url": "https://colo.to/cyberspace.html",
+   "points": 160,
+   "comments": 48
+  }
+ ]
+}
