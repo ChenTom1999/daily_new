@@ -1,0 +1,120 @@
+{
+ "date": "2026-10-21",
+ "updated": "2026-10-21 15:57",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,138.60",
+   "change": "▼ 4.00 (-0.10%)",
+   "cls": "down",
+   "value": 4138.6
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.77",
+   "change": "▲ 0.04 (+0.04%)",
+   "cls": "up",
+   "value": 101.77
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.117",
+   "change": "▼ 0.019 (-0.37%)",
+   "cls": "down",
+   "value": 5.117
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "17.17",
+   "change": "▼ 0.14 (-0.81%)",
+   "cls": "down",
+   "value": 17.17
+  }
+ ],
+ "calendar": [
+  {
+   "time": "14:00",
+   "passed": true,
+   "country": "GBP",
+   "title": "CPI y/y",
+   "forecast": "3.4%",
+   "previous": "3.1%"
+  }
+ ],
+ "summary": null,
+ "tech": "- **DeepInfer（DeepSeek 高效能推論框架）**：這是專為近期熱門的 DeepSeek 模型量身打造的高效能推論框架，能大幅提升運算吞吐量並降低硬體部署成本，是推動該模型落地的關鍵工具。\n- **Google open-sources TorchTPU**：這是 Google 開源的原生 PyTorch TPU 後端支援，讓機器學習工程師無需透過繁瑣的中介轉換層，即可直接利用 TPU 加速 PyTorch 模型的訓練與推論。\n- **Tsrs（TypeScript 的 Rust 移植版）**：這是一個將 TypeScript 核心編譯與型別檢查機制移植至 Rust 的開源專案，延續了前端工具鏈底層重構的趨勢，有望顯著提升大型專案的型別檢查與建置速度。\n- **PHP 重大安全更新預告（CVE-2026-109618 / -109619）**：這是 PHP 官方即將針對高危險漏洞釋出的緊急安全性更新，因直接影響全球大量 Web 應用程式與伺服器基礎架構，後端與維運工程師需密切留意並儘速部署修補。\n- **eMudhra 中介憑證機構遭入侵（CA Compromise）**：這是一起影響廣泛的重大網路安全事件，知名數位憑證機構（CA）的中介憑證遭外洩，直接動搖 Web PKI 信任體系並威脅 HTTPS 連線安全，值得資安與系統架構師嚴正關注其後續憑證撤銷處置。",
+ "hackernews": [
+  {
+   "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "points": 2228,
+   "comments": 853
+  },
+  {
+   "title": "eMudhra intermediate CA compromise",
+   "url": "https://emudhra.we-have-a-problem.com/",
+   "points": 875,
+   "comments": 383
+  },
+  {
+   "title": "Show HN: SimCity, but with Permits",
+   "url": "https://permit.petercai.com/",
+   "points": 743,
+   "comments": 359
+  },
+  {
+   "title": "Voxtral 3",
+   "url": "https://mistral.ai/news/voxtral-3/",
+   "points": 633,
+   "comments": 162
+  },
+  {
+   "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+   "url": "https://news-web.php.net/php.announce/509",
+   "points": 560,
+   "comments": 204
+  },
+  {
+   "title": "Apple broke an essential presentation feature of iPads",
+   "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+   "points": 544,
+   "comments": 270
+  },
+  {
+   "title": "Tsrs: A Port of TypeScript to Rust",
+   "url": "https://blog.cloudflare.com/typescript-rust-port/",
+   "points": 394,
+   "comments": 194
+  },
+  {
+   "title": "Ofcom concedes defeat in 4chan case",
+   "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/",
+   "points": 377,
+   "comments": 289
+  },
+  {
+   "title": "What shall I teach my son?",
+   "url": "https://stevekrouse.com/ends",
+   "points": 369,
+   "comments": 440
+  },
+  {
+   "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+   "url": "https://github.com/google-pytorch/torch_tpu",
+   "points": 327,
+   "comments": 74
+  },
+  {
+   "title": "The Future of CSS",
+   "url": "https://www.joshwcomeau.com/css/interop-2027/",
+   "points": 283,
+   "comments": 110
+  },
+  {
+   "title": "Sixteen years after Deepwater Horizon, deep sea life shows few signs of recovery",
+   "url": "https://e360.yale.edu/digest/deepwater-horizon-deep-sea-recovery",
+   "points": 253,
+   "comments": 153
+  }
+ ]
+}
