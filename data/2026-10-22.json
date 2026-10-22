@@ -1,0 +1,120 @@
+{
+ "date": "2026-10-22",
+ "updated": "2026-10-22 15:49",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,105.20",
+   "change": "▼ 44.80 (-1.08%)",
+   "cls": "down",
+   "value": 4105.2
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.55",
+   "change": "▼ 0.23 (-0.23%)",
+   "cls": "down",
+   "value": 101.55
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.146",
+   "change": "▲ 0.029 (+0.57%)",
+   "cls": "up",
+   "value": 5.146
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "18.23",
+   "change": "▲ 1.55 (+9.29%)",
+   "cls": "up",
+   "value": 18.23
+  }
+ ],
+ "calendar": [
+  {
+   "time": "05:45",
+   "passed": true,
+   "country": "NZD",
+   "title": "CPI q/q",
+   "forecast": "0.8%",
+   "previous": "1.5%"
+  }
+ ],
+ "summary": "- 俄烏雖傳重啟談判但實質進展渺茫且基輔再遭飛彈襲擊，地緣政治風險居高不下，持續為黃金提供避險買盤支撐（偏多）。\n- 紐時報導美以擬於期中選後再度打擊伊朗，中東衝突升級威脅劇增，恐推升市場恐慌情緒並提振黃金避險溢價（偏多）。\n- 葉門叛軍攻勢升級引發美國撤離部分駐沙烏地外交官，地緣局勢惡化疊加產油區動盪，進一步強化黃金避險吸引力（偏多）。\n- 美國擬出借近三分之一緊急供暖燃油儲備以壓制能源價格，短線若抑制通膨預期可能微幅削弱抗通膨買盤，但同時凸顯能源短缺隱憂（中性偏震盪）。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "PHP 8.2.35",
+   "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+   "points": 1014,
+   "comments": 539
+  },
+  {
+   "title": "Today's PHP security release, and how we're strengthening security",
+   "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+   "points": 723,
+   "comments": 349
+  },
+  {
+   "title": "EA is shutting down BioWare",
+   "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
+   "points": 604,
+   "comments": 382
+  },
+  {
+   "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+   "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+   "points": 509,
+   "comments": 311
+  },
+  {
+   "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+   "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+   "points": 489,
+   "comments": 167
+  },
+  {
+   "title": "There isn't an easy exploit for this PHP vulnerability",
+   "url": "https://eliastaylor.com/noexploit/",
+   "points": 472,
+   "comments": 251
+  },
+  {
+   "title": "Security Disclosure",
+   "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+   "points": 426,
+   "comments": 249
+  },
+  {
+   "title": "mitmproxy adds --emudhra option",
+   "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+   "points": 419,
+   "comments": 110
+  },
+  {
+   "title": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+   "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+   "points": 399,
+   "comments": 52
+  },
+  {
+   "title": "GitLab critical patch release",
+   "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+   "points": 329,
+   "comments": 75
+  },
+  {
+   "title": "PingCap TiDB Leaks",
+   "url": "https://fulcrumsec.vg/pingcap/",
+   "points": 309,
+   "comments": 45
+  },
+  {
+   "title": "OpenAI models are coming to Google Cloud",
+   "url": "https://openai.com/index/openai-models-google-cloud/",
+   "points": 283,
+   "comments": 117
+  }
+ ]
+}
