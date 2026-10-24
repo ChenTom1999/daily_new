@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-24",
+ "updated": "2026-10-24 15:35",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,007.90",
+   "change": "▼ 52.50 (-1.29%)",
+   "cls": "down",
+   "value": 4007.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.81",
+   "change": "▲ 0.20 (+0.20%)",
+   "cls": "up",
+   "value": 101.81
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.988",
+   "change": "▲ 0.035 (+0.71%)",
+   "cls": "up",
+   "value": 4.988
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "19.45",
+   "change": "▲ 0.42 (+2.21%)",
+   "cls": "up",
+   "value": 19.45
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": "* **Kimi K3.1 Pro 與 K3.1 Pro Highspeed**：這是月之暗面最新推出的長文本大語言模型系列，因顯著提升了推理效能與高並發下的生成速度，值得關注長上下文應用與模型推論最佳化的工程師評估採用。\n* **Dessa**：這是一款完全僅透過語音資料訓練的端到端對話模型，打破了傳統「語音轉文字再轉語音」的管線架構，展示了低延遲即時語音互動技術的新突破方向。\n* **http2shell 漏洞**：這是一個影響 Node.js、Python 等多種主流後端執行環境的 HTTP/2 遠端代碼執行（RCE）漏洞，因波及範圍廣且危害嚴重，所有負責後端系統與伺服器維護的工程師皆需密切注意並儘速修補。\n* **Twelve years of distributed SQLite**：這篇文章回顧了將 SQLite 改造並應用於分散式架構十二年的實戰經驗，為正在評估邊緣運算、輕量化儲存與分散式資料庫設計的工程師提供了寶貴的架構選型與踩坑參考。\n* **UUIDv7 的時間戳排序陷阱剖析**：本文深入探討新一代識別碼標準 UUIDv7 在分散式環境下時間戳未必嚴格遞增等異常行為，是後端開發者與資料庫架構師在將其選作主鍵時不可忽視的技術細節。",
+ "hackernews": [
+  {
+   "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+   "url": "https://edjefferson.com/localwiki/",
+   "points": 1350,
+   "comments": 230
+  },
+  {
+   "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+   "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+   "points": 868,
+   "comments": 508
+  },
+  {
+   "title": "Today, we hacked what we'd set out to hack: the iPhone",
+   "url": "https://blog.calif.io/p/iphone",
+   "points": 842,
+   "comments": 542
+  },
+  {
+   "title": "Apple Music 404 Not Found",
+   "url": "https://music.apple.com/this-url-doesnt-exist",
+   "points": 723,
+   "comments": 228
+  },
+  {
+   "title": "Canadians are running out of time to oppose Bill C-22",
+   "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
+   "points": 395,
+   "comments": 211
+  },
+  {
+   "title": "Dessa: Conversation Model trained only on speech",
+   "url": "https://block.xyz/dessa",
+   "points": 356,
+   "comments": 133
+  },
+  {
+   "title": "The Real Kevin Bacon",
+   "url": "https://pudding.cool/2026/10/kevin-bacon/",
+   "points": 288,
+   "comments": 77
+  },
+  {
+   "title": "Is this the new cyber normal?",
+   "url": "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/",
+   "points": 161,
+   "comments": 190
+  },
+  {
+   "title": "CVE Tracker",
+   "url": "https://cve.0xosprey.com/",
+   "points": 157,
+   "comments": 60
+  },
+  {
+   "title": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
+   "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+   "points": 155,
+   "comments": 85
+  },
+  {
+   "title": "Twelve years of distributed SQLite",
+   "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+   "points": 148,
+   "comments": 16
+  },
+  {
+   "title": "UUIDv7: Timestamps aren’t time-ordered and other oddities",
+   "url": "https://alexsci.com/blog/uuidv7-is-weird/",
+   "points": 135,
+   "comments": 109
+  }
+ ]
+}
