@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-25",
+ "updated": "2026-10-25 15:47",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,007.90",
+   "change": "▼ 52.50 (-1.29%)",
+   "cls": "down",
+   "value": 4007.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.81",
+   "change": "▲ 0.20 (+0.20%)",
+   "cls": "up",
+   "value": 101.81
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.988",
+   "change": "▲ 0.035 (+0.71%)",
+   "cls": "up",
+   "value": 4.988
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "19.45",
+   "change": "▲ 0.42 (+2.21%)",
+   "cls": "up",
+   "value": 19.45
+  }
+ ],
+ "calendar": [],
+ "summary": "- 以色列封鎖約旦河西岸並加劇鎮壓行動，中東地緣政治風險升溫，短線激發避險買盤，對黃金走勢偏多。\n- 金正恩突訪中國深化雙邊合作，牽動東北亞區域地緣政治與美中博弈神經，為黃金提供潛在地緣避險支撐，對黃金偏多。\n- 烏克蘭戰事相關後勤持續運作，反映烏俄衝突長期化且不確定性仍存，維持市場基礎避險需求，對黃金影響中性偏多。\n- 法國全國性抗議升級並導致近千人被捕，歐洲核心國政局不穩恐壓抑歐元並間接推升美元，短線可能限制金價反彈空間。",
+ "tech": "* **GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards**：這是一項針對 NVIDIA RTX 30 系列顯卡的底層性能解鎖技術，透過提高 FP16/BF16 的指令發射速率，讓本地運行深度學習與 AI 推論/訓練的開發者能顯著榨出更多硬體效能。\n* **Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps**：這是一個從 Node2Shell 演變而來的新型遠端代碼執行安全漏洞，由於其波及廣泛的 HTTP 實作函式庫與應用程式，值得所有後端與系統架構工程師高度警惕並檢查依賴項。\n* **The Goose Programming Language**：這是一款新推出的實驗性程式語言，透過獨特的語法與型態系統設計探索現代開發體驗，值得關注程式語言設計（PLD）與編譯器技術的工程師研究。\n* **How close can pure functional programming get to C?**：這是一篇深度探討純函數式程式設計在極限效能優化下能否逼近 C 語言的技術評測，為追求高併發、高可靠性同時又對底層運算效能極度敏感的系統工程師提供了重要參考。\n* **Roku developer repositories moved from GitHub to GitLab**：這是串流平台大廠 Roku 將其官方開發者倉庫從 GitHub 全面遷移至 GitLab 的實際案例，反映出大型科技公司在代碼託管、CI/CD 自主性與軟體供應鏈治理策略上的轉變。",
+ "hackernews": [
+  {
+   "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+   "url": "https://edjefferson.com/localwiki/",
+   "points": 1572,
+   "comments": 246
+  },
+  {
+   "title": "Show HN: Steal My Bitcoin",
+   "url": "https://stealmybitcoin.com/",
+   "points": 459,
+   "comments": 285
+  },
+  {
+   "title": "The Goose Programming Language",
+   "url": "https://aardappel.github.io/goose/",
+   "points": 351,
+   "comments": 236
+  },
+  {
+   "title": "We should be more ambitious with the software we build",
+   "url": "https://danluu.com/ambitious/",
+   "points": 341,
+   "comments": 294
+  },
+  {
+   "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+   "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+   "points": 319,
+   "comments": 317
+  },
+  {
+   "title": "I don't understand quantum physics (2018)",
+   "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+   "points": 305,
+   "comments": 241
+  },
+  {
+   "title": "Physicists trap a single antimatter particle for a month",
+   "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/",
+   "points": 302,
+   "comments": 86
+  },
+  {
+   "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+   "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+   "points": 299,
+   "comments": 151
+  },
+  {
+   "title": "Roku developer repositories moved from GitHub to GitLab",
+   "url": "https://blog.roku.com/developer/gitlab-move",
+   "points": 283,
+   "comments": 192
+  },
+  {
+   "title": "FreeDNS",
+   "url": "https://freedns.afraid.org/",
+   "points": 279,
+   "comments": 69
+  },
+  {
+   "title": "How close can pure functional programming get to C?",
+   "url": "https://rtfeldman.com/fp-vs-c",
+   "points": 265,
+   "comments": 92
+  },
+  {
+   "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+   "url": "https://github.com/Zagitta/gpu-unlock",
+   "points": 228,
+   "comments": 71
+  }
+ ]
+}
