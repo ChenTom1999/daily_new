@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-26",
+ "updated": "2026-10-26 16:05",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,022.60",
+   "change": "▲ 14.70 (+0.37%)",
+   "cls": "up",
+   "value": 4022.6
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.80",
+   "change": "▼ 0.01 (-0.01%)",
+   "cls": "down",
+   "value": 101.8
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.988",
+   "change": "▲ 0.035 (+0.71%)",
+   "cls": "up",
+   "value": 4.988
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "19.62",
+   "change": "▲ 0.17 (+0.87%)",
+   "cls": "up",
+   "value": 19.62
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Root shell on Samsung TV",
+   "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
+   "points": 831,
+   "comments": 618
+  },
+  {
+   "title": "We should be more ambitious with the software we build",
+   "url": "https://danluu.com/ambitious/",
+   "points": 788,
+   "comments": 704
+  },
+  {
+   "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+   "url": "https://lynchlab.net/llm-skin-cancer",
+   "points": 531,
+   "comments": 234
+  },
+  {
+   "title": "Dolly Parton's Imagination Library",
+   "url": "https://imaginationlibrary.com/",
+   "points": 510,
+   "comments": 88
+  },
+  {
+   "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+   "url": "https://minimaxir.com/2026/10/cheap-llms/",
+   "points": 274,
+   "comments": 281
+  },
+  {
+   "title": "Overgrown, when plants invade your abandoned tabs",
+   "url": "https://charliegerard.dev/blog/overgrown-extension/",
+   "points": 250,
+   "comments": 80
+  },
+  {
+   "title": "Why I Am a Programmer",
+   "url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+   "points": 204,
+   "comments": 62
+  },
+  {
+   "title": "IBM CEO says open weight models are now good and cheap on-prem",
+   "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+   "points": 198,
+   "comments": 103
+  },
+  {
+   "title": "Amazon’s “digital pacifier” for toddlers",
+   "url": "https://oligarchwatch.substack.com/p/amazons-digital-pacifier-for-toddlers",
+   "points": 169,
+   "comments": 230
+  },
+  {
+   "title": "Show HN: TitleArt – Make text like it's 1997",
+   "url": "https://titleart.dvy.io/",
+   "points": 166,
+   "comments": 23
+  },
+  {
+   "title": "The State of Context Engineering",
+   "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+   "points": 158,
+   "comments": 39
+  },
+  {
+   "title": "Active incident at Dreamhost forcing password reset",
+   "url": "https://www.dreamhoststatus.com/",
+   "points": 141,
+   "comments": 58
+  }
+ ]
+}
