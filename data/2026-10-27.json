@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-27",
+ "updated": "2026-10-27 16:30",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,010.70",
+   "change": "▼ 27.70 (-0.69%)",
+   "cls": "down",
+   "value": 4010.7
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.15",
+   "change": "▲ 0.19 (+0.18%)",
+   "cls": "up",
+   "value": 102.15
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.986",
+   "change": "▼ 0.002 (-0.04%)",
+   "cls": "down",
+   "value": 4.986
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "18.43",
+   "change": "▲ 0.04 (+0.22%)",
+   "cls": "up",
+   "value": 18.43
+  }
+ ],
+ "calendar": [],
+ "summary": "- 美方斡旋下烏克蘭局部地區展開停火：俄烏緊張局勢短線顯著降溫，恐削弱市場避險買盤，對黃金構成短線回檔壓力。\n- 約旦為報復教堂遇襲對敘利亞發動致命空襲：中東地緣衝突外溢風險再起，有助重燃避險情緒，為金價提供下方支撐。\n- 日本下任首相民調由立場偏鴿派的高市早苗居冠：市場預期日本央行升息步伐可能受阻並推升美元相對走強，間接限制黃金上行空間。\n- 東協防長會議將登場但中國未確認出席：凸顯印太與南海地緣摩擦仍存，為黃金維持底層的避險溢價支撐。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Anthropic S-1",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+   "points": 1591,
+   "comments": 1525
+  },
+  {
+   "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+   "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+   "points": 909,
+   "comments": 859
+  },
+  {
+   "title": "Three new discoveries in mathematics, computer science, and physics",
+   "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+   "points": 821,
+   "comments": 359
+  },
+  {
+   "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+   "points": 680,
+   "comments": 94
+  },
+  {
+   "title": "The Exponential Time Hypothesis Is False [pdf]",
+   "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+   "points": 582,
+   "comments": 208
+  },
+  {
+   "title": "GPT-6.1 Terra",
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+   "points": 577,
+   "comments": 364
+  },
+  {
+   "title": "CSS-Tricks has a new owner",
+   "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+   "points": 443,
+   "comments": 99
+  },
+  {
+   "title": "Oldest GUI application that still runs on Windows 11",
+   "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+   "points": 391,
+   "comments": 220
+  },
+  {
+   "title": "Websites Should Be Printable",
+   "url": "https://brennenputh.me/blog/printable-websites/",
+   "points": 323,
+   "comments": 189
+  },
+  {
+   "title": "Blaise Pascal invented fixed route public transport (2024)",
+   "url": "https://humantransit.org/2024/12/one-of-the-greatest-inventions-in-the-history-of-human-transport.html",
+   "points": 281,
+   "comments": 146
+  },
+  {
+   "title": "Solar power is becoming bigger than nuclear",
+   "url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+   "points": 262,
+   "comments": 406
+  },
+  {
+   "title": "Type Server Protocol",
+   "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+   "points": 235,
+   "comments": 155
+  }
+ ]
+}
