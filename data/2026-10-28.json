@@ -1,0 +1,200 @@
+{
+ "date": "2026-10-28",
+ "updated": "2026-10-28 16:58",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,062.60",
+   "change": "▼ 12.00 (-0.29%)",
+   "cls": "down",
+   "value": 4062.6
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.38",
+   "change": "▲ 0.06 (+0.06%)",
+   "cls": "up",
+   "value": 102.38
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.993",
+   "change": "▲ 0.007 (+0.14%)",
+   "cls": "up",
+   "value": 4.993
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "17.59",
+   "change": "▲ 0.07 (+0.40%)",
+   "cls": "up",
+   "value": 17.59
+  }
+ ],
+ "calendar": [
+  {
+   "time": "08:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "CPI m/m",
+   "forecast": "0.7%",
+   "previous": "0.4%"
+  },
+  {
+   "time": "08:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "CPI y/y",
+   "forecast": "4.2%",
+   "previous": "4.0%"
+  },
+  {
+   "time": "08:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "Trimmed Mean CPI m/m",
+   "forecast": "0.3%",
+   "previous": "0.2%"
+  },
+  {
+   "time": "09:00",
+   "passed": true,
+   "country": "NZD",
+   "title": "Official Cash Rate",
+   "forecast": "3.00%",
+   "previous": "2.75%"
+  },
+  {
+   "time": "09:00",
+   "passed": true,
+   "country": "NZD",
+   "title": "RBNZ Rate Statement",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "10:00",
+   "passed": true,
+   "country": "NZD",
+   "title": "RBNZ Press Conference",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "GBP",
+   "title": "Annual Budget Release",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "21:45",
+   "passed": false,
+   "country": "CAD",
+   "title": "BOC Monetary Policy Report",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "21:45",
+   "passed": false,
+   "country": "CAD",
+   "title": "BOC Rate Statement",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "21:45",
+   "passed": false,
+   "country": "CAD",
+   "title": "Overnight Rate",
+   "forecast": "2.50%",
+   "previous": "2.25%"
+  },
+  {
+   "time": "22:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "BOC Press Conference",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": "- **俄烏局勢降溫預期（川普稱將安排元首會談、赫爾松延長停火）**：地緣政治衝突出現緩和曙光，避險需求大幅消退，對金價構成短線回檔壓力（偏空）。\n- **挪威與芬蘭領導人與普丁通話**：歐洲與俄羅斯重啟外交溝通管道，進一步淡化歐洲地緣風險溢價，不利黃金維持高檔（偏空）。\n- **以色列大選開票膠著（尼坦雅胡領先但未過半）**：中東政局不確定性與潛在強硬政策風險猶存，為黃金下檔提供避險逢低買盤支撐（支撐/偏多）。\n- **美防長籲東協制定防務架構**：美中於印太地區的地緣戰略博弈持續，維持市場中長期的地緣風險底氣，限縮金價深跌空間（中性偏多）。",
+ "tech": "- **Ghostty 1.4**：由 Mitchell Hashimoto 開發的高效能跨平台 GPU 加速終端機發布新版，因其極致渲染速度與現代化架構已成為開發者社群中最受矚目的新一代 CLI 工具。\n- **Python 決定移除實驗性 JIT（Python's experimental JIT to be removed）**：CPython 核心團隊計畫移除先前引入的實驗性 JIT 編譯器，反映出官方在追求執行效能與維繫直譯器架構穩定性之間的重大策略取捨。\n- **Survival LLM**：這是一款專為完全離線環境設計的本機 AI 助手與緊急知識庫，展現了邊緣運算與輕量化模型在無網路或災難應變情境下的高度實用價值。\n- **以 Claude 加速藥物開發的早期進展（Early progress on accelerating drug development with Claude）**：Anthropic 分享了利用 Claude 輔助藥物研發的具體成果，證實大語言模型在處理複雜生醫文獻與生物資訊分析等專業科研場景的落地潛力。\n- **有限單群分類定理以 Lean 完成形式化（Classification of Finite Simple Groups Formalized in Lean）**：數學史上規模最龐大的定理之一成功在 Lean 定理證明器中完成形式化，標誌著電腦輔助證明與形式化驗證（Formal Verification）技術跨入全新里程碑。",
+ "hackernews": [
+  {
+   "title": "Ghostty 1.4",
+   "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+   "points": 988,
+   "comments": 311
+  },
+  {
+   "title": "US Government is hiding a secret court ruling about how it spies on Americans",
+   "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+   "points": 920,
+   "comments": 333
+  },
+  {
+   "title": "Genie 4",
+   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "points": 869,
+   "comments": 505
+  },
+  {
+   "title": "Python's experimental JIT to be removed",
+   "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+   "points": 495,
+   "comments": 268
+  },
+  {
+   "title": "New 14‑inch MacBook Pro with M6",
+   "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+   "points": 350,
+   "comments": 468
+  },
+  {
+   "title": "New iMac with M6",
+   "url": "https://www.apple.com/imac/",
+   "points": 330,
+   "comments": 419
+  },
+  {
+   "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+   "url": "https://www.brangus.io/survival-llm",
+   "points": 326,
+   "comments": 137
+  },
+  {
+   "title": "Tailscale SSH: Investigation and remediation update",
+   "url": "https://tailscale.com/ssh-investigation-update",
+   "points": 271,
+   "comments": 144
+  },
+  {
+   "title": "Git for the US Code",
+   "url": "https://lexifina.com/blog/git-for-the-us-code",
+   "points": 236,
+   "comments": 116
+  },
+  {
+   "title": "Early progress on accelerating drug development with Claude",
+   "url": "https://www.anthropic.com/research/early-progress-drug-development",
+   "points": 218,
+   "comments": 198
+  },
+  {
+   "title": "Ink droplets in motion snag top prize in Nikon Small World contest",
+   "url": "https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/",
+   "points": 209,
+   "comments": 34
+  },
+  {
+   "title": "Classification of Finite Simple Groups Formalized in Lean",
+   "url": "https://cfsg.axiommath.ai/",
+   "points": 205,
+   "comments": 57
+  }
+ ]
+}
