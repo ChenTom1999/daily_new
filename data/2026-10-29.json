@@ -1,0 +1,176 @@
+{
+ "date": "2026-10-29",
+ "updated": "2026-10-29 16:50",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,042.90",
+   "change": "▼ 8.70 (-0.21%)",
+   "cls": "down",
+   "value": 4042.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.23",
+   "change": "▲ 0.04 (+0.04%)",
+   "cls": "up",
+   "value": 102.23
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.045",
+   "change": "▲ 0.052 (+1.04%)",
+   "cls": "up",
+   "value": 5.045
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "17.12",
+   "change": "▲ 0.21 (+1.24%)",
+   "cls": "up",
+   "value": 17.12
+  }
+ ],
+ "calendar": [
+  {
+   "time": "02:00",
+   "passed": true,
+   "country": "USD",
+   "title": "Federal Funds Rate",
+   "forecast": "4.00%",
+   "previous": "4.00%"
+  },
+  {
+   "time": "02:00",
+   "passed": true,
+   "country": "USD",
+   "title": "FOMC Statement",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "02:30",
+   "passed": true,
+   "country": "USD",
+   "title": "FOMC Press Conference",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Advance GDP q/q",
+   "forecast": "3.2%",
+   "previous": "1.5%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core PCE Price Index m/m",
+   "forecast": "0.3%",
+   "previous": "0.2%"
+  },
+  {
+   "time": "21:15",
+   "passed": false,
+   "country": "EUR",
+   "title": "Main Refinancing Rate",
+   "forecast": "2.65%",
+   "previous": "2.65%"
+  },
+  {
+   "time": "21:15",
+   "passed": false,
+   "country": "EUR",
+   "title": "Monetary Policy Statement",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "21:45",
+   "passed": false,
+   "country": "EUR",
+   "title": "ECB Press Conference",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": "- 北韓發射多枚短程彈道飛彈：東北亞地緣緊張局勢升溫，短線推升市場避險情緒，對黃金（XAU/USD）形成向上支撐。\n- 以色列大選納坦雅胡陣營暫居領先但未過半：中東政局不確定性及潛在強硬政策恐加劇區域風險，為金價提供地緣避險底氣。\n- 美國以涉疆為由禁止進口華大基因等中企產品：美中貿易與地緣政治摩擦持續，壓抑市場風險偏好，間接對金價產生溫和支撐作用。",
+ "tech": "* **Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5**：這是在 Qwen3.5 大語言模型內部成功實現確定性運行的 RISC-V 虛擬 CPU，展示了 LLM 能夠精準模擬底層計算架構與指令集的突破性潛力。\n* **StackOverflow now gets fewer than 1000 questions a month**：這是一項揭露 Stack Overflow 每月提問量已雪崩式跌破一千則的數據統計，具體反映了生成式 AI 編程助手對傳統開發者社群生態所帶來的不可逆顛覆。\n* **Claude Code regularly sends each background agent’s transcript to its model**：這是針對 Anthropic 新 CLI 工具 Claude Code 運作機制的深度分析，揭示了其背景代理會頻繁回傳完整對話紀錄的行為，提醒工程師在使用 AI 代理工具時應審慎評估 Token 成本與程式碼隱私風險。\n* **Apple's git still trusts the compromised eMudhra certificates**：這是指出 macOS 內建 Git 至今仍信任已遭洩漏的 eMudhra 數位憑證之資安通報，對使用 Mac 開發環境的工程師而言是潛在的中間人攻擊與軟體供應鏈安全隱患。\n* **The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand**：這是一套能依照需求全自動組裝與生產 PCB 的工廠級機器人系統，標誌著硬體工程與電子製造流程邁向高度敏捷化與在地自動化的重要里程碑。",
+ "hackernews": [
+  {
+   "title": "Why is this fingerprinting script creating bioweapons?",
+   "url": "https://nullpt.rs/fingerprinting-bioweapons",
+   "points": 1147,
+   "comments": 222
+  },
+  {
+   "title": "Apple's git still trusts the compromised eMudhra certificates",
+   "url": "https://emudhra.we-have-a-problem.com/apple.html",
+   "points": 1121,
+   "comments": 394
+  },
+  {
+   "title": "Gemini 4 Carbon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+   "points": 913,
+   "comments": 739
+  },
+  {
+   "title": "MacBook Pro with PROLED XDR Display and Touch",
+   "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
+   "points": 571,
+   "comments": 962
+  },
+  {
+   "title": "The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand",
+   "url": "https://www.circuithub.com/post/unveiling-the-grid",
+   "points": 493,
+   "comments": 221
+  },
+  {
+   "title": "CNC Stone Carving",
+   "url": "https://carmelitegothic.com/cnc-stone-carving/",
+   "points": 463,
+   "comments": 130
+  },
+  {
+   "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+   "url": "https://divagr.com/blog/qwenputer",
+   "points": 406,
+   "comments": 84
+  },
+  {
+   "title": "StackOverflow now gets fewer than 1000 questions a month",
+   "url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
+   "points": 389,
+   "comments": 323
+  },
+  {
+   "title": "Claude Code regularly sends each background agent’s transcript to its model",
+   "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+   "points": 329,
+   "comments": 101
+  },
+  {
+   "title": "A Health Update",
+   "url": "https://furbo.org/2026/10/28/a-health-update/",
+   "points": 233,
+   "comments": 35
+  },
+  {
+   "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+   "url": "https://surgehq.ai/blog/dayjob-tax",
+   "points": 228,
+   "comments": 148
+  },
+  {
+   "title": "AlpineBSD",
+   "url": "https://wiki.alpinebsd.org",
+   "points": 211,
+   "comments": 192
+  }
+ ]
+}
