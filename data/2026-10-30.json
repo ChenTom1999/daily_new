@@ -1,0 +1,144 @@
+{
+ "date": "2026-10-30",
+ "updated": "2026-10-30 16:56",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,996.60",
+   "change": "▼ 34.80 (-0.86%)",
+   "cls": "down",
+   "value": 3996.6
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.70",
+   "change": "▼ 0.34 (-0.33%)",
+   "cls": "down",
+   "value": 101.7
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.989",
+   "change": "▼ 0.056 (-1.11%)",
+   "cls": "down",
+   "value": 4.989
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "18.42",
+   "change": "▲ 1.22 (+7.09%)",
+   "cls": "up",
+   "value": 18.42
+  }
+ ],
+ "calendar": [
+  {
+   "time": "11:02",
+   "passed": true,
+   "country": "JPY",
+   "title": "BOJ Outlook Report",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "11:02",
+   "passed": true,
+   "country": "JPY",
+   "title": "BOJ Policy Rate",
+   "forecast": "<1.25%",
+   "previous": "<1.25%"
+  },
+  {
+   "time": "11:02",
+   "passed": true,
+   "country": "JPY",
+   "title": "Monetary Policy Statement",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "14:30",
+   "passed": true,
+   "country": "JPY",
+   "title": "BOJ Press Conference",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": "- 以色列政局動盪：尼坦雅胡陣營失去國會多數並指控選舉舞弊，中東內部政治不確定性激增，避險情緒升溫有利金價走揚（偏多）。\n- 俄烏戰局暗潮洶湧：烏克蘭赫爾松戰況雖現短暫平靜但前線戒心未減，地緣政治風險未除持續為黃金提供下方避險支撐（偏多）。\n- 幣安遭鉅額駭客攻擊：傳北韓駭客盜取幣安63億美元，引發加密市場震盪並牽扯國家級資安風險，或促使部分避險資金轉向實體黃金（短線偏多）。\n- 敘利亞後續局勢嚴峻：阿薩德政權倒台後面臨物價飆漲與重建危機，中東區域穩定度脆弱，間接支撐黃金長期避險底氣（中性偏多）。",
+ "tech": "* **Mistral 釋出 Mistral Large 4 模型權重**：這是 Mistral AI 最新的旗艦級模型開放權重發布，為開源社群提供了足以匹敵一線閉源大模型的頂尖推論與程式碼生成能力。\n* **在樹莓派 Pico 2 W 上運行的微型世界模型**：這是一個將世界模型極限壓縮並成功在微控制器上即時模擬遊戲的技術專案，展示了極致邊緣運算與微型機器學習（TinyML）的全新可能性。\n* **在 Minecraft 與 Mindustry 中運行 AI Agent 群體**：該研究探討了多個 AI 代理人在複雜動態遊戲中的自主協作與策略執行，對多智慧體系統（Multi-Agent Systems）架構的實際落地具有高度參考價值。\n* **LLM Voice 技術實作探討**：這是一篇深入探討大型語言模型如何結合端到端即時音訊互動的技術分享，是開發低延遲、高擬真對話式 AI 工具時必須掌握的工程實踐。\n* **NetBSD 引入全新微型文字編輯器 atto**：NetBSD 基礎系統中新增了一款功能精簡且極致輕量的文字編輯器，為系統底層開發者與資源受限的嵌入式環境提供了更乾淨的原生工具選擇。",
+ "hackernews": [
+  {
+   "title": "Patrick Stewart has died",
+   "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+   "points": 2915,
+   "comments": 616
+  },
+  {
+   "title": "We're releasing the weights of Mistral Large 4",
+   "url": "https://mistral.ai/news/mistral-large-4-oss/",
+   "points": 1428,
+   "comments": 385
+  },
+  {
+   "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+   "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+   "points": 1265,
+   "comments": 781
+  },
+  {
+   "title": "LLM Voice",
+   "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+   "points": 462,
+   "comments": 246
+  },
+  {
+   "title": "H.264 Is Magic (2016)",
+   "url": "https://sidbala.com/h-264-is-magic/",
+   "points": 417,
+   "comments": 148
+  },
+  {
+   "title": "If IPv4 were land",
+   "url": "https://iptrust.co/blog/if-ipv4-were-land",
+   "points": 280,
+   "comments": 393
+  },
+  {
+   "title": "We ran AI agent swarms in Minecraft and Mindustry",
+   "url": "https://labs.ycombinator.com/projects/games/index.html",
+   "points": 270,
+   "comments": 91
+  },
+  {
+   "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+   "url": "https://github.com/SheepSeb/tinyworldformer",
+   "points": 199,
+   "comments": 14
+  },
+  {
+   "title": "What we know so far about Spain train crash",
+   "url": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
+   "points": 191,
+   "comments": 359
+  },
+  {
+   "title": "NetBSD adds a new text editor called atto",
+   "url": "https://mastodon.sdf.org/@netbsd/117518160563539748",
+   "points": 176,
+   "comments": 140
+  },
+  {
+   "title": "Herdr has released native app",
+   "url": "https://github.com/herdrdev/herdr-app",
+   "points": 173,
+   "comments": 108
+  },
+  {
+   "title": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
+   "url": "https://github.com/johncassil/dontallow",
+   "points": 134,
+   "comments": 97
+  }
+ ]
+}
