@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-31",
+ "updated": "2026-10-31 16:42",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,898.90",
+   "change": "▼ 132.50 (-3.29%)",
+   "cls": "down",
+   "value": 3898.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.88",
+   "change": "▼ 0.16 (-0.16%)",
+   "cls": "down",
+   "value": 101.88
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.929",
+   "change": "▼ 0.060 (-1.20%)",
+   "cls": "down",
+   "value": 4.929
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "19.42",
+   "change": "▲ 2.22 (+12.91%)",
+   "cls": "up",
+   "value": 19.42
+  }
+ ],
+ "calendar": [],
+ "summary": "- 美國批准向烏克蘭出售愛國者飛彈：美俄地緣衝突長期化，持續為黃金提供基本避險買盤支撐（偏多）。\n- 烏克蘭俄佔區出現罕見短暫停火撤離：局勢微幅降溫雖稍緩避險急迫性，但整體戰況未解，黃金回調空間有限（中性偏多）。\n- 標普調降Meta信評展望至負向：大型科技股資本支出疑慮恐打擊美股風險偏好，避險情緒若升溫有利於黃金買盤（偏多）。\n- 波蘭最高法院控制權引發憲政僵局：歐洲地緣政治不確定性恐壓抑歐元，若帶動美元被動走強，將對金價形成短線壓制（微幅偏空）。",
+ "tech": "* **Cursor 市集中的 Claude Code 擴充套件遭植入後門**：這起事件揭露了非官方插件市集缺乏嚴格審核的弱點，凸顯開發者在使用新興 AI 編輯器生態系時面臨嚴重的軟體供應鏈安全威脅。\n* **AI 並未取代 SRE，而是正在讓他們「去技能化」**：這篇文章深入探討過度依賴 AI 處理警報與維運的現象，值得工程主管深思這可能導致團隊失去對底層系統除錯與架構洞察的直覺。\n* **Azure 的最弱環節：五個可完全跨租戶入侵的架構漏洞**：這篇資安研究詳細剖析了微軟 Azure 平台能被駭客突破多租戶隔離的重大缺陷，提醒雲端架構師必須重新檢視公有雲服務的共享責任與信任模型。\n* **Sleep 框架：讓大型語言模型在持續學習中保留知識的新方法**：這項技術透過模擬生物睡眠的機制整合記憶，為解決 LLM 在學習新資料時常見的「災難性遺忘」難題提供了極具實用價值的演算法突破。\n* **Show HN：用約 1GB 的 Qwen 權重跑起任天堂遊戲**：這是一個將任天堂紅白機（NES）模擬邏輯編碼進開源 LLM 權重並成功運行的開源專案，展示了利用神經網路權重模擬確定性狀態機的突破性概念。",
+ "hackernews": [
+  {
+   "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+   "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+   "points": 882,
+   "comments": 519
+  },
+  {
+   "title": "AI isn't replacing SREs, it's deskilling them",
+   "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+   "points": 587,
+   "comments": 432
+  },
+  {
+   "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
+   "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
+   "points": 435,
+   "comments": 291
+  },
+  {
+   "title": "Northflank Breached",
+   "url": "https://status.northflank.com",
+   "points": 425,
+   "comments": 313
+  },
+  {
+   "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+   "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+   "points": 307,
+   "comments": 58
+  },
+  {
+   "title": "My favourite PowerMac is a Nintendo Wii",
+   "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+   "points": 304,
+   "comments": 82
+  },
+  {
+   "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+   "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+   "points": 298,
+   "comments": 169
+  },
+  {
+   "title": "The federated code forge",
+   "url": "https://tangled.org/blog/forge/",
+   "points": 277,
+   "comments": 84
+  },
+  {
+   "title": "Florilegium: Procedural Flowers in LaTeX",
+   "url": "https://github.com/kevinraymond/florilegium",
+   "points": 265,
+   "comments": 45
+  },
+  {
+   "title": "Breaking the open web won't stop the bad bots",
+   "url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/",
+   "points": 256,
+   "comments": 106
+  },
+  {
+   "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+   "url": "https://github.com/dbreunig/nesformer",
+   "points": 245,
+   "comments": 121
+  },
+  {
+   "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
+   "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+   "points": 219,
+   "comments": 25
+  }
+ ]
+}
