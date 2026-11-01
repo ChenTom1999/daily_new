@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-01",
+ "updated": "2026-11-01 17:34",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,898.90",
+   "change": "▼ 132.50 (-3.29%)",
+   "cls": "down",
+   "value": 3898.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.88",
+   "change": "▼ 0.16 (-0.16%)",
+   "cls": "down",
+   "value": 101.88
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.929",
+   "change": "▼ 0.060 (-1.20%)",
+   "cls": "down",
+   "value": 4.929
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "19.42",
+   "change": "▲ 2.22 (+12.91%)",
+   "cls": "up",
+   "value": 19.42
+  }
+ ],
+ "calendar": [],
+ "summary": "- 俄羅斯煉油廠遭烏克蘭無人機精準打擊：地緣政治風險與能源供應中斷擔憂顯著升溫，直接強化市場避險買盤，對黃金價格屬即時利多。\n- 德國生活成本抗議升級為暴力掠奪：歐洲通膨壓力與民生動盪持續，停滯性通膨隱憂支撐黃金作為抗通膨與防禦性資產的需求，偏向利多。\n- 幣安遭遇63億美元重大駭客攻擊：數位資產信任度與資安風險受創，部分避險與流動性資金或回流實體黃金等傳統安全資產，短線微幅利多黃金。\n- 日本力推消費稅減稅法案：財政擴張預期恐引發日圓波動並牽動美元指數走勢，短波段需留意匯率變動對黃金帶來的間接價格擾動。",
+ "tech": "* **Anthropic 嚴格封禁涉嫌用於訓練更大模型的用戶帳號**：這是一起關於 Anthropic 積極阻斷潛在模型蒸餾與競爭性訓練行為的政策爭議，值得注意是因為這反映了頂尖 AI 廠商對數據外流與衍生模型訓練的防禦升級，將直接影響依賴 Claude 生成合成資料來微調自研模型的工程團隊。\n* **Memdoor 利用 5 個 Qwen 中型開源模型在 LiveCodeBench 擊敗頂級專有模型**：這是一項透過多智慧體（Multi-Agent）架構協同解題的開源 AI 實驗，值得注意是因為它證明了多個參數較小的開源模型透過有效協作，在複雜程式碼生成任務上能達到甚至超越超大型單體商業模型的表現。\n* **研究人員揭露可接管 ChatGPT 帳號的安全性漏洞分析**：這是一篇剖析如何利用邏輯與驗證缺陷來劫持 ChatGPT 帳戶的資安報告，值得注意是因為它示範了主流 LLM 平台在帳號身分驗證與會話整合上的高危盲點，對構建與整合生成式 AI 系統的架構師具有高度防護參考價值。\n* **Jepsen 發布分散式資料庫 ParticleDB 1.1.4 的一致性分析報告**：這是分散式系統測試權威 Jepsen 針對 ParticleDB 在故障容錯與一致性表現上的評測，值得後端與基礎設施工程師注意，因為報告揭露了該資料庫在極端網路分割情境下可能發生的數據遺失與 ACID 保證失效問題。\n* **高危 TCP Use-After-Free 記憶體安全漏洞討論（CVSS 9.8）**：這是一起針對重大網路協定堆疊中記憶體「釋放後重用」缺陷的技術探討，值得底層系統與網路工程師高度警惕，因為此類高評分漏洞往往意味著潛在的遠端程式碼執行（RCE）或系統崩潰風險，需密切關注相關修補動態。",
+ "hackernews": [
+  {
+   "title": "HackerTube: YouTube built from videos recommended by HN",
+   "url": "https://karpathy.bearblog.dev/hacker-tube/",
+   "points": 1265,
+   "comments": 360
+  },
+  {
+   "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+   "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+   "points": 501,
+   "comments": 227
+  },
+  {
+   "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+   "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+   "points": 419,
+   "comments": 117
+  },
+  {
+   "title": "Anthropic blocks users for anything touching training larger models",
+   "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+   "points": 341,
+   "comments": 193
+  },
+  {
+   "title": "Do the math: How we took over ChatGPT accounts",
+   "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+   "points": 330,
+   "comments": 163
+  },
+  {
+   "title": "Jepsen: ParticleDB 1.1.4",
+   "url": "https://jepsen.io/analyses/particledb-1.1.4",
+   "points": 260,
+   "comments": 150
+  },
+  {
+   "title": "Simple circuits can create complex behaviors",
+   "url": "https://aatishb.com/myriad/lets-build-a-brain/",
+   "points": 247,
+   "comments": 77
+  },
+  {
+   "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+   "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+   "points": 219,
+   "comments": 107
+  },
+  {
+   "title": "It's the memory latency, stupid",
+   "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+   "points": 192,
+   "comments": 58
+  },
+  {
+   "title": "The Duty of a Scholar",
+   "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+   "points": 117,
+   "comments": 32
+  },
+  {
+   "title": "Surviving \"The Graduate\"",
+   "url": "https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate",
+   "points": 114,
+   "comments": 35
+  },
+  {
+   "title": "ChatGPT and Codex usage limits merging",
+   "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+   "points": 113,
+   "comments": 53
+  }
+ ]
+}
