@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-02",
+ "updated": "2026-11-02 17:46",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,905.90",
+   "change": "▲ 7.00 (+0.18%)",
+   "cls": "up",
+   "value": 3905.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.56",
+   "change": "▼ 0.32 (-0.32%)",
+   "cls": "down",
+   "value": 101.56
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.929",
+   "change": "▼ 0.060 (-1.20%)",
+   "cls": "down",
+   "value": 4.929
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "18.90",
+   "change": "▼ 0.52 (-2.68%)",
+   "cls": "down",
+   "value": 18.9
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "HackerTube: YouTube built from videos recommended by HN",
+   "url": "https://karpathy.bearblog.dev/hacker-tube/",
+   "points": 2555,
+   "comments": 563
+  },
+  {
+   "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+   "url": "https://hackerbooks.org",
+   "points": 1363,
+   "comments": 228
+  },
+  {
+   "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+   "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+   "points": 808,
+   "comments": 206
+  },
+  {
+   "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+   "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+   "points": 482,
+   "comments": 158
+  },
+  {
+   "title": "Postgres 19 is late because so many more bugs are being found now",
+   "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+   "points": 419,
+   "comments": 265
+  },
+  {
+   "title": "Ask HN: Which TV do you recommend for privacy?",
+   "url": "https://news.ycombinator.com/item?id=50328896",
+   "points": 377,
+   "comments": 514
+  },
+  {
+   "title": "The AI cost of JavaScript frameworks",
+   "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+   "points": 374,
+   "comments": 286
+  },
+  {
+   "title": "Mathematics has changed. Let's act like it",
+   "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+   "points": 311,
+   "comments": 340
+  },
+  {
+   "title": "OccupySaaS",
+   "url": "https://occupysaas.com/",
+   "points": 254,
+   "comments": 155
+  },
+  {
+   "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+   "url": "https://github.com/ivankovic/omnidiff",
+   "points": 242,
+   "comments": 68
+  },
+  {
+   "title": "Show HN: Point your camera at a landscape to learn about its geology",
+   "url": "https://outcrop.rocks/",
+   "points": 203,
+   "comments": 46
+  },
+  {
+   "title": "Seoul Viosys begins production of rare-earth-free white light emitter",
+   "url": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
+   "points": 176,
+   "comments": 56
+  }
+ ]
+}
