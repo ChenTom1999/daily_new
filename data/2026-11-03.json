@@ -1,0 +1,152 @@
+{
+ "date": "2026-11-03",
+ "updated": "2026-11-03 17:49",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,918.10",
+   "change": "▼ 51.50 (-1.30%)",
+   "cls": "down",
+   "value": 3918.1
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.75",
+   "change": "▼ 0.00 (-0.00%)",
+   "cls": "down",
+   "value": 101.75
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.894",
+   "change": "▼ 0.035 (-0.71%)",
+   "cls": "down",
+   "value": 4.894
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "21.66",
+   "change": "▲ 0.51 (+2.41%)",
+   "cls": "up",
+   "value": 21.66
+  }
+ ],
+ "calendar": [
+  {
+   "time": "11:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "Cash Rate",
+   "forecast": "4.85%",
+   "previous": "4.60%"
+  },
+  {
+   "time": "11:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "RBA Monetary Policy Statement",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "11:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "RBA Rate Statement",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "12:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "RBA Press Conference",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "23:16",
+   "passed": false,
+   "country": "USD",
+   "title": "Congressional Elections",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Astra can read and write weights to improve Qwen",
+   "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+   "points": 2608,
+   "comments": 794
+  },
+  {
+   "title": "WTF Ubuntu?",
+   "url": "https://chalmovsky.com/posts/wtf-ubuntu",
+   "points": 1519,
+   "comments": 631
+  },
+  {
+   "title": "Show HN: Subvocal – Talk to your computer without making noise",
+   "url": "https://news.ycombinator.com/item?id=50340088",
+   "points": 690,
+   "comments": 338
+  },
+  {
+   "title": "If you love a website, back it up",
+   "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+   "points": 547,
+   "comments": 120
+  },
+  {
+   "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+   "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+   "points": 505,
+   "comments": 142
+  },
+  {
+   "title": "US boy names that became girl names and vice versa",
+   "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
+   "points": 400,
+   "comments": 379
+  },
+  {
+   "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+   "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+   "points": 348,
+   "comments": 258
+  },
+  {
+   "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
+   "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+   "points": 269,
+   "comments": 43
+  },
+  {
+   "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+   "url": "https://hackertimes.ca/",
+   "points": 260,
+   "comments": 79
+  },
+  {
+   "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+   "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+   "points": 226,
+   "comments": 57
+  },
+  {
+   "title": "Scaling Git at OpenAI",
+   "url": "https://openai.com/index/scaling-git-at-openai/",
+   "points": 221,
+   "comments": 132
+  },
+  {
+   "title": "Ask HN: Who is hiring? (November 2026)",
+   "url": "https://news.ycombinator.com/item?id=50338728",
+   "points": 218,
+   "comments": 175
+  }
+ ]
+}
