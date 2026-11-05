@@ -1,0 +1,152 @@
+{
+ "date": "2026-11-05",
+ "updated": "2026-11-05 17:45",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,139.90",
+   "change": "▲ 66.90 (+1.64%)",
+   "cls": "up",
+   "value": 4139.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.45",
+   "change": "▼ 0.06 (-0.06%)",
+   "cls": "down",
+   "value": 101.45
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.894",
+   "change": "▼ 0.058 (-1.17%)",
+   "cls": "down",
+   "value": 4.894
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "17.11",
+   "change": "▲ 0.50 (+3.01%)",
+   "cls": "up",
+   "value": 17.11
+  }
+ ],
+ "calendar": [
+  {
+   "time": "20:00",
+   "passed": false,
+   "country": "GBP",
+   "title": "BOE Monetary Policy Report",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "20:00",
+   "passed": false,
+   "country": "GBP",
+   "title": "Monetary Policy Summary",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "20:00",
+   "passed": false,
+   "country": "GBP",
+   "title": "MPC Official Bank Rate Votes",
+   "forecast": "7-0-2",
+   "previous": "3-0-6"
+  },
+  {
+   "time": "20:00",
+   "passed": false,
+   "country": "GBP",
+   "title": "Official Bank Rate",
+   "forecast": "4.00%",
+   "previous": "3.75%"
+  },
+  {
+   "time": "20:30",
+   "passed": false,
+   "country": "GBP",
+   "title": "BOE Gov Bailey Speaks",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "AI is forcing us to pay off 40 years of technical debt",
+   "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+   "points": 1180,
+   "comments": 686
+  },
+  {
+   "title": "Residential proxies detected on White House network",
+   "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+   "points": 1030,
+   "comments": 325
+  },
+  {
+   "title": "AMD expects to outsell Intel in Q4 for the first time in history",
+   "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections",
+   "points": 542,
+   "comments": 197
+  },
+  {
+   "title": "Kimi K3.1 Pro model weights are out",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "points": 527,
+   "comments": 147
+  },
+  {
+   "title": "A thousand fewer paths to root",
+   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+   "points": 325,
+   "comments": 236
+  },
+  {
+   "title": "Ask HN: What's your current AI agentic setup?",
+   "url": "https://news.ycombinator.com/item?id=50366117",
+   "points": 322,
+   "comments": 342
+  },
+  {
+   "title": "A new Go API for JSON",
+   "url": "https://go.dev/blog/jsonv2",
+   "points": 311,
+   "comments": 142
+  },
+  {
+   "title": "Guerrilla bike lanes: San Francisco makes illicit infrastructure permanent (2016)",
+   "url": "https://99percentinvisible.org/article/guerrilla-bike-lanes-san-francisco-makes-illicit-infrastructure-permanent/",
+   "points": 306,
+   "comments": 230
+  },
+  {
+   "title": "Images 2.6",
+   "url": "https://openai.com/index/introducing-images-2-6/",
+   "points": 290,
+   "comments": 172
+  },
+  {
+   "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+   "url": "https://www.ricursive.com/ripple",
+   "points": 289,
+   "comments": 106
+  },
+  {
+   "title": "Insects don't swarm at LED lights",
+   "url": "https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/",
+   "points": 254,
+   "comments": 127
+  },
+  {
+   "title": "Tencent Hy4",
+   "url": "https://hy.tencent.ai/research/hy4",
+   "points": 241,
+   "comments": 88
+  }
+ ]
+}
