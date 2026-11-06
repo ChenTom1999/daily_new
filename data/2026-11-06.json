@@ -1,0 +1,152 @@
+{
+ "date": "2026-11-06",
+ "updated": "2026-11-06 17:53",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,087.80",
+   "change": "▼ 25.70 (-0.62%)",
+   "cls": "down",
+   "value": 4087.8
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.02",
+   "change": "▲ 0.47 (+0.46%)",
+   "cls": "up",
+   "value": 102.02
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.837",
+   "change": "▼ 0.057 (-1.16%)",
+   "cls": "down",
+   "value": 4.837
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "26.13",
+   "change": "▼ 2.05 (-7.27%)",
+   "cls": "down",
+   "value": 26.13
+  }
+ ],
+ "calendar": [
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "Employment Change",
+   "forecast": "14.6K",
+   "previous": "-68.3K"
+  },
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "Unemployment Rate",
+   "forecast": "6.5%",
+   "previous": "6.5%"
+  },
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Average Hourly Earnings m/m",
+   "forecast": "0.3%",
+   "previous": "0.1%"
+  },
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Non-Farm Employment Change",
+   "forecast": "65K",
+   "previous": "29K"
+  },
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Unemployment Rate",
+   "forecast": "4.2%",
+   "previous": "4.2%"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "sshole",
+   "url": "https://sshhole.com",
+   "points": 2681,
+   "comments": 640
+  },
+  {
+   "title": "Claude Code sends your email address to websites",
+   "url": "https://github.com/anthropics/claude-code/issues/107757",
+   "points": 1100,
+   "comments": 339
+  },
+  {
+   "title": "Goodbye from Salon",
+   "url": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
+   "points": 575,
+   "comments": 221
+  },
+  {
+   "title": "MS Paint Remote Code Execution Vulnerability",
+   "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+   "points": 543,
+   "comments": 193
+  },
+  {
+   "title": "Motorola Signature 27 with GrapheneOS support",
+   "url": "https://motorolanews.com/motorola-signature-27-2/",
+   "points": 478,
+   "comments": 343
+  },
+  {
+   "title": "I wish tech companies knew more about me",
+   "url": "https://rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me",
+   "points": 413,
+   "comments": 352
+  },
+  {
+   "title": "Download your favourite YouTube videos",
+   "url": "https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/",
+   "points": 342,
+   "comments": 157
+  },
+  {
+   "title": "Window Sweaters",
+   "url": "https://github.com/saragordic/window-sweaters",
+   "points": 336,
+   "comments": 105
+  },
+  {
+   "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+   "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+   "points": 319,
+   "comments": 153
+  },
+  {
+   "title": "The Hackintosh Reborn",
+   "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
+   "points": 306,
+   "comments": 171
+  },
+  {
+   "title": "MCP Explained",
+   "url": "https://mcp-explained.com/",
+   "points": 296,
+   "comments": 123
+  },
+  {
+   "title": "September in Servo: <progress>, rounded rectangles, and more",
+   "url": "https://servo.org/blog/2026/11/05/september-in-servo/",
+   "points": 235,
+   "comments": 58
+  }
+ ]
+}
