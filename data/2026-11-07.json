@@ -1,0 +1,128 @@
+{
+ "date": "2026-11-07",
+ "updated": "2026-11-07 17:04",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,074.90",
+   "change": "▼ 38.60 (-0.94%)",
+   "cls": "down",
+   "value": 4074.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.30",
+   "change": "▲ 0.75 (+0.74%)",
+   "cls": "up",
+   "value": 102.3
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.859",
+   "change": "▲ 0.022 (+0.45%)",
+   "cls": "up",
+   "value": 4.859
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "25.64",
+   "change": "▼ 2.54 (-9.01%)",
+   "cls": "down",
+   "value": 25.64
+  }
+ ],
+ "calendar": [
+  {
+   "time": "00:00",
+   "passed": true,
+   "country": "JPY",
+   "title": "BOJ Gov Ueda Speaks",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "05:45",
+   "passed": true,
+   "country": "NZD",
+   "title": "Parliamentary Elections",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": "- AI 科技股自重挫中反彈：市場風險偏好（Risk-on）回溫，短線可能削弱黃金避險買盤，對金價走勢帶來壓制。\n- 俄羅斯接管日企資產以反制制裁：俄國與西方陣營地緣政治衝突未解，跨國資產安全擔憂為黃金提供低檔避險支撐。\n- 歐洲多間航空公司面臨新一輪炸彈威脅：區域安全疑慮升溫，短線輕微提振市場防禦性避險情緒，對金價偏多。\n- 巴拉圭因銀行倒閉致總統遭彈劾軟禁：新興市場局部金融與政局動盪，雖影響偏區域性，但邊際上有助支撐黃金避險價值。",
+ "tech": "* **GitHub 的新 Git 儲存架構 (GitHub's new Git storage architecture)**：這是 GitHub 針對海量代碼倉庫重新設計的底層分散式儲存架構，展示了超大規模系統如何在高可用與低延遲要求下進行架構重構，對後端與分散式系統工程師極具參考價值。\n* **Firecracker 虛擬機逃逸分析 (Firecracker VM Escape: PwnEscape Part 2)**：這是針對 AWS Lambda 和 Fargate 底層微虛擬機 Firecracker 的漏洞挖掘研究，詳細揭示了雲原生多租戶隔離的潛在安全風險，是從事雲端基礎設施與容器安全架構師必讀的案例。\n* **分層協作的 LLM 調用策略 (A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost)**：這是一種讓較便宜的小模型在遇到難題時才向 Claude Opus 求助的路由機制，證明了透過智慧分流能以原本四分之一的推論成本達到頂級大模型的準確度。\n* **Libghostty 1.0 核心庫釋出 (Libghostty 1.0)**：這是由 Mitchell Hashimoto 開發的現代化 GPU 加速終端機核心函式庫首個正式版，讓軟體工程師能以模組化方式將高效能終端模擬能力整合至自家的開發工具或跨平台應用中。\n* **Gemini Omni 1.2 Flash (Gemini Omni 1.2 Flash)**：這是 Google 新釋出的輕量級多模態模型，主打超低延遲與即時的全模態互動能力，大幅降低了將即時語音和視覺 AI 落地到產品中的工程門檻與運行成本。",
+ "hackernews": [
+  {
+   "title": "Tesla to wind down Cybertruck production",
+   "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+   "points": 991,
+   "comments": 1847
+  },
+  {
+   "title": "Libghostty 1.0",
+   "url": "https://mitchellh.com/writing/libghostty-1-0",
+   "points": 575,
+   "comments": 96
+  },
+  {
+   "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+   "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+   "points": 457,
+   "comments": 104
+  },
+  {
+   "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+   "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+   "points": 333,
+   "comments": 272
+  },
+  {
+   "title": "Gemini Omni 1.2 Flash",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "points": 329,
+   "comments": 228
+  },
+  {
+   "title": "From Linux to Wikipedia: How Volunteers Build the Internet",
+   "url": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
+   "points": 326,
+   "comments": 124
+  },
+  {
+   "title": "AI is dramatically accelerating AI research",
+   "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+   "points": 291,
+   "comments": 229
+  },
+  {
+   "title": "Firecracker VM Escape: PwnEscape Part 2",
+   "url": "https://pwn.ai/blog/firecracker-escape",
+   "points": 227,
+   "comments": 105
+  },
+  {
+   "title": "First steps in bare-metal programming using UEFI",
+   "url": "https://kevinboone.me/efitest_index.html",
+   "points": 219,
+   "comments": 41
+  },
+  {
+   "title": "Devvm.dev: One VM for every project",
+   "url": "https://devvm.dev/",
+   "points": 152,
+   "comments": 61
+  },
+  {
+   "title": "Asahi Linux Progress Linux 7.3",
+   "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
+   "points": 147,
+   "comments": 94
+  },
+  {
+   "title": "GitHub's new Git storage architecture",
+   "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+   "points": 135,
+   "comments": 25
+  }
+ ]
+}
