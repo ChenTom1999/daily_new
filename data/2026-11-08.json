@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-08",
+ "updated": "2026-11-08 17:20",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,074.90",
+   "change": "▼ 38.60 (-0.94%)",
+   "cls": "down",
+   "value": 4074.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.30",
+   "change": "▲ 0.75 (+0.74%)",
+   "cls": "up",
+   "value": 102.3
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.859",
+   "change": "▲ 0.022 (+0.45%)",
+   "cls": "up",
+   "value": 4.859
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "25.64",
+   "change": "▼ 2.54 (-9.01%)",
+   "cls": "down",
+   "value": 25.64
+  }
+ ],
+ "calendar": [],
+ "summary": "- 葉門胡塞武裝遭空襲後向沙烏地利雅德發射飛彈，中東衝突升級顯著提振避險情緒，對黃金（XAU/USD）形成強烈偏多支撐。\n- 美國懸賞兩千萬美元徵求伊朗核計畫情報，美伊緊張局勢加劇推升地緣政治風險溢價，有利金價短線續強。\n- 以色列總統指派反對派組閣顯露政局不確定性，伴隨中東地緣局勢緊張，避險資金持續為黃金提供逢低買盤。\n- 法國反政府示威持續並爆發警民衝突，歐洲政治動盪可能壓抑歐元並引發局部避險需求，間接影響美元指數及黃金短線波動。",
+ "tech": "* **Claude Code 授權機制引發的憑證洩漏事件**：這是關於 Anthropic 新 CLI 工具因「不再詢問」選項導致千份公開 GitHub 檔案洩漏密碼的資安報告，警示工程師在使用具備自動提交權限的 AI Coding Agent 時需嚴加防範敏感金鑰外洩。\n* **MaxxBench 質疑 SWE 程式碼評測真實性**：這是一個挑戰 DeepSWE 等主流 AI 軟體工程評測可信度的新基準框架，值得關注是因為它揭示了現今程式碼生成 LLM 評測普遍存在的過擬合與資料污染問題。\n* **微軟解散 AI Frontiers 前沿研究團隊**：這是微軟關閉其專注於尖端模型研究小組的重磅消息，反映出科技巨頭正將 AI 資源從長期純學術探索大規模轉向工程落地與商業產品化的策略轉變。\n* **Discord 擺脫 Electron 架構引發的桌面開發反思**：這是一篇藉由 Discord 優化成果呼籲 Windows 應用捨棄 Electron 的技術分析，為受困於跨平台記憶體肥大與效能瓶頸的軟體架構師提供了原生開發的實證參考。\n* **macOS 內建未公開的家庭成員 ML 分類器**：這是開發者逆向工程發現 Mac 系統內建未記錄照片分析模型的深度解析，揭示了 Apple 在端點（On-device）機器學習整合的底層技術細節與潛在隱私邊界。",
+ "hackernews": [
+  {
+   "title": "Need for Speed Underground 2 online in the browser",
+   "url": "https://nfsu2.xyz/",
+   "points": 970,
+   "comments": 248
+  },
+  {
+   "title": "Every Mac comes with an (undocumented) family member classifier",
+   "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+   "points": 712,
+   "comments": 375
+  },
+  {
+   "title": "What I run on my $10 USD OpenStick homelab",
+   "url": "https://blog.bosscher.ch/posts/openstick/",
+   "points": 561,
+   "comments": 107
+  },
+  {
+   "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+   "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+   "points": 457,
+   "comments": 287
+  },
+  {
+   "title": "The end of Microsoft Research's AI Frontiers group",
+   "url": "https://hunch.net/?p=13764006",
+   "points": 453,
+   "comments": 270
+  },
+  {
+   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+   "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+   "points": 377,
+   "comments": 260
+  },
+  {
+   "title": "Asahi Linux Progress Linux 7.3",
+   "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
+   "points": 373,
+   "comments": 323
+  },
+  {
+   "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
+   "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/",
+   "points": 315,
+   "comments": 287
+  },
+  {
+   "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+   "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+   "points": 297,
+   "comments": 80
+  },
+  {
+   "title": "Running a law firm on Free software",
+   "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
+   "points": 268,
+   "comments": 128
+  },
+  {
+   "title": "Goodbye Claude, Hello Pi",
+   "url": "https://caleb.software/posts/claude-to-pi.html",
+   "points": 260,
+   "comments": 147
+  },
+  {
+   "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
+   "url": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
+   "points": 233,
+   "comments": 209
+  }
+ ]
+}
