@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-09",
+ "updated": "2026-11-09 18:10",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,106.40",
+   "change": "▲ 31.50 (+0.77%)",
+   "cls": "up",
+   "value": 4106.4
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.85",
+   "change": "▼ 0.45 (-0.44%)",
+   "cls": "down",
+   "value": 101.85
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.859",
+   "change": "▲ 0.022 (+0.45%)",
+   "cls": "up",
+   "value": 4.859
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "24.38",
+   "change": "▼ 1.26 (-4.91%)",
+   "cls": "down",
+   "value": 24.38
+  }
+ ],
+ "calendar": [],
+ "summary": "- 南海局勢與菲律賓對中路線分歧：地緣政治不確定性持續延燒，為黃金提供潛在的低檔避險買盤支撐（影響偏多）。\n- 日本國安戰略擬不稱中國為威脅：東亞軍事對立情緒邊際降溫，市場極端風險溢價受限，壓抑黃金避險推升力道（影響中立偏空）。\n- 輝達高層涉情報調查致科技股盤後挫跌：市場風險偏好轉弱恐引發股市避險情緒（Risk-off），資金短線或轉向黃金尋求防禦（影響偏多）。",
+ "tech": "- **Llama-modchip（無 GPU 於 64GB RAM 運行 284B DeepSeek）**：這是一項針對超大型語言模型推理的記憶體優化技術，讓開發者無需仰賴昂貴的 GPU 集群即可在消費級硬體上運行 284B 規模的 DeepSeek，大幅降低了超大模型本地部署的門檻。\n- **高盛對銀行家與交易員停用 Claude Code**：這起金融巨頭叫停 Anthropic 最新 AI 編程代理工具的事件，反映出大型企業在導入自主 AI Agent 時，對代碼安全、合規審查與敏感資料外洩風險的高度警戒與挑戰。\n- **KetchUp（基於 Rust 與 WebGPU 的開源 SketchUp 替代品）**：這是一款使用現代技術堆疊打造的網頁端 3D 建模工具，展示了利用 Rust 與 WebGPU 在瀏覽器中實現高效能圖形運算並挑戰傳統商業 CAD 軟體的強大潛力。\n- **Outlook.com 全面拒收未配置 DMARC 網域的郵件**：這是微軟針對電子郵件安全所推行的一項嚴格政策更新，提醒所有後端與維運工程師必須盡速完善網域的 DMARC 設定，以避免系統通知或業務郵件直接遭到退信。\n- **Declarative Dragging（聲明式拖放互動）**：這是一篇探討現代前端 UI 拖放模式的技術分享，提出以宣告式架構取代傳統繁瑣且容易出錯的命令式 DOM 事件邏輯，為前端工程師簡化複雜互動介面提供了實用的解決方案。",
+ "hackernews": [
+  {
+   "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+   "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+   "points": 779,
+   "comments": 412
+  },
+  {
+   "title": "Goodbye Claude, hello Pi",
+   "url": "https://caleb.software/posts/claude-to-pi.html",
+   "points": 768,
+   "comments": 470
+  },
+  {
+   "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+   "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+   "points": 677,
+   "comments": 722
+  },
+  {
+   "title": "Declarative Dragging",
+   "url": "https://declarative-dragging.github.io/",
+   "points": 545,
+   "comments": 67
+  },
+  {
+   "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+   "url": "https://ketchup3d.github.io/app/",
+   "points": 493,
+   "comments": 137
+  },
+  {
+   "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+   "url": "https://github.com/synchopate/llama-modchip",
+   "points": 422,
+   "comments": 191
+  },
+  {
+   "title": "Outlook.com is rejecting email from domains without DMARC",
+   "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+   "points": 407,
+   "comments": 287
+  },
+  {
+   "title": "Writing as a thinking tool",
+   "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+   "points": 359,
+   "comments": 89
+  },
+  {
+   "title": "Unlocking any car from X brand in most of the world",
+   "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+   "points": 350,
+   "comments": 138
+  },
+  {
+   "title": "RIP, Harvest",
+   "url": "https://aphyr.com/posts/427-rip-harvest",
+   "points": 350,
+   "comments": 102
+  },
+  {
+   "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+   "url": "https://duxlabs.dev/",
+   "points": 286,
+   "comments": 92
+  },
+  {
+   "title": "I'm not convinced the AI bubble exists",
+   "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+   "points": 284,
+   "comments": 473
+  }
+ ]
+}
