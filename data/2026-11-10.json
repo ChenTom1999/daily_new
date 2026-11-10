@@ -1,0 +1,128 @@
+{
+ "date": "2026-11-10",
+ "updated": "2026-11-10 18:20",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,095.80",
+   "change": "▼ 18.70 (-0.45%)",
+   "cls": "down",
+   "value": 4095.8
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "101.68",
+   "change": "▲ 0.03 (+0.03%)",
+   "cls": "up",
+   "value": 101.68
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.864",
+   "change": "▲ 0.005 (+0.10%)",
+   "cls": "up",
+   "value": 4.864
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "19.85",
+   "change": "▼ 0.07 (-0.35%)",
+   "cls": "down",
+   "value": 19.85
+  }
+ ],
+ "calendar": [
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core CPI m/m",
+   "forecast": "0.2%",
+   "previous": "0.3%"
+  },
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "USD",
+   "title": "CPI m/m",
+   "forecast": "0.3%",
+   "previous": "0.6%"
+  }
+ ],
+ "summary": "- **烏克蘭和談重啟且雙方展現彈性**：地緣政治緊張局勢出現緩和契機，避險情緒降溫，短線對黃金構成回檔壓力（偏空）。\n- **川普稱FBI調查輝達高層涉共諜案及菲軍方戒備**：美中諜報與國安敏感神經再次緊繃，推升短線避險情緒，對金價帶來支撐（偏多）。\n- **中國藉東南亞算力繞道使用輝達AI晶片**：美中科技圍堵與制裁升級風險猶存，為市場注入地緣政治不確定性溢價（偏多）。\n- **澳門判決民主派引發美方強烈譴責**：美中人權與外交摩擦加劇，略微強化市場避險防禦買盤（輕微偏多）。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Foldable Flight: The Best Paper Airplanes",
+   "url": "https://www.foldableflight.com",
+   "points": 1028,
+   "comments": 151
+  },
+  {
+   "title": "USPS now offers official ZIP Code boundary polygons",
+   "url": "https://postalpro.usps.com/zcb",
+   "points": 621,
+   "comments": 318
+  },
+  {
+   "title": "Google Gemini routes personal Drive files and emails to human annotators",
+   "url": "https://github.com/thisisme6598/gemini_files/",
+   "points": 601,
+   "comments": 129
+  },
+  {
+   "title": "Claude Fable 5.2 and Mythos 5.2",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "points": 597,
+   "comments": 803
+  },
+  {
+   "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+   "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+   "points": 532,
+   "comments": 286
+  },
+  {
+   "title": "E-means: Outperforming k-means in one-tenth the epochs",
+   "url": "https://e-means.github.io/",
+   "points": 404,
+   "comments": 37
+  },
+  {
+   "title": "Fable 5.2 one-shotted my nephew's dream game",
+   "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+   "points": 398,
+   "comments": 287
+  },
+  {
+   "title": "Show HN: Every satellite that passed over any place this week, and its photos",
+   "url": "https://www.watched.earth",
+   "points": 354,
+   "comments": 61
+  },
+  {
+   "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+   "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+   "points": 346,
+   "comments": 247
+  },
+  {
+   "title": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
+   "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/",
+   "points": 316,
+   "comments": 211
+  },
+  {
+   "title": "Muse Ember: Our smallest, most efficient model",
+   "url": "https://research.meta.ai/blog/muse-ember",
+   "points": 300,
+   "comments": 124
+  },
+  {
+   "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+   "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+   "points": 285,
+   "comments": 89
+  }
+ ]
+}
