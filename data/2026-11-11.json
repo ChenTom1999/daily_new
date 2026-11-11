@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-11",
+ "updated": "2026-11-11 17:42",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "4,056.30",
+   "change": "▲ 26.10 (+0.65%)",
+   "cls": "up",
+   "value": 4056.3
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.48",
+   "change": "▲ 0.25 (+0.24%)",
+   "cls": "up",
+   "value": 102.48
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.983",
+   "change": "▲ 0.119 (+2.45%)",
+   "cls": "up",
+   "value": 4.983
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "18.84",
+   "change": "▼ 0.62 (-3.19%)",
+   "cls": "down",
+   "value": 18.84
+  }
+ ],
+ "calendar": [],
+ "summary": "- 美方指控伊朗背景人士策劃襲擊軍事基地：中東與西方地緣衝突風險升溫，強化市場避險情緒，短線利多黃金（XAU/USD）。\n- 具共軍背景院校繞道取得輝達管制晶片：美中科技制裁與地緣摩擦恐面臨升級，增添市場不確定性，為金價提供潛在下檔支撐。\n- 日中首腦會談受阻且雙方外交關係降溫：東亞地緣政治緊張局勢浮現，微幅提振區域避險買盤，對黃金偏向中性偏多。",
+ "tech": "* **AlphaProof Code**：這是 Google DeepMind 正式開源的 AlphaProof 核心代碼，它結合大型語言模型與 Lean 形式驗證解決了國際數學奧林匹亞難題，是研究自動化數學推理與高可靠代碼驗證的重要里程碑。\n* **AI usage generates a fragile codebase**：這是一篇探討過度依賴 AI 輔助寫程式容易產出脆弱系統的熱門討論，提醒工程師若缺乏足夠架構審查，AI 產生的代碼短期雖提高產出，長期卻會累積難以維護的龐大技術債。\n* **Tracking Anthropic-discovered vulnerabilities**：這是一個專門追蹤由 Anthropic AI 模型主動挖掘出軟體漏洞的專案，具體展現了前沿 LLM 在自動化資安分析與漏洞探測上的實戰能力與雙面刃效應。\n* **Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives**：這是一個旨在糾正 Coding Agent 習慣輸出過時語法的開源專案，能引導 AI 工具改用現代 Web 原生標準（如 Fetch API 與現代 Streams）來生成更精簡高效的前端代碼。\n* **Val Town is winding down**：這篇公告宣布了主打瀏覽器即寫即部署 TypeScript 的新興 Serverless 平台 Val Town 即將終止營運，值得依賴現代邊緣運算與輕量開發工具的團隊評估供應商鎖定與服務延續性風險。",
+ "hackernews": [
+  {
+   "title": "Smart home devices should work without the internet",
+   "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+   "points": 929,
+   "comments": 334
+  },
+  {
+   "title": ".name Grandfathered",
+   "url": "https://neil.fraser.name/news/2026/11/10/",
+   "points": 827,
+   "comments": 183
+  },
+  {
+   "title": "AlphaProof Code",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "points": 630,
+   "comments": 185
+  },
+  {
+   "title": "AI usage generates a fragile codebase",
+   "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+   "points": 540,
+   "comments": 514
+  },
+  {
+   "title": "Scion is back and is going to sell a kei truck in America",
+   "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
+   "points": 467,
+   "comments": 313
+  },
+  {
+   "title": "Starlink Mini 2",
+   "url": "https://starlink.com/mini-2",
+   "points": 404,
+   "comments": 408
+  },
+  {
+   "title": "Tracking Anthropic-discovered vulnerabilities",
+   "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+   "points": 398,
+   "comments": 190
+  },
+  {
+   "title": "Synaptics patent claims stop work on DisplayLink drivers",
+   "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+   "points": 391,
+   "comments": 226
+  },
+  {
+   "title": "Val Town is winding down",
+   "url": "https://blog.val.town/winding-down",
+   "points": 379,
+   "comments": 94
+  },
+  {
+   "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance",
+   "points": 367,
+   "comments": 108
+  },
+  {
+   "title": "Six Math Essentials",
+   "url": "https://teorth.github.io/tao-web/six-math-essentials.html",
+   "points": 239,
+   "comments": 44
+  },
+  {
+   "title": "AMD's Zen 6 Family: Feeding the Beast",
+   "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
+   "points": 232,
+   "comments": 92
+  }
+ ]
+}
