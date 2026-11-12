@@ -1,0 +1,120 @@
+{
+ "date": "2026-11-12",
+ "updated": "2026-11-12 18:32",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,948.30",
+   "change": "▼ 52.20 (-1.30%)",
+   "cls": "down",
+   "value": 3948.3
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "102.88",
+   "change": "▼ 0.03 (-0.03%)",
+   "cls": "down",
+   "value": 102.88
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.998",
+   "change": "▲ 0.015 (+0.30%)",
+   "cls": "up",
+   "value": 4.998
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "18.23",
+   "change": "▲ 0.74 (+4.23%)",
+   "cls": "up",
+   "value": 18.23
+  }
+ ],
+ "calendar": [
+  {
+   "time": "15:00",
+   "passed": true,
+   "country": "GBP",
+   "title": "GDP m/m",
+   "forecast": "0.0%",
+   "previous": "0.1%"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Tim Peters has died",
+   "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+   "points": 1193,
+   "comments": 133
+  },
+  {
+   "title": "Nvidia is preparing to oust Jensen Huang",
+   "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+   "points": 1015,
+   "comments": 1367
+  },
+  {
+   "title": "My AI agents found an unmapped Maya site?",
+   "url": "https://pietromiotti.com/latest/maya-site",
+   "points": 990,
+   "comments": 360
+  },
+  {
+   "title": "AWS emulator",
+   "url": "https://github.com/aws/aws-emulator",
+   "points": 847,
+   "comments": 235
+  },
+  {
+   "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+   "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+   "points": 552,
+   "comments": 547
+  },
+  {
+   "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+   "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+   "points": 491,
+   "comments": 236
+  },
+  {
+   "title": "Gemini Decisions API",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "points": 432,
+   "comments": 130
+  },
+  {
+   "title": "93% of paint splatters are valid Perl programs (2019)",
+   "url": "https://www.mcmillen.dev/sigbovik/",
+   "points": 424,
+   "comments": 56
+  },
+  {
+   "title": "Hyper-Realistic Sand with WebGL2",
+   "url": "https://av.github.io/safe-sand/",
+   "points": 376,
+   "comments": 71
+  },
+  {
+   "title": "Using voltage glitching to unleash the A100 in my mining card",
+   "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
+   "points": 302,
+   "comments": 115
+  },
+  {
+   "title": "Can a Linear Program Do Weight-Space Programming?",
+   "url": "https://nathan.rs/posts/weight-space-lp/",
+   "points": 278,
+   "comments": 38
+  },
+  {
+   "title": "Lock Your GitHub Actions",
+   "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+   "points": 251,
+   "comments": 50
+  }
+ ]
+}
