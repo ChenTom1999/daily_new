@@ -1,0 +1,128 @@
+{
+ "date": "2026-11-13",
+ "updated": "2026-11-13 18:01",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,904.40",
+   "change": "▲ 19.10 (+0.49%)",
+   "cls": "up",
+   "value": 3904.4
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "103.18",
+   "change": "▲ 0.01 (+0.01%)",
+   "cls": "up",
+   "value": 103.18
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.103",
+   "change": "▲ 0.105 (+2.10%)",
+   "cls": "up",
+   "value": 5.103
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "18.67",
+   "change": "▼ 0.03 (-0.16%)",
+   "cls": "down",
+   "value": 18.67
+  }
+ ],
+ "calendar": [
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core PPI m/m",
+   "forecast": "0.3%",
+   "previous": "0.7%"
+  },
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "USD",
+   "title": "PPI m/m",
+   "forecast": "0.4%",
+   "previous": "1.3%"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Jensen Huang resigns",
+   "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+   "points": 3532,
+   "comments": 3123
+  },
+  {
+   "title": "Anthropic IPO",
+   "url": "https://ipo.anthropic.com/us/",
+   "points": 925,
+   "comments": 866
+  },
+  {
+   "title": "Service degradation on Microsoft 365",
+   "url": "https://status.cloud.microsoft/",
+   "points": 876,
+   "comments": 771
+  },
+  {
+   "title": "Rust 1.100",
+   "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+   "points": 671,
+   "comments": 256
+  },
+  {
+   "title": "Nvidia employees petition to bring back Jensen Huang",
+   "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+   "points": 569,
+   "comments": 408
+  },
+  {
+   "title": "Gemini 4 Hydrogen",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "points": 528,
+   "comments": 333
+  },
+  {
+   "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+   "url": "https://github.com/simpsoka/zigzag",
+   "points": 516,
+   "comments": 182
+  },
+  {
+   "title": "Gemini 4 Hydrogen and Orchestrator",
+   "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+   "points": 414,
+   "comments": 113
+  },
+  {
+   "title": "I'm making LLMs work on small and old devices",
+   "url": "https://github.com/hyperionaidev/smolmaxxing/",
+   "points": 364,
+   "comments": 130
+  },
+  {
+   "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
+   "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/",
+   "points": 303,
+   "comments": 127
+  },
+  {
+   "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+   "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+   "points": 271,
+   "comments": 276
+  },
+  {
+   "title": "Abandoned Quake 4 expansion finished by modders and now playable",
+   "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
+   "points": 271,
+   "comments": 100
+  }
+ ]
+}
