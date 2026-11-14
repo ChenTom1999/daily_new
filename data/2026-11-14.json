@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-14",
+ "updated": "2026-11-14 17:53",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,886.30",
+   "change": "▲ 1.00 (+0.03%)",
+   "cls": "up",
+   "value": 3886.3
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "103.41",
+   "change": "▲ 0.24 (+0.23%)",
+   "cls": "up",
+   "value": 103.41
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.154",
+   "change": "▲ 0.051 (+1.00%)",
+   "cls": "up",
+   "value": 5.154
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "19.30",
+   "change": "▲ 0.60 (+3.21%)",
+   "cls": "up",
+   "value": 19.3
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "FAA issues national ground stop – lifted 4.5 hours later",
+   "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+   "points": 1526,
+   "comments": 1163
+  },
+  {
+   "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+   "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+   "points": 745,
+   "comments": 212
+  },
+  {
+   "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+   "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+   "points": 517,
+   "comments": 307
+  },
+  {
+   "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+   "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+   "points": 349,
+   "comments": 189
+  },
+  {
+   "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+   "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+   "points": 278,
+   "comments": 318
+  },
+  {
+   "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+   "url": "https://orcasairband.com/",
+   "points": 260,
+   "comments": 60
+  },
+  {
+   "title": "After 600 experiments, here's what I discovered about JEPA world models",
+   "url": "https://haddyalchaer.com/jepa",
+   "points": 257,
+   "comments": 41
+  },
+  {
+   "title": "Ggml v1.0.0",
+   "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+   "points": 242,
+   "comments": 38
+  },
+  {
+   "title": "FM-1 Workbench",
+   "url": "https://open.m-vave.com/fm1-workbench",
+   "points": 233,
+   "comments": 155
+  },
+  {
+   "title": "Terminal borders that don't cost a cell",
+   "url": "https://www.joshka.net/cell-borders/",
+   "points": 231,
+   "comments": 95
+  },
+  {
+   "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
+   "url": "https://isometricsf.com/",
+   "points": 208,
+   "comments": 69
+  },
+  {
+   "title": "A technical vision for the Haskell ecosystem",
+   "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
+   "points": 204,
+   "comments": 113
+  }
+ ]
+}
