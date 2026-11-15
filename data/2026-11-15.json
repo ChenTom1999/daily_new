@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-15",
+ "updated": "2026-11-15 17:57",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,886.30",
+   "change": "▲ 1.00 (+0.03%)",
+   "cls": "up",
+   "value": 3886.3
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "103.41",
+   "change": "▲ 0.24 (+0.23%)",
+   "cls": "up",
+   "value": 103.41
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.154",
+   "change": "▲ 0.051 (+1.00%)",
+   "cls": "up",
+   "value": 5.154
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "19.30",
+   "change": "▲ 0.60 (+3.21%)",
+   "cls": "up",
+   "value": 19.3
+  }
+ ],
+ "calendar": [],
+ "summary": "- 美方傳出提議烏克蘭割讓領土換取加入北約，若停火談判露出曙光，恐短線削弱黃金的避險溢價（偏空/壓制金價）。\n- 以軍空襲擊斃哈瑪斯指揮官，加薩衝突持續延燒，中東局勢難以降溫，為金價提供地緣政治避險買盤支撐（偏多）。\n- 沙烏地防空部隊攔截飛彈與無人機，紅海及波斯灣週邊安全威脅升高，市場避險情緒升溫利好黃金（偏多）。\n- 菲律賓與澳洲簽署新國防協議抗衡中國南海擴張，亞太地緣政治對峙態勢延續，微幅支撐黃金避險買氣。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "SpaceX catches the Starship to end Flight 15",
+   "url": "https://www.spacex.com/launches/starship-flight-15",
+   "points": 1197,
+   "comments": 796
+  },
+  {
+   "title": "Lovable apps expose passport details and more than 200K private messages",
+   "url": "https://www.crissyfield.de/research/lovable-en/",
+   "points": 804,
+   "comments": 314
+  },
+  {
+   "title": "Why get an expensive Pi when I have an old phone?",
+   "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
+   "points": 555,
+   "comments": 302
+  },
+  {
+   "title": "KDE: The documentary [video]",
+   "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+   "points": 468,
+   "comments": 102
+  },
+  {
+   "title": "A family tree of software job titles",
+   "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+   "points": 305,
+   "comments": 153
+  },
+  {
+   "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
+   "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+   "points": 246,
+   "comments": 117
+  },
+  {
+   "title": "PyPI's redesigned project pages with clearer security signals are now live",
+   "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+   "points": 240,
+   "comments": 102
+  },
+  {
+   "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+   "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+   "points": 232,
+   "comments": 21
+  },
+  {
+   "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
+   "url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
+   "points": 226,
+   "comments": 57
+  },
+  {
+   "title": "How did Woz write the Apple 1 BASIC before building the computer?",
+   "url": "https://retrocomputing.stackexchange.com/questions/17957",
+   "points": 212,
+   "comments": 101
+  },
+  {
+   "title": "Generative AI uses more energy on non-English text",
+   "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
+   "points": 208,
+   "comments": 107
+  },
+  {
+   "title": "Advancing science and engineering with Antigravity's /teamwork",
+   "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+   "points": 199,
+   "comments": 42
+  }
+ ]
+}
