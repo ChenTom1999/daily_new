@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-16",
+ "updated": "2026-11-16 18:07",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,858.10",
+   "change": "▼ 28.20 (-0.73%)",
+   "cls": "down",
+   "value": 3858.1
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "103.52",
+   "change": "▲ 0.11 (+0.10%)",
+   "cls": "up",
+   "value": 103.52
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.154",
+   "change": "▲ 0.051 (+1.00%)",
+   "cls": "up",
+   "value": 5.154
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "20.09",
+   "change": "▲ 0.79 (+4.09%)",
+   "cls": "up",
+   "value": 20.09
+  }
+ ],
+ "calendar": [
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "CPI m/m",
+   "forecast": "0.3%",
+   "previous": "0.1%"
+  },
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "Median CPI y/y",
+   "forecast": "2.0%",
+   "previous": "1.9%"
+  },
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "CAD",
+   "title": "Trimmed CPI y/y",
+   "forecast": "1.9%",
+   "previous": "1.8%"
+  }
+ ],
+ "summary": "- **葉門青年運動控制紅海關鍵海岸**：紅海航道安全風險升溫，疊加中東以巴衝突未歇，強化市場避險情緒，**短線對黃金帶來利多支撐**。\n- **俄烏衝突顯著升溫**：俄方稱擊落逾千架無人機並控烏軍襲擊克里米亞大橋，東歐戰事升級擴大地緣風險溢價，**有利黃金維持多頭抗跌動能**。\n- **川普規劃美中俄峰會與川習會**：大國地緣博弈與潛在經貿談判帶來高度不確定性，恐牽動美元與全球市場風險偏好，**加劇黃金短波段震盪**。\n- **美政壇調查川普引發司法部介入**：美國國內政治角力與不確定性上升，可能短期壓抑美元信心，**間接對金價形成邊際利多**。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "SpaceX catches the Starship to end Flight 15",
+   "url": "https://www.spacex.com/launches/starship-flight-15",
+   "points": 1691,
+   "comments": 1267
+  },
+  {
+   "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+   "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+   "points": 532,
+   "comments": 231
+  },
+  {
+   "title": "Qwen4-Max",
+   "url": "https://qwen.ai/blog?id=qwen4-max",
+   "points": 483,
+   "comments": 197
+  },
+  {
+   "title": "Universal XSS in uBlock Origin from website-driven element picker",
+   "url": "https://iter.ca/post/ubo-uxss/",
+   "points": 347,
+   "comments": 95
+  },
+  {
+   "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+   "url": "https://bruceroettgers.eu/blog/protomaps/",
+   "points": 329,
+   "comments": 56
+  },
+  {
+   "title": "Handwriting, as a Font",
+   "url": "https://ductus.sorenblank.com",
+   "points": 281,
+   "comments": 51
+  },
+  {
+   "title": "Old Bitly links are being hijacked",
+   "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+   "points": 279,
+   "comments": 144
+  },
+  {
+   "title": "What's Next for Nvidia?",
+   "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+   "points": 254,
+   "comments": 323
+  },
+  {
+   "title": "How to make almost anything",
+   "url": "https://pub.cba.mit.edu/863.26/site/",
+   "points": 252,
+   "comments": 43
+  },
+  {
+   "title": "Crows make decisions faster than we can",
+   "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+   "points": 237,
+   "comments": 160
+  },
+  {
+   "title": "A short explainer on how El Niño works [video]",
+   "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+   "points": 235,
+   "comments": 105
+  },
+  {
+   "title": "Emacs Is My Browser",
+   "url": "https://joshblais.com/blog/emacs-as-my-browser/",
+   "points": 206,
+   "comments": 121
+  }
+ ]
+}
