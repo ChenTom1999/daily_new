@@ -1,0 +1,152 @@
+{
+ "date": "2026-11-17",
+ "updated": "2026-11-17 19:07",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,860.70",
+   "change": "▲ 7.70 (+0.20%)",
+   "cls": "up",
+   "value": 3860.7
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "103.57",
+   "change": "▲ 0.02 (+0.02%)",
+   "cls": "up",
+   "value": 103.57
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.121",
+   "change": "▼ 0.033 (-0.64%)",
+   "cls": "down",
+   "value": 5.121
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "23.49",
+   "change": "▲ 0.58 (+2.53%)",
+   "cls": "up",
+   "value": 23.49
+  }
+ ],
+ "calendar": [
+  {
+   "time": "01:00",
+   "passed": true,
+   "country": "USD",
+   "title": "Fed Chairman Warsh Speaks",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "06:50",
+   "passed": true,
+   "country": "AUD",
+   "title": "RBA Gov Bullock Speaks",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "10:00",
+   "passed": true,
+   "country": "NZD",
+   "title": "Inflation Expectations q/q",
+   "forecast": "-",
+   "previous": "2.34%"
+  },
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core Retail Sales m/m",
+   "forecast": "0.4%",
+   "previous": "0.9%"
+  },
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Retail Sales m/m",
+   "forecast": "0.1%",
+   "previous": "0.8%"
+  }
+ ],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+   "url": "https://www.cs.cmu.edu/learn/",
+   "points": 1570,
+   "comments": 212
+  },
+  {
+   "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+   "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+   "points": 779,
+   "comments": 649
+  },
+  {
+   "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+   "points": 618,
+   "comments": 472
+  },
+  {
+   "title": "BugMeNot has closed",
+   "url": "https://www.bugmenot.com/",
+   "points": 559,
+   "comments": 254
+  },
+  {
+   "title": "Frame – 31.5\" color ePaper display",
+   "url": "https://trmnl.com/blog/introducing-frame",
+   "points": 428,
+   "comments": 299
+  },
+  {
+   "title": "Jiff 1.0: A datetime library for Rust",
+   "url": "https://burntsushi.net/jiff/",
+   "points": 387,
+   "comments": 87
+  },
+  {
+   "title": "Optimizely compromised, served malware on Zoom, GitLab",
+   "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+   "points": 365,
+   "comments": 152
+  },
+  {
+   "title": "What is w2rt6byl5nf1opmc-a.com?",
+   "url": "https://jack.cab/blog/siterate",
+   "points": 353,
+   "comments": 152
+  },
+  {
+   "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+   "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+   "points": 328,
+   "comments": 247
+  },
+  {
+   "title": "Grazing sheep in fields with solar arrays",
+   "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+   "points": 275,
+   "comments": 268
+  },
+  {
+   "title": "OpenCode Browse",
+   "url": "https://opencode.ai/product/browse",
+   "points": 262,
+   "comments": 150
+  },
+  {
+   "title": "Chemistry is Actually Geometry",
+   "url": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
+   "points": 235,
+   "comments": 114
+  }
+ ]
+}
