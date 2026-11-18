@@ -1,0 +1,128 @@
+{
+ "date": "2026-11-18",
+ "updated": "2026-11-18 18:31",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,773.80",
+   "change": "▼ 90.40 (-2.34%)",
+   "cls": "down",
+   "value": 3773.8
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "103.76",
+   "change": "▲ 0.27 (+0.26%)",
+   "cls": "up",
+   "value": 103.76
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.103",
+   "change": "▼ 0.018 (-0.35%)",
+   "cls": "down",
+   "value": 5.103
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "23.75",
+   "change": "▼ 1.71 (-6.72%)",
+   "cls": "down",
+   "value": 23.75
+  }
+ ],
+ "calendar": [
+  {
+   "time": "15:00",
+   "passed": true,
+   "country": "GBP",
+   "title": "CPI y/y",
+   "forecast": "3.6%",
+   "previous": "3.5%"
+  },
+  {
+   "time": "23:00",
+   "passed": false,
+   "country": "GBP",
+   "title": "BOE Gov Bailey Speaks",
+   "forecast": "-",
+   "previous": "-"
+  }
+ ],
+ "summary": null,
+ "tech": "* **Java4Shell: RCE in OpenJDK when processing Base64**：這是 OpenJDK 在處理 Base64 編碼時被發現的遠端程式碼執行（RCE）重大安全漏洞，直接衝擊眾多基於 Java 的後端系統架構，工程師需高度警惕並儘速評估修補。\n* **MAI Code 2 and Code 2 Flash**：這是新發布的程式碼專用大型語言模型及其輕量快速版本，為開發者在程式碼生成、重構與輔助開發工具選型上提供了新的解決方案。\n* **What is the best harness for each model?**：這是一篇探討不同大型語言模型最合適之評測框架（Evaluation Harness）的技術討論，對於正在進行模型選型、微調驗證與基準測試的 AI/LLM 工程師極具實戰參考價值。\n* **Google's AI answers reducing search traffic by 40%**：這項報導指出 Google 的 AI 搜尋摘要功能已導致網站外部推薦流量大幅縮減 40%，提醒現代 Web 開發者與架構師必須提早因應流量模式劇變並重新調整產品發布與 SEO 策略。\n* **Phrack 73**：這是傳奇資安技術雜誌《Phrack》發布的最新第 73 期，內容涵蓋大量底層漏洞利用、逆向工程與作業系統核心技術，是系統級與資安軟體工程師掌握前沿攻防技術的重要資源。",
+ "hackernews": [
+  {
+   "title": "GPT‑6.2 Astra and Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+   "points": 1276,
+   "comments": 796
+  },
+  {
+   "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+   "url": "https://calif.io/java4shell/",
+   "points": 953,
+   "comments": 242
+  },
+  {
+   "title": "Quad9's withdrawal from France: A canary in the coal mine",
+   "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+   "points": 618,
+   "comments": 205
+  },
+  {
+   "title": "Highly classified US national security communications network goes down",
+   "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+   "points": 582,
+   "comments": 672
+  },
+  {
+   "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+   "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+   "points": 549,
+   "comments": 243
+  },
+  {
+   "title": "Google's AI answers reducing search traffic by 40%",
+   "url": "https://revscope.co/blog/search-seo-geo-2026/",
+   "points": 397,
+   "comments": 302
+  },
+  {
+   "title": "Phrack 73",
+   "url": "https://phrack.org/issues/73/introduction_md",
+   "points": 384,
+   "comments": 53
+  },
+  {
+   "title": "What is the best harness for each model?",
+   "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+   "points": 376,
+   "comments": 127
+  },
+  {
+   "title": "ID.me terms required for IRS sign-in",
+   "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+   "points": 363,
+   "comments": 163
+  },
+  {
+   "title": "MAI Code 2 and Code 2 Flash",
+   "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+   "points": 363,
+   "comments": 155
+  },
+  {
+   "title": "AI is killing All About Berlin",
+   "url": "https://nicolasbouliane.com/blog/death-by-ai",
+   "points": 350,
+   "comments": 314
+  },
+  {
+   "title": "350 years ago, Ole Rømer discovered that light has a finite speed",
+   "url": "https://www.sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969",
+   "points": 336,
+   "comments": 107
+  }
+ ]
+}
