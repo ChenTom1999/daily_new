@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-19",
+ "updated": "2026-11-19 18:44",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,731.20",
+   "change": "▼ 10.70 (-0.29%)",
+   "cls": "down",
+   "value": 3731.2
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "103.66",
+   "change": "▼ 0.20 (-0.19%)",
+   "cls": "down",
+   "value": 103.66
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.066",
+   "change": "▼ 0.037 (-0.73%)",
+   "cls": "down",
+   "value": 5.066
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "22.06",
+   "change": "▼ 2.50 (-10.18%)",
+   "cls": "down",
+   "value": 22.06
+  }
+ ],
+ "calendar": [
+  {
+   "time": "03:00",
+   "passed": true,
+   "country": "USD",
+   "title": "FOMC Meeting Minutes",
+   "forecast": "-",
+   "previous": "-"
+  },
+  {
+   "time": "08:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "Employment Change",
+   "forecast": "25.5K",
+   "previous": "-39.3K"
+  },
+  {
+   "time": "08:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "Unemployment Rate",
+   "forecast": "4.7%",
+   "previous": "4.7%"
+  }
+ ],
+ "summary": "- 克里米亞大橋再傳遭襲：俄烏前線戰事再度激化，短期市場避險情緒升溫，對金價形成即時支撐（短線利多）。\n- 美中俄領袖峰會討論俄烏戰爭：大國展開對話並尋求穩定，若釋放實質停火或緩和訊號，恐削弱避險買盤壓制金價（短線利空）。\n- 川普於峰會重申絕不讓伊朗擁核：中東核危機與潛在制裁風險未解，為地緣政治溢價提供底部防線（限制金價跌幅/偏多）。\n- APEC峰會呼籲避免經濟集團對立：反映全球地緣貿易壁壘與陣營分歧持續，中長期有利於支撐非美資產與黃金避險買盤（中長線偏多）。",
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Unauthenticated remote code execution in Nginx",
+   "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+   "points": 1385,
+   "comments": 594
+  },
+  {
+   "title": "Gemini 4 Neon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "points": 835,
+   "comments": 670
+  },
+  {
+   "title": "Inside Deutsche Bank",
+   "url": "https://www.inside-db.com/",
+   "points": 696,
+   "comments": 240
+  },
+  {
+   "title": "We need smart people who give a shit",
+   "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
+   "points": 606,
+   "comments": 300
+  },
+  {
+   "title": "Seven new models at scalable price-performance",
+   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+   "points": 541,
+   "comments": 354
+  },
+  {
+   "title": "The Cambridge Dictionary has named ‘human’ as the Word of the Year 2026",
+   "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
+   "points": 280,
+   "comments": 211
+  },
+  {
+   "title": "Multiple vulnerabilities in Regexp and String case conversion",
+   "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+   "points": 270,
+   "comments": 90
+  },
+  {
+   "title": "Genie 4 is now available",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+   "points": 259,
+   "comments": 167
+  },
+  {
+   "title": "Anthropic prices initial public offering",
+   "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+   "points": 234,
+   "comments": 375
+  },
+  {
+   "title": "DaisyRose-27B",
+   "url": "https://www.radixark.com/blog/daisyrose-27b",
+   "points": 217,
+   "comments": 76
+  },
+  {
+   "title": "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
+   "url": "https://exitpath-ruddy.vercel.app/",
+   "points": 217,
+   "comments": 72
+  },
+  {
+   "title": "LLM assisted reverse engineering",
+   "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+   "points": 215,
+   "comments": 52
+  }
+ ]
+}
