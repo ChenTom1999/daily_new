@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-20",
+ "updated": "2026-11-20 18:37",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,576.70",
+   "change": "▼ 108.80 (-2.95%)",
+   "cls": "down",
+   "value": 3576.7
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "103.81",
+   "change": "▼ 0.09 (-0.09%)",
+   "cls": "down",
+   "value": 103.81
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "5.052",
+   "change": "▼ 0.014 (-0.28%)",
+   "cls": "down",
+   "value": 5.052
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "29.97",
+   "change": "▲ 1.53 (+5.38%)",
+   "cls": "up",
+   "value": 29.97
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Anthropic’s Nasdaq debut",
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "points": 1083,
+   "comments": 2144
+  },
+  {
+   "title": "Garage Door Spam",
+   "url": "https://blog.harrison.page/garage-door-spam/",
+   "points": 864,
+   "comments": 363
+  },
+  {
+   "title": "Pancreatic cancer halted by virus injection in three patients",
+   "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+   "points": 781,
+   "comments": 134
+  },
+  {
+   "title": "Claude solves two open problems in the physics of black holes",
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "points": 501,
+   "comments": 231
+  },
+  {
+   "title": "Someone reported java4shell bug in September 2026",
+   "url": "https://github.com/openjdk/jdk/pull/32781",
+   "points": 428,
+   "comments": 119
+  },
+  {
+   "title": "Making 8-page foldable zines from a single A4 sheet in the browser",
+   "url": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
+   "points": 306,
+   "comments": 61
+  },
+  {
+   "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
+   "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+   "points": 290,
+   "comments": 148
+  },
+  {
+   "title": "How to CAD Almost Anything",
+   "url": "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/",
+   "points": 265,
+   "comments": 91
+  },
+  {
+   "title": "Pete Warden on local AI, open models, voice interfaces, the future of hardware",
+   "url": "https://thedataexchange.media/pete-warden-moonshine/",
+   "points": 245,
+   "comments": 219
+  },
+  {
+   "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+   "url": "https://github.com/openssl/openssl/pull/33652",
+   "points": 245,
+   "comments": 194
+  },
+  {
+   "title": "Show HN: Cornhole News – A Hacker News inspired site for news across the Midwest",
+   "url": "https://cornholenews.news",
+   "points": 224,
+   "comments": 104
+  },
+  {
+   "title": "PostgreSQL 19",
+   "url": "https://www.postgresql.org/docs/release/19.0/",
+   "points": 189,
+   "comments": 9
+  }
+ ]
+}
