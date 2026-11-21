@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-21",
+ "updated": "2026-11-21 18:22",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,515.40",
+   "change": "▼ 170.10 (-4.62%)",
+   "cls": "down",
+   "value": 3515.4
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "103.81",
+   "change": "▼ 0.09 (-0.09%)",
+   "cls": "down",
+   "value": 103.81
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.912",
+   "change": "▼ 0.140 (-2.77%)",
+   "cls": "down",
+   "value": 4.912
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "35.89",
+   "change": "▲ 7.45 (+26.20%)",
+   "cls": "up",
+   "value": 35.89
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+   "url": "https://alpo.ge/remark.pdf",
+   "points": 2637,
+   "comments": 1818
+  },
+  {
+   "title": "Hurried Announcement: Alessandro Masullo GRH",
+   "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+   "points": 2055,
+   "comments": 958
+  },
+  {
+   "title": "Inkling 2 Mini",
+   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "points": 993,
+   "comments": 185
+  },
+  {
+   "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+   "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+   "points": 445,
+   "comments": 181
+  },
+  {
+   "title": "We promoted developers into architects without informing them",
+   "url": "https://manidoraisamy.com/developer-to-architect.html",
+   "points": 429,
+   "comments": 237
+  },
+  {
+   "title": "Language Models Can Rewrite Their Own Weights",
+   "url": "https://arxiv.org/abs/2611.21885",
+   "points": 408,
+   "comments": 119
+  },
+  {
+   "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "points": 311,
+   "comments": 584
+  },
+  {
+   "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
+   "url": "https://scottaaronson.blog/?p=10344",
+   "points": 292,
+   "comments": 254
+  },
+  {
+   "title": "Finite-time blow-up for the Navier–Stokes equations",
+   "url": "https://github.com/tristanbuckmaster/navier-stokes/",
+   "points": 287,
+   "comments": 88
+  },
+  {
+   "title": "Slopstrap – Make your site look hastily vibecoded",
+   "url": "https://slopstrap.mikelacher.com/",
+   "points": 261,
+   "comments": 42
+  },
+  {
+   "title": "NINLIVE: The Nine Inch Nails live archive",
+   "url": "https://ninlive.com/",
+   "points": 257,
+   "comments": 65
+  },
+  {
+   "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
+   "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
+   "points": 213,
+   "comments": 64
+  }
+ ]
+}
