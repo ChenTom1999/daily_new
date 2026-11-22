@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-22",
+ "updated": "2026-11-22 18:14",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,515.40",
+   "change": "▼ 170.10 (-4.62%)",
+   "cls": "down",
+   "value": 3515.4
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "103.81",
+   "change": "▼ 0.09 (-0.09%)",
+   "cls": "down",
+   "value": 103.81
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.912",
+   "change": "▼ 0.140 (-2.77%)",
+   "cls": "down",
+   "value": 4.912
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "35.89",
+   "change": "▲ 7.45 (+26.20%)",
+   "cls": "up",
+   "value": 35.89
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Hurried Announcement: Alessandro Masullo GRH",
+   "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+   "points": 2415,
+   "comments": 1174
+  },
+  {
+   "title": "Lean verification of the Riemann Hypothesis",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+   "points": 1029,
+   "comments": 848
+  },
+  {
+   "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+   "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+   "points": 990,
+   "comments": 216
+  },
+  {
+   "title": "Detonating a pile of lead azide",
+   "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+   "points": 606,
+   "comments": 387
+  },
+  {
+   "title": "My monitor was cutting my download speed by 75%",
+   "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+   "points": 582,
+   "comments": 270
+  },
+  {
+   "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+   "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+   "points": 468,
+   "comments": 277
+  },
+  {
+   "title": "Inkling-2-Mini in 5.4 GB Memory",
+   "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+   "points": 459,
+   "comments": 116
+  },
+  {
+   "title": "Getting the mind to steer the body to steer you",
+   "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
+   "points": 268,
+   "comments": 89
+  },
+  {
+   "title": "GnuPG Security Advisory for GPGME",
+   "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+   "points": 251,
+   "comments": 101
+  },
+  {
+   "title": "LLMs can read and write executables byte by byte from a hex dump",
+   "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
+   "points": 241,
+   "comments": 156
+  },
+  {
+   "title": "Sandwich Simulator",
+   "url": "https://stulle.app/",
+   "points": 231,
+   "comments": 78
+  },
+  {
+   "title": "Advice for the next 100 Rust GUIs",
+   "url": "https://linebender.org/blog/next-100-guis/",
+   "points": 161,
+   "comments": 62
+  }
+ ]
+}
