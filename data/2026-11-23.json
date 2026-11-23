@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-23",
+ "updated": "2026-11-23 18:59",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,623.40",
+   "change": "▲ 108.00 (+3.07%)",
+   "cls": "up",
+   "value": 3623.4
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "103.83",
+   "change": "▲ 0.02 (+0.02%)",
+   "cls": "up",
+   "value": 103.83
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.912",
+   "change": "▼ 0.140 (-2.77%)",
+   "cls": "down",
+   "value": 4.912
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "30.15",
+   "change": "▼ 5.74 (-15.99%)",
+   "cls": "down",
+   "value": 30.15
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+   "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+   "points": 1308,
+   "comments": 705
+  },
+  {
+   "title": "What Happened to Silicon Valley?",
+   "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+   "points": 669,
+   "comments": 352
+  },
+  {
+   "title": "Perplexity and Intelligence",
+   "url": "https://openai.com/index/perplexity-and-intelligence/",
+   "points": 594,
+   "comments": 404
+  },
+  {
+   "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+   "url": "https://spelunkr.tv",
+   "points": 547,
+   "comments": 87
+  },
+  {
+   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "points": 530,
+   "comments": 224
+  },
+  {
+   "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+   "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+   "points": 511,
+   "comments": 261
+  },
+  {
+   "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+   "url": "https://github.com/AFK-surf/xnulinux",
+   "points": 349,
+   "comments": 163
+  },
+  {
+   "title": "Show HN: I built a game where you are an LLM's subagent",
+   "url": "https://github.com/gulivan/worker755",
+   "points": 321,
+   "comments": 78
+  },
+  {
+   "title": "A miniature San Francisco with live buses, planes and boats",
+   "url": "https://smallsf.com/",
+   "points": 280,
+   "comments": 95
+  },
+  {
+   "title": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
+   "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
+   "points": 251,
+   "comments": 64
+  },
+  {
+   "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+   "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+   "points": 239,
+   "comments": 173
+  },
+  {
+   "title": "Masullo on the Riemann Hypothesis",
+   "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/",
+   "points": 232,
+   "comments": 202
+  }
+ ]
+}
