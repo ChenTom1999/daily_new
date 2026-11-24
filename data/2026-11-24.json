@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-24",
+ "updated": "2026-11-24 20:46",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,630.70",
+   "change": "▼ 20.70 (-0.57%)",
+   "cls": "down",
+   "value": 3630.7
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "103.95",
+   "change": "▼ 0.37 (-0.36%)",
+   "cls": "down",
+   "value": 103.95
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.918",
+   "change": "▲ 0.006 (+0.12%)",
+   "cls": "up",
+   "value": 4.918
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "29.24",
+   "change": "▲ 2.62 (+9.84%)",
+   "cls": "up",
+   "value": 29.24
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Nvidia Reinstates Jensen Huang as CEO",
+   "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+   "points": 2649,
+   "comments": 3527
+  },
+  {
+   "title": "Ladybird is now in alpha",
+   "url": "https://ladybird.org/posts/alpha/",
+   "points": 2111,
+   "comments": 506
+  },
+  {
+   "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+   "url": "https://twitter.com/ylecun/status/2124550037912920090",
+   "points": 1779,
+   "comments": 1033
+  },
+  {
+   "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
+   "url": "https://arm.jonpalmisc.com/",
+   "points": 1090,
+   "comments": 255
+  },
+  {
+   "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+   "url": "https://spelunkr.tv",
+   "points": 1021,
+   "comments": 174
+  },
+  {
+   "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+   "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+   "points": 527,
+   "comments": 289
+  },
+  {
+   "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+   "url": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
+   "points": 462,
+   "comments": 183
+  },
+  {
+   "title": "2035 Came Early",
+   "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+   "points": 389,
+   "comments": 141
+  },
+  {
+   "title": "GPUI is getting its own repository",
+   "url": "https://github.com/zed-industries/gpui",
+   "points": 311,
+   "comments": 106
+  },
+  {
+   "title": "Bored.com: Fun, interesting and cool websites to explore when bored",
+   "url": "https://www.bored.com/",
+   "points": 277,
+   "comments": 58
+  },
+  {
+   "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
+   "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/",
+   "points": 215,
+   "comments": 117
+  },
+  {
+   "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+   "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+   "points": 175,
+   "comments": 35
+  }
+ ]
+}
