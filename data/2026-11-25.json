@@ -1,0 +1,152 @@
+{
+ "date": "2026-11-25",
+ "updated": "2026-11-25 19:35",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,554.10",
+   "change": "▼ 7.80 (-0.22%)",
+   "cls": "down",
+   "value": 3554.1
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "104.01",
+   "change": "▲ 0.20 (+0.20%)",
+   "cls": "up",
+   "value": 104.01
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.904",
+   "change": "▼ 0.014 (-0.28%)",
+   "cls": "down",
+   "value": 4.904
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "29.42",
+   "change": "▲ 3.06 (+11.61%)",
+   "cls": "up",
+   "value": 29.42
+  }
+ ],
+ "calendar": [
+  {
+   "time": "08:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "CPI m/m",
+   "forecast": "0.4%",
+   "previous": "0.8%"
+  },
+  {
+   "time": "08:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "CPI y/y",
+   "forecast": "4.7%",
+   "previous": "4.3%"
+  },
+  {
+   "time": "08:30",
+   "passed": true,
+   "country": "AUD",
+   "title": "Trimmed Mean CPI m/m",
+   "forecast": "0.3%",
+   "previous": "0.3%"
+  },
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Core PCE Price Index m/m",
+   "forecast": "0.3%",
+   "previous": "0.3%"
+  },
+  {
+   "time": "21:30",
+   "passed": false,
+   "country": "USD",
+   "title": "Prelim GDP q/q",
+   "forecast": "3.5%",
+   "previous": "3.4%"
+  }
+ ],
+ "summary": null,
+ "tech": "* **矩陣乘法複雜度理論突破（Matrix Multiplication is Θ(n^2.25)）**：這是一篇宣稱將矩陣乘法時間複雜度大幅推進至 $\\Theta(n^{2.25})$ 的理論計算機科學論文，若經證實將打破長久以來的理論瓶頸，對深度學習與科學計算的底層運算最佳化具有潛在的深遠影響。\n* **三值權重語言模型 Ternary Bonsai 2.5 27B**：這是一款採用 1.58 位元極致量化（三值權重）架構的 27B 參數開源大模型，證明了極低位元模型能顯著降低記憶體頻寬與硬體成本，是邊緣運算與高效推論的重要進展。\n* **AI 推論伺服器沙盒側信道漏洞（Models Can Communicate via Inference Servers Despite Being Sandboxed）**：這項安全研究揭露即使模型處於嚴格沙盒隔離環境，仍可藉由推論伺服器的共用資源產生側信道通訊，對多租戶 AI 雲端平台與敏感資料隔離帶來了新型態的資安防禦挑戰。\n* **商業 LLM 蒸餾爭議事件（Ask HN: Anthropic is accusing my company of distilling）**：這是一則開發者因自建模型效能接近被 Anthropic 指控違規「蒸餾」其 API 的社群求助討論，凸顯了當前依賴商業模型開發時可能面臨的服務條款模糊與合規審查風險。\n* **突破 iOS Safari 60 FPS 限制技巧（Bypassing iOS Safari's 60 FPS Limit）**：這是一篇介紹如何繞過 iOS Safari 預設 60 FPS 限制以支援 ProMotion 120Hz 的前端效能技術，能顯著拉近行動網頁與原生應用的流暢度差距，對 PWA 與行動 Web 開發者極具參考價值。",
+ "hackernews": [
+  {
+   "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+   "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+   "points": 688,
+   "comments": 378
+  },
+  {
+   "title": "The Spray Bottle",
+   "url": "https://mechanical-pencil.com/products/spray-bottle",
+   "points": 500,
+   "comments": 111
+  },
+  {
+   "title": "Ternary Bonsai 2.5 27B",
+   "url": "https://prismml.com/news/bonsai-2-5-27b",
+   "points": 464,
+   "comments": 146
+  },
+  {
+   "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+   "url": "https://buttons.joshwcomeau.com/",
+   "points": 431,
+   "comments": 60
+  },
+  {
+   "title": "GTA 6 Running on Windows",
+   "url": "https://twitter.com/raul_bs3/status/2125213756238291075",
+   "points": 419,
+   "comments": 495
+  },
+  {
+   "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+   "url": "https://news.ycombinator.com/item?id=50630809",
+   "points": 312,
+   "comments": 243
+  },
+  {
+   "title": "Active intrusion campaign against Check Point security management servers",
+   "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+   "points": 286,
+   "comments": 141
+  },
+  {
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+   "points": 278,
+   "comments": 85
+  },
+  {
+   "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+   "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+   "points": 275,
+   "comments": 48
+  },
+  {
+   "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+   "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+   "points": 258,
+   "comments": 108
+  },
+  {
+   "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+   "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+   "points": 228,
+   "comments": 79
+  },
+  {
+   "title": "An Italian folding bicycle design that fits into a suitcase",
+   "url": "https://www.core77.com/posts/145766/An-Italian-Folding-Bicycle-Design-that-Fits-Into-a-Suitcase",
+   "points": 189,
+   "comments": 126
+  }
+ ]
+}
