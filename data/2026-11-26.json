@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-26",
+ "updated": "2026-11-26 19:21",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,586.30",
+   "change": "▲ 50.50 (+1.43%)",
+   "cls": "up",
+   "value": 3586.3
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "103.75",
+   "change": "▲ 0.08 (+0.07%)",
+   "cls": "up",
+   "value": 103.75
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.848",
+   "change": "▼ 0.056 (-1.14%)",
+   "cls": "down",
+   "value": 4.848
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "27.52",
+   "change": "▼ 0.77 (-2.72%)",
+   "cls": "down",
+   "value": 27.52
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+   "url": "https://scottaaronson.blog/?p=10379",
+   "points": 1591,
+   "comments": 1395
+  },
+  {
+   "title": "1Password Security Incident",
+   "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+   "points": 1451,
+   "comments": 631
+  },
+  {
+   "title": "Much shorter version of GRH Lean verification from Anthropic",
+   "url": "https://github.com/lsernau/grh-lean",
+   "points": 467,
+   "comments": 253
+  },
+  {
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+   "points": 404,
+   "comments": 341
+  },
+  {
+   "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+   "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+   "points": 387,
+   "comments": 111
+  },
+  {
+   "title": "Slow Ubuntu security response times",
+   "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+   "points": 310,
+   "comments": 149
+  },
+  {
+   "title": "Tell HN: Lots of Ask HNs again",
+   "url": "https://news.ycombinator.com/item?id=50649864",
+   "points": 283,
+   "comments": 104
+  },
+  {
+   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+   "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+   "points": 269,
+   "comments": 148
+  },
+  {
+   "title": "Collection of preserved UI style guides",
+   "url": "https://aresluna.org/ui-style-guides/",
+   "points": 212,
+   "comments": 23
+  },
+  {
+   "title": "SSH is a GUI framework",
+   "url": "https://zydra.sh/articles/ssh-is-a-gui-framework/",
+   "points": 201,
+   "comments": 101
+  },
+  {
+   "title": "Bare Metal Qwen",
+   "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+   "points": 161,
+   "comments": 39
+  },
+  {
+   "title": "The polynomial Hirsch conjecture is false [pdf]",
+   "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+   "points": 159,
+   "comments": 44
+  }
+ ]
+}
