@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-27",
+ "updated": "2026-11-27 19:12",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,706.90",
+   "change": "▲ 171.10 (+4.84%)",
+   "cls": "up",
+   "value": 3706.9
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "103.80",
+   "change": "▲ 0.13 (+0.13%)",
+   "cls": "up",
+   "value": 103.8
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.848",
+   "change": "▼ 0.056 (-1.14%)",
+   "cls": "down",
+   "value": 4.848
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "24.61",
+   "change": "▼ 2.19 (-8.17%)",
+   "cls": "down",
+   "value": 24.61
+  }
+ ],
+ "calendar": [],
+ "summary": null,
+ "tech": null,
+ "hackernews": [
+  {
+   "title": "1Password Security Incident",
+   "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+   "points": 1670,
+   "comments": 715
+  },
+  {
+   "title": "AI made self-hosting fun again",
+   "url": "https://janlukas.blog/posts/ai-self-hosting",
+   "points": 737,
+   "comments": 367
+  },
+  {
+   "title": "Intel One Mono font (2023)",
+   "url": "https://github.com/intel/intel-one-mono",
+   "points": 530,
+   "comments": 255
+  },
+  {
+   "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+   "url": "https://github.com/antonpictures/youtube-punisher",
+   "points": 422,
+   "comments": 478
+  },
+  {
+   "title": "Company Culture = Slack Emoji ÷ √Headcount",
+   "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
+   "points": 380,
+   "comments": 178
+  },
+  {
+   "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+   "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+   "points": 375,
+   "comments": 91
+  },
+  {
+   "title": "Hard Drive pricing has gotten bad",
+   "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+   "points": 371,
+   "comments": 283
+  },
+  {
+   "title": "AMD-specific fork of llama.cpp",
+   "url": "https://devnull.land/amd-specific-llama-cpp",
+   "points": 368,
+   "comments": 89
+  },
+  {
+   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+   "points": 336,
+   "comments": 303
+  },
+  {
+   "title": "Moat: OpenRouter replacement",
+   "url": "https://commandcode.ai/moat",
+   "points": 291,
+   "comments": 155
+  },
+  {
+   "title": "The group chat where your AI talks behind your back",
+   "url": "https://construct22.com/",
+   "points": 282,
+   "comments": 113
+  },
+  {
+   "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
+   "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+   "points": 274,
+   "comments": 137
+  }
+ ]
+}
