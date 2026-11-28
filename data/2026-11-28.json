@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-28",
+ "updated": "2026-11-28 18:53",
+ "markets": [
+  {
+   "label": "黃金 · GOLD",
+   "price": "3,639.60",
+   "change": "▲ 103.80 (+2.94%)",
+   "cls": "up",
+   "value": 3639.6
+  },
+  {
+   "label": "美元指數 DXY",
+   "price": "104.01",
+   "change": "▲ 0.34 (+0.33%)",
+   "cls": "up",
+   "value": 104.01
+  },
+  {
+   "label": "美債10年殖利率",
+   "price": "4.936",
+   "change": "▲ 0.088 (+1.82%)",
+   "cls": "up",
+   "value": 4.936
+  },
+  {
+   "label": "VIX 恐慌指數",
+   "price": "23.81",
+   "change": "▼ 2.99 (-11.16%)",
+   "cls": "down",
+   "value": 23.81
+  }
+ ],
+ "calendar": [],
+ "summary": "- 俄羅斯稱擊落逾千架烏克蘭無人機，俄烏戰事大幅升級加劇東歐地緣政治緊張，短線提振避險買盤，對黃金偏多。\n- 葉門南部外海再傳貨船遭劫持，紅海周邊航運安全風險重燃，恐推升供應鏈通膨疑慮與避險情緒，對金價帶來支撐。\n- 以色列持續空襲加薩並造成醫療人員傷亡，中東局勢未見緩和，地緣政治溢價維持，為黃金提供短波段下檔支撐。",
+ "tech": "- **Google's DeepCrossAttention achieves comparable model quality up to 3x faster**：這是 Google 提出的一種新型注意力機制架構，能在維持相當模型品質的前提下將運算速度提升高達 3 倍，對致力於降低大型語言模型訓練與推論成本的工程師極具參考價值。\n- **Unkernel: Real Linux kernel, compiled to WebAssembly**：這是一個成功將完整真實 Linux 核心編譯為 WebAssembly（Wasm）並在瀏覽器中運行的開源專案，展現了 Wasm 在底層系統虛擬化與跨平台無縫執行標準 Linux 應用的巨大潛力。\n- **Credit card skimming scripts using WebRTC found on popular shopping sites**：這是資安研究員揭露黑客利用 WebRTC 協定隱蔽通道繞過 CSP 安全防護以側錄信用卡資料的新型攻擊手法，值得前端與資安工程師警惕並重新審視網路通訊防禦策略。\n- **Michael Nielsen took down his book on neural nets**：這是經典深度學習入門免費著作《Neural Networks and Deep Learning》作者宣布下架該書的事件，引發機器學習社群對於基礎教材時效性、維護成本以及開放教育資源保存方式的熱烈討論。\n- **Convex skills send the user's app idea to a remote server without telling them**：這是後端即服務（BaaS）平台 Convex 的輔助工具被發現會在未明確告知使用者的情況下將專案構想回傳至遠端伺服器，提醒軟體工程師在整合新興開發者工具與外掛時必須嚴格審查其遙測機制與代碼隱私安全。",
+ "hackernews": [
+  {
+   "title": "Michael Nielsen took down his book on neural nets",
+   "url": "https://neuralnetworksanddeeplearning.com/",
+   "points": 543,
+   "comments": 335
+  },
+  {
+   "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+   "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+   "points": 532,
+   "comments": 273
+  },
+  {
+   "title": "GPT 6.2 Astra Solves a Historical Mystery",
+   "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+   "points": 451,
+   "comments": 284
+  },
+  {
+   "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+   "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+   "points": 408,
+   "comments": 156
+  },
+  {
+   "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+   "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+   "points": 389,
+   "comments": 243
+  },
+  {
+   "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+   "url": "https://bouncemarket.minhanhday.com/",
+   "points": 377,
+   "comments": 128
+  },
+  {
+   "title": "The Balatro Timeline",
+   "url": "https://localthunk.com/blog/balatro-timeline-3aarh",
+   "points": 377,
+   "comments": 91
+  },
+  {
+   "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+   "url": "https://unkernel.dev",
+   "points": 327,
+   "comments": 79
+  },
+  {
+   "title": "Convex skills send the user's app idea to a remote server without telling them",
+   "url": "https://github.com/convex/convex-backend-skill/issues/64",
+   "points": 308,
+   "comments": 100
+  },
+  {
+   "title": "False computer-checked proofs",
+   "url": "https://cr.yp.to/proofs/falseccp.html",
+   "points": 230,
+   "comments": 90
+  },
+  {
+   "title": "First images of the impact of DART asteroid deflection experiment",
+   "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+   "points": 216,
+   "comments": 67
+  },
+  {
+   "title": "Citroën Hydraulic System",
+   "url": "https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html",
+   "points": 204,
+   "comments": 60
+  }
+ ]
+}
